@@ -1,0 +1,850 @@
+{
+  "id": "ev_39fe2411df96d18a30d6daf56b0560ba9803c51649f053f6dd8c08528fbb37d5",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson",
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "activity",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->activity:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "address",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->address:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "dateOfJournal",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->dateOfJournal:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "encrypted",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->encrypted:Ljava/lang/Boolean;",
+        "type": "java.lang.Boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "favourite",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->favourite:Ljava/lang/Boolean;",
+        "type": "java.lang.Boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "files",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->files:Ljava/util/List;",
+        "type": "java.util.List"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "id",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->id:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "location",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->location:Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "type": "com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "music",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->music:Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;",
+        "type": "com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "previewText",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->previewText:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "sentiment",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->sentiment:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tags",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->tags:Ljava/util/List;",
+        "type": "java.util.List"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "text",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->text:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "timezone",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->timezone:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "type",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->type:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "updatedAt",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->updatedAt:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "version",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->version:Ljava/lang/Long;",
+        "type": "java.lang.Long"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "weather",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->weather:Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "type": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;-><clinit>()V",
+        "registers": 2,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 46,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;-><init>(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/List;Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;)V",
+        "registers": 19,
+        "signature": "public void <init>(java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, java.util.List, com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson, com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson, java.lang.String, java.lang.String, java.lang.Double, java.util.List, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 225,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->copy$default(Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/List;Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;ILjava/lang/Object;)Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;",
+        "registers": 38,
+        "signature": "public static synthetic com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson copy$default(com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, java.util.List, com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson, com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson, java.lang.String, java.lang.String, java.lang.Double, java.util.List, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 6,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component1()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component10",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component10()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component10()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component11",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component11()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component11()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component12",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component12()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double component12()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component13",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component13()Ljava/util/List;",
+        "registers": 6,
+        "signature": "public final java.util.List component13()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component14",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component14()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component14()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component15",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component15()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component15()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component16",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component16()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component16()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component17",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component17()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long component17()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component18",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component18()Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson component18()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component2()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component3()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component4()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component5()Ljava/lang/Boolean;",
+        "registers": 5,
+        "signature": "public final java.lang.Boolean component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component6",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component6()Ljava/lang/Boolean;",
+        "registers": 5,
+        "signature": "public final java.lang.Boolean component6()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component7",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component7()Ljava/util/List;",
+        "registers": 5,
+        "signature": "public final java.util.List component7()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component8",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component8()Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson component8()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component9",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->component9()Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;",
+        "registers": 6,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson component9()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 42,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->copy(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/List;Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;)Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;",
+        "registers": 38,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson copy(java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, java.util.List, com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson, com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson, java.lang.String, java.lang.String, java.lang.Double, java.util.List, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 310,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->equals(Ljava/lang/Object;)Z",
+        "registers": 9,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getActivity",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getActivity()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer getActivity()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getAddress",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getAddress()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getAddress()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getDateOfJournal",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getDateOfJournal()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getDateOfJournal()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getEncrypted",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getEncrypted()Ljava/lang/Boolean;",
+        "registers": 5,
+        "signature": "public final java.lang.Boolean getEncrypted()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFavourite",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getFavourite()Ljava/lang/Boolean;",
+        "registers": 6,
+        "signature": "public final java.lang.Boolean getFavourite()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFiles",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getFiles()Ljava/util/List;",
+        "registers": 5,
+        "signature": "public final java.util.List getFiles()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getId()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLocation",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getLocation()Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "registers": 6,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson getLocation()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMusic",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getMusic()Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;",
+        "registers": 6,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson getMusic()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getPreviewText",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getPreviewText()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getPreviewText()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getSentiment",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getSentiment()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double getSentiment()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTags",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getTags()Ljava/util/List;",
+        "registers": 5,
+        "signature": "public final java.util.List getTags()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getText",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getText()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getText()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTimezone",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getTimezone()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getTimezone()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getType",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getType()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getType()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getUpdatedAt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getUpdatedAt()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getUpdatedAt()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getVersion",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getVersion()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long getVersion()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getWeather",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->getWeather()Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson getWeather()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 340,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->hashCode()I",
+        "registers": 7,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 236,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson (classes3.dex) extends java.lang.Object: 19 fields, 43 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;"
+    }
+  ],
+  "links": []
+}

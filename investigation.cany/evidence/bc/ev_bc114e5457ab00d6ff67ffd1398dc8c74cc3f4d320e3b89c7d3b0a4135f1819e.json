@@ -1,0 +1,655 @@
+{
+  "id": "ev_bc114e5457ab00d6ff67ffd1398dc8c74cc3f4d320e3b89c7d3b0a4135f1819e",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_package_show",
+  "params": {
+    "include_manifest_xml": true,
+    "path": null
+  },
+  "result": {
+    "assets": 0,
+    "dex": [
+      {
+        "bytes": 44152552,
+        "checksum_ok": true,
+        "classes": 17763,
+        "fields": 34387,
+        "methods": 65078,
+        "name": "classes.dex",
+        "sha256": "1d6774bf41d0e3d8053941e945bd4bba074e4353ff62c6b022ad3d1e2c303c3c",
+        "strings": 121845,
+        "version": "038"
+      },
+      {
+        "bytes": 114780,
+        "checksum_ok": true,
+        "classes": 236,
+        "fields": 2492,
+        "methods": 252,
+        "name": "classes2.dex",
+        "sha256": "9a4742e4e2ed4b23004ea0b28108b92d54482bf64db85a7f17a5b730539dbd56",
+        "strings": 1362,
+        "version": "038"
+      },
+      {
+        "bytes": 89728,
+        "checksum_ok": true,
+        "classes": 49,
+        "fields": 131,
+        "methods": 473,
+        "name": "classes3.dex",
+        "sha256": "d1554befa0911a8c0df8a02573b9b2fb1fa42e09b1d9a9ef66312a22831f33c2",
+        "strings": 855,
+        "version": "038"
+      },
+      {
+        "bytes": 14412,
+        "checksum_ok": true,
+        "classes": 6,
+        "fields": 20,
+        "methods": 94,
+        "name": "classes4.dex",
+        "sha256": "e3eda2ddaa2254fc3c77aec7e8fab86ac589793cbd9f5a2d9e9ee272d01b24a8",
+        "strings": 262,
+        "version": "038"
+      },
+      {
+        "bytes": 16528,
+        "checksum_ok": true,
+        "classes": 11,
+        "fields": 20,
+        "methods": 90,
+        "name": "classes5.dex",
+        "sha256": "0edd309a8d957beaeb06f6a6f1b03ebe28f30339ff776266eed2e4ffc75f2f47",
+        "strings": 257,
+        "version": "038"
+      },
+      {
+        "bytes": 303636,
+        "checksum_ok": true,
+        "classes": 201,
+        "fields": 537,
+        "methods": 1302,
+        "name": "classes6.dex",
+        "sha256": "71a0e85e555735ef5ce183c70af2655c88f45e83d27fb73664163c153fd011b2",
+        "strings": 2323,
+        "version": "038"
+      },
+      {
+        "bytes": 11870220,
+        "checksum_ok": true,
+        "classes": 7674,
+        "fields": 26368,
+        "methods": 65338,
+        "name": "classes7.dex",
+        "sha256": "4a467a76cf53f8765b6192b3db0070f0f52b4025be7bbb17603d9c4d5f0f687e",
+        "strings": 84179,
+        "version": "038"
+      },
+      {
+        "bytes": 10009840,
+        "checksum_ok": true,
+        "classes": 6740,
+        "fields": 15192,
+        "methods": 55325,
+        "name": "classes8.dex",
+        "sha256": "b1ce5dcfd025728e27fcb25df056f0457d97e87928cc778b147b553415c49797",
+        "strings": 60720,
+        "version": "038"
+      }
+    ],
+    "entries": 560,
+    "has_resources_arsc": true,
+    "manifest": {
+      "application": {
+        "allow_backup": true,
+        "debuggable": true,
+        "enabled": null,
+        "extract_native_libs": false,
+        "label": "@0x7f0e0003",
+        "name": "com.journey.replica.JourneyReplicaApp",
+        "network_security_config": null,
+        "permission": null,
+        "test_only": null,
+        "uses_cleartext_traffic": null
+      },
+      "components": [
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.MAIN"
+              ],
+              "categories": [
+                "android.intent.category.LAUNCHER"
+              ],
+              "data": []
+            }
+          ],
+          "kind": "activity",
+          "name": "com.journey.replica.MainActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.replica.reminders.ReminderReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.BOOT_COMPLETED"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "com.journey.replica.reminders.BootReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": "com.journey.replica.fileprovider",
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "provider",
+          "name": "androidx.core.content.FileProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.google.android.gms.common.api.GoogleApiActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.room.MultiInstanceInvalidationService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": "com.journey.replica.androidx-startup",
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "provider",
+          "name": "androidx.startup.InitializationProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.work.impl.background.systemjob.SystemJobService",
+          "permission": "android.permission.BIND_JOB_SERVICE",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.work.impl.foreground.SystemForegroundService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.ACTION_POWER_CONNECTED",
+                "android.intent.action.ACTION_POWER_DISCONNECTED"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.BATTERY_OKAY",
+                "android.intent.action.BATTERY_LOW"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.DEVICE_STORAGE_LOW",
+                "android.intent.action.DEVICE_STORAGE_OK"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.net.conn.CONNECTIVITY_CHANGE"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.BOOT_COMPLETED",
+                "android.intent.action.TIME_SET",
+                "android.intent.action.TIMEZONE_CHANGED"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "androidx.work.impl.background.systemalarm.UpdateProxies"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+          "permission": "android.permission.DUMP",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "androidx.activity.ComponentActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "androidx.compose.ui.tooling.PreviewActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "androidx.profileinstaller.action.INSTALL_PROFILE"
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                "androidx.profileinstaller.action.SKIP_FILE"
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                "androidx.profileinstaller.action.SAVE_PROFILE"
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.profileinstaller.ProfileInstallReceiver",
+          "permission": "android.permission.DUMP",
+          "read_permission": null,
+          "write_permission": null
+        }
+      ],
+      "declared_permissions": [
+        {
+          "name": "com.journey.replica.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "protection_level": "0x2"
+        }
+      ],
+      "max_sdk": null,
+      "min_sdk": "26",
+      "package": "com.journey.replica",
+      "target_sdk": "35",
+      "uses_features": [
+        "android.hardware.location.network",
+        "android.hardware.location.gps",
+        "android.hardware.telephony",
+        "android.hardware.wifi"
+      ],
+      "uses_libraries": [],
+      "uses_permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.WAKE_LOCK",
+        "com.journey.replica.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ],
+      "version_code": "1",
+      "version_name": "1.0"
+    },
+    "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"35\" android:compileSdkVersionCodename=\"15\" package=\"com.journey.replica\" platformBuildVersionCode=\"35\" platformBuildVersionName=\"15\">\n  <uses-sdk android:minSdkVersion=\"26\" android:targetSdkVersion=\"35\">\n  </uses-sdk>\n  <uses-permission android:name=\"android.permission.INTERNET\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.RECORD_AUDIO\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_MEDIA_IMAGES\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_MEDIA_VIDEO\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_MEDIA_AUDIO\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" android:maxSdkVersion=\"32\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.SCHEDULE_EXACT_ALARM\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACTIVITY_RECOGNITION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.WAKE_LOCK\">\n  </uses-permission>\n  <permission android:name=\"com.journey.replica.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\" android:protectionLevel=\"0x2\">\n  </permission>\n  <uses-permission android:name=\"com.journey.replica.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\">\n  </uses-permission>\n  <supports-screens android:anyDensity=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\">\n  </supports-screens>\n  <uses-feature android:name=\"android.hardware.location.network\" android:required=\"false\">\n  </uses-feature>\n  <uses-feature android:name=\"android.hardware.location.gps\" android:required=\"false\">\n  </uses-feature>\n  <uses-feature android:name=\"android.hardware.telephony\" android:required=\"false\">\n  </uses-feature>\n  <uses-feature android:name=\"android.hardware.wifi\" android:required=\"false\">\n  </uses-feature>\n  <application android:theme=\"@0x7f0f002d\" android:label=\"@0x7f0e0003\" android:icon=\"@0x01080093\" android:name=\"com.journey.replica.JourneyReplicaApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:extractNativeLibs=\"false\" android:roundIcon=\"@0x01080093\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n    <activity android:theme=\"@0x7f0f002d\" android:name=\"com.journey.replica.MainActivity\" android:exported=\"true\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.MAIN\">\n        </action>\n        <category android:name=\"android.intent.category.LAUNCHER\">\n        </category>\n      </intent-filter>\n    </activity>\n    <receiver android:name=\"com.journey.replica.reminders.ReminderReceiver\" android:exported=\"false\">\n    </receiver>\n    <receiver android:name=\"com.journey.replica.reminders.BootReceiver\" android:enabled=\"true\" android:exported=\"true\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.BOOT_COMPLETED\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <provider android:name=\"androidx.core.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.journey.replica.fileprovider\" android:grantUriPermissions=\"true\">\n      <meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@0x7f110000\">\n      </meta-data>\n    </provider>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\">\n    </activity>\n    <service android:name=\"androidx.room.MultiInstanceInvalidationService\" android:exported=\"false\" android:directBootAware=\"true\">\n    </service>\n    <provider android:name=\"androidx.startup.InitializationProvider\" android:exported=\"false\" android:authorities=\"com.journey.replica.androidx-startup\">\n      <meta-data android:name=\"androidx.work.WorkManagerInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n      <meta-data android:name=\"androidx.emoji2.text.EmojiCompatInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n      <meta-data android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n      <meta-data android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n    </provider>\n    <service android:name=\"androidx.work.impl.background.systemalarm.SystemAlarmService\" android:enabled=\"@0x7f050000\" android:exported=\"false\" android:directBootAware=\"false\">\n    </service>\n    <service android:name=\"androidx.work.impl.background.systemjob.SystemJobService\" android:permission=\"android.permission.BIND_JOB_SERVICE\" android:enabled=\"@0x7f050002\" android:exported=\"true\" android:directBootAware=\"false\">\n    </service>\n    <service android:name=\"androidx.work.impl.foreground.SystemForegroundService\" android:enabled=\"@0x7f050001\" android:exported=\"false\" android:directBootAware=\"false\">\n    </service>\n    <receiver android:name=\"androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver\" android:enabled=\"true\" android:exported=\"false\" android:directBootAware=\"false\">\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.ACTION_POWER_CONNECTED\">\n        </action>\n        <action android:name=\"android.intent.action.ACTION_POWER_DISCONNECTED\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.BATTERY_OKAY\">\n        </action>\n        <action android:name=\"android.intent.action.BATTERY_LOW\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.DEVICE_STORAGE_LOW\">\n        </action>\n        <action android:name=\"android.intent.action.DEVICE_STORAGE_OK\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.net.conn.CONNECTIVITY_CHANGE\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.RescheduleReceiver\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.BOOT_COMPLETED\">\n        </action>\n        <action android:name=\"android.intent.action.TIME_SET\">\n        </action>\n        <action android:name=\"android.intent.action.TIMEZONE_CHANGED\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver\" android:enabled=\"@0x7f050000\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"androidx.work.impl.background.systemalarm.UpdateProxies\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.diagnostics.DiagnosticsReceiver\" android:permission=\"android.permission.DUMP\" android:enabled=\"true\" android:exported=\"true\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"androidx.work.diagnostics.REQUEST_DIAGNOSTICS\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <activity android:name=\"androidx.activity.ComponentActivity\" android:exported=\"true\">\n    </activity>\n    <activity android:name=\"androidx.compose.ui.tooling.PreviewActivity\" android:exported=\"true\">\n    </activity>\n    <meta-data android:name=\"com.google.android.gms.version\" android:value=\"@0x7f0b0003\">\n    </meta-data>\n    <receiver android:name=\"androidx.profileinstaller.ProfileInstallReceiver\" android:permission=\"android.permission.DUMP\" android:enabled=\"true\" android:exported=\"true\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\">\n        </action>\n      </intent-filter>\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\">\n        </action>\n      </intent-filter>\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\">\n        </action>\n      </intent-filter>\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\">\n        </action>\n      </intent-filter>\n    </receiver>\n  </application>\n</manifest>\n",
+    "max_sdk": null,
+    "min_sdk": "26",
+    "native_libraries": {
+      "arm64-v8a": [
+        {
+          "bytes": 7112,
+          "compression": "stored",
+          "name": "libdatastore_shared_counter.so"
+        }
+      ],
+      "armeabi-v7a": [
+        {
+          "bytes": 4416,
+          "compression": "stored",
+          "name": "libdatastore_shared_counter.so"
+        }
+      ],
+      "x86": [
+        {
+          "bytes": 5148,
+          "compression": "stored",
+          "name": "libdatastore_shared_counter.so"
+        }
+      ],
+      "x86_64": [
+        {
+          "bytes": 6224,
+          "compression": "stored",
+          "name": "libdatastore_shared_counter.so"
+        }
+      ]
+    },
+    "package": "com.journey.replica",
+    "res_files": 452,
+    "signing": {
+      "schemes": [
+        "v2"
+      ],
+      "signing_block": {
+        "entries": [
+          {
+            "id": "0x7109871a",
+            "name": "signature scheme v2",
+            "size": 1390
+          },
+          {
+            "id": "0x42726577",
+            "name": "verity padding",
+            "size": 2650
+          }
+        ],
+        "offset": 25147376,
+        "signers": [
+          {
+            "certificates": [
+              {
+                "bytes": 744,
+                "issuer": "CN=Android Debug, O=Android, C=US",
+                "not_after": "20561102114614Z",
+                "not_before": "261110114614Z",
+                "public_key_algorithm": "rsaEncryption",
+                "serial": "01",
+                "sha256": "91d5560564d9552da1c702b00a8d59ba32482cc850d534cac441f325cac486e4",
+                "signature_algorithm": "sha256WithRSAEncryption",
+                "subject": "CN=Android Debug, O=Android, C=US",
+                "version": 1
+              }
+            ],
+            "digests": [
+              {
+                "algorithm": "0x0103",
+                "algorithm_name": "RSASSA-PKCS1-v1_5 with SHA2-256",
+                "digest": "bfcbec8f2bcc470159abd5168f33fab815304a07bb19f0ef58aac3ecab2d6cb3"
+              }
+            ],
+            "max_sdk": null,
+            "min_sdk": null,
+            "public_key_bytes": 294,
+            "scheme": "v2",
+            "signature_algorithms": [
+              "RSASSA-PKCS1-v1_5 with SHA2-256 (0x0103)"
+            ],
+            "verification": {
+              "algorithm": "RSASSA-PKCS1-v1_5 with SHA2-256",
+              "certificate_sha256": "91d5560564d9552da1c702b00a8d59ba32482cc850d534cac441f325cac486e4",
+              "digest_matches": true,
+              "max_sdk": null,
+              "min_sdk": null,
+              "notes": [],
+              "public_key_matches_certificate": true,
+              "scheme": "v2",
+              "signature_valid": {
+                "status": "valid"
+              },
+              "verified": true
+            }
+          }
+        ],
+        "size": 4088
+      },
+      "v1": []
+    },
+    "target_sdk": "35",
+    "version_code": "1",
+    "version_name": "1.0",
+    "warnings": []
+  },
+  "summary": "com.journey.replica (base.apk, version 1.0, SDK 26–35): 16 permissions, 21 components (7 exported), 8 DEX file(s), native code for arm64-v8a, armeabi-v7a, x86, x86_64; signed with scheme v2 (cryptographically VERIFIED).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "verification_scope",
+      "message": "Signatures ARE verified cryptographically here (v2/v3 signature over the signed data plus a recomputed APK content digest; v1 PKCS#7 over the .SF plus MANIFEST.MF per-file digests). NOT checked: certificate revocation, v3 key-rotation lineage/proof-of-rotation, rollback protection, source-stamp, and whether the signing certificate is one you trust (the certificate SHA-256 fingerprint is reported so you can compare it yourself)."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 560,
+    "total": 560
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

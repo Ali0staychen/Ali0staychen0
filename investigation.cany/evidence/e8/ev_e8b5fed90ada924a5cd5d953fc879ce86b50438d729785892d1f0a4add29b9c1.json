@@ -1,0 +1,66 @@
+{
+  "id": "ev_e8b5fed90ada924a5cd5d953fc879ce86b50438d729785892d1f0a4add29b9c1",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 20,
+    "offset": 0,
+    "path": "C:\\Users\\ali\\Documents\\Craft Anything\\base\\base.apk",
+    "query": "ReminderReceiver"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/ReminderReceiver;",
+        "dex": "classes4.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.reminders.ReminderReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 1,
+    "query": "ReminderReceiver"
+  },
+  "summary": "1 of 32680 classes match \"ReminderReceiver\" in 8 DEX file(s); showing 1.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Documents\\Craft Anything\\base\\base.apk"
+    }
+  ],
+  "links": []
+}

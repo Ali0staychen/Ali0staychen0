@@ -1,0 +1,614 @@
+{
+  "id": "ev_f81e2b80858c661c1f5ff15135b15b7241564df611974ab99587f894b3fa8c44",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "entry"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/Kryo$DefaultSerializerEntry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "com.esotericsoftware.kryo.Kryo$DefaultSerializerEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/components/LegendEntry;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 2,
+        "name": "com.github.mikephil.charting.components.LegendEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/BarEntry;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 22,
+        "name": "com.github.mikephil.charting.data.BarEntry",
+        "superclass": "com.github.mikephil.charting.data.Entry"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/BaseEntry;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.github.mikephil.charting.data.BaseEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/BubbleEntry;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "com.github.mikephil.charting.data.BubbleEntry",
+        "superclass": "com.github.mikephil.charting.data.Entry"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/CandleEntry;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 17,
+        "name": "com.github.mikephil.charting.data.CandleEntry",
+        "superclass": "com.github.mikephil.charting.data.Entry"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 14,
+        "name": "com.github.mikephil.charting.data.Entry",
+        "superclass": "com.github.mikephil.charting.data.BaseEntry"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/Entry$1;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.github.mikephil.charting.data.Entry$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/PieEntry;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 15,
+        "name": "com.github.mikephil.charting.data.PieEntry",
+        "superclass": "com.github.mikephil.charting.data.Entry"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/data/RadarEntry;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.github.mikephil.charting.data.RadarEntry",
+        "superclass": "com.github.mikephil.charting.data.Entry"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/utils/EntryXComparator;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.github.mikephil.charting.utils.EntryXComparator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/fido/fido2/api/common/UvmEntry;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "com.google.android.gms.fido.fido2.api.common.UvmEntry",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedSet$WrappedEntryIterator;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.firebase.database.collection.ImmutableSortedSet$WrappedEntryIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/index/AutoValue_IndexEntry;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "com.google.firebase.firestore.index.AutoValue_IndexEntry",
+        "superclass": "com.google.firebase.firestore.index.IndexEntry"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/index/IndexEntry;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.google.firebase.firestore.index.IndexEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/installations/local/AutoValue_PersistedInstallationEntry;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 13,
+        "name": "com.google.firebase.installations.local.AutoValue_PersistedInstallationEntry",
+        "superclass": "com.google.firebase.installations.local.PersistedInstallationEntry"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/installations/local/AutoValue_PersistedInstallationEntry$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.installations.local.AutoValue_PersistedInstallationEntry$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/installations/local/AutoValue_PersistedInstallationEntry$Builder;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 11,
+        "name": "com.google.firebase.installations.local.AutoValue_PersistedInstallationEntry$Builder",
+        "superclass": "com.google.firebase.installations.local.PersistedInstallationEntry$Builder"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/installations/local/PersistedInstallationEntry;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 22,
+        "name": "com.google.firebase.installations.local.PersistedInstallationEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/installations/local/PersistedInstallationEntry$Builder;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "com.google.firebase.installations.local.PersistedInstallationEntry$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/storage/internal/ActivityLifecycleListener$LifecycleEntry;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "com.google.firebase.storage.internal.ActivityLifecycleListener$LifecycleEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$EntrySet;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "com.google.gson.internal.LinkedTreeMap$EntrySet",
+        "superclass": "java.util.AbstractSet"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$EntrySet$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.gson.internal.LinkedTreeMap$EntrySet$1",
+        "superclass": "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryGetDataGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryGetDataGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryLocationResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryLocationResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryMusicResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryMusicResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryTagResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryTagResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryWeatherResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryWeatherResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchEntryGetResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchEntryGetResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$PartialEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 19,
+        "methods": 43,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$PartialEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$UploadEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$UploadEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$uploadNewEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$uploadNewEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$uploadUpdatedEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$uploadUpdatedEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchEntryGetResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchEntryGetResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 19,
+        "methods": 43,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$UploadEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$UploadEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$uploadNewEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$uploadNewEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$uploadUpdatedEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$uploadUpdatedEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/DetailedTimelineViewModel$fetchEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 13,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.DetailedTimelineViewModel$fetchEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 61,
+    "query": "entry"
+  },
+  "summary": "61 of 32886 classes match \"entry\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 61,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

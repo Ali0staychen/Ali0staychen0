@@ -1,0 +1,1478 @@
+{
+  "id": "ev_b38fccbd19062f721e841f24f4ec283caa5f0676eb7182da37efd0c15f154375",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_components_list",
+  "params": {
+    "kind": null,
+    "limit": 300,
+    "offset": 0,
+    "path": null,
+    "reachable_only": false
+  },
+  "result": {
+    "by_kind": {
+      "activity": {
+        "reachable_from_outside": 6,
+        "total": 25
+      },
+      "provider": {
+        "reachable_from_outside": 0,
+        "total": 3
+      },
+      "receiver": {
+        "reachable_from_outside": 3,
+        "total": 21
+      },
+      "service": {
+        "reachable_from_outside": 2,
+        "total": 14
+      }
+    },
+    "components": [
+      {
+        "authorities": "com.journey.app.fileprovider",
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "provider",
+        "name": "com.commonsware.cwac.provider.StreamProvider",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.MAIN"
+            ],
+            "categories": [
+              "android.intent.category.LAUNCHER"
+            ],
+            "data": []
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              "scheme=https",
+              "host=go.journey.cloud"
+            ]
+          }
+        ],
+        "kind": "activity",
+        "name": "com.journey.app.SplashActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "any_app",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.MainActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.PublishActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.GalleryActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.PlacesActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.SEND"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              "mimeType=image/*"
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.SEND"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              "mimeType=video/*"
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.SEND_MULTIPLE"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              "mimeType=*/*"
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.SEND"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              "mimeType=text/plain"
+            ]
+          }
+        ],
+        "kind": "activity",
+        "name": "com.journey.app.EditorActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "any_app",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.StoriesActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.SettingsActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.HelpActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.ChatActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.AddonActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.StatisticsActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.giftcard.GiftActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.PreviewActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.journey.app.OnboardActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.android.gm.action.AUTO_SEND"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "com.google.android.voicesearch.SELF_NOTE"
+            ],
+            "data": [
+              "mimeType=*/*"
+            ]
+          }
+        ],
+        "kind": "activity",
+        "name": "com.journey.app.NoteToSelfActivity",
+        "permission": "com.google.android.gm.permission.AUTO_SEND",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "apps_with_permission",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              "scheme=journey-login"
+            ]
+          }
+        ],
+        "kind": "activity",
+        "name": "com.journey.app.LoginDoneActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "any_app",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.journey.app.ReminderReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.journey.app.RadicalReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.journey.app.InactiveReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.journey.app.ThrowbackReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.journey.app.CoachReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "com.journey.app.WidgetTextProvider",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "com.journey.app.WidgetPhotoProvider",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.QUICKBOOT_POWERON",
+              "com.htc.intent.action.QUICKBOOT_POWERON"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "com.journey.app.AutostartReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "default_not_exported",
+        "exported": false,
+        "exported_attribute": null,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.journey.app.QuickWriteBroadcastReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": "com.journey.app.androidx-startup",
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "provider",
+        "name": "androidx.startup.InitializationProvider",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": true,
+        "enabled_attribute": false,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "service",
+        "name": "com.google.android.gms.metadata.ModuleDependencies",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.firebase.components.ComponentDiscoveryService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              "scheme=genericidp host=firebase.auth path=/"
+            ]
+          }
+        ],
+        "kind": "activity",
+        "name": "com.google.firebase.auth.internal.GenericIdpActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "any_app",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              "scheme=recaptcha host=firebase.auth path=/"
+            ]
+          }
+        ],
+        "kind": "activity",
+        "name": "com.google.firebase.auth.internal.RecaptchaActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "any_app",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "androidx.credentials.playservices.HiddenActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+        "permission": "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "apps_with_permission",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.android.c2dm.intent.RECEIVE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "permission": "com.google.android.c2dm.permission.SEND",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "apps_with_permission",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "service",
+        "name": "com.google.firebase.messaging.FirebaseMessagingService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.android.gms.measurement.AppMeasurementService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.google.android.gms.common.api.GoogleApiActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "androidx.work.impl.background.systemjob.SystemJobService",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "apps_with_permission",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "androidx.work.impl.foreground.SystemForegroundService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": true,
+        "enabled_attribute": false,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.ACTION_POWER_CONNECTED",
+              "android.intent.action.ACTION_POWER_DISCONNECTED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": true,
+        "enabled_attribute": false,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.BATTERY_OKAY",
+              "android.intent.action.BATTERY_LOW"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": true,
+        "enabled_attribute": false,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.DEVICE_STORAGE_LOW",
+              "android.intent.action.DEVICE_STORAGE_OK"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": true,
+        "enabled_attribute": false,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.net.conn.CONNECTIVITY_CHANGE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": true,
+        "enabled_attribute": false,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.TIME_SET",
+              "android.intent.action.TIMEZONE_CHANGED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [
+          {
+            "actions": [
+              "androidx.work.impl.background.systemalarm.UpdateProxies"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "permission": "android.permission.DUMP",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "apps_with_permission",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.firebase.sessions.SessionLifecycleService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": "com.journey.app.firebaseinitprovider",
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "provider",
+        "name": "com.google.firebase.provider.FirebaseInitProvider",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "androidx.room.MultiInstanceInvalidationService",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": true,
+        "export_source": "explicit",
+        "exported": true,
+        "exported_attribute": true,
+        "intent_filters": [
+          {
+            "actions": [
+              "androidx.profileinstaller.action.INSTALL_PROFILE"
+            ],
+            "categories": [],
+            "data": []
+          },
+          {
+            "actions": [
+              "androidx.profileinstaller.action.SKIP_FILE"
+            ],
+            "categories": [],
+            "data": []
+          },
+          {
+            "actions": [
+              "androidx.profileinstaller.action.SAVE_PROFILE"
+            ],
+            "categories": [],
+            "data": []
+          },
+          {
+            "actions": [
+              "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "kind": "receiver",
+        "name": "androidx.profileinstaller.ProfileInstallReceiver",
+        "permission": "android.permission.DUMP",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": true,
+        "read_permission": null,
+        "who_can_reach": "apps_with_permission",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "service",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "receiver",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      },
+      {
+        "authorities": null,
+        "disabled_in_manifest": false,
+        "enabled_attribute": null,
+        "export_source": "explicit",
+        "exported": false,
+        "exported_attribute": false,
+        "intent_filters": [],
+        "kind": "activity",
+        "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "permission": null,
+        "permission_from_application": false,
+        "permission_protection_level": null,
+        "reachable_from_outside": false,
+        "read_permission": null,
+        "who_can_reach": "own_app_only",
+        "write_permission": null
+      }
+    ],
+    "matching": 63,
+    "min_sdk": "26",
+    "package": "com.journey.app",
+    "path": "C:\\Users\\ali\\Downloads\\base.apk",
+    "reachable_from_outside": 11,
+    "reachable_with_no_permission": 5,
+    "target_sdk": "35",
+    "total": 63
+  },
+  "summary": "63 component(s) in the manifest: 11 reachable from outside the app, 5 of those with no permission asked.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "implicit_export_rules",
+      "message": "This app targets SDK 35. With no android:exported value, a component with intent filters is exported below SDK 31 (from 31 on, Android refuses to install such an app), other components aren't, and a provider is exported up to SDK 16 regardless. The rule goes by the app's targetSdk as read here."
+    },
+    {
+      "code": "manifest_only",
+      "message": "This reads the manifest alone: receivers registered while the app runs aren't in it, code can check callers itself, and a declared permission's strength depends on its protection level."
+    },
+    {
+      "code": "disabled_components",
+      "message": "Components the manifest disables are still listed: the app can enable them while it runs."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 63,
+    "total": 63
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

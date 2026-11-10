@@ -1,0 +1,1202 @@
+{
+  "id": "ev_03e43f6ed56a880c2fb5e39ea36bd7757b89bc50acce9a9b6959c18d4a0bf405",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "com.journey.app.ReminderReceiver",
+    "java_source": false,
+    "limit": 2000,
+    "method_name": "e",
+    "offset": 0,
+    "overload_index": 0,
+    "path": null
+  },
+  "result": {
+    "access": [
+      "private"
+    ],
+    "class": "Lcom/journey/app/ReminderReceiver;",
+    "dex": "classes3.dex",
+    "ins": 2,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v7, v11",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x1a",
+        "text": "const-string v10, \"notification\"",
+        "units": 2
+      },
+      {
+        "offset": "0003",
+        "opcode": "0x07",
+        "text": "move-object v0, v10",
+        "units": 1
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;",
+        "units": 3
+      },
+      {
+        "offset": "0007",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0008",
+        "opcode": "0x07",
+        "text": "move-object v0, v9",
+        "units": 1
+      },
+      {
+        "offset": "0009",
+        "opcode": "0x1f",
+        "text": "check-cast v0, Landroid/app/NotificationManager;",
+        "units": 2
+      },
+      {
+        "offset": "000b",
+        "opcode": "0x12",
+        "text": "const/4 v9, 5",
+        "units": 1
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x71",
+        "text": "invoke-static {}, Ls8/T;->n1()Z",
+        "units": 3
+      },
+      {
+        "offset": "000f",
+        "opcode": "0x0a",
+        "text": "move-result v9",
+        "units": 1
+      },
+      {
+        "offset": "0010",
+        "opcode": "0x01",
+        "text": "move v1, v9",
+        "units": 1
+      },
+      {
+        "offset": "0011",
+        "opcode": "0x38",
+        "text": "if-eqz v1, :0026",
+        "units": 2
+      },
+      {
+        "offset": "0013",
+        "opcode": "0x12",
+        "text": "const/4 v9, 1",
+        "units": 1
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0}, Landroid/app/NotificationManager;->areNotificationsEnabled()Z",
+        "units": 3
+      },
+      {
+        "offset": "0017",
+        "opcode": "0x0a",
+        "text": "move-result v10",
+        "units": 1
+      },
+      {
+        "offset": "0018",
+        "opcode": "0x01",
+        "text": "move v1, v10",
+        "units": 1
+      },
+      {
+        "offset": "0019",
+        "opcode": "0x39",
+        "text": "if-nez v1, :0026",
+        "units": 2
+      },
+      {
+        "offset": "001b",
+        "opcode": "0x12",
+        "text": "const/4 v9, 2",
+        "units": 1
+      },
+      {
+        "offset": "001c",
+        "opcode": "0x1a",
+        "text": "const-string v10, \"JourneyReminderReceiver\"",
+        "units": 2
+      },
+      {
+        "offset": "001e",
+        "opcode": "0x07",
+        "text": "move-object v12, v10",
+        "units": 1
+      },
+      {
+        "offset": "001f",
+        "opcode": "0x1a",
+        "text": "const-string v9, \"Reminder: Notification blocked\"",
+        "units": 2
+      },
+      {
+        "offset": "0021",
+        "opcode": "0x07",
+        "text": "move-object v0, v9",
+        "units": 1
+      },
+      {
+        "offset": "0022",
+        "opcode": "0x71",
+        "text": "invoke-static {v12, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+        "units": 3
+      },
+      {
+        "offset": "0025",
+        "opcode": "0x0e",
+        "text": "return-void",
+        "units": 1
+      },
+      {
+        "offset": "0026",
+        "opcode": "0x12",
+        "text": "const/4 v10, 4",
+        "units": 1
+      },
+      {
+        "offset": "0027",
+        "opcode": "0x71",
+        "text": "invoke-static {}, Ls8/T;->p1()Z",
+        "units": 3
+      },
+      {
+        "offset": "002a",
+        "opcode": "0x0a",
+        "text": "move-result v10",
+        "units": 1
+      },
+      {
+        "offset": "002b",
+        "opcode": "0x01",
+        "text": "move v1, v10",
+        "units": 1
+      },
+      {
+        "offset": "002c",
+        "opcode": "0x1a",
+        "text": "const-string v9, \"com.journey.app.reminder\"",
+        "units": 2
+      },
+      {
+        "offset": "002e",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "002f",
+        "opcode": "0x38",
+        "text": "if-eqz v1, :004c",
+        "units": 2
+      },
+      {
+        "offset": "0031",
+        "opcode": "0x12",
+        "text": "const/4 v10, 3",
+        "units": 1
+      },
+      {
+        "offset": "0032",
+        "opcode": "0x22",
+        "text": "new-instance v1, Landroid/app/NotificationChannel;",
+        "units": 2
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x12",
+        "text": "const/4 v10, 4",
+        "units": 1
+      },
+      {
+        "offset": "0035",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "0038",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0039",
+        "opcode": "0x07",
+        "text": "move-object v3, v9",
+        "units": 1
+      },
+      {
+        "offset": "003a",
+        "opcode": "0x60",
+        "text": "sget v4, LN7/X4;->Wa:I",
+        "units": 2
+      },
+      {
+        "offset": "003c",
+        "opcode": "0x12",
+        "text": "const/4 v9, 5",
+        "units": 1
+      },
+      {
+        "offset": "003d",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "0040",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "0041",
+        "opcode": "0x07",
+        "text": "move-object v3, v10",
+        "units": 1
+      },
+      {
+        "offset": "0042",
+        "opcode": "0x12",
+        "text": "const/4 v10, 4",
+        "units": 1
+      },
+      {
+        "offset": "0043",
+        "opcode": "0x01",
+        "text": "move v4, v10",
+        "units": 1
+      },
+      {
+        "offset": "0044",
+        "opcode": "0x70",
+        "text": "invoke-direct {v1, v2, v3, v4}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V",
+        "units": 3
+      },
+      {
+        "offset": "0047",
+        "opcode": "0x12",
+        "text": "const/4 v9, 3",
+        "units": 1
+      },
+      {
+        "offset": "0048",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V",
+        "units": 3
+      },
+      {
+        "offset": "004b",
+        "opcode": "0x12",
+        "text": "const/4 v9, 4",
+        "units": 1
+      },
+      {
+        "offset": "004c",
+        "opcode": "0x12",
+        "text": "const/4 v9, 1",
+        "units": 1
+      },
+      {
+        "offset": "004d",
+        "opcode": "0x70",
+        "text": "invoke-direct {v7, v12}, Lcom/journey/app/ReminderReceiver;->c(Landroid/content/Context;)Landroid/app/PendingIntent;",
+        "units": 3
+      },
+      {
+        "offset": "0050",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0051",
+        "opcode": "0x07",
+        "text": "move-object v1, v9",
+        "units": 1
+      },
+      {
+        "offset": "0052",
+        "opcode": "0x70",
+        "text": "invoke-direct {v7, v12}, Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;",
+        "units": 3
+      },
+      {
+        "offset": "0055",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0056",
+        "opcode": "0x07",
+        "text": "move-object v3, v9",
+        "units": 1
+      },
+      {
+        "offset": "0057",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "005a",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "005b",
+        "opcode": "0x07",
+        "text": "move-object v4, v10",
+        "units": 1
+      },
+      {
+        "offset": "005c",
+        "opcode": "0x60",
+        "text": "sget v5, LN7/X4;->Wa:I",
+        "units": 2
+      },
+      {
+        "offset": "005e",
+        "opcode": "0x12",
+        "text": "const/4 v10, 1",
+        "units": 1
+      },
+      {
+        "offset": "005f",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "0062",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "0063",
+        "opcode": "0x07",
+        "text": "move-object v4, v10",
+        "units": 1
+      },
+      {
+        "offset": "0064",
+        "opcode": "0x22",
+        "text": "new-instance v5, Landroidx/core/app/l$e;",
+        "units": 2
+      },
+      {
+        "offset": "0066",
+        "opcode": "0x12",
+        "text": "const/4 v10, 3",
+        "units": 1
+      },
+      {
+        "offset": "0067",
+        "opcode": "0x70",
+        "text": "invoke-direct {v5, v12, v2}, Landroidx/core/app/l$e;-><init>(Landroid/content/Context;Ljava/lang/String;)V",
+        "units": 3
+      },
+      {
+        "offset": "006a",
+        "opcode": "0x12",
+        "text": "const/4 v9, 1",
+        "units": 1
+      },
+      {
+        "offset": "006b",
+        "opcode": "0x12",
+        "text": "const/4 v10, 1",
+        "units": 1
+      },
+      {
+        "offset": "006c",
+        "opcode": "0x01",
+        "text": "move v2, v10",
+        "units": 1
+      },
+      {
+        "offset": "006d",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v5, v2}, Landroidx/core/app/l$e;->g(Z)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "0070",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0071",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "0072",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->m(Ljava/lang/CharSequence;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "0075",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "0076",
+        "opcode": "0x07",
+        "text": "move-object v2, v10",
+        "units": 1
+      },
+      {
+        "offset": "0077",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "007a",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "007b",
+        "opcode": "0x07",
+        "text": "move-object v4, v9",
+        "units": 1
+      },
+      {
+        "offset": "007c",
+        "opcode": "0x60",
+        "text": "sget v5, LN7/X4;->K5:I",
+        "units": 2
+      },
+      {
+        "offset": "007e",
+        "opcode": "0x12",
+        "text": "const/4 v9, 3",
+        "units": 1
+      },
+      {
+        "offset": "007f",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "0082",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0083",
+        "opcode": "0x07",
+        "text": "move-object v4, v9",
+        "units": 1
+      },
+      {
+        "offset": "0084",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->l(Ljava/lang/CharSequence;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "0087",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "0088",
+        "opcode": "0x07",
+        "text": "move-object v2, v10",
+        "units": 1
+      },
+      {
+        "offset": "0089",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v1}, Landroidx/core/app/l$e;->k(Landroid/app/PendingIntent;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "008c",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "008d",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "008e",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "0091",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "0092",
+        "opcode": "0x07",
+        "text": "move-object v4, v9",
+        "units": 1
+      },
+      {
+        "offset": "0093",
+        "opcode": "0x60",
+        "text": "sget v5, LN7/O4;->a:I",
+        "units": 2
+      },
+      {
+        "offset": "0095",
+        "opcode": "0x12",
+        "text": "const/4 v10, 7",
+        "units": 1
+      },
+      {
+        "offset": "0096",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I",
+        "units": 3
+      },
+      {
+        "offset": "0099",
+        "opcode": "0x0a",
+        "text": "move-result v9",
+        "units": 1
+      },
+      {
+        "offset": "009a",
+        "opcode": "0x01",
+        "text": "move v4, v9",
+        "units": 1
+      },
+      {
+        "offset": "009b",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->j(I)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "009e",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "009f",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "00a0",
+        "opcode": "0x60",
+        "text": "sget v4, LN7/Q4;->a4:I",
+        "units": 2
+      },
+      {
+        "offset": "00a2",
+        "opcode": "0x12",
+        "text": "const/4 v9, 3",
+        "units": 1
+      },
+      {
+        "offset": "00a3",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "00a6",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "00a7",
+        "opcode": "0x07",
+        "text": "move-object v5, v10",
+        "units": 1
+      },
+      {
+        "offset": "00a8",
+        "opcode": "0x60",
+        "text": "sget v6, LN7/X4;->I5:I",
+        "units": 2
+      },
+      {
+        "offset": "00aa",
+        "opcode": "0x12",
+        "text": "const/4 v9, 6",
+        "units": 1
+      },
+      {
+        "offset": "00ab",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "00ae",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "00af",
+        "opcode": "0x07",
+        "text": "move-object v5, v9",
+        "units": 1
+      },
+      {
+        "offset": "00b0",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4, v5, v1}, Landroidx/core/app/l$e;->a(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "00b3",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "00b4",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "00b5",
+        "opcode": "0x12",
+        "text": "const/4 v10, 2",
+        "units": 1
+      },
+      {
+        "offset": "00b6",
+        "opcode": "0x01",
+        "text": "move v4, v10",
+        "units": 1
+      },
+      {
+        "offset": "00b7",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->u(I)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "00ba",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "00bb",
+        "opcode": "0x07",
+        "text": "move-object v2, v10",
+        "units": 1
+      },
+      {
+        "offset": "00bc",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->n(I)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "00bf",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "00c0",
+        "opcode": "0x07",
+        "text": "move-object v2, v10",
+        "units": 1
+      },
+      {
+        "offset": "00c1",
+        "opcode": "0x60",
+        "text": "sget v4, LN7/Q4;->T3:I",
+        "units": 2
+      },
+      {
+        "offset": "00c3",
+        "opcode": "0x12",
+        "text": "const/4 v9, 3",
+        "units": 1
+      },
+      {
+        "offset": "00c4",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->w(I)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "00c7",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "00c8",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "00c9",
+        "opcode": "0x22",
+        "text": "new-instance v4, Landroidx/core/app/l$c;",
+        "units": 2
+      },
+      {
+        "offset": "00cb",
+        "opcode": "0x12",
+        "text": "const/4 v10, 5",
+        "units": 1
+      },
+      {
+        "offset": "00cc",
+        "opcode": "0x70",
+        "text": "invoke-direct {v4}, Landroidx/core/app/l$c;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "00cf",
+        "opcode": "0x12",
+        "text": "const/4 v9, 3",
+        "units": 1
+      },
+      {
+        "offset": "00d0",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "00d3",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "00d4",
+        "opcode": "0x07",
+        "text": "move-object v5, v10",
+        "units": 1
+      },
+      {
+        "offset": "00d5",
+        "opcode": "0x60",
+        "text": "sget v6, LN7/X4;->K5:I",
+        "units": 2
+      },
+      {
+        "offset": "00d7",
+        "opcode": "0x12",
+        "text": "const/4 v10, 4",
+        "units": 1
+      },
+      {
+        "offset": "00d8",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "00db",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "00dc",
+        "opcode": "0x07",
+        "text": "move-object v5, v9",
+        "units": 1
+      },
+      {
+        "offset": "00dd",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v4, v5}, Landroidx/core/app/l$c;->h(Ljava/lang/CharSequence;)Landroidx/core/app/l$c;",
+        "units": 3
+      },
+      {
+        "offset": "00e0",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "00e1",
+        "opcode": "0x07",
+        "text": "move-object v4, v9",
+        "units": 1
+      },
+      {
+        "offset": "00e2",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->y(Landroidx/core/app/l$g;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "00e5",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "00e6",
+        "opcode": "0x07",
+        "text": "move-object v2, v9",
+        "units": 1
+      },
+      {
+        "offset": "00e7",
+        "opcode": "0x71",
+        "text": "invoke-static {}, Ls8/T;->o1()Z",
+        "units": 3
+      },
+      {
+        "offset": "00ea",
+        "opcode": "0x0a",
+        "text": "move-result v10",
+        "units": 1
+      },
+      {
+        "offset": "00eb",
+        "opcode": "0x01",
+        "text": "move v4, v10",
+        "units": 1
+      },
+      {
+        "offset": "00ec",
+        "opcode": "0x38",
+        "text": "if-eqz v4, :00f7",
+        "units": 2
+      },
+      {
+        "offset": "00ee",
+        "opcode": "0x12",
+        "text": "const/4 v9, 6",
+        "units": 1
+      },
+      {
+        "offset": "00ef",
+        "opcode": "0x70",
+        "text": "invoke-direct {v7, v12, v3}, Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;",
+        "units": 3
+      },
+      {
+        "offset": "00f2",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "00f3",
+        "opcode": "0x07",
+        "text": "move-object v3, v10",
+        "units": 1
+      },
+      {
+        "offset": "00f4",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v3}, Landroidx/core/app/l$e;->b(Landroidx/core/app/l$a;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "00f7",
+        "opcode": "0x12",
+        "text": "const/4 v9, 1",
+        "units": 1
+      },
+      {
+        "offset": "00f8",
+        "opcode": "0x22",
+        "text": "new-instance v3, Landroidx/core/app/l$h;",
+        "units": 2
+      },
+      {
+        "offset": "00fa",
+        "opcode": "0x12",
+        "text": "const/4 v10, 4",
+        "units": 1
+      },
+      {
+        "offset": "00fb",
+        "opcode": "0x70",
+        "text": "invoke-direct {v3}, Landroidx/core/app/l$h;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "00fe",
+        "opcode": "0x12",
+        "text": "const/4 v9, 1",
+        "units": 1
+      },
+      {
+        "offset": "00ff",
+        "opcode": "0x70",
+        "text": "invoke-direct {v7, v12}, Lcom/journey/app/ReminderReceiver;->b(Landroid/content/Context;)Landroid/graphics/Bitmap;",
+        "units": 3
+      },
+      {
+        "offset": "0102",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "0103",
+        "opcode": "0x07",
+        "text": "move-object v4, v10",
+        "units": 1
+      },
+      {
+        "offset": "0104",
+        "opcode": "0x38",
+        "text": "if-eqz v4, :010a",
+        "units": 2
+      },
+      {
+        "offset": "0106",
+        "opcode": "0x12",
+        "text": "const/4 v9, 4",
+        "units": 1
+      },
+      {
+        "offset": "0107",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v3, v4}, Landroidx/core/app/l$h;->e(Landroid/graphics/Bitmap;)Landroidx/core/app/l$h;",
+        "units": 3
+      },
+      {
+        "offset": "010a",
+        "opcode": "0x12",
+        "text": "const/4 v9, 5",
+        "units": 1
+      },
+      {
+        "offset": "010b",
+        "opcode": "0x22",
+        "text": "new-instance v4, Landroidx/core/app/l$a;",
+        "units": 2
+      },
+      {
+        "offset": "010d",
+        "opcode": "0x12",
+        "text": "const/4 v9, 5",
+        "units": 1
+      },
+      {
+        "offset": "010e",
+        "opcode": "0x60",
+        "text": "sget v5, LN7/Q4;->b4:I",
+        "units": 2
+      },
+      {
+        "offset": "0110",
+        "opcode": "0x12",
+        "text": "const/4 v9, 6",
+        "units": 1
+      },
+      {
+        "offset": "0111",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "0114",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "0115",
+        "opcode": "0x07",
+        "text": "move-object v12, v10",
+        "units": 1
+      },
+      {
+        "offset": "0116",
+        "opcode": "0x60",
+        "text": "sget v6, LN7/X4;->I5:I",
+        "units": 2
+      },
+      {
+        "offset": "0118",
+        "opcode": "0x12",
+        "text": "const/4 v10, 3",
+        "units": 1
+      },
+      {
+        "offset": "0119",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v12, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "011c",
+        "opcode": "0x0c",
+        "text": "move-result-object v10",
+        "units": 1
+      },
+      {
+        "offset": "011d",
+        "opcode": "0x07",
+        "text": "move-object v12, v10",
+        "units": 1
+      },
+      {
+        "offset": "011e",
+        "opcode": "0x70",
+        "text": "invoke-direct {v4, v5, v12, v1}, Landroidx/core/app/l$a;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V",
+        "units": 3
+      },
+      {
+        "offset": "0121",
+        "opcode": "0x12",
+        "text": "const/4 v10, 7",
+        "units": 1
+      },
+      {
+        "offset": "0122",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v3, v4}, Landroidx/core/app/l$h;->b(Landroidx/core/app/l$a;)Landroidx/core/app/l$h;",
+        "units": 3
+      },
+      {
+        "offset": "0125",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2, v3}, Landroidx/core/app/l$e;->d(Landroidx/core/app/l$f;)Landroidx/core/app/l$e;",
+        "units": 3
+      },
+      {
+        "offset": "0128",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v2}, Landroidx/core/app/l$e;->c()Landroid/app/Notification;",
+        "units": 3
+      },
+      {
+        "offset": "012b",
+        "opcode": "0x0c",
+        "text": "move-result-object v9",
+        "units": 1
+      },
+      {
+        "offset": "012c",
+        "opcode": "0x07",
+        "text": "move-object v12, v9",
+        "units": 1
+      },
+      {
+        "offset": "012d",
+        "opcode": "0x60",
+        "text": "sget v1, LN7/X4;->D:I",
+        "units": 2
+      },
+      {
+        "offset": "012f",
+        "opcode": "0x12",
+        "text": "const/4 v10, 4",
+        "units": 1
+      },
+      {
+        "offset": "0130",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v1, v12}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V",
+        "units": 3
+      },
+      {
+        "offset": "0133",
+        "opcode": "0x12",
+        "text": "const/4 v10, 2",
+        "units": 1
+      },
+      {
+        "offset": "0134",
+        "opcode": "0x0e",
+        "text": "return-void",
+        "units": 1
+      }
+    ],
+    "instructions_total": 189,
+    "java_source": {
+      "status": "not_requested"
+    },
+    "listing": "0000: move-object v7, v11\n0001: const-string v10, \"notification\"\n0003: move-object v0, v10\n0004: invoke-virtual {v12, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;\n0007: move-result-object v9\n0008: move-object v0, v9\n0009: check-cast v0, Landroid/app/NotificationManager;\n000b: const/4 v9, 5\n000c: invoke-static {}, Ls8/T;->n1()Z\n000f: move-result v9\n0010: move v1, v9\n0011: if-eqz v1, :0026\n0013: const/4 v9, 1\n0014: invoke-virtual {v0}, Landroid/app/NotificationManager;->areNotificationsEnabled()Z\n0017: move-result v10\n0018: move v1, v10\n0019: if-nez v1, :0026\n001b: const/4 v9, 2\n001c: const-string v10, \"JourneyReminderReceiver\"\n001e: move-object v12, v10\n001f: const-string v9, \"Reminder: Notification blocked\"\n0021: move-object v0, v9\n0022: invoke-static {v12, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I\n0025: return-void\n0026: const/4 v10, 4\n0027: invoke-static {}, Ls8/T;->p1()Z\n002a: move-result v10\n002b: move v1, v10\n002c: const-string v9, \"com.journey.app.reminder\"\n002e: move-object v2, v9\n002f: if-eqz v1, :004c\n0031: const/4 v10, 3\n0032: new-instance v1, Landroid/app/NotificationChannel;\n0034: const/4 v10, 4\n0035: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n0038: move-result-object v9\n0039: move-object v3, v9\n003a: sget v4, LN7/X4;->Wa:I\n003c: const/4 v9, 5\n003d: invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n0040: move-result-object v10\n0041: move-object v3, v10\n0042: const/4 v10, 4\n0043: move v4, v10\n0044: invoke-direct {v1, v2, v3, v4}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V\n0047: const/4 v9, 3\n0048: invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V\n004b: const/4 v9, 4\n004c: const/4 v9, 1\n004d: invoke-direct {v7, v12}, Lcom/journey/app/ReminderReceiver;->c(Landroid/content/Context;)Landroid/app/PendingIntent;\n0050: move-result-object v9\n0051: move-object v1, v9\n0052: invoke-direct {v7, v12}, Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;\n0055: move-result-object v9\n0056: move-object v3, v9\n0057: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n005a: move-result-object v10\n005b: move-object v4, v10\n005c: sget v5, LN7/X4;->Wa:I\n005e: const/4 v10, 1\n005f: invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n0062: move-result-object v10\n0063: move-object v4, v10\n0064: new-instance v5, Landroidx/core/app/l$e;\n0066: const/4 v10, 3\n0067: invoke-direct {v5, v12, v2}, Landroidx/core/app/l$e;-><init>(Landroid/content/Context;Ljava/lang/String;)V\n006a: const/4 v9, 1\n006b: const/4 v10, 1\n006c: move v2, v10\n006d: invoke-virtual {v5, v2}, Landroidx/core/app/l$e;->g(Z)Landroidx/core/app/l$e;\n0070: move-result-object v9\n0071: move-object v2, v9\n0072: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->m(Ljava/lang/CharSequence;)Landroidx/core/app/l$e;\n0075: move-result-object v10\n0076: move-object v2, v10\n0077: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n007a: move-result-object v9\n007b: move-object v4, v9\n007c: sget v5, LN7/X4;->K5:I\n007e: const/4 v9, 3\n007f: invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n0082: move-result-object v9\n0083: move-object v4, v9\n0084: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->l(Ljava/lang/CharSequence;)Landroidx/core/app/l$e;\n0087: move-result-object v10\n0088: move-object v2, v10\n0089: invoke-virtual {v2, v1}, Landroidx/core/app/l$e;->k(Landroid/app/PendingIntent;)Landroidx/core/app/l$e;\n008c: move-result-object v9\n008d: move-object v2, v9\n008e: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n0091: move-result-object v9\n0092: move-object v4, v9\n0093: sget v5, LN7/O4;->a:I\n0095: const/4 v10, 7\n0096: invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I\n0099: move-result v9\n009a: move v4, v9\n009b: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->j(I)Landroidx/core/app/l$e;\n009e: move-result-object v9\n009f: move-object v2, v9\n00a0: sget v4, LN7/Q4;->a4:I\n00a2: const/4 v9, 3\n00a3: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n00a6: move-result-object v10\n00a7: move-object v5, v10\n00a8: sget v6, LN7/X4;->I5:I\n00aa: const/4 v9, 6\n00ab: invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n00ae: move-result-object v9\n00af: move-object v5, v9\n00b0: invoke-virtual {v2, v4, v5, v1}, Landroidx/core/app/l$e;->a(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)Landroidx/core/app/l$e;\n00b3: move-result-object v9\n00b4: move-object v2, v9\n00b5: const/4 v10, 2\n00b6: move v4, v10\n00b7: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->u(I)Landroidx/core/app/l$e;\n00ba: move-result-object v10\n00bb: move-object v2, v10\n00bc: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->n(I)Landroidx/core/app/l$e;\n00bf: move-result-object v10\n00c0: move-object v2, v10\n00c1: sget v4, LN7/Q4;->T3:I\n00c3: const/4 v9, 3\n00c4: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->w(I)Landroidx/core/app/l$e;\n00c7: move-result-object v9\n00c8: move-object v2, v9\n00c9: new-instance v4, Landroidx/core/app/l$c;\n00cb: const/4 v10, 5\n00cc: invoke-direct {v4}, Landroidx/core/app/l$c;-><init>()V\n00cf: const/4 v9, 3\n00d0: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n00d3: move-result-object v10\n00d4: move-object v5, v10\n00d5: sget v6, LN7/X4;->K5:I\n00d7: const/4 v10, 4\n00d8: invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n00db: move-result-object v9\n00dc: move-object v5, v9\n00dd: invoke-virtual {v4, v5}, Landroidx/core/app/l$c;->h(Ljava/lang/CharSequence;)Landroidx/core/app/l$c;\n00e0: move-result-object v9\n00e1: move-object v4, v9\n00e2: invoke-virtual {v2, v4}, Landroidx/core/app/l$e;->y(Landroidx/core/app/l$g;)Landroidx/core/app/l$e;\n00e5: move-result-object v9\n00e6: move-object v2, v9\n00e7: invoke-static {}, Ls8/T;->o1()Z\n00ea: move-result v10\n00eb: move v4, v10\n00ec: if-eqz v4, :00f7\n00ee: const/4 v9, 6\n00ef: invoke-direct {v7, v12, v3}, Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;\n00f2: move-result-object v10\n00f3: move-object v3, v10\n00f4: invoke-virtual {v2, v3}, Landroidx/core/app/l$e;->b(Landroidx/core/app/l$a;)Landroidx/core/app/l$e;\n00f7: const/4 v9, 1\n00f8: new-instance v3, Landroidx/core/app/l$h;\n00fa: const/4 v10, 4\n00fb: invoke-direct {v3}, Landroidx/core/app/l$h;-><init>()V\n00fe: const/4 v9, 1\n00ff: invoke-direct {v7, v12}, Lcom/journey/app/ReminderReceiver;->b(Landroid/content/Context;)Landroid/graphics/Bitmap;\n0102: move-result-object v10\n0103: move-object v4, v10\n0104: if-eqz v4, :010a\n0106: const/4 v9, 4\n0107: invoke-virtual {v3, v4}, Landroidx/core/app/l$h;->e(Landroid/graphics/Bitmap;)Landroidx/core/app/l$h;\n010a: const/4 v9, 5\n010b: new-instance v4, Landroidx/core/app/l$a;\n010d: const/4 v9, 5\n010e: sget v5, LN7/Q4;->b4:I\n0110: const/4 v9, 6\n0111: invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n0114: move-result-object v10\n0115: move-object v12, v10\n0116: sget v6, LN7/X4;->I5:I\n0118: const/4 v10, 3\n0119: invoke-virtual {v12, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n011c: move-result-object v10\n011d: move-object v12, v10\n011e: invoke-direct {v4, v5, v12, v1}, Landroidx/core/app/l$a;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V\n0121: const/4 v10, 7\n0122: invoke-virtual {v3, v4}, Landroidx/core/app/l$h;->b(Landroidx/core/app/l$a;)Landroidx/core/app/l$h;\n0125: invoke-virtual {v2, v3}, Landroidx/core/app/l$e;->d(Landroidx/core/app/l$f;)Landroidx/core/app/l$e;\n0128: invoke-virtual {v2}, Landroidx/core/app/l$e;->c()Landroid/app/Notification;\n012b: move-result-object v9\n012c: move-object v12, v9\n012d: sget v1, LN7/X4;->D:I\n012f: const/4 v10, 4\n0130: invoke-virtual {v0, v1, v12}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V\n0133: const/4 v10, 2\n0134: return-void",
+    "method": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+    "outs": 4,
+    "overload_index": 0,
+    "overloads": [
+      "private void e(android.content.Context)"
+    ],
+    "registers": 13,
+    "signature": "private void e(android.content.Context)",
+    "tries": []
+  },
+  "summary": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V (classes3.dex): 189 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 189,
+    "total": 189
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V"
+    }
+  ],
+  "links": []
+}

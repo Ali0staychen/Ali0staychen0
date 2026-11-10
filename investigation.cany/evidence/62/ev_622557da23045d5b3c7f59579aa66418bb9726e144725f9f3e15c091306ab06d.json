@@ -1,0 +1,2334 @@
+{
+  "id": "ev_622557da23045d5b3c7f59579aa66418bb9726e144725f9f3e15c091306ab06d",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Activity"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$Default;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$Default",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$Stub;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$Stub$Proxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub$Proxy",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$_Parcel;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$_Parcel",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$Default;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$Default",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$Stub;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 4,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$Stub",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$Stub$Proxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 10,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$Stub$Proxy",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$_Parcel;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$_Parcel",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/A;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/B;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.B",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/C;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.C",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/D;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "androidx.activity.D",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/E;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.activity.E",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/F;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 12,
+        "name": "androidx.activity.F",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 19,
+        "name": "androidx.activity.G",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$b",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$c;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$c",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$d;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$d",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$e;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$e",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$f;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.activity.G$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$g;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$g$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.G$g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$h;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.G$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$i;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.G$i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/G$j;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.G$j",
+        "superclass": "kotlin.jvm.internal.q"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/G$k;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.G$k",
+        "superclass": "kotlin.jvm.internal.q"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/H;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.H",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/I;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.I",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/I$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.I$a",
+        "superclass": "androidx.activity.F"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/J;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.J",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/K;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 0,
+        "name": "androidx.activity.K",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/L;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "androidx.activity.L",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/L$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.activity.L$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/L$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.L$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/M;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.M",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/N;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.N",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.activity.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/b;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.activity.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/b$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/d;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/e;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/f;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/g;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/h;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/i;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/j;",
+        "dex": "classes.dex",
+        "fields": 21,
+        "methods": 82,
+        "name": "androidx.activity.j",
+        "superclass": "androidx.core.app.h"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.j$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.j$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.j$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$d;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "androidx.activity.j$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/j$e;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.j$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$f;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "androidx.activity.j$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$g;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.activity.j$g",
+        "superclass": "d.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$h;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.j$h",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$i;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.j$i",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$i$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.j$i$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/j$j;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.activity.j$j",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/k;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.k",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/l;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.activity.l",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/m;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.activity.m",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/n;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.n",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/o;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.o",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/p;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.p",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/q;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.q",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/r;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 18,
+        "name": "androidx.activity.r",
+        "superclass": "android.app.Dialog"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResult;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "androidx.activity.result.ActivityResult",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResult$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.result.ActivityResult$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResult$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.result.ActivityResult$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 9,
+        "name": "androidx.activity.result.IntentSenderRequest",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.result.IntentSenderRequest$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.result.IntentSenderRequest$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.result.IntentSenderRequest$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/s;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.activity.s",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/t;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.t",
+        "superclass": "androidx.activity.A"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/u;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.u",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/v;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.v",
+        "superclass": "androidx.activity.t"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/w;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.w",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/x;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.x",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/y;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.y",
+        "superclass": "androidx.activity.v"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/z;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.z",
+        "superclass": "androidx.activity.y"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/appcompat/widget/ActivityChooserView$InnerLayout;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.appcompat.widget.ActivityChooserView$InnerLayout",
+        "superclass": "android.widget.LinearLayout"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/credentials/playservices/HiddenActivity;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 30,
+        "name": "androidx.credentials.playservices.HiddenActivity",
+        "superclass": "android.app.Activity"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/credentials/playservices/HiddenActivity$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.credentials.playservices.HiddenActivity$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/credentials/playservices/HiddenActivity$b;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.credentials.playservices.HiddenActivity$b",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/credentials/playservices/HiddenActivity$c;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.credentials.playservices.HiddenActivity$c",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/credentials/playservices/HiddenActivity$d;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.credentials.playservices.HiddenActivity$d",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/credentials/playservices/HiddenActivity$e;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.credentials.playservices.HiddenActivity$e",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/android/billingclient/api/ProxyBillingActivity;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "com.android.billingclient.api.ProxyBillingActivity",
+        "superclass": "android.app.Activity"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/android/billingclient/api/ProxyBillingActivityV2;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+        "superclass": "androidx.activity.j"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/signin/internal/SignInHubActivity;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 12,
+        "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "superclass": "androidx.fragment.app.s"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/common/api/GoogleApiActivity;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.google.android.gms.common.api.GoogleApiActivity",
+        "superclass": "android.app.Activity"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/location/ActivityTransition;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.android.gms.location.ActivityTransition",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/location/ActivityTransitionRequest;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 7,
+        "name": "com.google.android.gms.location.ActivityTransitionRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/play/core/common/PlayCoreDialogWrapperActivity;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "superclass": "android.app.Activity"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/analytics/GoogleAnalyticsServerPreviewActivity;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.analytics.GoogleAnalyticsServerPreviewActivity",
+        "superclass": "android.app.Activity"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/auth/FirebaseAuthMissingActivityForRecaptchaException;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.auth.FirebaseAuthMissingActivityForRecaptchaException",
+        "superclass": "com.google.firebase.auth.FirebaseAuthException"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/auth/internal/GenericIdpActivity;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 19,
+        "name": "com.google.firebase.auth.internal.GenericIdpActivity",
+        "superclass": "androidx.fragment.app.s"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/auth/internal/RecaptchaActivity;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 18,
+        "name": "com.google.firebase.auth.internal.RecaptchaActivity",
+        "superclass": "androidx.fragment.app.s"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/core/ActivityScope;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.google.firebase.firestore.core.ActivityScope",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/core/ActivityScope$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.core.ActivityScope$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/firestore/core/ActivityScope$CallbackList;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.firebase.firestore.core.ActivityScope$CallbackList",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/core/ActivityScope$StopListenerFragment;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.core.ActivityScope$StopListenerFragment",
+        "superclass": "android.app.Fragment"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/core/ActivityScope$StopListenerSupportFragment;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.core.ActivityScope$StopListenerSupportFragment",
+        "superclass": "androidx.fragment.app.Fragment"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/SessionsActivityLifecycleCallbacks;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 14,
+        "name": "com.google.firebase.sessions.SessionsActivityLifecycleCallbacks",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/storage/internal/ActivityLifecycleListener;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.firebase.storage.internal.ActivityLifecycleListener",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/storage/internal/ActivityLifecycleListener$LifecycleEntry;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "com.google.firebase.storage.internal.ActivityLifecycleListener$LifecycleEntry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/storage/internal/ActivityLifecycleListener$OnStopCallback;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.storage.internal.ActivityLifecycleListener$OnStopCallback",
+        "superclass": "com.google.android.gms.common.api.internal.k"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity;",
+        "dex": "classes3.dex",
+        "fields": 19,
+        "methods": 40,
+        "name": "com.journey.app.AddonActivity",
+        "superclass": "com.journey.app.j2"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$a;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 7,
+        "name": "com.journey.app.AddonActivity$a",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$a$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$b;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$c",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 15,
+        "name": "com.journey.app.AddonActivity$d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$a;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$b;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$c;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$c$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$c$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$c$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$c$c;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.AddonActivity$d$a$c$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d$a;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 17,
+        "name": "com.journey.app.AddonActivity$d$a$d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$d$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d$a$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$d$a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d$a$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$d$a$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d$a$d;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$d$a$d",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$d$a$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.AddonActivity$d$a$d$a$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$e;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 75,
+        "name": "com.journey.app.AddonActivity$d$a$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$e$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$e$b;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$e$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$e$c;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$e$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$e$c$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$e$c$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$e$d;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$e$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$d$a$f;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$d$a$f",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$e;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$e",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$f;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$f",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/AddonActivity$g;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.AddonActivity$g",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 30,
+        "name": "com.journey.app.ChatActivity",
+        "superclass": "com.journey.app.k2"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.ChatActivity$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$b",
+        "superclass": "android.webkit.WebChromeClient"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.ChatActivity$c",
+        "superclass": "android.webkit.WebViewClient"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.ChatActivity$d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$d$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$d$a$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a$a$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.ChatActivity$d$a$a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.journey.app.ChatActivity$d$a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a$b$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.journey.app.ChatActivity$d$a$b$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$d$a$b$b;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.ChatActivity$d$a$b$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$e",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$f;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$f",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/ChatActivity$g;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.ChatActivity$g",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity;",
+        "dex": "classes3.dex",
+        "fields": 44,
+        "methods": 174,
+        "name": "com.journey.app.EditorActivity",
+        "superclass": "com.journey.app.l2"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$A;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$A",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$B;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$B",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$C;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$C",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$D;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$D",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$E;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$E",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$F;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$F",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$G;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$G",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$H;",
+        "dex": "classes3.dex",
+        "fields": 11,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$H",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$I;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$I",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$J;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.EditorActivity$J",
+        "superclass": "android.webkit.WebChromeClient"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$K;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$K",
+        "superclass": "android.webkit.WebViewClient"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$L;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.EditorActivity$L",
+        "superclass": "com.google.android.gms.location.i"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 156,
+        "name": "com.journey.app.EditorActivity$M$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$a;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$a$a;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$c;",
+        "dex": "classes3.dex",
+        "fields": 14,
+        "methods": 9,
+        "name": "com.journey.app.EditorActivity$M$a$c",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$d;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$d",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$e$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$e$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$b$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$e$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$e$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$f;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$M$a$g$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g$a$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g$a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$h;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$M$a$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$h$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$i;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$i",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$j;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$j",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$k;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$k",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$l;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$l",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$m;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$m",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$n;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$n",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$N;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$N",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$O;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$O",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$P;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 33,
+        "name": "com.journey.app.EditorActivity$P",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$Q;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$Q",
+        "superclass": "kotlin.jvm.internal.u"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 547,
+    "query": "Activity"
+  },
+  "summary": "547 of 32886 classes match \"Activity\" in 4 DEX file(s); showing 200.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 547,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

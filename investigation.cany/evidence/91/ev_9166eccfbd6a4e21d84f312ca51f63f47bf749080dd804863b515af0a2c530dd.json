@@ -1,0 +1,1163 @@
+{
+  "id": "ev_9166eccfbd6a4e21d84f312ca51f63f47bf749080dd804863b515af0a2c530dd",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk",
+    "query": "TagWordBag"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 20,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$10;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$10",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$11;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$11",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$12;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$12",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$13;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$13",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$14;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$14",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$15;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$15",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$16;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$16",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$17;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$17",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$2",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$3",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$4",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$5",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$6",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$7;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$8;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$8",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$9;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$9",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$10;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$10",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$11;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$11",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$12;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$12",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$13;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$13",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$14;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$14",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$2",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$3",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$4",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$5",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$6",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$7;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$8;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$8",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao_Impl$9;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao_Impl$9",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMediasAndTagWordBags;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithMediasAndTagWordBags",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithTagWordBags",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBagsV2;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithTagWordBagsV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/TagWordBag;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.TagWordBag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.models.entity.TagWordBagV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getFullJournalObjectWithMediasAndTagWordBags$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getFullJournalObjectWithMediasAndTagWordBags$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getFullJournalWrapperWithMediasAndTagWordBags$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getFullJournalWrapperWithMediasAndTagWordBags$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBags$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBags$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByActivity$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByActivity$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByFav$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByFav$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBagsBySentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBagsBySentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByTag$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByTag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByText$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBagsByText$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getFullJournalWrapperWithMediasAndTagWordBags$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getFullJournalWrapperWithMediasAndTagWordBags$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByExternalId$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByExternalId$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWithMediasAndTagWordBagsByJIdAsFlow$1$invokeSuspend$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWrapperWithMediasAndTagWordBags$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWrapperWithMediasAndTagWordBags$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$deleteDefaultTagWordBagLinkedAccountId$1;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$deleteDefaultTagWordBagLinkedAccountId$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllTagObjectsFromBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllTagObjectsFromBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllWordsFromBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllWordsFromBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllWordsFromBagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllWordsFromBagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllWordsFromBagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllWordsFromBagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getAllWordsFromBagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getAllWordsFromBagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getTWIdFromWordBag$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getTWIdFromWordBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getTWIdFromWordBagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getTWIdFromWordBagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getTWIdFromWordBagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getTWIdFromWordBagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$getTWIdFromWordBagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$getTWIdFromWordBagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$insertIfNotExistTagWordBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$insertIfNotExistTagWordBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$insertTagWordBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$insertTagWordBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository$updateDefaultTagWordBagLinkedAccountId$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository$updateDefaultTagWordBagLinkedAccountId$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$deleteAllTagWordBags$2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$deleteAllTagWordBags$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllTagObjectsFromBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllTagObjectsFromBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllTagWordWrappersFromBagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllWordsFromBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllWordsFromBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllWordsFromBagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllWordsFromBagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllWordsFromBagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllWordsFromBagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getAllWordsFromBagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getAllWordsFromBagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getTWIdFromWordBag$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getTWIdFromWordBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getTWIdFromWordBagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getTWIdFromWordBagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getTWIdFromWordBagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getTWIdFromWordBagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getTWIdFromWordBagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getTWIdFromWordBagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getTagWordBagByExternalId$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getTagWordBagByExternalId$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$getTagWordBagByWord$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$getTagWordBagByWord$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$insertIfNotExistTagWordBag$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$insertIfNotExistTagWordBag$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$updateTagExternalIdByTWId$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$updateTagExternalIdByTWId$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2$updateTagTitleByExternalId$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2$updateTagTitleByExternalId$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2_Factory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/TagWordBagRepository_Factory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.TagWordBagRepository_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/provider/DatabaseModule_ProvideTagWordBagDaoFactory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.provider.DatabaseModule_ProvideTagWordBagDaoFactory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/provider/DatabaseModule_ProvideTagWordBagDaoV2Factory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.provider.DatabaseModule_ProvideTagWordBagDaoV2Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/DetailedTimelineViewModel$getFullJournalWrapperWithMediasAndTagWordBags$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.DetailedTimelineViewModel$getFullJournalWrapperWithMediasAndTagWordBags$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/DetailedTimelineViewModel$getJournalWithMediasAndTagWordBags$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.DetailedTimelineViewModel$getJournalWithMediasAndTagWordBags$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/EditorViewModel$getFullJournalWrapperWithMediasAndTagWordBags$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.EditorViewModel$getFullJournalWrapperWithMediasAndTagWordBags$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 103,
+    "query": "TagWordBag"
+  },
+  "summary": "103 of 32886 classes match \"TagWordBag\" in 4 DEX file(s); showing 103.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 103,
+    "total": 103
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    }
+  ],
+  "links": []
+}

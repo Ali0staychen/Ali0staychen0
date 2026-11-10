@@ -1,0 +1,17 @@
+{
+  "id": "unk_2cfa18c614aa4e36",
+  "revision": 2,
+  "question": "How are handwritten signatures stored and represented as attachments (mime type/extension/drawing format)?",
+  "severity": "medium",
+  "domain": "general",
+  "status": "resolved",
+  "probes": [
+    "Search for signature/drawing/pen classes in DEX",
+    "Inspect attachment/file handling classes and allowed media types"
+  ],
+  "evidence_for": [
+    "ev_78de9865573ee56055edb8d32c7e7635739e2c3e7f201003e26098fb3f024cd0"
+  ],
+  "evidence_against": [],
+  "resolution": "No explicit signature-specific class found in searched symbols; file attachments carry mimeType/ext/alias metadata. Replica implements handwritten signatures as a drawn canvas exported to PNG and stored as an image attachment (estimated format)."
+}

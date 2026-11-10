@@ -1,0 +1,212 @@
+{
+  "id": "ev_e079bd6db5514b508937da5fcd42c6877fd6874ffd3121ed0d3e72c9f8e3a45f",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 80,
+    "offset": 0,
+    "path": null,
+    "query": "Weather"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/WeatherGson;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.journey.app.gson.WeatherGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/WeatherGson$HistoricalWeather;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 1,
+        "name": "com.journey.app.gson.WeatherGson$HistoricalWeather",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 1,
+        "name": "com.journey.app.gson.WeatherGson$HistoricalWeatherData",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/WeatherGson$Weather;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "com.journey.app.gson.WeatherGson$Weather",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/WeatherGson$WeatherData;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 1,
+        "name": "com.journey.app.gson.WeatherGson$WeatherData",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/WeatherGson$WeatherWeatherData;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 1,
+        "name": "com.journey.app.gson.WeatherGson$WeatherWeatherData",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryWeatherResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryWeatherResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 14,
+    "query": "Weather"
+  },
+  "summary": "14 of 32886 classes match \"Weather\" in 4 DEX file(s); showing 14.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 14,
+    "total": 14
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

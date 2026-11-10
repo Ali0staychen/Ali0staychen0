@@ -1,0 +1,173 @@
+{
+  "id": "ev_1fca513cfdb4ea9bda7fda18a60ca9f6e191e620e955d61c65f99ae6932a41f3",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 40,
+    "offset": 0,
+    "path": null,
+    "query": "Place"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/exoplayer/video/PlaceholderSurface;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.media3.exoplayer.video.PlaceholderSurface",
+        "superclass": "android.view.Surface"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/media3/exoplayer/video/PlaceholderSurface$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.media3.exoplayer.video.PlaceholderSurface$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/media3/exoplayer/video/PlaceholderSurface$b;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.media3.exoplayer.video.PlaceholderSurface$b",
+        "superclass": "android.os.HandlerThread"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/PlacesActivity;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 11,
+        "name": "com.journey.app.PlacesActivity",
+        "superclass": "com.journey.app.a"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/PlacesActivity$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.PlacesActivity$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/PlacesGson;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.journey.app.gson.PlacesGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/PlacesGson$Item;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.gson.PlacesGson$Item",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/PlacesGson$PagedPlaces;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "com.journey.app.gson.PlacesGson$PagedPlaces",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/PlacesGson$Places;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "com.journey.app.gson.PlacesGson$Places",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/PlacesGson$Places$Results;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.gson.PlacesGson$Places$Results",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/gson/PlacesGson$Searches;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "com.journey.app.gson.PlacesGson$Searches",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 11,
+    "query": "Place"
+  },
+  "summary": "11 of 32886 classes match \"Place\" in 4 DEX file(s); showing 11.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 11,
+    "total": 11
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

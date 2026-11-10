@@ -1,0 +1,483 @@
+{
+  "id": "ev_37672adb5e30bed8101014187280048c4674d531e99095de04320b51f4ee63f3",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Reminder"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.journey.replica.data.ReminderDao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "com.journey.replica.data.ReminderDao_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.replica.data.ReminderDao_Impl$1",
+        "superclass": "androidx.room.EntityInsertionAdapter"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.replica.data.ReminderDao_Impl$2",
+        "superclass": "androidx.room.EntityDeletionOrUpdateAdapter"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.data.ReminderDao_Impl$3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.data.ReminderDao_Impl$4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.replica.data.ReminderDao_Impl$5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/replica/data/ReminderDao_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.data.ReminderDao_Impl$6",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/data/ReminderEntity;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 20,
+        "name": "com.journey.replica.data.ReminderEntity",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/BootReceiver;",
+        "dex": "classes4.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.reminders.BootReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/BootReceiver$onReceive$1;",
+        "dex": "classes4.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.replica.reminders.BootReceiver$onReceive$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/ReminderReceiver;",
+        "dex": "classes4.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.reminders.ReminderReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/ReminderScheduler;",
+        "dex": "classes4.dex",
+        "fields": 6,
+        "methods": 7,
+        "name": "com.journey.replica.reminders.ReminderScheduler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/ReminderScheduler$ensureDailyReschedule$1;",
+        "dex": "classes4.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.replica.reminders.ReminderScheduler$ensureDailyReschedule$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/reminders/ReminderScheduler$rescheduleAll$1;",
+        "dex": "classes4.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.replica.reminders.ReminderScheduler$rescheduleAll$1",
+        "superclass": "kotlin.coroutines.jvm.internal.ContinuationImpl"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/MainViewModel$deleteReminder$1;",
+        "dex": "classes6.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.replica.ui.MainViewModel$deleteReminder$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/MainViewModel$saveReminder$1;",
+        "dex": "classes6.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.replica.ui.MainViewModel$saveReminder$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/Screen$Reminders;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.replica.ui.Screen$Reminders",
+        "superclass": "com.journey.replica.ui.Screen"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$1$1$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$1$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$2$1;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$2$1$1$2;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$2$1$1$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$2$1$1$3;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$2$1$1$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$2;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$3;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$4;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$1$2$invoke$$inlined$items$default$4",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$2$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$3;",
+        "dex": "classes6.dex",
+        "fields": 5,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$3$1;",
+        "dex": "classes6.dex",
+        "fields": 5,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$3$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$4;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$4",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$4$1$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$4$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$5;",
+        "dex": "classes6.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$5",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$5$1$1$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$5$1$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$5$1$2$1;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$5$1$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$5$1$3$1$1$1;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$5$1$3$1$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$5$1$3$1$2;",
+        "dex": "classes6.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$5$1$3$1$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/ui/ScreensKt$RemindersScreen$6;",
+        "dex": "classes6.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.replica.ui.ScreensKt$RemindersScreen$6",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 39,
+    "query": "Reminder"
+  },
+  "summary": "39 of 32680 classes match \"Reminder\" in 8 DEX file(s); showing 39.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 39,
+    "total": 39
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

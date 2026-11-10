@@ -1,0 +1,597 @@
+{
+  "id": "ev_0d0a23e2bc5e0d3c2339a5641664fc4c8ddf1863e940d984786825c899fb6ed0",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Draw"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/graphics/drawable/IconCompatParcelizer;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.graphics.drawable.IconCompatParcelizer",
+        "superclass": "androidx.core.graphics.drawable.IconCompatParcelizer"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/DrawBehindElement;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.compose.ui.draw.DrawBehindElement",
+        "superclass": "M0.Z"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/DrawWithCacheElement;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.compose.ui.draw.DrawWithCacheElement",
+        "superclass": "M0.Z"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/DrawWithContentElement;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.compose.ui.draw.DrawWithContentElement",
+        "superclass": "M0.Z"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/PainterElement;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 8,
+        "name": "androidx.compose.ui.draw.PainterElement",
+        "superclass": "M0.Z"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/ShadowGraphicsLayerElement;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 16,
+        "name": "androidx.compose.ui.draw.ShadowGraphicsLayerElement",
+        "superclass": "M0.Z"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/ShadowGraphicsLayerElement$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.ui.draw.ShadowGraphicsLayerElement$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 15,
+        "name": "androidx.compose.ui.draw.a",
+        "superclass": "androidx.compose.ui.d$c"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.ui.draw.a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/a$b;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.ui.draw.a$b",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.compose.ui.draw.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/c;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.ui.draw.c",
+        "superclass": "androidx.compose.ui.d$c"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.ui.draw.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/e;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 22,
+        "name": "androidx.compose.ui.draw.e",
+        "superclass": "androidx.compose.ui.d$c"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/e$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.ui.draw.e$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/draw/f;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.compose.ui.draw.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/core/graphics/drawable/IconCompat;",
+        "dex": "classes.dex",
+        "fields": 11,
+        "methods": 18,
+        "name": "androidx.core.graphics.drawable.IconCompat",
+        "superclass": "androidx.versionedparcelable.CustomVersionedParcelable"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/core/graphics/drawable/IconCompat$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.core.graphics.drawable.IconCompat$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/core/graphics/drawable/IconCompat$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.core.graphics.drawable.IconCompat$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/core/graphics/drawable/IconCompat$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.core.graphics.drawable.IconCompat$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/core/graphics/drawable/IconCompat$d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.core.graphics.drawable.IconCompat$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/core/graphics/drawable/IconCompatParcelizer;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.core.graphics.drawable.IconCompatParcelizer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/a;",
+        "dex": "classes2.dex",
+        "fields": 12,
+        "methods": 1,
+        "name": "androidx.vectordrawable.graphics.drawable.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/b;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.vectordrawable.graphics.drawable.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/b$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.vectordrawable.graphics.drawable.b$a",
+        "superclass": "android.graphics.drawable.Animatable2$AnimationCallback"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/c;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 52,
+        "name": "androidx.vectordrawable.graphics.drawable.c",
+        "superclass": "androidx.vectordrawable.graphics.drawable.e"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/c$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.vectordrawable.graphics.drawable.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/c$b;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.vectordrawable.graphics.drawable.c$b",
+        "superclass": "android.animation.AnimatorListenerAdapter"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/c$c;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "androidx.vectordrawable.graphics.drawable.c$c",
+        "superclass": "android.graphics.drawable.Drawable$ConstantState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/c$d;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.vectordrawable.graphics.drawable.c$d",
+        "superclass": "android.graphics.drawable.Drawable$ConstantState"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/d;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.vectordrawable.graphics.drawable.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/e;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 17,
+        "name": "androidx.vectordrawable.graphics.drawable.e",
+        "superclass": "android.graphics.drawable.Drawable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f;",
+        "dex": "classes2.dex",
+        "fields": 10,
+        "methods": 53,
+        "name": "androidx.vectordrawable.graphics.drawable.f",
+        "superclass": "androidx.vectordrawable.graphics.drawable.e"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.vectordrawable.graphics.drawable.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.vectordrawable.graphics.drawable.f$b",
+        "superclass": "androidx.vectordrawable.graphics.drawable.f$f"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$c;",
+        "dex": "classes2.dex",
+        "fields": 12,
+        "methods": 24,
+        "name": "androidx.vectordrawable.graphics.drawable.f$c",
+        "superclass": "androidx.vectordrawable.graphics.drawable.f$f"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$d;",
+        "dex": "classes2.dex",
+        "fields": 13,
+        "methods": 23,
+        "name": "androidx.vectordrawable.graphics.drawable.f$d",
+        "superclass": "androidx.vectordrawable.graphics.drawable.f$e"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$e;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.vectordrawable.graphics.drawable.f$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$f;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "androidx.vectordrawable.graphics.drawable.f$f",
+        "superclass": "androidx.vectordrawable.graphics.drawable.f$e"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$g;",
+        "dex": "classes2.dex",
+        "fields": 17,
+        "methods": 14,
+        "name": "androidx.vectordrawable.graphics.drawable.f$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$h;",
+        "dex": "classes2.dex",
+        "fields": 12,
+        "methods": 15,
+        "name": "androidx.vectordrawable.graphics.drawable.f$h",
+        "superclass": "android.graphics.drawable.Drawable$ConstantState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/vectordrawable/graphics/drawable/f$i;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.vectordrawable.graphics.drawable.f$i",
+        "superclass": "android.graphics.drawable.Drawable$ConstantState"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/charts/CombinedChart$DrawOrder;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 4,
+        "name": "com.github.mikephil.charting.charts.CombinedChart$DrawOrder",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/exception/DrawingDataSetNotCreatedException;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "com.github.mikephil.charting.exception.DrawingDataSetNotCreatedException",
+        "superclass": "java.lang.RuntimeException"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/listener/OnDrawLineChartTouchListener;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.github.mikephil.charting.listener.OnDrawLineChartTouchListener",
+        "superclass": "android.view.GestureDetector$SimpleOnGestureListener"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/listener/OnDrawListener;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.github.mikephil.charting.listener.OnDrawListener",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/material/drawable/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.material.drawable.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/material/drawable/b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.material.drawable.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/material/drawable/c;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.material.drawable.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/material/drawable/d;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 10,
+        "name": "com.google.android.material.drawable.d",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 57,
+    "query": "Draw"
+  },
+  "summary": "57 of 32886 classes match \"Draw\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 57,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

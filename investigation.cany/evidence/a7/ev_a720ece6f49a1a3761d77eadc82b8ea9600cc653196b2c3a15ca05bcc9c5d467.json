@@ -1,0 +1,3706 @@
+{
+  "id": "ev_a720ece6f49a1a3761d77eadc82b8ea9600cc653196b2c3a15ca05bcc9c5d467",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "core_archive_show",
+  "params": {
+    "if_tampered": true,
+    "limit": 500,
+    "max_depth": 3,
+    "max_entries": 200000,
+    "max_total_bytes": 4294967296,
+    "offset": 0,
+    "path": "C:\\Users\\ali\\Downloads\\base.apk"
+  },
+  "result": {
+    "by_kind": {
+      "android-binary-xml": 1286,
+      "binary": 70,
+      "css": 18,
+      "dex": 4,
+      "directory": 5,
+      "elf": 8,
+      "gif": 4,
+      "gzip": 1,
+      "html": 14,
+      "javascript": 104,
+      "jpeg": 30,
+      "json": 38,
+      "png": 140,
+      "svg": 31,
+      "text": 362,
+      "xml": 16,
+      "zip": 1
+    },
+    "containers": [
+      {
+        "declared": 2114,
+        "entries": 2114,
+        "kind": "apk",
+        "path": "",
+        "truncated": false,
+        "zip64": false
+      },
+      {
+        "declared": 18,
+        "entries": 18,
+        "kind": "zip",
+        "path": "assets/word/doc.docx!/",
+        "truncated": false,
+        "zip64": false
+      }
+    ],
+    "content_id": "inv_22ca67a9adaeed3f2328af6cc889a3ab2e2757748413ba9e6bca53bb9afe207e",
+    "contradictions": [],
+    "entries": [
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "AndroidManifest.xml",
+        "role": "android-manifest",
+        "sha256": "12666029442daec8a444b08a4aef95e18b12fd11c8f89187d1c27948e8547815",
+        "size": 49188
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/INDEX.LIST",
+        "sha256": "e0e6dcabaad7a9fc3377bcc47a9559a4e00eb96e58fa697112d0f7feacc78ff9",
+        "size": 322
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/MANIFEST.MF",
+        "role": "signature",
+        "sha256": "e053c8e701d84732fc32213775ccca770c329693a94b16ad53cb6c1f5f7d92a2",
+        "size": 240908
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/NOTICE.md",
+        "sha256": "992ed62dd3ee17d73ce6a4a5e02dd0fed9eb326bf386aa5304e6a512214df540",
+        "size": 1074
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "META-INF/YOUAREFINISHED.RSA",
+        "role": "signature",
+        "sha256": "6b428e48dbf95bc45e241ee0e44d439130b92225035d3e44083d9e191eb41144",
+        "size": 942
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/YOUAREFINISHED.SF",
+        "role": "signature",
+        "sha256": "dc089eb521b8651f8b6a606bf6b9aa34d2078c894ab82143fbed92bc843210dd",
+        "size": 240984
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.activity_activity-compose.version",
+        "sha256": "118705d21506adb8d7c06a51156bb59497679f644fb4ae3d14bbbfc366643124",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.activity_activity-ktx.version",
+        "sha256": "118705d21506adb8d7c06a51156bb59497679f644fb4ae3d14bbbfc366643124",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.activity_activity.version",
+        "sha256": "118705d21506adb8d7c06a51156bb59497679f644fb4ae3d14bbbfc366643124",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.annotation_annotation-experimental.version",
+        "sha256": "7d072b48526b023950e4c48db01e8c273554a6401119f5691e7589ba9bc65d9d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.appcompat_appcompat-resources.version",
+        "sha256": "249182a01164b81a5f7af87e5c5cdbd3344a80a7a66dfca624cecfb1501b2420",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.appcompat_appcompat.version",
+        "sha256": "249182a01164b81a5f7af87e5c5cdbd3344a80a7a66dfca624cecfb1501b2420",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.arch.core_core-runtime.version",
+        "sha256": "1b7c606370188534dac5561fba2b2988093829697fce9e6e8832e9291d24ed00",
+        "size": 67
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.autofill_autofill.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.biometric_biometric.version",
+        "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.browser_browser.version",
+        "sha256": "3eb1ef94b5890ca727158b106142685c8733b0ace5bcb4cf3f0ac14f9f0643f4",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.cardview_cardview.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.animation_animation-core.version",
+        "sha256": "068eaa526351c4d1f6a42f79ae5fa0a7d2b74501a0824727fb6baa2db3c61cce",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.animation_animation.version",
+        "sha256": "068eaa526351c4d1f6a42f79ae5fa0a7d2b74501a0824727fb6baa2db3c61cce",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.foundation_foundation-layout.version",
+        "sha256": "068eaa526351c4d1f6a42f79ae5fa0a7d2b74501a0824727fb6baa2db3c61cce",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.foundation_foundation.version",
+        "sha256": "068eaa526351c4d1f6a42f79ae5fa0a7d2b74501a0824727fb6baa2db3c61cce",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.material3_material3-window-size-class.version",
+        "sha256": "33158972a53877b421cfe2598b8d93cab169963a4964b45ee889e85349979018",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.material3_material3.version",
+        "sha256": "33158972a53877b421cfe2598b8d93cab169963a4964b45ee889e85349979018",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.material_material-icons-core.version",
+        "sha256": "068eaa526351c4d1f6a42f79ae5fa0a7d2b74501a0824727fb6baa2db3c61cce",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.material_material-ripple.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.material_material.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.runtime_runtime-livedata.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.runtime_runtime-saveable.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.runtime_runtime.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui-geometry.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui-graphics.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui-text.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui-tooling-preview.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui-unit.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui-util.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.compose.ui_ui.version",
+        "sha256": "aa20308e2605d94642206c3c7fddc34f87b0c62ac67184fe341dfd489ae08d41",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.constraintlayout_constraintlayout-compose.version",
+        "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.constraintlayout_constraintlayout.version",
+        "sha256": "fe650098093fad42070e8a2cacfb216a6c416af57bd26dd6ff479fef69f8bc71",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+        "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.core_core-animation.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.core_core-ktx.version",
+        "sha256": "46081fd90571a274160408ebc81fc91b78ffca4049d477998e3b6909ac245e05",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.core_core-splashscreen.version",
+        "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.core_core-viewtree.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.core_core.version",
+        "sha256": "46081fd90571a274160408ebc81fc91b78ffca4049d477998e3b6909ac245e05",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.credentials_credentials-play-services-auth.version",
+        "sha256": "aaf490c7f3bf12c9dc9d4c70971a0485b472606b384f8c6d9c554a7beabf11c7",
+        "size": 11
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.credentials_credentials.version",
+        "sha256": "aaf490c7f3bf12c9dc9d4c70971a0485b472606b384f8c6d9c554a7beabf11c7",
+        "size": 11
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.cursoradapter_cursoradapter.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.customview_customview-poolingcontainer.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.customview_customview.version",
+        "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.databinding_baseAdapters.version",
+        "sha256": "db67b891bb36d7d725155b26a872ba21840cac42283918d7c29fcb61a7d8738f",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.databinding_databindingKtx.version",
+        "sha256": "db67b891bb36d7d725155b26a872ba21840cac42283918d7c29fcb61a7d8738f",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.databinding_library.version",
+        "sha256": "db67b891bb36d7d725155b26a872ba21840cac42283918d7c29fcb61a7d8738f",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.databinding_viewbinding.version",
+        "sha256": "db67b891bb36d7d725155b26a872ba21840cac42283918d7c29fcb61a7d8738f",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.datastore_datastore-core.version",
+        "sha256": "5dae0c0a5ed3cdaa78704e25bb38d72c31018311e933283d06ed4f93360bfc6c",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.datastore_datastore-preferences.version",
+        "sha256": "5dae0c0a5ed3cdaa78704e25bb38d72c31018311e933283d06ed4f93360bfc6c",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.datastore_datastore.version",
+        "sha256": "5dae0c0a5ed3cdaa78704e25bb38d72c31018311e933283d06ed4f93360bfc6c",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.documentfile_documentfile.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.drawerlayout_drawerlayout.version",
+        "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.dynamicanimation_dynamicanimation.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.emoji2_emoji2-views-helper.version",
+        "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.emoji2_emoji2.version",
+        "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.exifinterface_exifinterface.version",
+        "sha256": "7d072b48526b023950e4c48db01e8c273554a6401119f5691e7589ba9bc65d9d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.fragment_fragment-ktx.version",
+        "sha256": "8a5cf1a45d21627c616df70c6eb4cc774b5b6c050fc272a98c3ce793e5e33b85",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.fragment_fragment.version",
+        "sha256": "8a5cf1a45d21627c616df70c6eb4cc774b5b6c050fc272a98c3ce793e5e33b85",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.graphics_graphics-path.version",
+        "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.graphics_graphics-shapes.version",
+        "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.hilt_hilt-navigation-compose.version",
+        "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.hilt_hilt-navigation.version",
+        "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.hilt_hilt-work.version",
+        "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.interpolator_interpolator.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.legacy_legacy-support-core-ui.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.legacy_legacy-support-core-utils.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.legacy_legacy-support-v4.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-process.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-runtime-compose.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-service.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-compose.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.loader_loader.version",
+        "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.media_media.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-common.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-compose.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-fragment-ktx.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-fragment.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-runtime-ktx.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-runtime.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-ui-ktx.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.navigation_navigation-ui.version",
+        "sha256": "8113ce620372292c25fda221ad5e8adf77dbe71c92c2042f8ca1ec3dfe9c50a1",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.preference_preference-ktx.version",
+        "sha256": "6cf4e084b47f33c9b02ef79279d157833868f8f70514169a768be353ee328fea",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.preference_preference.version",
+        "sha256": "6cf4e084b47f33c9b02ef79279d157833868f8f70514169a768be353ee328fea",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.print_print.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.privacysandbox.ads_ads-adservices-java.version",
+        "sha256": "fd59af1a11a87c35f490ae8837d80fad6873d75984c6669d7531854b4b29917b",
+        "size": 13
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.privacysandbox.ads_ads-adservices.version",
+        "sha256": "fd59af1a11a87c35f490ae8837d80fad6873d75984c6669d7531854b4b29917b",
+        "size": 13
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.profileinstaller_profileinstaller.version",
+        "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.recyclerview_recyclerview.version",
+        "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.room_room-ktx.version",
+        "sha256": "8d093f990bc0fd8fc1299c6ddf1bd203e5ea75d208a6d38f8733a9c9b6f48c6a",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.room_room-runtime.version",
+        "sha256": "8d093f990bc0fd8fc1299c6ddf1bd203e5ea75d208a6d38f8733a9c9b6f48c6a",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.savedstate_savedstate-compose.version",
+        "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.savedstate_savedstate-ktx.version",
+        "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.savedstate_savedstate.version",
+        "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.slidingpanelayout_slidingpanelayout.version",
+        "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.sqlite_sqlite-framework.version",
+        "sha256": "ad8650bc9057d9dfd809961b69dbad640c288d809fa44437d44d83d3b118c821",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.sqlite_sqlite.version",
+        "sha256": "ad8650bc9057d9dfd809961b69dbad640c288d809fa44437d44d83d3b118c821",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.startup_startup-runtime.version",
+        "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.tracing_tracing.version",
+        "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.transition_transition.version",
+        "sha256": "acb57a7135b2d7d6e665f67f056e21353023b93835f54def1ae523bf76f1bfb3",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+        "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.vectordrawable_vectordrawable.version",
+        "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+        "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.viewpager2_viewpager2.version",
+        "sha256": "a21aab2289cc263ab9f4f87810d900bfc731e1240c81c84efdc09a25b013db74",
+        "size": 13
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.viewpager_viewpager.version",
+        "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.webkit_webkit.version",
+        "sha256": "bb0df1bd902faba507c15975eb9973e695f2732f760d851b4f9c7ba17068f5ff",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.window_window-core.version",
+        "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.window_window.version",
+        "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.work_work-runtime-ktx.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx.work_work-runtime.version",
+        "sha256": "5ba2db80e8ed2521570b58d5f1acba3a6b83978e500931fc9768dd85355489a8",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx/annotation/annotation/LICENSE.txt",
+        "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+        "size": 10175
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+        "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+        "size": 10175
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx/collection/collection/LICENSE.txt",
+        "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+        "size": 10175
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt",
+        "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+        "size": 10175
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx/lifecycle/lifecycle-common-java8/LICENSE.txt",
+        "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+        "size": 10175
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt",
+        "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+        "size": 10175
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/com.google.android.material_material.version",
+        "sha256": "c92df6bdde330be219d62f48ec6490b01889436f2f59027aab200e74de619168",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/com.google.dagger_dagger-lint-aar.version",
+        "sha256": "ff25c0694a36414c81b388955ab74822dcb6535908e9bb3cc13ac01601fbd671",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/com.google.dagger_dagger.version",
+        "sha256": "ff25c0694a36414c81b388955ab74822dcb6535908e9bb3cc13ac01601fbd671",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/com.google.dagger_hilt-android.version",
+        "sha256": "ff25c0694a36414c81b388955ab74822dcb6535908e9bb3cc13ac01601fbd671",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/com.google.dagger_hilt-core.version",
+        "sha256": "ff25c0694a36414c81b388955ab74822dcb6535908e9bb3cc13ac01601fbd671",
+        "size": 7
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/com/android/build/gradle/app-metadata.properties",
+        "sha256": "5d0bec607c73c93023f83bc5751a6dd19212f28acec199db40b3d1515f55cc64",
+        "size": 57
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/jsoup/LICENSE",
+        "sha256": "12f89090b34132ac86980044fba5f6d45cfbc02c1eb08e0b53a22b7cb40be446",
+        "size": 1102
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/kotlinx_coroutines_android.version",
+        "sha256": "34d597db43ca53b2fd72ccbdd1af7a0fe238c2c0b8321dad8f43a1613143fc62",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/kotlinx_coroutines_core.version",
+        "sha256": "34d597db43ca53b2fd72ccbdd1af7a0fe238c2c0b8321dad8f43a1613143fc62",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/kotlinx_coroutines_play_services.version",
+        "sha256": "34d597db43ca53b2fd72ccbdd1af7a0fe238c2c0b8321dad8f43a1613143fc62",
+        "size": 6
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "META-INF/native-image/com.google.http-client/google-http-client-gson/reflect-config.json",
+        "sha256": "bf1e1b68a31c24467ddfa5b5fc4791c32ee9eb569f24dca6ad1d3729671cf21d",
+        "size": 627
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/native-image/com.google.http-client/google-http-client/native-image.properties",
+        "sha256": "0d72aebed20c2a322077149f9782792e704bfd949a9716f3595a97b09ae13dcc",
+        "size": 38
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "META-INF/native-image/com.google.http-client/google-http-client/reflect-config.json",
+        "sha256": "8854c252eaf0ff39e3126ff228994fd05dc55f5ed0a0c53fb9e87ec21043f13d",
+        "size": 2662
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "META-INF/native-image/com.google.http-client/google-http-client/resource-config.json",
+        "sha256": "65c4b5ec28573916f82209114f25055dab9e0251c6c4a5b5c7635af2cb312050",
+        "size": 117
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "META-INF/native-image/com.google.http-client/google-http-client/serialization-config.json",
+        "sha256": "a8dc4030720c09c9efcfd5fdd9709e6728c60e0d5781597fa4d03c3e881148a7",
+        "size": 407
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/N9.L",
+        "sha256": "889c1f33af920cb7477941b2c4dc122f5c2937b8e326d3f79536a65e97edbaf0",
+        "size": 5
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/Q8.Q",
+        "sha256": "1c8f3b7c0b1323b54d86255891914009ca014ce4d75011f75af9036b34901bc3",
+        "size": 30
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/Q8.V",
+        "sha256": "de7ee3b0c5fc9d8c86e78222c4f34fdb725c89b8da5b5965e8baa4e7a31e0364",
+        "size": 5
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/Q8.c0",
+        "sha256": "57bce4c358d8fa03abad35b7b445aa0bc0ece07d1c912d8fa3591689c992faf4",
+        "size": 19
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/Q8.j0",
+        "sha256": "e664ac1d35422277b474a82e1daa705214d930b51131e8e86d99e65f3d39ec86",
+        "size": 5
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/S9.s",
+        "sha256": "e7b735721db824ff8864fe6665810bba7fc2f0a892b9d37b2a4d7c6ee2a92268",
+        "size": 5
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/services/com.fasterxml.jackson.core.JsonFactory",
+        "sha256": "8bf715fbf4c33436cce55f9269fc331eb255c322233cdedae4456297b338aaf0",
+        "size": 39
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/version-control-info.textproto",
+        "sha256": "d1c52195c8baf8a63c9d8aad7f40931a1354a9d7d004da7db52b50d7934a3859",
+        "size": 120
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "META-INF/versions/9/OSGI-INF/MANIFEST.MF",
+        "role": "signature",
+        "sha256": "a844d62b02a9eefd9d112e74fd660843d91cd8b81dce6ce60a9eaba605fa939c",
+        "size": 145
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/dexopt/baseline.prof",
+        "sha256": "3c6a2bd763af8e95c62a91825aa8d14c2db6c824e336950f2ba69ccfc22a74a7",
+        "size": 13011
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/dexopt/baseline.profm",
+        "sha256": "2e4694f09b5f8a8fdd0c8f46a0258da7a7d7a7b0dd4e61ee9b325213e1cf1536",
+        "size": 1288
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/gift_personal_message.html",
+        "sha256": "9fe8c7022d80cc093efad8a4fd5e96e2c54606bcbfbc1663e62935f851bc37a6",
+        "size": 1146
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a0.svg",
+        "sha256": "0b16b3707c3fc97a9c56943bcb1cada2d5bf5dcfdcb5daf60cfe41974990d3d4",
+        "size": 1752
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a1.svg",
+        "sha256": "26b59e7cc6d3707be6d47a2983372ff2d33b1e2235f8a427d5fcab9333ec8db9",
+        "size": 739
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a2.svg",
+        "sha256": "a6b3e636bbe8192790d36da3e2abd83a245c3c77af84f47b46ebf0c5b1f298d9",
+        "size": 657
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a3.svg",
+        "sha256": "09acc61adbed95d4488ee040faedcce8709140cc8f6a8bfa3512ec8ee707662d",
+        "size": 753
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a4.svg",
+        "sha256": "8bc6db64c1bff2486a7d3a10a76dc5f2adbebbbc26a7015d0db3633ea8623c74",
+        "size": 809
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a5.svg",
+        "sha256": "b153cd21786266f9e5b3d3d987b274a37556017c1b050bb8b8ce96326a3ab0f7",
+        "size": 1431
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a6.svg",
+        "sha256": "f20d5f25f5d31311cd8a0538ad0c229267c5f0d4ee735084428fb3a2be040b85",
+        "size": 951
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/activities/a7.svg",
+        "sha256": "c175e97b3d5fa608b1792932ca23b84991be2059f18e3b2fa4660f0ac459e321",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "png",
+        "path": "assets/images/def.png",
+        "sha256": "c7bf3a04be66dd02445f24570928383fe995dcaf9201fb4d47e42f3b0613805f",
+        "size": 3175
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/sentiment/ic_sentiment_dissatisfied.svg",
+        "sha256": "cfae4249eea501c0e0c380238b2c1c5c2af20cba5c932cf804e86bcf829a9d86",
+        "size": 975
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/sentiment/ic_sentiment_neutral.svg",
+        "sha256": "151075ec4d537416799bac8948b87f446997ccdf93e96e0098d8c24c16305ab7",
+        "size": 879
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/sentiment/ic_sentiment_satisfied.svg",
+        "sha256": "ae2af6f2763de18545ea7e7c9ff270bb36cc155241ab9837c28cf055b7e36b9d",
+        "size": 967
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/sentiment/ic_sentiment_very_dissatisfied.svg",
+        "sha256": "54e926b67282857886fa1f4eda81b557d3cb4d48b1e343b064a4b7e0d58d9ad6",
+        "size": 1159
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/sentiment/ic_sentiment_very_satisfied.svg",
+        "sha256": "88c684d1c3cdcc452d19f4de7361e2c786ece883a3fab2e09709f76d028afa9b",
+        "size": 1152
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset1.jpg",
+        "sha256": "5a9c9a045274186145354a0aef8836386b3c69eaad30487a1853f46b44ab8064",
+        "size": 92041
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset2.jpg",
+        "sha256": "dc43295618251e76fb755f9df44b5504f41158bc1e3cfe7e2d3a702e4edaa468",
+        "size": 27373
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset3.jpg",
+        "sha256": "ccffa83553aa2edb4110216eea78c73fd81644d82376091d9fa1ea05ecfc5889",
+        "size": 147145
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset4.jpg",
+        "sha256": "cd1fc120e5034f33539f1e5dbbb0af8d5ce7616ede85c910b5c92734cbc78375",
+        "size": 35192
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset5.jpg",
+        "sha256": "1de4187f7bea37e2dc31e44d5a031a51812afe3108f07cefdf6b334301587cba",
+        "size": 938902
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset6.jpg",
+        "sha256": "1c8de616fa435e2ddd2b3a54db91a136b782da1d3aaef16b675567bd90adfd17",
+        "size": 60981
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset7.jpg",
+        "sha256": "e7d8edbed73e5b2615390f437a529d9fa951afcce0aba5d4d29fe00d1527b203",
+        "size": 54231
+      },
+      {
+        "depth": 0,
+        "kind": "jpeg",
+        "path": "assets/images/wallpaper/preset8.jpg",
+        "sha256": "b7bbfcc9a8a76d8c8fc3f5b7de4eb0b410a0ee9d54151d28c420a387de3d82e4",
+        "size": 341430
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w01d.svg",
+        "sha256": "0b485bdf7c937cc500568d6b253c34f891f9bbf65b7980da35453b311eb03c95",
+        "size": 1791
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w01n.svg",
+        "sha256": "c749afc37ab6f567ef48c8b7acb8f03903e55c342f9223522535f3785dec591d",
+        "size": 1510
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w02d.svg",
+        "sha256": "5e63fa07fb667f53eb27de2203c66088836bbc1a1eacb21323788c50d7f2bb03",
+        "size": 1713
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w02n.svg",
+        "sha256": "4bed3907c1a62df4f82fd538bbebf57580cb8380989ad7e15171ce2bfce3f131",
+        "size": 1779
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w03d.svg",
+        "sha256": "9b83a7051f515a4002ef30c64474167372b36ae3e1ca499bca0789a1881e8374",
+        "size": 615
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w03n.svg",
+        "sha256": "ede248a6075961c376b85ecd9a23a9a01ac02080a6516eda9e9ed1ad3003c778",
+        "size": 1401
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w04d.svg",
+        "sha256": "0123f9a5bb9ac3487e5c054ec52c639f89961207af6d56fedec11db375185a95",
+        "size": 1112
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w04n.svg",
+        "sha256": "1f0b5227ad201b4d2132b6d9f014796d4505019881954934856e3de29f2a0311",
+        "size": 1893
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w09d.svg",
+        "sha256": "d91fd5a0e64b8cd1c29f6db5b77f0974caf8c6c25e8e75daf92d35d3d78b868d",
+        "size": 2479
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w09n.svg",
+        "sha256": "7fe204dc9a67b467de766ccef05e839d289fd41eaa23c375a1c05b253dbfad42",
+        "size": 2600
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w10d.svg",
+        "sha256": "e00774602a86f46549751ce3480d29d838f25c6ed15a57d82d78ed99e45f5244",
+        "size": 3178
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w10n.svg",
+        "sha256": "2302654fc6c111a947fdfc12d20d8abd155e846be8d9a7a65d65c4cb8605d043",
+        "size": 3191
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w11d.svg",
+        "sha256": "b17dd2230c45ec6f42f097a97876ce8c5ef1080780c5a5eab737316886f14974",
+        "size": 1989
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w11n.svg",
+        "sha256": "8e6c582a978a364cb69fa483dddc39851362e0a79713e9f2ab402ecab60b5e90",
+        "size": 1965
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w13d.svg",
+        "sha256": "6a8c6a263f86b2b5a0e8792a3b330147d5502097b6f662e20d504bec272a9261",
+        "size": 5167
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w13n.svg",
+        "sha256": "5a12589a7be9d66a7dfa7cc4c9490ea7f214dd8a0c070e989e985532de82b7ae",
+        "size": 5211
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w50d.svg",
+        "sha256": "da85f19f1c886abafcaf7b91e8b83a801171c39497ffb0bbae24fa4f8f45dd98",
+        "size": 4226
+      },
+      {
+        "depth": 0,
+        "kind": "svg",
+        "path": "assets/images/weather/w50n.svg",
+        "sha256": "d13d36797fcb65475587bc4b50705f6e5b83276a92c8c091e19e3c81edfef3fe",
+        "size": 2278
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/Converter-legacy.3e02ec3e.js",
+        "role": "script",
+        "sha256": "f4e6684b49d359a95f9e3c5537dee6a3ea653dc779503d7a7f3b39deede1e1d5",
+        "size": 24421
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/Converter-legacy.bc140e58.js",
+        "role": "script",
+        "sha256": "30ddfeeff79484e349d115440f3ad5730f3c0aae277d476bba14a093934af8bd",
+        "size": 31793
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/Decorator-legacy.312f7f82.js",
+        "role": "script",
+        "sha256": "a5565663175447a3200d25e0929effffe54893ddb3d040f5aaf84bdf3630341b",
+        "size": 2200
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/FdxFormatter-legacy.3c9d2925.js",
+        "role": "script",
+        "sha256": "105c5203d6d87a8d1c7b5c641491adf7b56e988d1b32aa5d97128d98e00f48e4",
+        "size": 15869
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/FdxParser-legacy.faeb361b.js",
+        "role": "script",
+        "sha256": "de03c3bc5cef021037e9f2548ec89e0a41571c82f7d738ad4243cdb9f95e495e",
+        "size": 61501
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/FountainFormatter-legacy.ea8426f6.js",
+        "role": "script",
+        "sha256": "60769de44559354fb10985e14c774e46abd538e944d5d5a721b435b51365fdbe",
+        "size": 10711
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/FountainNode-legacy.0c0851ef.js",
+        "role": "script",
+        "sha256": "537e7920ee9d34f2f3b4fae9af35831265087a90ceb36fd1112d2443bfd529d1",
+        "size": 6726
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/FountainParser-legacy.549b6dc6.js",
+        "role": "script",
+        "sha256": "18af8014d29c58d9c8cac1ee077273048bb12a67d52ae8c522749987148bd55e",
+        "size": 14234
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_AMS-Regular.479c8788.ttf",
+        "sha256": "479c8788e05d188c708214c72d2b1d03a0834b035cf621fd26ecc2a048e97d9b",
+        "size": 70936
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Caligraphic-Bold.697b1c9f.ttf",
+        "sha256": "697b1c9f6e11e42800664b58d06173e96548f87ad8b96a37cb01fa4b897dff9b",
+        "size": 15416
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Caligraphic-Regular.b40a2796.ttf",
+        "sha256": "b40a2796e46b2f558dcb5158bc76ffd7d5a7cbe35c0662a7599c9e1a88ae4e3c",
+        "size": 14908
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Fraktur-Bold.f7184e0f.ttf",
+        "sha256": "f7184e0f0eb9ebd69d81acbd01bbd2519b82f4a4701530d40e47154680d07a02",
+        "size": 24400
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Fraktur-Regular.ae44802f.ttf",
+        "sha256": "ae44802f0b88aca9a5b0150990c7dbd2c51bcf725da05cfb71f878c476017711",
+        "size": 23904
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Main-Bold.deba64bd.ttf",
+        "sha256": "deba64bdc3911c01e7bee8c1c9c736d3f5859eaea0d91d5a793a140b21d6b1c6",
+        "size": 59972
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Main-BoldItalic.a70a4daf.ttf",
+        "sha256": "a70a4daf27a074dbc86ca6b186306b852792929da734394fbc62ad3b788aefe5",
+        "size": 42872
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Main-Italic.06af0fba.ttf",
+        "sha256": "06af0fba8798a625f89e5c605569a3a44828e2677fa9481fe06205d2062c7ba9",
+        "size": 46028
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Main-Regular.eab76eab.ttf",
+        "sha256": "eab76eab40c7dd342bc38c05d008b96a3a603f6c0bf635701ed1c6b2f0c12fcd",
+        "size": 68880
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Math-BoldItalic.23d872b2.ttf",
+        "sha256": "23d872b2185ce3c530e32c25bbad141de622dcc3171e939f33b2b1b55086396e",
+        "size": 42300
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Math-Italic.517b4b11.ttf",
+        "sha256": "517b4b11866ae3d18e74168ebb179f88cb56668de40ea1e23fff0a61f78ef04a",
+        "size": 44484
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_SansSerif-Bold.e818e3cd.ttf",
+        "sha256": "e818e3cd8065e949ca547607045e1cca24912d02f1b44d3efcac67ba6320f619",
+        "size": 32588
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_SansSerif-Italic.60b24721.ttf",
+        "sha256": "60b247213ad93691bcdb19438cb0b67c7ea2fb4b3a72e82078beb791dd2b941a",
+        "size": 29860
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_SansSerif-Regular.081f08cf.ttf",
+        "sha256": "081f08cf7e0a8a68cdbb29977fb0bb10a1dc71f7ae9b53648f79e98532ee26fe",
+        "size": 28708
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Script-Regular.cc796f5f.ttf",
+        "sha256": "cc796f5fea153a7134e5050fad1bcccadee89d52ace60d498f6fc1f1e069032e",
+        "size": 23520
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Size1-Regular.5293e7e9.ttf",
+        "sha256": "5293e7e9ac564ccd10deceec3a4cf3fa0754d3ce53ba3a4af21ae215686af001",
+        "size": 11932
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Size2-Regular.48c988b7.ttf",
+        "sha256": "48c988b76e6f36614ca627c3c1ff550fa02da781a97364475374b5c02912f2a2",
+        "size": 11080
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Size3-Regular.230588b6.ttf",
+        "sha256": "230588b650d4d4d4e47127f7d6d6a0f88ae73dabc10948928eb20ea850f26ad9",
+        "size": 7028
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Size4-Regular.114d46ba.ttf",
+        "sha256": "114d46ba510a4d816884afcd2b98a4d6cebd5ea7afdeb6f849fe5abf9b727ee9",
+        "size": 10008
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/assets/KaTeX_Typewriter-Regular.c3d1c2c8.ttf",
+        "sha256": "c3d1c2c8c0455af0db352e704e4fd4c5ae692cb3b895b6be752f5a89bf3b93f5",
+        "size": 34560
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/LatexFormatter-legacy.8af32b55.js",
+        "role": "script",
+        "sha256": "a2526fb2871197f0265ea486e9823c3bef751d393a34109c817cd397fbfd6ef2",
+        "size": 47414
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/LatexParser-legacy.7eed53c1.js",
+        "role": "script",
+        "sha256": "c2b86585e15ab416947ff5c3d5e24cdc19bb808e8f26944de8859c399f3d5c57",
+        "size": 2582
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/analysis.worker-legacy.52f3f96d.js",
+        "role": "script",
+        "sha256": "56083654393441bc41967a014f9916d5a3bcff7c13bbddc490236fd0eda1db57",
+        "size": 22191
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/code-legacy.0db0d671.js",
+        "role": "script",
+        "sha256": "5ee51dafa49cb0b07640d3a4851c175dd7d8c8a9ffe6a4928082bfdb2440d7bc",
+        "size": 17683
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/code-legacy.495b735d.js",
+        "role": "script",
+        "sha256": "2c089a648a060f18987bed5d2f49e19c2b7586191c867e96039145f69d9f415b",
+        "size": 6859
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/code.75548ae5.css",
+        "sha256": "57e02bca727ad5a0fb38b71ab67ee1268fb4991c9813b3c33cc39d9b8f4be0f3",
+        "size": 2680
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/def-legacy.98a8f5f7.js",
+        "role": "script",
+        "sha256": "21c3b1588609ee5ed241d329638aaf31fba52c6d06d1b38ed7272a6959c4c5cb",
+        "size": 5779
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/editor-legacy.51735b05.js",
+        "role": "script",
+        "sha256": "94f3f6b7fbf242baf3077537779fec0b313f94defec786441f477663d948c836",
+        "size": 12682
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/editor-legacy.665836cd.js",
+        "role": "script",
+        "sha256": "885ab22008d31a833d6889900058e86487b9cc1dd1de7e148b35acb05e701bc4",
+        "size": 16448
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/embed-legacy.4b96b9e0.js",
+        "role": "script",
+        "sha256": "bd95dc2c11147dc717c76e90ec3bd23e55be2521b75ef9e8d75788de5b99e1ed",
+        "size": 4267
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/embed.670e5924.css",
+        "sha256": "c77d0034f7632f8c754a4687ad9872ed3b37012eaac33abef05cee3f5af133a0",
+        "size": 1477
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/exporter-legacy.5dcf14de.js",
+        "role": "script",
+        "sha256": "48497b1e62bd73adc2804e43e0a913a5030365e8ec7dc735a87ed86f8f7f5274",
+        "size": 373188
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/exporter-legacy.9e2a8d46.js",
+        "role": "script",
+        "sha256": "eac3d91ba2558f19f45fe79d1d7aeded768d96ed5af7b238d9f11d158e5d2d2e",
+        "size": 4427
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/ext-language_tools-legacy.0995293b.js",
+        "role": "script",
+        "sha256": "cf28469f70aebc170cc34145d833c2ae5577ee390d32341317404024e5f9c431",
+        "size": 41175
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/generic-legacy.d7685b1e.js",
+        "role": "script",
+        "sha256": "912fe8dc6e87e14f62e25c1ff6b6c321e3cebae023a8c923a0d1ad6ad0c392b4",
+        "size": 4546
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/html-legacy.1b5b63ff.js",
+        "role": "script",
+        "sha256": "8c3cc3c4e41357a57283cca33c66546714f6d6ebdf41899eea5828da9be2d911",
+        "size": 5142
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/html-legacy.92beba13.js",
+        "role": "script",
+        "sha256": "bf7b5befd871efc03e8a0811465bd704be2d5dacf6cadeff39b9d6003e2c81ce",
+        "size": 6831
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.081d7109.js",
+        "role": "script",
+        "sha256": "2a95745c9511bb665dcb5137a3066c53d05a1b041d9d2ebc30ef466c3ae3dfa8",
+        "size": 1924
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.1a6c2b1a.js",
+        "role": "script",
+        "sha256": "60f549ad2aeaa5b498d29692da98cea2c8809a8236d62ebe0c67cf236587f989",
+        "size": 212043
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.1e8fe435.js",
+        "role": "script",
+        "sha256": "b08d6a8e35b752b4b1788a57a91befe87eb3f168cc07a31f002a9409cc409937",
+        "size": 90988
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.21c4669f.js",
+        "role": "script",
+        "sha256": "d616bd77f135b9b361aab621d61c4ffbf85840cb35f7ed4cff7023179dd2ddd9",
+        "size": 14703
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.31fd3437.js",
+        "role": "script",
+        "sha256": "13df8549c0eb6aab4fc9264b553ab758abf263b02ee1c4f96958a559d10cd6ab",
+        "size": 5276
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.5b69797c.js",
+        "role": "script",
+        "sha256": "a63142367e781186bd6a79ffc3a1ae4514d3bbf5f1e91b2bbe2b0acaaf493e6e",
+        "size": 2556
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.6d52a11c.js",
+        "role": "script",
+        "sha256": "0f8c700880466a86513f7c0d31589d88f2c74fefd5111c44433e2528bcda22e9",
+        "size": 1697
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.8078a911.js",
+        "role": "script",
+        "sha256": "f69750365729a615f2f52cacde548a3f05454ce512ce509b0617539eb5a38331",
+        "size": 1692
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.817630f8.js",
+        "role": "script",
+        "sha256": "8306ff17b7ce36c002e8a1f360066ebf5c438019b8c62aff69eb68fa2b522c85",
+        "size": 8107
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.8993b2ae.js",
+        "role": "script",
+        "sha256": "003110286edf769dc9991e249a65af4a696daffc7f0b2b05910039b775973a63",
+        "size": 6694
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.a4a2b118.js",
+        "role": "script",
+        "sha256": "a143550e00e7cf8fa859f119b3a6ddcbbdb2ab03c53e9e5a5cf97f753177a67d",
+        "size": 2377
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.acd2c7a3.js",
+        "role": "script",
+        "sha256": "0cb33c1600f9caef5888763e951ba649a17379c0af25100bfff7ce4adffca809",
+        "size": 3072
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.b52ae5e7.js",
+        "role": "script",
+        "sha256": "2acc15c381bef202f5f0442083f3d39fc161d0e9e932d1dd58925d9dd03889fa",
+        "size": 3026
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.d92efdb9.js",
+        "role": "script",
+        "sha256": "9a421dc6b8b0424df2c90fd38685bf1e3eb21ec9c649ecd089ff15278f52a19d",
+        "size": 5330
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.da355877.js",
+        "role": "script",
+        "sha256": "21a966683039c32324145e6ed98689f7de0cef1484782f8613c37cfcc376eb01",
+        "size": 39724
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.dd69523c.js",
+        "role": "script",
+        "sha256": "3b96168cb5881e5a867d1233a684c30a2d04d61f24b34e7026d742adb820e2a8",
+        "size": 4845
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.dd88887e.js",
+        "role": "script",
+        "sha256": "382b6a0f03746bb2fb614ae486a2c8d11b879c1f70321b8d81d16095e02732fb",
+        "size": 37465
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.e8875e87.js",
+        "role": "script",
+        "sha256": "8815a9f87a50ea6a0d09366f69522a9bd315def32ebb7406199433e2c3157338",
+        "size": 1683
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/index-legacy.ef402bf5.js",
+        "role": "script",
+        "sha256": "62545dcee6f5816e8360a544c19af0d67f617a139b45b2c62b1f9f14cf22d665",
+        "size": 3340
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/jquery-legacy.5c12f642.js",
+        "role": "script",
+        "sha256": "b8e81f612ebe8a5cd694f77f61f9fd6632eaf4206550568f2634e8d040b1aef7",
+        "size": 91991
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/latex-legacy.4bc60fdc.js",
+        "role": "script",
+        "sha256": "ca83dfa2be2fa400d184d1c2f165de5731820940140badb28de003a46ff62b78",
+        "size": 21031
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/latex-legacy.5295abd2.js",
+        "role": "script",
+        "sha256": "e873b213f432a0d4b1eb25761088e0ad9435e0648ddb24676786056d806b8a47",
+        "size": 71849
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/latex-legacy.5f0fa2d6.js",
+        "role": "script",
+        "sha256": "bc3dcd9e10fdf38b52fd1c40f8ba81c1edf3fbafaf2b33ce2112466a5699f75b",
+        "size": 69765
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/latex.be44efb2.css",
+        "sha256": "491e37f523347f0e90238d8d0b50305acf5fdfe9294cdc44a7f7a1a41ca0a73c",
+        "size": 2737
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/latex.c0960a47.css",
+        "sha256": "ee9fd2e6d699a9e3f05ee59a7913ade97a634d7a2d0138d2e6555385e43ac6d1",
+        "size": 39810
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/math-legacy.13c89e97.js",
+        "role": "script",
+        "sha256": "be8ae55b2752ebdd53a443cb1ba940589ca248ea796efe5f9d13e71b0515b6db",
+        "size": 4933
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/math-legacy.a8990e01.js",
+        "role": "script",
+        "sha256": "a8bdbea851c5c4664c1d1daf369855d7195a0e922fd57b23425a07004f87b387",
+        "size": 32512
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/math.807a9064.css",
+        "sha256": "980b16163b168aaf15cc91b968a10045c3eeee5d943d601c7af28b15088a9719",
+        "size": 24431
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/md-legacy.920414a3.js",
+        "role": "script",
+        "sha256": "446df8573ad3a27757ee3aae47e0920cf1406a1fda4d45440165565baedc5f97",
+        "size": 299140
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/md-legacy.f597f58a.js",
+        "role": "script",
+        "sha256": "055931dad6d38822d199f596be24baf4b9bbc626b400e4e4e9b31dad654be3b5",
+        "size": 45738
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-c_cpp-legacy.761bd126.js",
+        "role": "script",
+        "sha256": "d69bc2d4b5162e4fdbc148639be121cf51182216e4b7ead225e4a9db84e20077",
+        "size": 13148
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-csharp-legacy.ba641583.js",
+        "role": "script",
+        "sha256": "126b780862c58377ceae37082c7720ff35ad582b1aa4b364ef5567a6676b48de",
+        "size": 10849
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-css-legacy.f7cfdb66.js",
+        "role": "script",
+        "sha256": "9c73876ac14b69f9188c12e869b85cdedd384b503b695f39989f7c1832486e85",
+        "size": 22743
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-django-legacy.7cf23b9b.js",
+        "role": "script",
+        "sha256": "e56ec8f02f2451eb89c06b6ae9381fb42096137c3c0f352d1c25803df66cefcc",
+        "size": 63909
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-golang-legacy.284da902.js",
+        "role": "script",
+        "sha256": "681759a8b029b8a9837e2cb76d279ce5eaa2cd9f42d273509b0d05860fc83f34",
+        "size": 8964
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-haskell-legacy.7eb4da65.js",
+        "role": "script",
+        "sha256": "cb364d95b12a9132cc7a6e527dbb13ec10d5ec2081bc39ab9ad0311cadd8c2af",
+        "size": 13613
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-html-legacy.4e1caf15.js",
+        "role": "script",
+        "sha256": "d579368ce3c9e9ca3026fc82aa7c667b4c59885ca374c3ec3f1651d21078c674",
+        "size": 62547
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-java-legacy.675f5d37.js",
+        "role": "script",
+        "sha256": "2bfce8244bc9a36534edb468eb95af4b5fad9094f1d2eff4435dcd83a3360820",
+        "size": 25513
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-javascript-legacy.4c0ff95e.js",
+        "role": "script",
+        "sha256": "85aaa209549e537b172718154fb243eccf4c92d92909be9dfb5cf561ab515988",
+        "size": 20282
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-json-legacy.db1f55f7.js",
+        "role": "script",
+        "sha256": "20336bac42abb11af9ccd667d872d6f202ddac144a9d9b6c2df04ee108ca408c",
+        "size": 7301
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-latex-legacy.178a9684.js",
+        "role": "script",
+        "sha256": "4a4e947f83b0a6888d6c33a78c0d5b868ad05daefe113546f9fbf4792d83970b",
+        "size": 7312
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-lua-legacy.914e14a2.js",
+        "role": "script",
+        "sha256": "bb7b71dd9aec9ec633cc94cc9f1299d4ffafe66a169fd2b4a69a8d69dbd98623",
+        "size": 9541
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-markdown-legacy.5dc74259.js",
+        "role": "script",
+        "sha256": "7d6d9f621ac26c0affcdcef27f05297dd06495463f4008e65ed548eb08745aca",
+        "size": 74167
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-matlab-legacy.eabacfae.js",
+        "role": "script",
+        "sha256": "5ba09cf1b931d6449650f4d50e65bcf9eefe855db85a8bf3807b2be7ad89c529",
+        "size": 22693
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-mysql-legacy.6c122225.js",
+        "role": "script",
+        "sha256": "0a0cdec1c428b4095cd9c93eb39ecc8394afe36c83e4d0031a7ffb52255b0fd2",
+        "size": 8667
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-ocaml-legacy.42b1e275.js",
+        "role": "script",
+        "sha256": "1063cf4985d8806104856e2392bbf215e573b65d0d658f443be04a7f9abf98f4",
+        "size": 17664
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-pascal-legacy.6bf0dc8e.js",
+        "role": "script",
+        "sha256": "005a8933a6ed93081cc98ec04a62714cf3622083f5aae485543fe84b085b8ba4",
+        "size": 6286
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-perl-legacy.2ac8b11f.js",
+        "role": "script",
+        "sha256": "b267ae61d75ac7387951c32b0d69f9bb9a8429836b873a8b7dd108caa844c24e",
+        "size": 9456
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-php-legacy.a97f3fef.js",
+        "role": "script",
+        "sha256": "acc4b0ca6e3d2ec28c6f737823abff7c7f3df450594220cdb3fb1748e6e5e505",
+        "size": 476028
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-python-legacy.dd2552d0.js",
+        "role": "script",
+        "sha256": "3212679450644bafd47caf8f15936bd43263326dc4c2f6c0faab264aefd98b46",
+        "size": 9859
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-r-legacy.078c2440.js",
+        "role": "script",
+        "sha256": "e50fc98f83e6d6aceef1ef3b3c3cefa05fea8587580d82e37d40567f2b8ee1e7",
+        "size": 7314
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-ruby-legacy.ab8bf66c.js",
+        "role": "script",
+        "sha256": "bf9d0d40f04dfa52096cd73c0cf883180cef7235c440f70c0ad3f866716ea396",
+        "size": 21647
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-sass-legacy.af59e1ea.js",
+        "role": "script",
+        "sha256": "4aef60c7a0832c1a44576422f9860e066bb1a48b0a6cfe8ad062501802aacaaf",
+        "size": 17743
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-sql-legacy.63a472fb.js",
+        "role": "script",
+        "sha256": "dca0a9256d6b6858c3b92d72668d255240f91047b9c6c6f7ff88254fa9ce2396",
+        "size": 6565
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-text-legacy.0bc372a0.js",
+        "role": "script",
+        "sha256": "f3ef26250178631546111168804d1728a493c90ade289453b306c4c6ac10bbf5",
+        "size": 2161
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-xml-legacy.6359e0f3.js",
+        "role": "script",
+        "sha256": "f1bf871a0142f0d6b2657ed944e55ea1cf9fc8c9c700a417a6bd76885349b0de",
+        "size": 13934
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/mode-yaml-legacy.02c05cee.js",
+        "role": "script",
+        "sha256": "1a17a8e68f4098121bca6754dfaf46e83e0e1bb016828b84eaf68f71a982b731",
+        "size": 6818
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/numbering-legacy.d414ee76.js",
+        "role": "script",
+        "sha256": "14de440d85a0644a5b7ec408b2503d657f71bab8f1920536a8c0d2529552dc83",
+        "size": 5357
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/plugin-vue_export-helper-legacy.cd689f31.js",
+        "role": "script",
+        "sha256": "0fb9fde00880dac2c678b36036b205b30e3216c03c3e2e55d4bf271aa53180fc",
+        "size": 3294
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/polyfills-legacy.a1a7486f.js",
+        "role": "script",
+        "sha256": "92a618a98f14fbc33df1b790284280790b83737db626d6ff314c06c13c5a319c",
+        "size": 124867
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/preload-helper-legacy.a5ae5050.js",
+        "role": "script",
+        "sha256": "305a8077fe9cc0a7303c77f8b019b797159ae2f1ecd20a1868f389bea98749d6",
+        "size": 1540
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/preview-legacy.c68b6a8e.js",
+        "role": "script",
+        "sha256": "adde547d666ece98e655cca5e39cb1afc56656c53cfd3f6c8b31fb8bc7aace7e",
+        "size": 94746
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/preview-legacy.c788f17b.js",
+        "role": "script",
+        "sha256": "eeeec0dd16e2af98173a5f8d93f3c95945e3237783569137fabc3a9cdedfb7a3",
+        "size": 11949
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/preview.3645149f.css",
+        "sha256": "0b53d88e48a6f163cfc4fbb2db044849e6975ce250cc9cf01b67623e20fe299b",
+        "size": 81175
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/screenplay-legacy.206261b2.js",
+        "role": "script",
+        "sha256": "e51b293271397f6b817a4c87b8d6086d887c9b5f3335125bdfd8e909be807aba",
+        "size": 39248
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/screenplay-legacy.49c07cc8.js",
+        "role": "script",
+        "sha256": "fcee264a81b143850d93dccbfb4bd670a6c357739868a2d5df55407241ff0003",
+        "size": 33945
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/screenplay-legacy.5eaac67c.js",
+        "role": "script",
+        "sha256": "1aebfb60301e6d44ca80d4c78ed513f8cb3435ddf5ce39e6349a5217de332cd9",
+        "size": 14570
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/screenplay.669ad230.css",
+        "sha256": "d361850166c557358e219e219520bec5c42dd0f699cd39d8eeaed0b42519591d",
+        "size": 1477
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/screenplay.efba1ec5.css",
+        "sha256": "630f113d80b15651107b6456c86a77b6101df0dd77eb561cbf918be7c0801f9c",
+        "size": 19396
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/styles-ft-legacy.19817c7b.js",
+        "role": "script",
+        "sha256": "1ae4eb882132fb6cc321aae27a4195d9d3d287fd6776e1994d68206aca0aa734",
+        "size": 690447
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/styles-legacy.26be92eb.js",
+        "role": "script",
+        "sha256": "4faffef8e011d9f99c6665957eed37471eaf59d7ac4ff617c5cc4132367bb2d1",
+        "size": 39147
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/suggestion-view-legacy.cfb47715.js",
+        "role": "script",
+        "sha256": "b69664aec53133cdbb1f488a9812885b043d441dda8fead59ab109f4c1e4281a",
+        "size": 9302
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/suggestion-view.520c90ee.css",
+        "sha256": "8bb76201fee18524e835893819e9d9a0ee8532538b917776f29d4e4ec44ff4b0",
+        "size": 1651
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/tabular-legacy.ab7b5d56.js",
+        "role": "script",
+        "sha256": "2791b214943c9f8d8360cd6b4a7c3b943aa8f2bdec05e359b22ad594f01c25b1",
+        "size": 6738
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/vendor-legacy.5f9a6ac8.js",
+        "role": "script",
+        "sha256": "0541dbfae60860b5ffb25add89fc7fd6f6f8c0b05f2476a4aa6c8450e7ceede2",
+        "size": 1722014
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/vue-abc-legacy.da2eeb0a.js",
+        "role": "script",
+        "sha256": "c3e4fc53d7698f092b417fc56cc5f2202573d3c03bbe1761d56d8f60f7bd0c83",
+        "size": 464250
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/vue-abc.f06c8ab8.css",
+        "sha256": "c27ba1c0ac3b1c5f4c0cd3ae208ba0fbf808aee85a463db5b77d8ca2dcdebef2",
+        "size": 1640
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/vue-markmap-legacy.8ec5fa28.js",
+        "role": "script",
+        "sha256": "7cdc9b56e5f4f916b19f1493318878e3bb88fdad6519e1e7d3ae80c8b7cd6c33",
+        "size": 485994
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/vue-markmap.6ede6c86.css",
+        "sha256": "a151391c2249486776d0ef7096fc4f310bb3e4e6a9393438aa32d59041fe1dee",
+        "size": 1919
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/vue-mermaid-string-legacy.bee18f3c.js",
+        "role": "script",
+        "sha256": "8c8cf0a5cdf1e2e46ecdf7b4280159305157115febf3504725407fc5ef9379ca",
+        "size": 1108638
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/vue-mermaid-string.54425898.css",
+        "sha256": "5e1d633660b2ea859b333da9fcc3389540361acdc47a0ac701628ac8984332ee",
+        "size": 1640
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/vue-smiles-legacy.428b8ba8.js",
+        "role": "script",
+        "sha256": "30896c3100872b171be84bfec843e138d256d98d0d70f078cf2e62353d54257b",
+        "size": 145028
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/vue-smiles.2e2ab256.css",
+        "sha256": "d4dd3eceb495b9c8c0a80529b2f456ad02d5a0372eb7d84bc22c505413a021ad",
+        "size": 1638
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/word-density.worker-legacy.14decd90.js",
+        "role": "script",
+        "sha256": "c1f30b0dc0d564fa023870d47358cc44907405842ca6cedc9a7457df6e60a05a",
+        "size": 163975
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/word-legacy.075dd8b0.js",
+        "role": "script",
+        "sha256": "2dc4c42a93a20293fa1c8e329eb253179470b06ec2fa512c5f748495bf444286",
+        "size": 16601
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/word-legacy.4a3964b6.js",
+        "role": "script",
+        "sha256": "a59dbf2ead2493e27d7c24719e7f14ed51dfa5d054c35f65ca744bf1c4d98c2a",
+        "size": 67320
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/word-legacy.7287fe99.js",
+        "role": "script",
+        "sha256": "cca98fbf50c5b7548bc6a9c7c684f5ee2260cec29a07206b0c32be68c28ffd8b",
+        "size": 38702
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/word.0137d8a8.css",
+        "sha256": "8e51664d12360e16d2199487c930853eb0c452fab4515dab1fe9ab2497bc540c",
+        "size": 39089
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/jotterpod3/assets/word.41213573.css",
+        "sha256": "60ae5bb997bc72ac87d49c97a6b454bb83fa0951f08167e5e8d938fc0de9bc9f",
+        "size": 3099
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/jotterpod3/assets/write-good.worker-legacy.af53ead3.js",
+        "role": "script",
+        "sha256": "fe60251b62f5e2f87177d61e72a897015438343f42c0560c3888bcece655aeb4",
+        "size": 37591
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/code/index.html",
+        "sha256": "870686c7945a176e389ec8be77b111e819d9e572380270befdcfe7a8bb79c6ce",
+        "size": 1072
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/embed/index.html",
+        "sha256": "833dc64fd15d3c6452ec62cff3e68fe95cee5a0e8345305034c40660cc52639b",
+        "size": 1159
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/jotterpod3/favicon.ico",
+        "sha256": "c3df475149678ec89a68950976b1117edc5684fd2010f1cce45b6f9c6874c504",
+        "size": 15406
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/index.html",
+        "sha256": "bc0e5a3268ade4cadbf9b70e547a0e568da4c98db6e542f8f9744b6a8f136c72",
+        "size": 935
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "assets/jotterpod3/languages.txt",
+        "sha256": "c3700097a79e98610e320c7c658e1a2d6e80f288e1b7155d3acd6325dd2a3ddd",
+        "size": 8004
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "assets/jotterpod3/languages2.txt",
+        "sha256": "22509e86599c5f9898ee2dc34db83d8cd5512c45066d3316a8cfddae6b6984ce",
+        "size": 8003
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "assets/jotterpod3/languages3.txt",
+        "sha256": "610309ef67f32546a209499c402120e5b3398202edd65c9e768596ce2374ca27",
+        "size": 6218
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/latex/index.html",
+        "sha256": "d0ac73ffebf3e421d34a43ac87a8a49ad85581c6dc7095e7cd21ea7726be4075",
+        "size": 1069
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/math/index.html",
+        "sha256": "fe226d46436cb2bbac34fd989517dec1d6aab8b94558632f1879accf47f7999d",
+        "size": 1067
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/jotterpod3/package.json",
+        "role": "package-manifest",
+        "sha256": "55a1a613345cec78ac0ef532c1c4bfaa43f38fe793171751d5ce63e3a12ad0d5",
+        "size": 42
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/preview/index.html",
+        "sha256": "a1ac64ae654b3c99210e6cda2cc5689a5e06bfa4fe6b4379e817054fe2288f82",
+        "size": 1083
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/screenplay/index.html",
+        "sha256": "9d76efb71924f21f1f332583fbd7a4894ea8f4d3ff68c16e92e5d4b7b29b3647",
+        "size": 1079
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/jotterpod3/word/index.html",
+        "sha256": "01885dee5eb0edc47a94cbb8498821324f7ab93d991eacf8310ee67da0ed9510",
+        "size": 1067
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/offline.html",
+        "sha256": "5c7c7b5e19f6d7d87f28ae85af506889702747daaa929d5b86d5ab2d39d40777",
+        "size": 1020
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/pdf_content.html",
+        "sha256": "51ee880b67ee642328b11dd6ed0ca3ea0b527546a2bba03f9ff4abdb037feb5d",
+        "size": 816
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/pdf_frame.html",
+        "sha256": "1472a9e54f6c4cc0dad7451b47bab03974552bc10ec1d5534b32fda65dfa022d",
+        "size": 2037
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/activity.json",
+        "sha256": "772d5fd310ef28940a83526e262a2e8c9b75e936c53046208fb44b995ba82c6b",
+        "size": 390
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/android-biometric-unlock.json",
+        "sha256": "b340c72c1ee080131d061770c6d73962e2b6727955392888722090d34923072b",
+        "size": 589
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/coach-programs.json",
+        "sha256": "5c440b66d00478ed2b05595f318b286dfc1a36ad77823c31ee2ce573991439f4",
+        "size": 647
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/coach-templates.json",
+        "sha256": "ef955de8713b8b6eb1bfd98e1b18ec88c1b5fb061790a8ffb555a50fcfdcb1ca",
+        "size": 466
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/custom-templates.json",
+        "sha256": "9a409d4b2520fa47352659c4596c55f861ce373fc7c7c2291c9489fa6aea804a",
+        "size": 549
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/email-reminder.json",
+        "sha256": "b54a0ba337fd44612d67a66205d606984e9e8d288ce513aab41d2f07a0ef8bd3",
+        "size": 447
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/export-to-docx.json",
+        "sha256": "ff4313f2a2e28af7ae4f0568831db0a5ebee8a0b294668aa521dfe0feaa6511d",
+        "size": 519
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/export-to-pdf.json",
+        "sha256": "b8e2f891521452b4bb19ff27bcd34e28561028d850332eeb1dc36e153984c75b",
+        "size": 518
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/ghost.json",
+        "sha256": "b58f83c4c38cce955c6066dad6ee97973227ea940b496c8e96570b30f2231ade",
+        "size": 488
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/google-drive.json",
+        "sha256": "89654ddc8bef7387f7e8265994060736646d5795858f730eda508ec453e71a0f",
+        "size": 462
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/highlight-text-color.json",
+        "sha256": "ca1807d8142cd38c5dd7523bd14d16ef16f5cc5490f796a803678342149de9c3",
+        "size": 550
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/location-place.json",
+        "sha256": "ed1cd653b8fb75e69d36fa71beeee155aa83eb298f6f12938f044f345e7ffea0",
+        "size": 492
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/media-attachments.json",
+        "sha256": "12767f6dc8c0f78b1776caea662f5b8dcb7aed757ef7f6bad6e531d49dcba8da",
+        "size": 501
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/passcode.json",
+        "sha256": "41a0a2b1e13bf1004b2d5d6eba932f3c6e5420feb7cdd8c37aa72a909826303c",
+        "size": 370
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/sentiments-mood-tracker.json",
+        "sha256": "3310c51ed64cfe33f73bc887db1ffddfb3725d2cf9f31d7f9b0add93d7f1b784",
+        "size": 465
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/statistics.json",
+        "sha256": "7ee870b0749d2f19824b7258c5dc130e87d1ef076091a85fb73b979b782ca0e9",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/table.json",
+        "sha256": "a742ffb01b781194459f00b6ecef80398661421c57f825b9771ead61519598a8",
+        "size": 478
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/task-list.json",
+        "sha256": "5167622eb66b86e848aa79b532fd06b4aa56eab920daa19dcb6cc9922a59e40a",
+        "size": 414
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/text-color.json",
+        "sha256": "befa949ff2dd3ddbd28579e2a57707fc109c220763af8b53510a5d7eea91018c",
+        "size": 491
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/themes.json",
+        "sha256": "cb66bfc735d3ddb190d5a37efb7e039651ef2c7c11d1ecf41b474e0827de4c4b",
+        "size": 377
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/throwback.json",
+        "sha256": "def38d269fd19a0e6485fceb1b87e45106b4ad95a45d39996992883633120df7",
+        "size": 387
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/tumblr.json",
+        "sha256": "86fb196b518809f11db5c753540cf2366c4668b52e0395c033d4866779784727",
+        "size": 502
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/weather.json",
+        "sha256": "761a0af530578a6b9495cda910832c59eefac5617b090fe7420d7c69551fd399",
+        "size": 395
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/word-character-counter.json",
+        "sha256": "19f607516126b7748780009eac831a5f53555bd00ec8b077afd604e605686957",
+        "size": 354
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/wordpress.json",
+        "sha256": "f7e34cfb51dc9f36ce3258a4f3fbabd0e211be27798edf4b3e56c84d0868f640",
+        "size": 481
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/write-with-email.json",
+        "sha256": "b5bbe2cc993f4f2461a3426c723594c7832138cfdb158ab644a0530a679bd65d",
+        "size": 438
+      },
+      {
+        "depth": 0,
+        "kind": "json",
+        "path": "assets/plugins/zapier.json",
+        "sha256": "f8f41b81e7f5c5ba2a5d44799a4f547a965154b17f22a39095bba53b2f500d20",
+        "size": 433
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/script/jq.min.js",
+        "role": "script",
+        "sha256": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a",
+        "size": 88145
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/script/load-image.min.js",
+        "role": "script",
+        "sha256": "594036c428b463df1ebd7bd6075e341cbb5a6969b10934834ad8cceecac0a40d",
+        "size": 16587
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/script/script.js",
+        "role": "script",
+        "sha256": "92c69992325e000ed9eee1bcd6e81f19f9e9f7514431c48569971f35ade74c23",
+        "size": 191
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/style/markdown.css",
+        "sha256": "66991074bdb0d0879cf14966a4e0e49360efbb60169deec6a51869b9beb74bb1",
+        "size": 6470
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/style/style.css",
+        "sha256": "3c1478f661f425dce87a1f3f5c0c42d9f3de3a338ec205088deabffb818d9de9",
+        "size": 2264
+      },
+      {
+        "depth": 0,
+        "kind": "css",
+        "path": "assets/style/style_solo.css",
+        "sha256": "0fd58b3dd4e60baaf3ab66bba0b4cabb00d26593e716546e9b4c400c55ce5e63",
+        "size": 686
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Archer-Bold-Pro.otf",
+        "sha256": "4a796dd8062365cd98998b17f0dfeb795480274d6ff9360e1d4b0699787321c7",
+        "size": 457328
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Archer-BoldItal-Pro.otf",
+        "sha256": "1670cc4ab22cc27a1a065c21257ef7dd6ef4200d84b5177d520bfae6c91d0e70",
+        "size": 185928
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Archer-SembdItal-Pro.otf",
+        "sha256": "640419771dde6f0e7f82478c44328a6b5effbe19dec656073fbb6330552bdecc",
+        "size": 198100
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Archer-Semibold-Pro.otf",
+        "sha256": "6ce7cf3745a93a45132d81af552396e8086a1a36dba816ebbe5c241bdf78ceb8",
+        "size": 480176
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/CourierPrime-Bold.ttf",
+        "sha256": "aa5a0a31d25dac006fe2d71fc6ff0feff250bc6de3b3c81b7e9d3a58e1329b52",
+        "size": 91368
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/CourierPrime-BoldItalic.ttf",
+        "sha256": "cfc77df22c0516962b6ba841e63c59ad8c2f95aff4d7a44f6328eeaaeff7e7d8",
+        "size": 91908
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/CourierPrime-Italic.ttf",
+        "sha256": "e1c9bde2ef55f90a5619cff5dac0d5674700045d666a7d2cddee1879bb83d552",
+        "size": 96196
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/CourierPrime.ttf",
+        "sha256": "6cc9525b1334047445cba53f323e810331acfdf59f18f4008397d13137737b91",
+        "size": 98156
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/GothamRndSSm-Bold.otf",
+        "sha256": "d9a2c050792e857a36e9ea0087d46de844f8331de79d4409f174edfaf7bf6cd2",
+        "size": 72888
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/GothamRndSSm-BoldItalic.otf",
+        "sha256": "a0e626f1e59ec5291e24f83e1f7f74a2188e65d3348e1ed074cd264bf40adf3a",
+        "size": 75456
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/GothamRndSSm-Book.otf",
+        "sha256": "29c870c28df9304c270b1354823555eb77cef2df6dfaa5a76d434958735adb07",
+        "size": 73224
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/GothamRndSSm-BookItalic.otf",
+        "sha256": "b3b047a3a473a24e41c1364cf66277b57dc5f86f2879c3736374324511b05527",
+        "size": 75884
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/GothamRndSSm-Medium.otf",
+        "sha256": "13da39550349ce324b7de7a549f031d0bb8cc834150048a37a525115f96b72c7",
+        "size": 73468
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/GothamRndSSm-MediumItalic.otf",
+        "sha256": "27388cd3b96006ff50fb61965f07a46abe264cb5670474b2d20e42f4c43acd99",
+        "size": 75772
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/IdealSansSSm-Bold.otf",
+        "sha256": "b580fa36a3c9014cbb281543db34c044e8df173d01734962be9f4e9869350faf",
+        "size": 97464
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/IdealSansSSm-BoldItalic.otf",
+        "sha256": "07c149e6759d09cb040941e56d1f0fe4fb32622f60dbda26b092d7d42fac4da9",
+        "size": 104436
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/IdealSansSSm-Book.otf",
+        "sha256": "aa0b3e32b747a0a66fc0c58e9efc1089bacee4f7e494c831424458a6b233acfc",
+        "size": 94940
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/IdealSansSSm-BookItalic.otf",
+        "sha256": "018aeb44656329a49c29dbfd2e92fe7ae7916212a8bde219ccc130ad9b19f48e",
+        "size": 98840
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Merriweather-Italic.ttf",
+        "sha256": "aab424195a4d6cd8e2ebd486ad2130cdccc5e5aedb5f29996c1200a623a292e4",
+        "size": 53140
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Merriweather-Regular.ttf",
+        "sha256": "7569dd265a59ec55631343708af42e73d80e732f8f2fead2a0d09ad45f806282",
+        "size": 46576
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Roboto-Bold.ttf",
+        "sha256": "594d74a49e307be7cc9e1ee5f1023684e6820cf11bcc968bee590391e1ad5a5a",
+        "size": 127744
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Roboto-BoldItalic.ttf",
+        "sha256": "3157773ff81c4eb0883936e27054c05ed342beeef83a430a1d998213822d3da1",
+        "size": 163644
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Roboto-Italic.ttf",
+        "sha256": "e2c8e730897857197e5c97a04b534a36a59665edabfb736aef581082cb15ec1a",
+        "size": 132440
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Roboto-Medium.ttf",
+        "sha256": "d0c8f44a774b8490ceee29889cdabc72381fa35fb621619a78fd28211d90241c",
+        "size": 137308
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Roboto-Regular.ttf",
+        "sha256": "bde8a188e37aa936b167aecc5e5a3da40262f6e51fd54c584f2cf2b6b99d96ca",
+        "size": 126072
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/RobotoCondensed-Regular.ttf",
+        "sha256": "f9556c9bcbccdf5392d41a0177a2f3a7eb8d6eb4c93a8bc05c6a35688b77f4da",
+        "size": 105140
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/RobotoSlab-Regular.ttf",
+        "sha256": "13aa5f54c6f2fa2e388fe0e675cdbcc6a81f6270a8bf9c03a5df8af9cb022810",
+        "size": 169064
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Verlag-Black.otf",
+        "sha256": "38c2bf5cf7cb0f54c1e68a4e9edb54a436df1f67a38c7fa259d6c57bd3805d2a",
+        "size": 86944
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Verlag-Bold.otf",
+        "sha256": "9a717b29b32bcf82d040578ba5097a4e158bceebfaa898f81dbdd1ffe853913b",
+        "size": 89640
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Verlag-BoldItalic.otf",
+        "sha256": "286315d270053f87b71db688b181a7752609fa8059e85e267d4d2750f7d351d9",
+        "size": 92480
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Verlag-Book.otf",
+        "sha256": "8774118388ec56a0b5ee55f988c73259c6a51d7be28ba0817acc51016603ee71",
+        "size": 85624
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/Verlag-BookItalic.otf",
+        "sha256": "d7a06b943b8edc09713bcb88e6ed6c01848f534d2e965c7ff461d1fc47e4c532",
+        "size": 118312
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "assets/typeface/VerlagCond-Book.otf",
+        "sha256": "7f78858917b465d9bf4ea7872f5b41fa9ddbf0ee1ff57b82cbc4183ee0753cf8",
+        "size": 189740
+      },
+      {
+        "depth": 0,
+        "kind": "javascript",
+        "path": "assets/webcrypto/OpenCrypto.min.js",
+        "role": "script",
+        "sha256": "b05f0c566fd187c7e464b3ff509684d3b46edf36a2b33b66869556fbc5e69c8a",
+        "size": 43268
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/webcrypto/index.html",
+        "sha256": "56ed0f8a447e664be281742a8b35ebeeba83a6250d4c81da6a24e00af6345cef",
+        "size": 2234
+      },
+      {
+        "depth": 0,
+        "kind": "xml",
+        "path": "assets/word/[Content_Types].xml",
+        "sha256": "4d25fb9a7a11fe17e25a44cb215b5002fb5f205188abaf1bca6f2dda2cab3415",
+        "size": 1807
+      },
+      {
+        "depth": 0,
+        "kind": "zip",
+        "path": "assets/word/doc.docx",
+        "sha256": "a13a8546c745576d8496c5ea7e0107b9bd53bfd2dffe210f5783303f80671ddc",
+        "size": 15335
+      },
+      {
+        "depth": 1,
+        "kind": "directory",
+        "path": "assets/word/doc.docx!/docProps",
+        "size": 0
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/docProps/app.xml",
+        "sha256": "bdcbd0844acfe970d1b9ea08872748bcb406b170d8dd5b49fb8b94319b403162",
+        "size": 539
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/docProps/core.xml",
+        "sha256": "3a83830f56c37eeb695b8f8c870a1702407ce7be67f7e9a1c849ff12635d7fe9",
+        "size": 637
+      },
+      {
+        "depth": 1,
+        "kind": "directory",
+        "path": "assets/word/doc.docx!/word",
+        "size": 0
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/document.xml",
+        "sha256": "1aa456d2f7ee3f72eaeb06ec2efcd3868ef2c95af853d15b8d9e293c04703b1f",
+        "size": 7975
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/fontTable.xml",
+        "sha256": "b742bce5a4c5435e6ce51e4bec32f5a103aaa53bdadf752bf57c3fbad8de2604",
+        "size": 3110
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/numbering.xml",
+        "sha256": "3499b9ca9d362b2e2286a2e9f787f8471876332ebe8943f9c8b795befe2aa51f",
+        "size": 13416
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/settings.xml",
+        "sha256": "cadecc355f2819771a0d6aed809b93f4ba435d2a35729cc30c8817b6ccfc6e80",
+        "size": 2957
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/styles.xml",
+        "sha256": "af6fdf7cfdbf9581da0b1f234a6b64dde554d95103bb02696d34e0e2e8d6de71",
+        "size": 23113
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/stylesWithEffects.xml",
+        "sha256": "f24d231b5d310914e7f71b3db3bedab69d0f4a2fe3687cd87522607b597ac472",
+        "size": 23979
+      },
+      {
+        "depth": 1,
+        "kind": "directory",
+        "path": "assets/word/doc.docx!/word/theme",
+        "size": 0
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/theme/theme1.xml",
+        "sha256": "50523c8788e3b7e23cf2a0967b656315b228f7e097eff9b8a675c2baeb12b982",
+        "size": 7016
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/word/webSettings.xml",
+        "sha256": "a64185b4d6a1dfcbc775d176b94c2d20e12ad6917b5872c5dccf86820087eadd",
+        "size": 454
+      },
+      {
+        "depth": 1,
+        "kind": "directory",
+        "path": "assets/word/doc.docx!/word/_rels",
+        "size": 0
+      },
+      {
+        "depth": 1,
+        "kind": "text",
+        "path": "assets/word/doc.docx!/word/_rels/document.xml.rels",
+        "sha256": "cd69466f012a1de6117228713b9402619b2b07cf445f13257f023d77b542fc17",
+        "size": 1245
+      },
+      {
+        "depth": 1,
+        "kind": "xml",
+        "path": "assets/word/doc.docx!/[Content_Types].xml",
+        "sha256": "4546e1c553f21bf19ce02817e5877e63b913a76a588d076d716d0770812f2b50",
+        "size": 1555
+      },
+      {
+        "depth": 1,
+        "kind": "directory",
+        "path": "assets/word/doc.docx!/_rels",
+        "size": 0
+      },
+      {
+        "depth": 1,
+        "kind": "text",
+        "path": "assets/word/doc.docx!/_rels/.rels",
+        "sha256": "3f618fc2265b18fcbb747d120da306b261d3f8cc01675755b0b41d35b429e9d2",
+        "size": 590
+      },
+      {
+        "depth": 0,
+        "kind": "xml",
+        "path": "assets/word/document.xml",
+        "sha256": "c99233e8d93679ba6237d3ee9bcccd84fd68d90b829c855056fe1fad44a6315b",
+        "size": 1568
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "assets/word/document.xml.rels",
+        "sha256": "45962150c60a0ee2e2bb7788cb26c3c99e184e44e45f4aa5158d43b1ad5b364f",
+        "size": 1127
+      },
+      {
+        "depth": 0,
+        "kind": "xml",
+        "path": "assets/word/numbering.xml",
+        "sha256": "2de375ad5663455b0eac944b49ee0f759c1c869cf6d2c5adf56bacd9aacedd2e",
+        "size": 1366
+      },
+      {
+        "depth": 0,
+        "kind": "html",
+        "path": "assets/zapier.html",
+        "sha256": "631de3c6f9d2fa17473f85d9352391c0caf6c5770d181cbd688bee27052e7c4d",
+        "size": 358
+      },
+      {
+        "depth": 0,
+        "kind": "dex",
+        "path": "classes.dex",
+        "role": "android-code",
+        "sha256": "861c28cec1b6790841b9de184f8121c069450de704cbe0898b618a9968224390",
+        "size": 7294268
+      },
+      {
+        "depth": 0,
+        "kind": "dex",
+        "path": "classes2.dex",
+        "role": "android-code",
+        "sha256": "7f92dfbf7a89fbabbdce670290a7d1237c63cc9eee1abbeda9299a18c37b4f2e",
+        "size": 7458276
+      },
+      {
+        "depth": 0,
+        "kind": "dex",
+        "path": "classes3.dex",
+        "role": "android-code",
+        "sha256": "3cfb97fdcc780e6308d9157abfc70d79b36dbe5bae4cfa4323ed46828d344c2f",
+        "size": 9251484
+      },
+      {
+        "depth": 0,
+        "kind": "dex",
+        "path": "classes4.dex",
+        "role": "android-code",
+        "sha256": "bea8846e23a9bca2b81be3c8d6b902991ba404ff9a5ebb4ba384ef39d0360d33",
+        "size": 1671412
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "com/google/api/client/googleapis/google.jks",
+        "sha256": "0d923518893514afb9288fe9139a601a4c1d7b2fed34cdf0e9a90c44ca388a2b",
+        "size": 71764
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "com/google/api/client/http/google-http-client.properties",
+        "sha256": "b1817db9c27d8573e0339e576bf485dee1500808286ad31ca0f40e7d016ccdcd",
+        "size": 33
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/annotations.proto",
+        "sha256": "bff7c47b78bd25d34e70efc06f49764ec24f55e665067b9be49e53e825250ce8",
+        "size": 1051
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/auth.proto",
+        "sha256": "2f4e8588c377ec08c8f5de991fce42234a48efd0728c87fa5ab5d49d2cd3c3d0",
+        "size": 8795
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/backend.proto",
+        "sha256": "5adbd53993c443cfda287e94392c915030f7430146f7481b6d8663956ccfdd71",
+        "size": 6961
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/billing.proto",
+        "sha256": "54b0b9bab97c6a8ed8b02ba2d72430487e0eea7df61f80c62911a4e33c525ea1",
+        "size": 2501
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/client.proto",
+        "sha256": "57a3b6c82c6f0db419eaeb85856cece0c9d9ef66ddebd28e413cc615037cec8e",
+        "size": 3396
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/config_change.proto",
+        "sha256": "b872d2d41dc23077d5ce2b6a2e6e342ad84d8cd344220a35366422d484d52ffa",
+        "size": 3170
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/consumer.proto",
+        "sha256": "37be078a7d55b05fef6e4749a8573d31a68ad711bc621ade74f64786e1223c6c",
+        "size": 2718
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/context.proto",
+        "sha256": "3b7d0e8ef5514df1506cc88db3aa5945896ef2cb259e8d9fedd590c3e9dd0a4c",
+        "size": 3066
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/control.proto",
+        "sha256": "5086ec3567a0a7f6d5bcdb3a5cc64a3b7aef8f307e23d554818a027a2706527b",
+        "size": 1227
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/distribution.proto",
+        "sha256": "8c82d81811d0cdb11dbec22356cb4ff9009f48c0a881d04459165f50693048f9",
+        "size": 8650
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/documentation.proto",
+        "sha256": "0008d6459c8d330165775ed314303cf46609ed16c1527b80a92d88561c098f63",
+        "size": 6180
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/endpoint.proto",
+        "sha256": "27add67871057cc74954383aee7cf2cfc629aa01d6eb889305f18d99c929e76a",
+        "size": 2811
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/field_behavior.proto",
+        "sha256": "571388c55d87b910e2d01b069fe22bc08c70f74f0e4836bae529fedd60cef946",
+        "size": 3023
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/http.proto",
+        "sha256": "400a190d48be0991ee6b0f4846800c468171dfa32f9f8db71d625a14610e9346",
+        "size": 15144
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/httpbody.proto",
+        "sha256": "36022f3ed7a7974e058ea259d33cf9e1a3a8c0d7d31bebc860d4f66842f242f2",
+        "size": 2675
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/label.proto",
+        "sha256": "439dcd98a45960323160ef7ed29c9b7eb70888919f2e3bf9e51c61d671fe2d1a",
+        "size": 1393
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/launch_stage.proto",
+        "sha256": "b30710fd0a18fa11d169f158d8be5ddc50bc42c883e732e4204c79f5e1a0d213",
+        "size": 2910
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/log.proto",
+        "sha256": "ee5fb0d5a4187e9410a887ba00dddfde33293cfa21541f9c549ab090eb44ba5d",
+        "size": 2047
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/logging.proto",
+        "sha256": "b9f84224ac8d8f2facf489d6440c9484da0b486cca7e5c0873ef9968e6a761d8",
+        "size": 3171
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/metric.proto",
+        "sha256": "8db4e7e306c7bb2f9bf119681e34b568c2081708b0d4d5fce0606cf878bf7caf",
+        "size": 10025
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/monitored_resource.proto",
+        "sha256": "8665ae4b0a63cd4dd82a30677c6216831ddb6123df9c86f284517b19792b6650",
+        "size": 5530
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/monitoring.proto",
+        "sha256": "9d4cb377a9c346280817061cdaf75a54bdf86b89e06ccd989a9a8cb7a943e5bd",
+        "size": 3832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/quota.proto",
+        "sha256": "f5e9b55448a3c95db6259b62d35249aa536818a0835a2ab4b223b528c2b2d79a",
+        "size": 7357
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/resource.proto",
+        "sha256": "c89f6d3d2c7221a56a29032c7c1146622989bcb020730b69da2eaf74a6a71bf8",
+        "size": 10024
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/service.proto",
+        "sha256": "b4b59919852c2d19fbe788f7379ad131a814f6c1dadeac6894adec772b8511b8",
+        "size": 6309
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/source_info.proto",
+        "sha256": "96d096e7db36fc9304dd76e3cf3df9235136779e94d3c2a199e68a6f66e93705",
+        "size": 1095
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/system_parameter.proto",
+        "sha256": "6fc18b93f4c38f1db24eb55de4f73624c5c6b3ab44971c14d6699c991e62103e",
+        "size": 3474
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/api/usage.proto",
+        "sha256": "b6eb5ef6b6a679616597e37eadb2413e6242bdb39da131a3a568a0f665e5d862",
+        "size": 3475
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/apphosting/datastore/testing/datastore_test_trace.proto",
+        "sha256": "ea810e2bb12e320a6d5544f29bece34afc45999dc3ebf638533d06e6668af823",
+        "size": 6693
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/cloud/audit/audit_log.proto",
+        "sha256": "869e79ac3251bde47c0d2f33580dda6fb5727818db0d0f07f9c5084a839331a8",
+        "size": 4623
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firebase/firestore/proto/bundle.proto",
+        "sha256": "04e86bbcd0be337d6d39ba15852b2ddbc00eba97b64c64edc51dbd2ae3c62fb5",
+        "size": 3775
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firebase/firestore/proto/maybe_document.proto",
+        "sha256": "3be7e96ac8f59bf516182a77a970002ce6945e4bf78c39a2cde52aa1cb2da836",
+        "size": 2443
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firebase/firestore/proto/mutation.proto",
+        "sha256": "0601476e89c4beac72e2dfca24f4d911a8d6c1378dd7dda083dc0e46d28fde58",
+        "size": 2864
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firebase/firestore/proto/target.proto",
+        "sha256": "37796181ad768fe5241879719ff16179bb80b60759de9a0b97156c8438af3721",
+        "size": 4772
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/admin/index.proto",
+        "sha256": "ae20c9277195bb1ab8cd5d23f4939f78c275aeb87e19cb63e9e9b66acd6a8c37",
+        "size": 6063
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/aggregation_result.proto",
+        "sha256": "26bbb0808af0a7810ffa1c8061e76ef3c8606bd403f9b30e066ec60361b970be",
+        "size": 1745
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/bloom_filter.proto",
+        "sha256": "45af2ee53295dc4a8c0a229cf056a68483f86ece44df8863d6beec907bbc7914",
+        "size": 3028
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/common.proto",
+        "sha256": "77c19e85b00e180995d9d9742d14da91707241411c437a8a24cc65fd746abf51",
+        "size": 3257
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/document.proto",
+        "sha256": "062c465c669759ad3b1927aebf6809e90e18b31b9fb6dd0d1f96131779744cd8",
+        "size": 5234
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/firestore.proto",
+        "sha256": "9df380e57c2be5cf0480e7bad2750f422b392dbe96f366e6c767e1c726bfc2a8",
+        "size": 34638
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/query.proto",
+        "sha256": "b47fac03396d19af127ab47b1dc088388d6dc821dfa1627f4fa6d6b2bd6de2e1",
+        "size": 15832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/firestore/v1/write.proto",
+        "sha256": "c056adff4d79a4a4c57093bdf6ef9cc71a031a39ca4583a7a698a6d9c3f1affc",
+        "size": 12119
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/geo/type/viewport.proto",
+        "sha256": "b1667fc4510759432b99a69f05908807369dfe38598ab7544783defa9e0c36e8",
+        "size": 2416
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/logging/type/http_request.proto",
+        "sha256": "3b1a57e08084939d65d8eb1decffa9737fc34a178564960d4d0cb31a28f3d99b",
+        "size": 3397
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/logging/type/log_severity.proto",
+        "sha256": "35933021dd70d3571dc72f3d2ea1fcf9f2810161e712797fc4865ca828363b8d",
+        "size": 2506
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/longrunning/operations.proto",
+        "sha256": "a056ea54fcfe8bce368b3a3129a43790639f78a32812f7418c3a5ac5012dffe9",
+        "size": 10515
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/any.proto",
+        "sha256": "bcf5de6ce463b1a38ff76b77955aa7e580b4ec12af34a927b1d45c9efb0faf66",
+        "size": 6154
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/api.proto",
+        "sha256": "e1745f7d6e9953f624b027b37da29ffc6521c45bce9aa96f39666748879fc915",
+        "size": 7728
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/descriptor.proto",
+        "sha256": "4ca7634ff2dbb0531a417f0292bf86c18ac4a9c2ff63ae7a585504d6dd6a3a23",
+        "size": 38092
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/duration.proto",
+        "sha256": "a3f7301ff2956ec2e30c2241ece07197e4a86c752348d5607224819d4921c9fe",
+        "size": 4892
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/empty.proto",
+        "sha256": "ecef3d54cc9e079673b9816c67bac770f7f3bf6dada2d4596ba69d71daa971e6",
+        "size": 2363
+      }
+    ],
+    "entries_total": 2132,
+    "files": 2127,
+    "hashed_bytes": 53576923,
+    "path": "C:\\Users\\ali\\Downloads\\base.apk",
+    "root": "base.apk",
+    "root_kind": "apk",
+    "truncated": false,
+    "unopened_nested": 0
+  },
+  "summary": "base.apk (apk) holds 2127 files in 2132 entries; 1 nested container(s).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "no_disk_images",
+      "message": "Disk images (DMG), installers (PKG/MSI) and compressed tarballs are listed as single files, not opened."
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 500,
+    "total": 2132,
+    "next_offset": 500
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

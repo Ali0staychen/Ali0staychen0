@@ -1,0 +1,55 @@
+﻿{
+  "version": 2,
+  "analysis": {
+    "target": "C:\\Users\\ali\\Downloads\\base.apk",
+    "package": "com.journey.app",
+    "target_id": "t_c2029c5ebdf3",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "method": "core_target_open + android_package_show + android_classes_find + android_class_show + android_method_show (DEX bytecode). native_strings_find/native_function_pseudocode attempted but not supported for APK (not native machine code); DEX methods read instead."
+  },
+  "values": [
+    { "name": "app package", "group": "identity", "value": "com.journey.app", "source": "android_package_show manifest" },
+    { "name": "version", "group": "identity", "value": "5.6.2-play (758)", "source": "manifest" },
+    { "name": "min/target sdk", "group": "identity", "value": "26/35", "source": "manifest" },
+    { "name": "sentiment type", "group": "entry", "value": "Double", "source": "Journal.Sentiment, JournalV2.Sentiment, SyncApiGson PartialEntryResponseGson.sentiment" },
+    { "name": "activity type", "group": "entry", "value": "Integer", "source": "JournalV2.Activity, SyncApiGson PartialEntryResponseGson.activity" },
+    { "name": "location fields", "group": "location", "value": "lat:Double, lng:Double, address:String", "source": "EntryLocationResponseGson(lat,lng); Journal/JournalV2 Lat/Lon(Lng)/Address" },
+    { "name": "weather fields", "group": "weather", "value": "degreeC:Double, description:String, icon:String, id:Integer, place:String", "source": "EntryWeatherResponseGson; Journal/JournalV2 weather fields" },
+    { "name": "attachment/file fields", "group": "attachments", "value": "id,alias,ext,mimeType,createdAt,fileMetadataDate", "source": "EntryFileResponseGson" },
+    { "name": "reminder default hour pref", "group": "reminders", "value": "reminder_hour_2 default 20 (0x14)", "source": "Ls8/T;->A0(Landroid/content/Context;)I bytecode" },
+    { "name": "reminder default minute pref", "group": "reminders", "value": "reminder_min_2 default 0", "source": "Ls8/T;->B0(Landroid/content/Context;)I bytecode" },
+    { "name": "reminder allowed days pref", "group": "reminders", "value": "reminder_day_2 StringSet, default 1..7 (Sun..Sat)", "source": "Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet; bytecode" },
+    { "name": "reminder day gating", "group": "reminders", "value": "fire only if Calendar.DAY_OF_WEEK (1..7) in allowed set", "source": "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V bytecode" },
+    { "name": "reminder schedule formula", "group": "reminders", "value": "setRepeating(type=1 RTC_WAKEUP, trigger at H:M:0, if past +86400000ms, interval=86400000ms/0x5265c00)", "source": "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V bytecode" },
+    { "name": "reminder notification channel", "group": "reminders", "value": "com.journey.app.reminder, IMPORTANCE_HIGH=4", "source": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V bytecode" },
+    { "name": "reminder log tags/messages", "group": "reminders", "value": "JourneyReminderReceiver: 'Alarm: <day> | <days>'; AlarmHelper: 'Reminder Set HR ... MIN ...'", "source": "ReminderReceiver.onReceive, s8.a.j bytecode" }
+  ],
+  "function_addresses": [
+    "Lcom/journey/app/ReminderReceiver;-><init>()V",
+    "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+    "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+    "Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;",
+    "Lcom/journey/app/ReminderReceiver;->b(Landroid/content/Context;)Landroid/graphics/Bitmap;",
+    "Lcom/journey/app/ReminderReceiver;->c(Landroid/content/Context;)Landroid/app/PendingIntent;",
+    "Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;",
+    "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+    "Ls8/T;->A0(Landroid/content/Context;)I",
+    "Ls8/T;->B0(Landroid/content/Context;)I",
+    "Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet;",
+    "Ls8/T;->n1()Z",
+    "Ls8/T;->o1()Z",
+    "Ls8/T;->p1()Z",
+    "Lcom/journey/app/mvvm/models/entity/Journal;-><init>(...)V",
+    "Lcom/journey/app/mvvm/models/entity/JournalV2;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;)V",
+    "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;-><init>(...)V",
+    "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;-><init>(Ljava/lang/Double;Ljava/lang/Double;)V",
+    "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;-><init>(Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V",
+    "Lcom/journey/app/mvvm/service/SyncApiGson$EntryFileResponseGson;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+  ],
+  "estimates": [
+    "sentiment/mood UI scale 1.0-5.0 mapping (stored as Double)",
+    "Activity integer interpreted as steps/motion count",
+    "signature stored as image attachment (format not recovered)",
+    "original notification text/icon from resource IDs (not fully resolved here)"
+  ]
+}

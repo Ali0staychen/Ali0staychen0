@@ -1,0 +1,2252 @@
+{
+  "id": "ev_ab25e447447d31b3e9f2e3cfa646f3534035dbd1c2e8958cbf299a0bb514ee19",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Preference"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/A;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/B;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.B",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/C;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "androidx.datastore.preferences.protobuf.C",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/C$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.C$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/C$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.C$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/C$c;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.C$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/D;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "androidx.datastore.preferences.protobuf.D",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/D$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.D$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/E;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 21,
+        "name": "androidx.datastore.preferences.protobuf.E",
+        "superclass": "java.util.LinkedHashMap"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/F;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "androidx.datastore.preferences.protobuf.F",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/G;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "androidx.datastore.preferences.protobuf.G",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/H;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.H",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/I;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.I",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/J;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.datastore.preferences.protobuf.J",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/K;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.K",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/K$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.K$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/L;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.L",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/M;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.datastore.preferences.protobuf.M",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/N;",
+        "dex": "classes.dex",
+        "fields": 19,
+        "methods": 70,
+        "name": "androidx.datastore.preferences.protobuf.N",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/O;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 15,
+        "name": "androidx.datastore.preferences.protobuf.O",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/P;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.P",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/Q;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.datastore.preferences.protobuf.Q",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/S;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.S",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/T;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.T",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/U;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.U",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/V;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.V",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/W;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "androidx.datastore.preferences.protobuf.W",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/X;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 14,
+        "name": "androidx.datastore.preferences.protobuf.X",
+        "superclass": "androidx.datastore.preferences.protobuf.c"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/Y;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "androidx.datastore.preferences.protobuf.Y",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/Z;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 42,
+        "name": "androidx.datastore.preferences.protobuf.Z",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/a$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/a0;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "androidx.datastore.preferences.protobuf.a0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.datastore.preferences.protobuf.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/b0;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.b0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/c;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 13,
+        "name": "androidx.datastore.preferences.protobuf.c",
+        "superclass": "java.util.AbstractList"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/c0;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 56,
+        "name": "androidx.datastore.preferences.protobuf.c0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 29,
+        "name": "androidx.datastore.preferences.protobuf.d0",
+        "superclass": "java.util.AbstractMap"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.d0$a",
+        "superclass": "androidx.datastore.preferences.protobuf.d0"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0$b;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.datastore.preferences.protobuf.d0$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0$c;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.d0$c",
+        "superclass": "androidx.datastore.preferences.protobuf.d0$f"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0$d;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 12,
+        "name": "androidx.datastore.preferences.protobuf.d0$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0$e;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "androidx.datastore.preferences.protobuf.d0$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/d0$f;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 9,
+        "name": "androidx.datastore.preferences.protobuf.d0$f",
+        "superclass": "java.util.AbstractSet"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/e;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.datastore.preferences.protobuf.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/e0;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.e0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 25,
+        "name": "androidx.datastore.preferences.protobuf.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f$a",
+        "superclass": "androidx.datastore.preferences.protobuf.f$c"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.f$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$e;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.datastore.preferences.protobuf.f$e",
+        "superclass": "androidx.datastore.preferences.protobuf.f$i"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$f;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.f$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$g;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.f$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$h;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f$h",
+        "superclass": "androidx.datastore.preferences.protobuf.f"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$i;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 11,
+        "name": "androidx.datastore.preferences.protobuf.f$i",
+        "superclass": "androidx.datastore.preferences.protobuf.f$h"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f$j;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f$j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f0;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f0$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.f0$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/f0$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.datastore.preferences.protobuf.f0$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/g;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 36,
+        "name": "androidx.datastore.preferences.protobuf.g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/g$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/g$b;",
+        "dex": "classes.dex",
+        "fields": 9,
+        "methods": 38,
+        "name": "androidx.datastore.preferences.protobuf.g$b",
+        "superclass": "androidx.datastore.preferences.protobuf.g"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/g$c;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 47,
+        "name": "androidx.datastore.preferences.protobuf.g$c",
+        "superclass": "androidx.datastore.preferences.protobuf.g"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/g0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.datastore.preferences.protobuf.g0",
+        "superclass": "java.lang.RuntimeException"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/h;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 55,
+        "name": "androidx.datastore.preferences.protobuf.h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/h$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/h0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 22,
+        "name": "androidx.datastore.preferences.protobuf.h0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/i;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 98,
+        "name": "androidx.datastore.preferences.protobuf.i",
+        "superclass": "androidx.datastore.preferences.protobuf.e"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/i$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/i$b;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "androidx.datastore.preferences.protobuf.i$b",
+        "superclass": "androidx.datastore.preferences.protobuf.i"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/i$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.i$c",
+        "superclass": "java.io.IOException"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/i$d;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 30,
+        "name": "androidx.datastore.preferences.protobuf.i$d",
+        "superclass": "androidx.datastore.preferences.protobuf.i$b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/i0;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 23,
+        "name": "androidx.datastore.preferences.protobuf.i0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/j;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 62,
+        "name": "androidx.datastore.preferences.protobuf.j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/j$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.j$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/j0;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 35,
+        "name": "androidx.datastore.preferences.protobuf.j0",
+        "superclass": "androidx.datastore.preferences.protobuf.h0"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.k",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k0;",
+        "dex": "classes.dex",
+        "fields": 23,
+        "methods": 44,
+        "name": "androidx.datastore.preferences.protobuf.k0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k0$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.k0$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k0$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "androidx.datastore.preferences.protobuf.k0$b",
+        "superclass": "androidx.datastore.preferences.protobuf.k0$e"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k0$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "androidx.datastore.preferences.protobuf.k0$c",
+        "superclass": "androidx.datastore.preferences.protobuf.k0$e"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k0$d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 10,
+        "name": "androidx.datastore.preferences.protobuf.k0$d",
+        "superclass": "androidx.datastore.preferences.protobuf.k0$e"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/k0$e;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 19,
+        "name": "androidx.datastore.preferences.protobuf.k0$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.l",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.l0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l0$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 18,
+        "name": "androidx.datastore.preferences.protobuf.l0$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l0$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.l0$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l0$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.l0$c",
+        "superclass": "androidx.datastore.preferences.protobuf.l0$b"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l0$d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.l0$d",
+        "superclass": "java.lang.IllegalArgumentException"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/l0$e;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.l0$e",
+        "superclass": "androidx.datastore.preferences.protobuf.l0$b"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.m",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.m$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.m0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.m0$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$b;",
+        "dex": "classes.dex",
+        "fields": 21,
+        "methods": 7,
+        "name": "androidx.datastore.preferences.protobuf.m0$b",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$b$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.m0$b$a",
+        "superclass": "androidx.datastore.preferences.protobuf.m0$b"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$b$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.m0$b$b",
+        "superclass": "androidx.datastore.preferences.protobuf.m0$b"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$b$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.m0$b$c",
+        "superclass": "androidx.datastore.preferences.protobuf.m0$b"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$b$d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.m0$b$d",
+        "superclass": "androidx.datastore.preferences.protobuf.m0$b"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/m0$c;",
+        "dex": "classes.dex",
+        "fields": 11,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.m0$c",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/n;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "androidx.datastore.preferences.protobuf.n",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/n0;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 41,
+        "name": "androidx.datastore.preferences.protobuf.n0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/n0$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.n0$a",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/o;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "androidx.datastore.preferences.protobuf.o",
+        "superclass": "androidx.datastore.preferences.protobuf.n"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/p;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.p",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/q;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 29,
+        "name": "androidx.datastore.preferences.protobuf.q",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/q$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.q$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/q$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.q$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/r;",
+        "dex": "classes.dex",
+        "fields": 59,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.r",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/r$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.r$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/r$b;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.r$b",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/s;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.s",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/t;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 41,
+        "name": "androidx.datastore.preferences.protobuf.t",
+        "superclass": "androidx.datastore.preferences.protobuf.a"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/t$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 12,
+        "name": "androidx.datastore.preferences.protobuf.t$a",
+        "superclass": "androidx.datastore.preferences.protobuf.a$a"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/t$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.t$b",
+        "superclass": "androidx.datastore.preferences.protobuf.b"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/t$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.datastore.preferences.protobuf.t$c",
+        "superclass": "androidx.datastore.preferences.protobuf.k"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/t$d;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 4,
+        "name": "androidx.datastore.preferences.protobuf.t$d",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/u;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 8,
+        "name": "androidx.datastore.preferences.protobuf.u",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/u$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.u$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/u$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.u$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/v;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 15,
+        "name": "androidx.datastore.preferences.protobuf.v",
+        "superclass": "java.io.IOException"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/v$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.v$a",
+        "superclass": "androidx.datastore.preferences.protobuf.v"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/w;",
+        "dex": "classes.dex",
+        "fields": 14,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.w",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/x;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.datastore.preferences.protobuf.x",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/y;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.datastore.preferences.protobuf.y",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/datastore/preferences/protobuf/z;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.datastore.preferences.protobuf.z",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/CheckBoxPreference;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.preference.CheckBoxPreference",
+        "superclass": "androidx.preference.TwoStatePreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/CheckBoxPreference$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.CheckBoxPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/DialogPreference;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 11,
+        "name": "androidx.preference.DialogPreference",
+        "superclass": "androidx.preference.Preference"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/DialogPreference$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.DialogPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/DropDownPreference;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 9,
+        "name": "androidx.preference.DropDownPreference",
+        "superclass": "androidx.preference.ListPreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/DropDownPreference$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.preference.DropDownPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/EditTextPreference;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 11,
+        "name": "androidx.preference.EditTextPreference",
+        "superclass": "androidx.preference.DialogPreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/EditTextPreference$SavedState;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.preference.EditTextPreference$SavedState",
+        "superclass": "androidx.preference.Preference$BaseSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/EditTextPreference$SavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.EditTextPreference$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/EditTextPreference$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.preference.EditTextPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/preference/EditTextPreference$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.preference.EditTextPreference$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/ListPreference;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 19,
+        "name": "androidx.preference.ListPreference",
+        "superclass": "androidx.preference.DialogPreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/ListPreference$SavedState;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.preference.ListPreference$SavedState",
+        "superclass": "androidx.preference.Preference$BaseSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/ListPreference$SavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.ListPreference$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/preference/ListPreference$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.preference.ListPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/MultiSelectListPreference;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "androidx.preference.MultiSelectListPreference",
+        "superclass": "androidx.preference.DialogPreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/MultiSelectListPreference$SavedState;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.preference.MultiSelectListPreference$SavedState",
+        "superclass": "androidx.preference.Preference$BaseSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/MultiSelectListPreference$SavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.MultiSelectListPreference$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/Preference;",
+        "dex": "classes.dex",
+        "fields": 41,
+        "methods": 91,
+        "name": "androidx.preference.Preference",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/Preference$BaseSavedState;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.preference.Preference$BaseSavedState",
+        "superclass": "android.view.AbsSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/Preference$BaseSavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.Preference$BaseSavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/Preference$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.Preference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/Preference$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.preference.Preference$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/Preference$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.Preference$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/Preference$d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.Preference$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/Preference$e;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.preference.Preference$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/Preference$f;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.Preference$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/PreferenceCategory;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.preference.PreferenceCategory",
+        "superclass": "androidx.preference.PreferenceGroup"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/PreferenceGroup;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 22,
+        "name": "androidx.preference.PreferenceGroup",
+        "superclass": "androidx.preference.Preference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/PreferenceGroup$SavedState;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.preference.PreferenceGroup$SavedState",
+        "superclass": "androidx.preference.Preference$BaseSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/PreferenceGroup$SavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.PreferenceGroup$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/PreferenceGroup$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.PreferenceGroup$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/PreferenceGroup$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.preference.PreferenceGroup$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/preference/PreferenceScreen;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.preference.PreferenceScreen",
+        "superclass": "androidx.preference.PreferenceGroup"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/SeekBarPreference;",
+        "dex": "classes.dex",
+        "fields": 12,
+        "methods": 14,
+        "name": "androidx.preference.SeekBarPreference",
+        "superclass": "androidx.preference.Preference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/SeekBarPreference$SavedState;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "androidx.preference.SeekBarPreference$SavedState",
+        "superclass": "androidx.preference.Preference$BaseSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/SeekBarPreference$SavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.SeekBarPreference$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/SeekBarPreference$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.preference.SeekBarPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/SeekBarPreference$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.SeekBarPreference$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/SwitchPreference;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "androidx.preference.SwitchPreference",
+        "superclass": "androidx.preference.TwoStatePreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/SwitchPreference$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.SwitchPreference$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/SwitchPreferenceCompat;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 10,
+        "name": "androidx.preference.SwitchPreferenceCompat",
+        "superclass": "androidx.preference.TwoStatePreference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/SwitchPreferenceCompat$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.SwitchPreferenceCompat$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/TwoStatePreference;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 16,
+        "name": "androidx.preference.TwoStatePreference",
+        "superclass": "androidx.preference.Preference"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/TwoStatePreference$SavedState;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.preference.TwoStatePreference$SavedState",
+        "superclass": "androidx.preference.Preference$BaseSavedState"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/TwoStatePreference$SavedState$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.preference.TwoStatePreference$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/UnPressableLinearLayout;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.preference.UnPressableLinearLayout",
+        "superclass": "android.widget.LinearLayout"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 12,
+        "name": "androidx.preference.a",
+        "superclass": "androidx.preference.g"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/preference/b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.preference.b",
+        "superclass": "androidx.preference.Preference"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/c;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.preference.c",
+        "superclass": "androidx.preference.g"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/c$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/d;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "androidx.preference.d",
+        "superclass": "androidx.preference.g"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/d$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/preference/e;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/f;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.preference.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/g;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 14,
+        "name": "androidx.preference.g",
+        "superclass": "androidx.fragment.app.m"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/g$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/h;",
+        "dex": "classes.dex",
+        "fields": 9,
+        "methods": 29,
+        "name": "androidx.preference.h",
+        "superclass": "androidx.fragment.app.Fragment"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/h$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.h$a",
+        "superclass": "android.os.Handler"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/h$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.h$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/h$c;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "androidx.preference.h$c",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$p"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/i;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "androidx.preference.i",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$h"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/i$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.preference.i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/i$b;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.preference.i$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/i$c;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.preference.i$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/internal/PreferenceImageView;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "androidx.preference.internal.PreferenceImageView",
+        "superclass": "android.widget.ImageView"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/preference/j;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 13,
+        "name": "androidx.preference.j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/preference/k;",
+        "dex": "classes.dex",
+        "fields": 12,
+        "methods": 25,
+        "name": "androidx.preference.k",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/k$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.k$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/k$b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.k$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/preference/k$c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.preference.k$c",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 228,
+    "query": "Preference"
+  },
+  "summary": "228 of 32886 classes match \"Preference\" in 4 DEX file(s); showing 200.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 228,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

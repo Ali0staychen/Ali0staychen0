@@ -1,0 +1,146 @@
+{
+  "id": "ev_5111613011f6ae1ec3815c0a51ccbb6b63af4e3c03df5a1c7bcd282bfb70927a",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.ReminderReceiver",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/ReminderReceiver;",
+    "dex": "classes3.dex",
+    "fields": [],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 7,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;-><init>()V",
+        "registers": 5,
+        "signature": "public void <init>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "code_units": 55,
+        "kind": "direct",
+        "name": "a",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;",
+        "registers": 9,
+        "signature": "private androidx.core.app.l$a a(android.content.Context, android.app.PendingIntent)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "code_units": 127,
+        "kind": "direct",
+        "name": "b",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;->b(Landroid/content/Context;)Landroid/graphics/Bitmap;",
+        "registers": 10,
+        "signature": "private android.graphics.Bitmap b(android.content.Context)",
+        "try_blocks": 2
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "code_units": 21,
+        "kind": "direct",
+        "name": "c",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;->c(Landroid/content/Context;)Landroid/app/PendingIntent;",
+        "registers": 8,
+        "signature": "private android.app.PendingIntent c(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "code_units": 21,
+        "kind": "direct",
+        "name": "d",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;",
+        "registers": 9,
+        "signature": "private android.app.PendingIntent d(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "code_units": 309,
+        "kind": "direct",
+        "name": "e",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+        "registers": 13,
+        "signature": "private void e(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 81,
+        "kind": "virtual",
+        "name": "onReceive",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+        "registers": 10,
+        "signature": "public void onReceive(android.content.Context, android.content.Intent)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.ReminderReceiver",
+    "source_file": "SourceFile",
+    "superclass": "Landroid/content/BroadcastReceiver;"
+  },
+  "summary": "com.journey.app.ReminderReceiver (classes3.dex) extends android.content.BroadcastReceiver: 0 fields, 7 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/ReminderReceiver;"
+    }
+  ],
+  "links": []
+}

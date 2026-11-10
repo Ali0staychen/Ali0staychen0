@@ -1,0 +1,195 @@
+{
+  "id": "ev_f7bed351778d03d3b12e239592b1cc2663a0e6ba8ecf472bdbbe9684b7e14890",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "s8.a",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "abstract"
+    ],
+    "annotations": [],
+    "descriptor": "Ls8/a;",
+    "dex": "classes3.dex",
+    "fields": [],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 62,
+        "kind": "direct",
+        "name": "a",
+        "overload_index": 0,
+        "reference": "Ls8/a;->a(Landroid/content/Context;)V",
+        "registers": 7,
+        "signature": "public static void a(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 24,
+        "kind": "direct",
+        "name": "b",
+        "overload_index": 0,
+        "reference": "Ls8/a;->b(Landroid/content/Context;)V",
+        "registers": 5,
+        "signature": "public static void b(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 24,
+        "kind": "direct",
+        "name": "c",
+        "overload_index": 0,
+        "reference": "Ls8/a;->c(Landroid/content/Context;)V",
+        "registers": 5,
+        "signature": "public static void c(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 24,
+        "kind": "direct",
+        "name": "d",
+        "overload_index": 0,
+        "reference": "Ls8/a;->d(Landroid/content/Context;)V",
+        "registers": 6,
+        "signature": "public static void d(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 133,
+        "kind": "direct",
+        "name": "e",
+        "overload_index": 0,
+        "reference": "Ls8/a;->e(Landroid/content/Context;I)V",
+        "registers": 14,
+        "signature": "public static void e(android.content.Context, int)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 75,
+        "kind": "direct",
+        "name": "f",
+        "overload_index": 0,
+        "reference": "Ls8/a;->f(Landroid/content/Context;)V",
+        "registers": 9,
+        "signature": "public static void f(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 114,
+        "kind": "direct",
+        "name": "g",
+        "overload_index": 0,
+        "reference": "Ls8/a;->g(Landroid/content/Context;)V",
+        "registers": 13,
+        "signature": "public static void g(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 9,
+        "kind": "direct",
+        "name": "h",
+        "overload_index": 0,
+        "reference": "Ls8/a;->h(Landroid/content/Context;J)V",
+        "registers": 8,
+        "signature": "public static void h(android.content.Context, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 91,
+        "kind": "direct",
+        "name": "i",
+        "overload_index": 0,
+        "reference": "Ls8/a;->i(Landroid/content/Context;JI)V",
+        "registers": 11,
+        "signature": "private static void i(android.content.Context, long, int)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 174,
+        "kind": "direct",
+        "name": "j",
+        "overload_index": 0,
+        "reference": "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+        "registers": 15,
+        "signature": "public static void j(android.content.Context, java.lang.Boolean)",
+        "try_blocks": 1
+      }
+    ],
+    "name": "s8.a",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "s8.a (classes3.dex) extends java.lang.Object: 0 fields, 10 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Ls8/a;"
+    }
+  ],
+  "links": []
+}

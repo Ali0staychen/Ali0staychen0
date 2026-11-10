@@ -1,0 +1,98 @@
+{
+  "id": "ev_66305cf793b26cc1aeb0b13054ede2d86350e9a94868219c1e60165f4fb6d391",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "signature"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/client/json/webtoken/JsonWebSignature;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.api.client.json.webtoken.JsonWebSignature",
+        "superclass": "com.google.api.client.json.webtoken.JsonWebToken"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/client/json/webtoken/JsonWebSignature$Header;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 28,
+        "name": "com.google.api.client.json.webtoken.JsonWebSignature$Header",
+        "superclass": "com.google.api.client.json.webtoken.JsonWebToken$Header"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/client/json/webtoken/JsonWebSignature$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.google.api.client.json.webtoken.JsonWebSignature$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Lokhttp3/internal/SuppressSignatureCheck;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "okhttp3.internal.SuppressSignatureCheck",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 4,
+    "query": "signature"
+  },
+  "summary": "4 of 32886 classes match \"signature\" in 4 DEX file(s); showing 4.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

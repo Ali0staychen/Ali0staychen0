@@ -1,0 +1,78 @@
+{
+  "id": "ev_73d1be1aa6ab283fed1aa0cda504ee2ae81e7a1c10dbc96cbd1a5cd95b79db93",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Journal"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/room/RoomDatabase$JournalMode;",
+        "dex": "classes7.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "androidx.room.RoomDatabase$JournalMode",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lokhttp3/internal/cache/DiskLruCache$newJournalWriter$faultHidingSink$1;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "okhttp3.internal.cache.DiskLruCache$newJournalWriter$faultHidingSink$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 2,
+    "query": "Journal"
+  },
+  "summary": "2 of 32680 classes match \"Journal\" in 8 DEX file(s); showing 2.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 2,
+    "total": 2
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

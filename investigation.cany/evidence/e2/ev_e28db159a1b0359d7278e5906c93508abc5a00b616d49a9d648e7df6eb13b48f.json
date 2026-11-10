@@ -1,0 +1,107 @@
+{
+  "id": "ev_e28db159a1b0359d7278e5906c93508abc5a00b616d49a9d648e7df6eb13b48f",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Video"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/exoplayer/video/PlaceholderSurface;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.media3.exoplayer.video.PlaceholderSurface",
+        "superclass": "android.view.Surface"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/media3/exoplayer/video/PlaceholderSurface$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.media3.exoplayer.video.PlaceholderSurface$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/media3/exoplayer/video/PlaceholderSurface$b;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.media3.exoplayer.video.PlaceholderSurface$b",
+        "superclass": "android.os.HandlerThread"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$VideoMediaMetadata;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 14,
+        "name": "com.google.api.services.drive.model.File$VideoMediaMetadata",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/provider/NetworkModule_ProvideOdysseyApiServiceFactory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.provider.NetworkModule_ProvideOdysseyApiServiceFactory",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 5,
+    "query": "Video"
+  },
+  "summary": "5 of 32886 classes match \"Video\" in 4 DEX file(s); showing 5.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 5,
+    "total": 5
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

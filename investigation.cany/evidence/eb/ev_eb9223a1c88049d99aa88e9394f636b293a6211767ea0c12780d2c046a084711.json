@@ -1,0 +1,762 @@
+{
+  "id": "ev_eb9223a1c88049d99aa88e9394f636b293a6211767ea0c12780d2c046a084711",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.MediaFileV2",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "Alias",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->Alias:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "CreatedAt",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->CreatedAt:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "Ext",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->Ext:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "ExternalId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->ExternalId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "FileMetadataDate",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->FileMetadataDate:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "FileName",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->FileName:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "JId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->JId:Ljava/lang/Long;",
+        "type": "java.lang.Long"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "LinkedAccountId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->LinkedAccountId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "MId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->MId:J",
+        "type": "long"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "MimeType",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->MimeType:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "Position",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->Position:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "Uploaded",
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->Uploaded:Ljava/lang/Boolean;",
+        "type": "java.lang.Boolean"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;-><clinit>()V",
+        "registers": 4,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 42,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Boolean;)V",
+        "registers": 16,
+        "signature": "public void <init>(long, java.lang.String, java.lang.String, java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 139,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->copy$default(Lcom/journey/app/mvvm/models/entity/MediaFileV2;JLjava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Boolean;ILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/MediaFileV2;",
+        "registers": 29,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.MediaFileV2 copy$default(com.journey.app.mvvm.models.entity.MediaFileV2, long, java.lang.String, java.lang.String, java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Boolean, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component1()J",
+        "registers": 6,
+        "signature": "public final long component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component10",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component10()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer component10()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component11",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component11()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component11()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component12",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component12()Ljava/lang/Boolean;",
+        "registers": 5,
+        "signature": "public final java.lang.Boolean component12()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component2()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component3()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component4()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component5()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component6",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component6()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component6()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component7",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component7()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component7()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component8",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component8()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component8()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component9",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->component9()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component9()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 29,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->copy(JLjava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Boolean;)Lcom/journey/app/mvvm/models/entity/MediaFileV2;",
+        "registers": 28,
+        "signature": "public final com.journey.app.mvvm.models.entity.MediaFileV2 copy(long, java.lang.String, java.lang.String, java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.Boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 212,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->equals(Ljava/lang/Object;)Z",
+        "registers": 12,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getAlias",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getAlias()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getAlias()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getCreatedAt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getCreatedAt()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getCreatedAt()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getExt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getExt()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getExt()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getExternalId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getExternalId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getExternalId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFileMetadataDate",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getFileMetadataDate()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getFileMetadataDate()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFileName",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getFileName()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getFileName()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getJId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getJId()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long getJId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLinkedAccountId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getLinkedAccountId()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getLinkedAccountId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getMId()J",
+        "registers": 7,
+        "signature": "public final long getMId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMimeType",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getMimeType()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getMimeType()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getPosition",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getPosition()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer getPosition()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getUploaded",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->getUploaded()Ljava/lang/Boolean;",
+        "registers": 6,
+        "signature": "public final java.lang.Boolean getUploaded()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 220,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->hashCode()I",
+        "registers": 8,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setAlias",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setAlias(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setAlias(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setCreatedAt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setCreatedAt(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void setCreatedAt(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setExt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setExt(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setExt(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setExternalId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setExternalId(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void setExternalId(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setFileMetadataDate",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setFileMetadataDate(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setFileMetadataDate(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setFileName",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setFileName(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void setFileName(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setJId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setJId(Ljava/lang/Long;)V",
+        "registers": 6,
+        "signature": "public final void setJId(java.lang.Long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setLinkedAccountId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setLinkedAccountId(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setLinkedAccountId(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setMimeType",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setMimeType(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setMimeType(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setPosition",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setPosition(Ljava/lang/Integer;)V",
+        "registers": 5,
+        "signature": "public final void setPosition(java.lang.Integer)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setUploaded",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->setUploaded(Ljava/lang/Boolean;)V",
+        "registers": 6,
+        "signature": "public final void setUploaded(java.lang.Boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 164,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.MediaFileV2",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.MediaFileV2 (classes3.dex) extends java.lang.Object: 13 fields, 42 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;"
+    }
+  ],
+  "links": []
+}

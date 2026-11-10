@@ -1,0 +1,736 @@
+{
+  "id": "ev_610aba5f6bfdb8679b956acd4311156923856ba8becdc7e4c55caa2319f10c89",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.gson.EditorStatesGson$ActiveStates",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "blockquote",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->blockquote:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "bold",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->bold:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "bulletList",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->bulletList:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "code",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->code:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "codeBlock",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->codeBlock:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "color",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->color:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "heading",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->heading:Lcom/journey/app/gson/EditorStatesGson$HeadingState;",
+        "type": "com.journey.app.gson.EditorStatesGson$HeadingState"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "highlight",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->highlight:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "italic",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->italic:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "orderedList",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->orderedList:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "paragraph",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->paragraph:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "strike",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->strike:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "table",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->table:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "taskList",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->taskList:Z",
+        "type": "boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "underline",
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->underline:Z",
+        "type": "boolean"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;-><clinit>()V",
+        "registers": 3,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 48,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;-><init>(ZZLcom/journey/app/gson/EditorStatesGson$HeadingState;ZZZZZZZZZZLjava/lang/String;Z)V",
+        "registers": 18,
+        "signature": "public void <init>(boolean, boolean, com.journey.app.gson.EditorStatesGson$HeadingState, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, java.lang.String, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 177,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->copy$default(Lcom/journey/app/gson/EditorStatesGson$ActiveStates;ZZLcom/journey/app/gson/EditorStatesGson$HeadingState;ZZZZZZZZZZLjava/lang/String;ZILjava/lang/Object;)Lcom/journey/app/gson/EditorStatesGson$ActiveStates;",
+        "registers": 34,
+        "signature": "public static synthetic com.journey.app.gson.EditorStatesGson$ActiveStates copy$default(com.journey.app.gson.EditorStatesGson$ActiveStates, boolean, boolean, com.journey.app.gson.EditorStatesGson$HeadingState, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, java.lang.String, boolean, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 6,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component1()Z",
+        "registers": 5,
+        "signature": "public final boolean component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component10",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component10()Z",
+        "registers": 5,
+        "signature": "public final boolean component10()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component11",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component11()Z",
+        "registers": 6,
+        "signature": "public final boolean component11()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component12",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component12()Z",
+        "registers": 5,
+        "signature": "public final boolean component12()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component13",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component13()Z",
+        "registers": 6,
+        "signature": "public final boolean component13()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component14",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component14()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component14()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component15",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component15()Z",
+        "registers": 6,
+        "signature": "public final boolean component15()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component2()Z",
+        "registers": 6,
+        "signature": "public final boolean component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component3()Lcom/journey/app/gson/EditorStatesGson$HeadingState;",
+        "registers": 5,
+        "signature": "public final com.journey.app.gson.EditorStatesGson$HeadingState component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component4()Z",
+        "registers": 5,
+        "signature": "public final boolean component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component5()Z",
+        "registers": 5,
+        "signature": "public final boolean component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component6",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component6()Z",
+        "registers": 5,
+        "signature": "public final boolean component6()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component7",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component7()Z",
+        "registers": 6,
+        "signature": "public final boolean component7()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component8",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component8()Z",
+        "registers": 5,
+        "signature": "public final boolean component8()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component9",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->component9()Z",
+        "registers": 6,
+        "signature": "public final boolean component9()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 46,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->copy(ZZLcom/journey/app/gson/EditorStatesGson$HeadingState;ZZZZZZZZZZLjava/lang/String;Z)Lcom/journey/app/gson/EditorStatesGson$ActiveStates;",
+        "registers": 33,
+        "signature": "public final com.journey.app.gson.EditorStatesGson$ActiveStates copy(boolean, boolean, com.journey.app.gson.EditorStatesGson$HeadingState, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, java.lang.String, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 197,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->equals(Ljava/lang/Object;)Z",
+        "registers": 10,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getBlockquote",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getBlockquote()Z",
+        "registers": 6,
+        "signature": "public final boolean getBlockquote()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getBold",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getBold()Z",
+        "registers": 6,
+        "signature": "public final boolean getBold()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getBulletList",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getBulletList()Z",
+        "registers": 6,
+        "signature": "public final boolean getBulletList()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getCode()Z",
+        "registers": 6,
+        "signature": "public final boolean getCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getCodeBlock",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getCodeBlock()Z",
+        "registers": 5,
+        "signature": "public final boolean getCodeBlock()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getColor",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getColor()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getColor()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getHeading",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getHeading()Lcom/journey/app/gson/EditorStatesGson$HeadingState;",
+        "registers": 5,
+        "signature": "public final com.journey.app.gson.EditorStatesGson$HeadingState getHeading()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getHighlight",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getHighlight()Z",
+        "registers": 6,
+        "signature": "public final boolean getHighlight()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getItalic",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getItalic()Z",
+        "registers": 5,
+        "signature": "public final boolean getItalic()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getOrderedList",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getOrderedList()Z",
+        "registers": 5,
+        "signature": "public final boolean getOrderedList()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getParagraph",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getParagraph()Z",
+        "registers": 5,
+        "signature": "public final boolean getParagraph()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getStrike",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getStrike()Z",
+        "registers": 5,
+        "signature": "public final boolean getStrike()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTable",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getTable()Z",
+        "registers": 5,
+        "signature": "public final boolean getTable()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTaskList",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getTaskList()Z",
+        "registers": 6,
+        "signature": "public final boolean getTaskList()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getUnderline",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->getUnderline()Z",
+        "registers": 5,
+        "signature": "public final boolean getUnderline()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 192,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->hashCode()I",
+        "registers": 6,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 200,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.gson.EditorStatesGson$ActiveStates",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.gson.EditorStatesGson$ActiveStates (classes3.dex) extends java.lang.Object: 16 fields, 37 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/gson/EditorStatesGson$ActiveStates;"
+    }
+  ],
+  "links": []
+}

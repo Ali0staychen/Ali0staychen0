@@ -1,0 +1,1699 @@
+{
+  "id": "ev_6ed5678f1ab636884676f994fc9c8b211ff83759d35bb6ce57c11a650b11b82d",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "SyncApi"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/provider/NetworkModule_ProvideSyncApiServiceFactory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.provider.NetworkModule_ProvideSyncApiServiceFactory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$Auth;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$Auth",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$DeleteEntriesResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$DeleteEntriesResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryGetDataGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryGetDataGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryLocationResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryLocationResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryMusicResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryMusicResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryTagResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryTagResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$EntryWeatherResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$EntryWeatherResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchEntriesUpdateResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchEntriesUpdateResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchEntryGetResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchEntryGetResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchFilesUpdateResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchFilesUpdateResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchTagsUpdateResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchTagsUpdateResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FetchTrashesResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FetchTrashesResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FileDataGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FileDataGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 26,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FileVariantEncryptionResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FileVariantEncryptionResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$FileVariantResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$FileVariantResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$GenericResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$GenericResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$GetSyncDriveResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$GetSyncDriveResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$LegacyResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$LegacyResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$PartialEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 19,
+        "methods": 43,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$PartialEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$SearchDataGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$SearchDataGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$SearchResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$SearchResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$SyncDriveDataGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$SyncDriveDataGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$SyncDriveGson;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 21,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$SyncDriveGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$TagResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$TagResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$TrashResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$TrashResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$UploadEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$UploadEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$UploadFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$UploadFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$UploadedFileDataGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$UploadedFileDataGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiGson$UploadedFileGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiGson$UploadedFileGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 29,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchFile$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchFile$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchFile$4;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchFile$4",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchFilesUpdates$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchFilesUpdates$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchSyncDrive$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchSyncDrive$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchTagsUpdates$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchTagsUpdates$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchTrashes$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchTrashes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$fetchUpdates$2;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$fetchUpdates$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$searchByAttrs$2;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$searchByAttrs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$searchByTextAndAttrs$2;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$searchByTextAndAttrs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$uploadFile$2;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$uploadFile$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$uploadNewEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$uploadNewEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$uploadTrashes$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$uploadTrashes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SelfHostedSyncApiService$uploadUpdatedEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SelfHostedSyncApiService$uploadUpdatedEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.service.SyncApiGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$AccountResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 12,
+        "methods": 29,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$AccountResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$BackupResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$BackupResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$CountedFileGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$CountedFileGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$CountedFilesResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$CountedFilesResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$CreateAccountResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$CreateAccountResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$CreateUpdateWebLinkResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$CreateUpdateWebLinkResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$DeleteEntriesResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$DeleteEntriesResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$DocExportResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$DocExportResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EncryptionObject;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EncryptionObject",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryMusicResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryMusicResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ExportedThemeResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ExportedThemeResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchEntriesUpdateResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchEntriesUpdateResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchEntryGetResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchEntryGetResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchFilesUpdateResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchFilesUpdateResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchTagsUpdateResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchTagsUpdateResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FetchTrashesResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FetchTrashesResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 26,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FileVariantEncryptionResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FileVariantEncryptionResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FileVariantResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 19,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$FileVariantResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$GenericResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$GenericResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$GetAccountResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$GetAccountResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$LegacyResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$LegacyResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ListBackupsResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ListBackupsResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ListDocExportJobsResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ListDocExportJobsResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ListExportedThemesResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ListExportedThemesResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ListPrintJobsResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ListPrintJobsResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ListWebLinksResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ListWebLinksResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$OdysseyAskGPTDataResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$OdysseyAskGPTDataResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$OdysseyAskGPTResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$OdysseyAskGPTResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$PartialEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 19,
+        "methods": 43,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$PartialEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$PrintResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$PrintResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$SearchFileResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$SearchFileResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$SearchResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$SearchResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ShareAcceptResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ShareAcceptResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ShareInviteResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ShareInviteResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$TagResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$TagResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$TrashResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$TrashResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$UpdatedWebLinkResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$UpdatedWebLinkResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$UploadEntryResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$UploadEntryResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$UserResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$UserResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ValidateKeys;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ValidateKeys",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$ValidateKeysResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$ValidateKeysResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$WebLinkResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 23,
+        "name": "com.journey.app.mvvm.service.SyncApiGson$WebLinkResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 55,
+        "name": "com.journey.app.mvvm.service.SyncApiService",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.service.SyncApiService$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$acceptShare$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$acceptShare$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$createAccount$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$createAccount$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$createWebLink$2;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$createWebLink$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$deleteBackup$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$deleteBackup$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$deleteDocExportJob$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$deleteDocExportJob$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$deletePrintJob$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$deletePrintJob$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$deleteWebLink$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$deleteWebLink$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchAccount$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchAccount$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchFeaturedFileCategories$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchFeaturedFileCategories$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchFile$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchFile$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchFile$4;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchFile$4",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchFileTypes$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchFileTypes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchFilesUpdates$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchFilesUpdates$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchTagsUpdates$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchTagsUpdates$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchTopFileCategories$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchTopFileCategories$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchTrashes$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchTrashes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$fetchUpdates$2;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$fetchUpdates$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$initiateBackup$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$initiateBackup$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$initiateDocExportJob$2;",
+        "dex": "classes3.dex",
+        "fields": 14,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$initiateDocExportJob$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$initiatePrintJob$2;",
+        "dex": "classes3.dex",
+        "fields": 15,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$initiatePrintJob$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$invalidateAccount$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$invalidateAccount$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$listBackups$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$listBackups$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$listDocExportJobs$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$listDocExportJobs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$listEPubThemes$2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$listEPubThemes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$listPrintJobs$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$listPrintJobs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$listPrintThemes$2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$listPrintThemes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$listWebLinks$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$listWebLinks$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$renameAccount$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$renameAccount$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$searchByAttrs$2;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$searchByAttrs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$searchByFileCategories$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$searchByFileCategories$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$searchByFileTypes$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$searchByFileTypes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$searchByTextAndAttrs$2;",
+        "dex": "classes3.dex",
+        "fields": 11,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$searchByTextAndAttrs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$searchFiles$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$searchFiles$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$shareInvite$2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$shareInvite$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$shareRemove$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$shareRemove$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$updateWebLink$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$updateWebLink$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$uploadNewEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$uploadNewEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$uploadTrashes$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$uploadTrashes$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$uploadUpdatedEntry$2;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$uploadUpdatedEntry$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/SyncApiService$validateAccountKeys$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.SyncApiService$validateAccountKeys$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 142,
+    "query": "SyncApi"
+  },
+  "summary": "142 of 32886 classes match \"SyncApi\" in 4 DEX file(s); showing 142.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 142,
+    "total": 142
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

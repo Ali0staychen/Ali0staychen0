@@ -1,0 +1,2158 @@
+{
+  "id": "ev_f26019f2a0d8b221397b658cbe725beab7b0fc2b8be0b95cb10122c2ac60ee91",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Tag"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/AnimateItemElement;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 13,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.AnimateItemElement",
+        "superclass": "androidx.compose.ui.node.ModifierNodeElement"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/ItemInfo;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 9,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.ItemInfo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyGridStaggeredGridSlotsProvider;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyGridStaggeredGridSlotsProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridAnimateScrollScope;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 11,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridAnimateScrollScope",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridAnimateScrollScope$getVisibleItemScrollOffset$searchedIndex$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridAnimateScrollScope$getVisibleItemScrollOffset$searchedIndex$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridBeyondBoundsModifierKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridBeyondBoundsModifierKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridBeyondBoundsState;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 8,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridBeyondBoundsState",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridCellsKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridCellsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 12,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$LazyHorizontalStaggeredGrid$1;",
+        "dex": "classes.dex",
+        "fields": 12,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$LazyHorizontalStaggeredGrid$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$LazyVerticalStaggeredGrid$1;",
+        "dex": "classes.dex",
+        "fields": 12,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$LazyVerticalStaggeredGrid$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$10;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$10",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$2$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$3;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$4$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$4$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$5;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$5",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$6;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$6",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$7$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$7$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$8;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$8",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$items$9$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$items$9$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$10;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$10",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$2$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$3;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$4$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$4$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$5;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$5",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$6;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$6",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$7$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$7$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$8;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$8",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$itemsIndexed$9$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$itemsIndexed$9$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$rememberColumnSlots$1$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$rememberColumnSlots$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt$rememberRowSlots$1$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridDslKt$rememberRowSlots$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridInterval;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridInterval",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridIntervalContent;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridIntervalContent",
+        "superclass": "androidx.compose.foundation.lazy.layout.LazyLayoutIntervalContent"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridIntervalContent$item$1$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridIntervalContent$item$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridIntervalContent$item$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridIntervalContent$item$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridIntervalContent$item$3$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridIntervalContent$item$3$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridIntervalContent$item$4;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridIntervalContent$item$4",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemInfo;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemInfo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemPlacementAnimator;",
+        "dex": "classes.dex",
+        "fields": 9,
+        "methods": 10,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemPlacementAnimator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortBy$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortBy$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortBy$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortBy$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortByDescending$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortByDescending$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortByDescending$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemPlacementAnimator$onMeasured$$inlined$sortByDescending$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemPlacementAnimatorKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemPlacementAnimatorKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProvider;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderImpl;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderImpl$Item$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderImpl$Item$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderImpl$Item$2;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderImpl$Item$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderKt$rememberStaggeredGridItemProviderLambda$1$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderKt$rememberStaggeredGridItemProviderLambda$1$1",
+        "superclass": "kotlin.jvm.internal.PropertyReference0Impl"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderKt$rememberStaggeredGridItemProviderLambda$1$intervalContentState$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderKt$rememberStaggeredGridItemProviderLambda$1$intervalContentState$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemProviderKt$rememberStaggeredGridItemProviderLambda$1$itemProviderState$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemProviderKt$rememberStaggeredGridItemProviderLambda$1$itemProviderState$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemScope;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemScope",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridItemScopeImpl;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridItemScopeImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridKt$LazyStaggeredGrid$1;",
+        "dex": "classes.dex",
+        "fields": 14,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridKt$LazyStaggeredGrid$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridLaneInfo;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 15,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridLaneInfo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridLaneInfo$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridLaneInfo$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridLaneInfo$SpannedItem;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridLaneInfo$SpannedItem",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridLaneInfo$getGaps$$inlined$binarySearchBy$default$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridLaneInfo$getGaps$$inlined$binarySearchBy$default$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridLaneInfo$setGaps$$inlined$binarySearchBy$default$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridLaneInfo$setGaps$$inlined$binarySearchBy$default$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridLayoutInfo;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridLayoutInfo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureContext;",
+        "dex": "classes.dex",
+        "fields": 18,
+        "methods": 24,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureContext",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureContext$measuredItemProvider$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureContext$measuredItemProvider$1",
+        "superclass": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureProvider"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureKt;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 21,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureKt$measure$1$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureKt$measure$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureKt$measure$1$29;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureKt$measure$1$29",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasurePolicyKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasurePolicyKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasurePolicyKt$WhenMappings;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasurePolicyKt$WhenMappings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasurePolicyKt$rememberStaggeredGridMeasurePolicy$1$1;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasurePolicyKt$rememberStaggeredGridMeasurePolicy$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureProvider;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureResult;",
+        "dex": "classes.dex",
+        "fields": 17,
+        "methods": 27,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureResult",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureResultKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureResultKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureResultKt$EmptyLazyStaggeredGridLayoutInfo$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureResultKt$EmptyLazyStaggeredGridLayoutInfo$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureResultKt$findVisibleItem$index$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureResultKt$findVisibleItem$index$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasuredItem;",
+        "dex": "classes.dex",
+        "fields": 21,
+        "methods": 28,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasuredItem",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope$items$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope$items$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScopeMarker;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScopeMarker",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScrollPosition;",
+        "dex": "classes.dex",
+        "fields": 9,
+        "methods": 20,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScrollPosition",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScrollPositionKt;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 0,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScrollPositionKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridSemanticsKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridSemanticsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridSemanticsKt$rememberLazyStaggeredGridSemanticState$1$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridSemanticsKt$rememberLazyStaggeredGridSemanticState$1$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridSlotCache;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridSlotCache",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridSlots;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridSlots",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridSpanProvider;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridSpanProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState;",
+        "dex": "classes.dex",
+        "fields": 28,
+        "methods": 62,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$Companion$Saver$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$Companion$Saver$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$Companion$Saver$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$Companion$Saver$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$remeasurementModifier$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$remeasurementModifier$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$scroll$1;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 2,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$scroll$1",
+        "superclass": "kotlin.coroutines.jvm.internal.ContinuationImpl"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$scrollPosition$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$scrollPosition$1",
+        "superclass": "kotlin.jvm.internal.FunctionReferenceImpl"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$scrollToItem$2;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$scrollToItem$2",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridState$scrollableState$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridState$scrollableState$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridStateKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridStateKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridStateKt$rememberLazyStaggeredGridState$1$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridStateKt$rememberLazyStaggeredGridState$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/SpanRange;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 16,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.SpanRange",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/StaggeredGridCells;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/StaggeredGridCells$Adaptive;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells$Adaptive",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/StaggeredGridCells$Fixed;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells$Fixed",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/StaggeredGridCells$FixedSize;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells$FixedSize",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/StaggeredGridItemSpan;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/lazy/staggeredgrid/StaggeredGridItemSpan$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AppsOutageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AppsOutageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/CottageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.CottageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/FilterVintageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.FilterVintageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/PentagonKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.PentagonKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SupportAgentKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SupportAgentKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/TagFacesKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.TagFacesKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/TagKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.TagKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AppsOutageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AppsOutageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/CottageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.CottageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/FilterVintageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.FilterVintageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/PentagonKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.PentagonKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SupportAgentKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SupportAgentKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/TagFacesKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.TagFacesKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/TagKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.TagKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AppsOutageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AppsOutageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/CottageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.CottageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/FilterVintageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.FilterVintageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/PentagonKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.PentagonKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SupportAgentKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SupportAgentKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/TagFacesKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.TagFacesKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/TagKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.TagKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AppsOutageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AppsOutageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/CottageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.CottageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/FilterVintageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.FilterVintageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/PentagonKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.PentagonKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SupportAgentKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SupportAgentKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/TagFacesKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.TagFacesKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/TagKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.TagKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AppsOutageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AppsOutageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/CottageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.CottageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/FilterVintageKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.FilterVintageKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/PentagonKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.PentagonKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SupportAgentKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SupportAgentKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/TagFacesKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.TagFacesKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/TagKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.TagKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/internal/ExposedDropdownMenuPopup_androidKt$LocalPopupTestTag$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.material.internal.ExposedDropdownMenuPopup_androidKt$LocalPopupTestTag$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/platform/TestTagKt;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.compose.ui.platform.TestTagKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/platform/TestTagKt$testTag$1;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.ui.platform.TestTagKt$testTag$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/semantics/SemanticsProperties$TestTag$1;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.ui.semantics.SemanticsProperties$TestTag$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/semantics/SemanticsPropertiesAndroid$TestTagsAsResourceId$1;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.ui.semantics.SemanticsPropertiesAndroid$TestTagsAsResourceId$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/window/AndroidPopup_androidKt$LocalPopupTestTag$1;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.compose.ui.window.AndroidPopup_androidKt$LocalPopupTestTag$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/ui/window/AndroidPopup_androidKt$PopupTestTag$1;",
+        "dex": "classes7.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.compose.ui.window.AndroidPopup_androidKt$PopupTestTag$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;",
+        "dex": "classes7.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.core.app.NotificationManagerCompat$NotificationWithIdAndTag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/core/net/DatagramSocketWrapper;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.core.net.DatagramSocketWrapper",
+        "superclass": "java.net.Socket"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/core/net/DatagramSocketWrapper$DatagramSocketImplWrapper;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 15,
+        "name": "androidx.core.net.DatagramSocketWrapper$DatagramSocketImplWrapper",
+        "superclass": "java.net.SocketImpl"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/exifinterface/media/ExifInterface$ExifTag;",
+        "dex": "classes7.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.exifinterface.media.ExifInterface$ExifTag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/fragment/app/strictmode/FragmentTagUsageViolation;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.fragment.app.strictmode.FragmentTagUsageViolation",
+        "superclass": "androidx.fragment.app.strictmode.Violation"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/common/PercentageRating;",
+        "dex": "classes7.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "androidx.media3.common.PercentageRating",
+        "superclass": "androidx.media3.common.Rating"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroidx/media3/exoplayer/source/preload/DefaultPreloadManager$Status$Stage;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.media3.exoplayer.source.preload.DefaultPreloadManager$Status$Stage",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/extractor/flv/AudioTagPayloadReader;",
+        "dex": "classes7.dex",
+        "fields": 10,
+        "methods": 5,
+        "name": "androidx.media3.extractor.flv.AudioTagPayloadReader",
+        "superclass": "androidx.media3.extractor.flv.TagPayloadReader"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/extractor/flv/ScriptTagPayloadReader;",
+        "dex": "classes7.dex",
+        "fields": 16,
+        "methods": 16,
+        "name": "androidx.media3.extractor.flv.ScriptTagPayloadReader",
+        "superclass": "androidx.media3.extractor.flv.TagPayloadReader"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/media3/extractor/flv/TagPayloadReader;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.media3.extractor.flv.TagPayloadReader",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/extractor/flv/TagPayloadReader$UnsupportedFormatException;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.media3.extractor.flv.TagPayloadReader$UnsupportedFormatException",
+        "superclass": "androidx.media3.common.ParserException"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/extractor/flv/VideoTagPayloadReader;",
+        "dex": "classes7.dex",
+        "fields": 11,
+        "methods": 4,
+        "name": "androidx.media3.extractor.flv.VideoTagPayloadReader",
+        "superclass": "androidx.media3.extractor.flv.TagPayloadReader"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/media3/extractor/text/webvtt/WebvttCueParser$StartTag;",
+        "dex": "classes7.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.media3.extractor.text.webvtt.WebvttCueParser$StartTag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager;",
+        "dex": "classes7.dex",
+        "fields": 33,
+        "methods": 108,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$LayoutManager"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$1;",
+        "dex": "classes7.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$AnchorInfo;",
+        "dex": "classes7.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$AnchorInfo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;",
+        "dex": "classes7.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LayoutParams",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$LayoutParams"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup;",
+        "dex": "classes7.dex",
+        "fields": 3,
+        "methods": 16,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem;",
+        "dex": "classes7.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem$1;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;",
+        "dex": "classes7.dex",
+        "fields": 11,
+        "methods": 8,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState$1;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;",
+        "dex": "classes7.dex",
+        "fields": 7,
+        "methods": 28,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$Span",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/work/impl/model/WorkTag;",
+        "dex": "classes8.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.work.impl.model.WorkTag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/model/WorkTagDao;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "androidx.work.impl.model.WorkTagDao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/work/impl/model/WorkTagDao$DefaultImpls;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.work.impl.model.WorkTagDao$DefaultImpls",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/work/impl/model/WorkTagDao_Impl;",
+        "dex": "classes8.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.work.impl.model.WorkTagDao_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/model/WorkTagDao_Impl$1;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.work.impl.model.WorkTagDao_Impl$1",
+        "superclass": "androidx.room.EntityInsertionAdapter"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/model/WorkTagDao_Impl$2;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.model.WorkTagDao_Impl$2",
+        "superclass": "androidx.room.SharedSQLiteStatement"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcoil/request/Tags;",
+        "dex": "classes8.dex",
+        "fields": 3,
+        "methods": 10,
+        "name": "coil.request.Tags",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcoil/request/Tags$Companion;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "coil.request.Tags$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/data/EntryTagCrossRef;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.replica.data.EntryTagCrossRef",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/replica/data/TagEntity;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 12,
+        "name": "com.journey.replica.data.TagEntity",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 181,
+    "query": "Tag"
+  },
+  "summary": "181 of 32680 classes match \"Tag\" in 8 DEX file(s); showing 181.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 181,
+    "total": 181
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

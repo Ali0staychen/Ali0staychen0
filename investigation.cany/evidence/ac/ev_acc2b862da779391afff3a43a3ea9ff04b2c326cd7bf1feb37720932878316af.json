@@ -1,0 +1,629 @@
+{
+  "id": "ev_acc2b862da779391afff3a43a3ea9ff04b2c326cd7bf1feb37720932878316af",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Map"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$BitmapKey;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaMetadataCompat$BitmapKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/databinding/DataBinderMapperImpl;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.databinding.DataBinderMapperImpl",
+        "superclass": "androidx.databinding.MergedDataBinderMapper"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/databinding/MergedDataBinderMapper;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.databinding.MergedDataBinderMapper",
+        "superclass": "androidx.databinding.a"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/databinding/library/baseAdapters/DataBinderMapperImpl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.databinding.library.baseAdapters.DataBinderMapperImpl",
+        "superclass": "androidx.databinding.a"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$CollectionsEmptyMapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$CollectionsEmptyMapSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$CollectionsSingletonMapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$CollectionsSingletonMapSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$TreeMapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$TreeMapSerializer",
+        "superclass": "com.esotericsoftware.kryo.serializers.MapSerializer"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/MapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 14,
+        "name": "com.esotericsoftware.kryo.serializers.MapSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/MapSerializer$BindMap;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.esotericsoftware.kryo.serializers.MapSerializer$BindMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap;",
+        "dex": "classes2.dex",
+        "fields": 18,
+        "methods": 29,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityObjectIntMap;",
+        "dex": "classes2.dex",
+        "fields": 15,
+        "methods": 27,
+        "name": "com.esotericsoftware.kryo.util.IdentityObjectIntMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap;",
+        "dex": "classes2.dex",
+        "fields": 18,
+        "methods": 31,
+        "name": "com.esotericsoftware.kryo.util.IntMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.IntMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.IntMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.IntMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.IntMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/MapReferenceResolver;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "com.esotericsoftware.kryo.util.MapReferenceResolver",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap;",
+        "dex": "classes2.dex",
+        "fields": 16,
+        "methods": 35,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zza;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.android.gms.internal.maps.zza",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaa;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzaa",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzab;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzab",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzac;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzac",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzad;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.android.gms.internal.maps.zzad",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzae;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzae",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaf;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzaf",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzag;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzah;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 33,
+        "name": "com.google.android.gms.internal.maps.zzah",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzai;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzai",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaj;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 32,
+        "name": "com.google.android.gms.internal.maps.zzaj",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzak;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzak",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzal;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzal",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzam;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 29,
+        "name": "com.google.android.gms.internal.maps.zzam",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzan;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzan",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzao;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 28,
+        "name": "com.google.android.gms.internal.maps.zzao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzap;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 31,
+        "name": "com.google.android.gms.internal.maps.zzap",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaq;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzaq",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzar;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 30,
+        "name": "com.google.android.gms.internal.maps.zzar",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzas;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzas",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzat;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzat",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 451,
+    "query": "Map"
+  },
+  "summary": "451 of 32886 classes match \"Map\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 451,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

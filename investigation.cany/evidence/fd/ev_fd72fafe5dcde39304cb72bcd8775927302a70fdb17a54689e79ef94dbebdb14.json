@@ -1,0 +1,645 @@
+{
+  "id": "ev_fd72fafe5dcde39304cb72bcd8775927302a70fdb17a54689e79ef94dbebdb14",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Activity"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$Default;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$Default",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$Stub;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$Stub$Proxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub$Proxy",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityCallback$_Parcel;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityCallback$_Parcel",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$Default;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$Default",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$Stub;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 4,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$Stub",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$Stub$Proxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 10,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$Stub$Proxy",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/customtabs/trusted/ITrustedWebActivityService$_Parcel;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.customtabs.trusted.ITrustedWebActivityService$_Parcel",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/A;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/B;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.B",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/C;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.C",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/D;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "androidx.activity.D",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/E;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.activity.E",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/F;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 12,
+        "name": "androidx.activity.F",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 19,
+        "name": "androidx.activity.G",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$b;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$b",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$c;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$c",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$d;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$d",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$e;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$e",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$f;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.activity.G$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$g;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.G$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$g$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.G$g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$h;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.G$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/G$i;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.G$i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/G$j;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.G$j",
+        "superclass": "kotlin.jvm.internal.q"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/G$k;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.G$k",
+        "superclass": "kotlin.jvm.internal.q"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/H;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.H",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/I;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.I",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/I$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.I$a",
+        "superclass": "androidx.activity.F"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/J;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.J",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/K;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 0,
+        "name": "androidx.activity.K",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/L;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "androidx.activity.L",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/L$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.activity.L$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/L$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.L$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/M;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.M",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/N;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.N",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.activity.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/b;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 6,
+        "name": "androidx.activity.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/b$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/d;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/e;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/f;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/g;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/h;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/i;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/j;",
+        "dex": "classes.dex",
+        "fields": 21,
+        "methods": 82,
+        "name": "androidx.activity.j",
+        "superclass": "androidx.core.app.h"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 547,
+    "query": "Activity"
+  },
+  "summary": "547 of 32886 classes match \"Activity\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 547,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

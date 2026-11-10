@@ -1,0 +1,239 @@
+{
+  "id": "ev_c1545e24e67f6afe9425777de4acf2432c01f614a7ee2d44d46d473950858e1a",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.JournalWithTagWordBags",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "journal",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->journal:Lcom/journey/app/mvvm/models/entity/Journal;",
+        "type": "com.journey.app.mvvm.models.entity.Journal"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tagWordBags",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->tagWordBags:Ljava/util/List;",
+        "type": "java.util.List"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;-><clinit>()V",
+        "registers": 1,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;-><init>(Lcom/journey/app/mvvm/models/entity/Journal;Ljava/util/List;)V",
+        "registers": 8,
+        "signature": "public void <init>(com.journey.app.mvvm.models.entity.Journal, java.util.List)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->copy$default(Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;Lcom/journey/app/mvvm/models/entity/Journal;Ljava/util/List;ILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;",
+        "registers": 9,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.JournalWithTagWordBags copy$default(com.journey.app.mvvm.models.entity.JournalWithTagWordBags, com.journey.app.mvvm.models.entity.Journal, java.util.List, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->component1()Lcom/journey/app/mvvm/models/entity/Journal;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.entity.Journal component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->component2()Ljava/util/List;",
+        "registers": 6,
+        "signature": "public final java.util.List component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 23,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->copy(Lcom/journey/app/mvvm/models/entity/Journal;Ljava/util/List;)Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;",
+        "registers": 7,
+        "signature": "public final com.journey.app.mvvm.models.entity.JournalWithTagWordBags copy(com.journey.app.mvvm.models.entity.Journal, java.util.List)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 54,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->equals(Ljava/lang/Object;)Z",
+        "registers": 9,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getJournal",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->getJournal()Lcom/journey/app/mvvm/models/entity/Journal;",
+        "registers": 6,
+        "signature": "public final com.journey.app.mvvm.models.entity.Journal getJournal()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTagWordBags",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->getTagWordBags()Ljava/util/List;",
+        "registers": 5,
+        "signature": "public final java.util.List getTagWordBags()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 23,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->hashCode()I",
+        "registers": 6,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 44,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;->toString()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.JournalWithTagWordBags",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.JournalWithTagWordBags (classes3.dex) extends java.lang.Object: 3 fields, 11 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;"
+    }
+  ],
+  "links": []
+}

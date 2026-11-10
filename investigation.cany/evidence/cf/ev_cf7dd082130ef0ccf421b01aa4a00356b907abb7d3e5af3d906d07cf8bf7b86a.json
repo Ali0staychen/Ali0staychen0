@@ -1,0 +1,257 @@
+{
+  "id": "ev_cf7dd082130ef0ccf421b01aa4a00356b907abb7d3e5af3d906d07cf8bf7b86a",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 40,
+    "offset": 0,
+    "path": null,
+    "query": "Calendar"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$CalendarSerializer;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$CalendarSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/material/datepicker/CalendarConstraints;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 19,
+        "name": "com.google.android.material.datepicker.CalendarConstraints",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/material/datepicker/CalendarConstraints$DateValidator;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.material.datepicker.CalendarConstraints$DateValidator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/android/material/datepicker/CalendarConstraints$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.android.material.datepicker.CalendarConstraints$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/material/datepicker/CalendarConstraints$b;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 4,
+        "name": "com.google.android.material.datepicker.CalendarConstraints$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/material/datepicker/MaterialCalendarGridView;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 14,
+        "name": "com.google.android.material.datepicker.MaterialCalendarGridView",
+        "superclass": "android.widget.GridView"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/android/material/datepicker/MaterialCalendarGridView$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.material.datepicker.MaterialCalendarGridView$a",
+        "superclass": "J1.a"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 32,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel",
+        "superclass": "com.journey.app.mvvm.viewModel.GenericViewModel"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel$sam$androidx_lifecycle_Observer$0;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel$sam$androidx_lifecycle_Observer$0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_Factory;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules$BindsModule;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules$BindsModule",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules$KeyModule;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules$KeyModule",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules_BindsModule_Binds_LazyMapKey;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules_BindsModule_Binds_LazyMapKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules_KeyModule_ProvideFactory;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules_KeyModule_ProvideFactory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/viewModel/CalendarViewModel_HiltModules_KeyModule_Provide_LazyMapKey;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.viewModel.CalendarViewModel_HiltModules_KeyModule_Provide_LazyMapKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lde/javakaffee/kryoserializers/GregorianCalendarSerializer;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "de.javakaffee.kryoserializers.GregorianCalendarSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 18,
+    "query": "Calendar"
+  },
+  "summary": "18 of 32886 classes match \"Calendar\" in 4 DEX file(s); showing 18.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 18,
+    "total": 18
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

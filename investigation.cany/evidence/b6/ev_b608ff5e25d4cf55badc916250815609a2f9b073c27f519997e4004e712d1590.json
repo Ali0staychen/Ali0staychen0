@@ -1,0 +1,287 @@
+{
+  "id": "ev_b608ff5e25d4cf55badc916250815609a2f9b073c27f519997e4004e712d1590",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Alarm"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryChargingProxy;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryNotLowProxy;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$NetworkStateProxy;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$StorageNotLowProxy;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver$a;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/RescheduleReceiver;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmService;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+        "superclass": "androidx.lifecycle.C"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.work.impl.background.systemalarm.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/a$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.work.impl.background.systemalarm.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/b;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 19,
+        "name": "androidx.work.impl.background.systemalarm.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/c;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 3,
+        "name": "androidx.work.impl.background.systemalarm.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/d;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/e;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/f;",
+        "dex": "classes2.dex",
+        "fields": 15,
+        "methods": 11,
+        "name": "androidx.work.impl.background.systemalarm.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/g;",
+        "dex": "classes2.dex",
+        "fields": 12,
+        "methods": 16,
+        "name": "androidx.work.impl.background.systemalarm.g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/g$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/g$b;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.g$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/g$c;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.work.impl.background.systemalarm.g$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/g$d;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.g$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/AlarmManagerSchedulerBroadcastReceiver;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 22,
+    "query": "Alarm"
+  },
+  "summary": "22 of 32886 classes match \"Alarm\" in 4 DEX file(s); showing 22.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 22,
+    "total": 22
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,603 @@
+{
+  "id": "ev_027c2d6fa963953265a9a4c36c1f35f4295268a2d481bfaf3f9da87fd1c6b37e",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "s8.T",
+    "java_source": false,
+    "limit": 2000,
+    "method_name": "R1",
+    "offset": 0,
+    "overload_index": 0,
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "static"
+    ],
+    "class": "Ls8/T;",
+    "dex": "classes3.dex",
+    "ins": 3,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v6, v9",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x71",
+        "text": "invoke-static {v6}, Ls8/T;->p0(Landroid/content/Context;)J",
+        "units": 3
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x0b",
+        "text": "move-result-wide v0",
+        "units": 1
+      },
+      {
+        "offset": "0005",
+        "opcode": "0x71",
+        "text": "invoke-static {v0, v1}, Ls8/T;->x0(J)J",
+        "units": 3
+      },
+      {
+        "offset": "0008",
+        "opcode": "0x0b",
+        "text": "move-result-wide v2",
+        "units": 1
+      },
+      {
+        "offset": "0009",
+        "opcode": "0x22",
+        "text": "new-instance v4, Ljava/util/Date;",
+        "units": 2
+      },
+      {
+        "offset": "000b",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x70",
+        "text": "invoke-direct {v4}, Ljava/util/Date;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "000f",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "0010",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v4}, Ljava/util/Date;->getTime()J",
+        "units": 3
+      },
+      {
+        "offset": "0013",
+        "opcode": "0x0b",
+        "text": "move-result-wide v4",
+        "units": 1
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x31",
+        "text": "cmp-long v4, v2, v4",
+        "units": 2
+      },
+      {
+        "offset": "0016",
+        "opcode": "0x12",
+        "text": "const/4 v8, 4",
+        "units": 1
+      },
+      {
+        "offset": "0017",
+        "opcode": "0x3c",
+        "text": "if-gtz v4, :0070",
+        "units": 2
+      },
+      {
+        "offset": "0019",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "001a",
+        "opcode": "0x71",
+        "text": "invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;",
+        "units": 3
+      },
+      {
+        "offset": "001d",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "001e",
+        "opcode": "0x07",
+        "text": "move-object v0, v8",
+        "units": 1
+      },
+      {
+        "offset": "001f",
+        "opcode": "0x22",
+        "text": "new-instance v1, Ljava/util/Date;",
+        "units": 2
+      },
+      {
+        "offset": "0021",
+        "opcode": "0x12",
+        "text": "const/4 v8, 2",
+        "units": 1
+      },
+      {
+        "offset": "0022",
+        "opcode": "0x70",
+        "text": "invoke-direct {v1}, Ljava/util/Date;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "0025",
+        "opcode": "0x12",
+        "text": "const/4 v8, 6",
+        "units": 1
+      },
+      {
+        "offset": "0026",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v1}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V",
+        "units": 3
+      },
+      {
+        "offset": "0029",
+        "opcode": "0x12",
+        "text": "const/4 v8, 2",
+        "units": 1
+      },
+      {
+        "offset": "002a",
+        "opcode": "0x22",
+        "text": "new-instance v1, Ljava/util/Date;",
+        "units": 2
+      },
+      {
+        "offset": "002c",
+        "opcode": "0x12",
+        "text": "const/4 v8, 3",
+        "units": 1
+      },
+      {
+        "offset": "002d",
+        "opcode": "0x70",
+        "text": "invoke-direct {v1}, Ljava/util/Date;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "0030",
+        "opcode": "0x12",
+        "text": "const/4 v8, 4",
+        "units": 1
+      },
+      {
+        "offset": "0031",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1}, Ljava/util/Date;->getTime()J",
+        "units": 3
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x0b",
+        "text": "move-result-wide v4",
+        "units": 1
+      },
+      {
+        "offset": "0035",
+        "opcode": "0xbc",
+        "text": "sub-long/2addr v4, v2",
+        "units": 1
+      },
+      {
+        "offset": "0036",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "0037",
+        "opcode": "0x17",
+        "text": "const-wide/32 v1, 0xdbba00",
+        "units": 3
+      },
+      {
+        "offset": "003a",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "003b",
+        "opcode": "0x31",
+        "text": "cmp-long v1, v4, v1",
+        "units": 2
+      },
+      {
+        "offset": "003d",
+        "opcode": "0x12",
+        "text": "const/4 v8, 5",
+        "units": 1
+      },
+      {
+        "offset": "003e",
+        "opcode": "0x3c",
+        "text": "if-gtz v1, :0042",
+        "units": 2
+      },
+      {
+        "offset": "0040",
+        "opcode": "0x12",
+        "text": "const/4 v8, 3",
+        "units": 1
+      },
+      {
+        "offset": "0041",
+        "opcode": "0x01",
+        "text": "move v10, v11",
+        "units": 1
+      },
+      {
+        "offset": "0042",
+        "opcode": "0x12",
+        "text": "const/4 v8, 6",
+        "units": 1
+      },
+      {
+        "offset": "0043",
+        "opcode": "0x13",
+        "text": "const/16 v8, 0xa",
+        "units": 2
+      },
+      {
+        "offset": "0045",
+        "opcode": "0x01",
+        "text": "move v11, v8",
+        "units": 1
+      },
+      {
+        "offset": "0046",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v11, v10}, Ljava/util/Calendar;->add(II)V",
+        "units": 3
+      },
+      {
+        "offset": "0049",
+        "opcode": "0x12",
+        "text": "const/4 v8, 7",
+        "units": 1
+      },
+      {
+        "offset": "004a",
+        "opcode": "0x71",
+        "text": "invoke-static {v6}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;",
+        "units": 3
+      },
+      {
+        "offset": "004d",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "004e",
+        "opcode": "0x07",
+        "text": "move-object v6, v8",
+        "units": 1
+      },
+      {
+        "offset": "004f",
+        "opcode": "0x72",
+        "text": "invoke-interface {v6}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;",
+        "units": 3
+      },
+      {
+        "offset": "0052",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "0053",
+        "opcode": "0x07",
+        "text": "move-object v6, v8",
+        "units": 1
+      },
+      {
+        "offset": "0054",
+        "opcode": "0x1a",
+        "text": "const-string v8, \"radical-member-datetime\"",
+        "units": 2
+      },
+      {
+        "offset": "0056",
+        "opcode": "0x07",
+        "text": "move-object v10, v8",
+        "units": 1
+      },
+      {
+        "offset": "0057",
+        "opcode": "0x71",
+        "text": "invoke-static {v10}, Ls8/T;->i0(Ljava/lang/String;)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "005a",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "005b",
+        "opcode": "0x07",
+        "text": "move-object v10, v8",
+        "units": 1
+      },
+      {
+        "offset": "005c",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0}, Ljava/util/Calendar;->getTime()Ljava/util/Date;",
+        "units": 3
+      },
+      {
+        "offset": "005f",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "0060",
+        "opcode": "0x07",
+        "text": "move-object v11, v8",
+        "units": 1
+      },
+      {
+        "offset": "0061",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v11}, Ljava/util/Date;->getTime()J",
+        "units": 3
+      },
+      {
+        "offset": "0064",
+        "opcode": "0x0b",
+        "text": "move-result-wide v0",
+        "units": 1
+      },
+      {
+        "offset": "0065",
+        "opcode": "0x72",
+        "text": "invoke-interface {v6, v10, v0, v1}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;",
+        "units": 3
+      },
+      {
+        "offset": "0068",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "0069",
+        "opcode": "0x07",
+        "text": "move-object v6, v8",
+        "units": 1
+      },
+      {
+        "offset": "006a",
+        "opcode": "0x72",
+        "text": "invoke-interface {v6}, Landroid/content/SharedPreferences$Editor;->commit()Z",
+        "units": 3
+      },
+      {
+        "offset": "006d",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "006e",
+        "opcode": "0x01",
+        "text": "move v6, v8",
+        "units": 1
+      },
+      {
+        "offset": "006f",
+        "opcode": "0x0f",
+        "text": "return v6",
+        "units": 1
+      },
+      {
+        "offset": "0070",
+        "opcode": "0x12",
+        "text": "const/4 v8, 5",
+        "units": 1
+      },
+      {
+        "offset": "0071",
+        "opcode": "0x22",
+        "text": "new-instance v6, Ljava/lang/StringBuilder;",
+        "units": 2
+      },
+      {
+        "offset": "0073",
+        "opcode": "0x12",
+        "text": "const/4 v8, 3",
+        "units": 1
+      },
+      {
+        "offset": "0074",
+        "opcode": "0x70",
+        "text": "invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "0077",
+        "opcode": "0x12",
+        "text": "const/4 v8, 5",
+        "units": 1
+      },
+      {
+        "offset": "0078",
+        "opcode": "0x1a",
+        "text": "const-string v8, \"Next radical time: \"",
+        "units": 2
+      },
+      {
+        "offset": "007a",
+        "opcode": "0x07",
+        "text": "move-object v10, v8",
+        "units": 1
+      },
+      {
+        "offset": "007b",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+        "units": 3
+      },
+      {
+        "offset": "007e",
+        "opcode": "0x22",
+        "text": "new-instance v10, Ljava/util/Date;",
+        "units": 2
+      },
+      {
+        "offset": "0080",
+        "opcode": "0x12",
+        "text": "const/4 v8, 1",
+        "units": 1
+      },
+      {
+        "offset": "0081",
+        "opcode": "0x70",
+        "text": "invoke-direct {v10, v0, v1}, Ljava/util/Date;-><init>(J)V",
+        "units": 3
+      },
+      {
+        "offset": "0084",
+        "opcode": "0x12",
+        "text": "const/4 v8, 2",
+        "units": 1
+      },
+      {
+        "offset": "0085",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;",
+        "units": 3
+      },
+      {
+        "offset": "0088",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "008b",
+        "opcode": "0x0c",
+        "text": "move-result-object v8",
+        "units": 1
+      },
+      {
+        "offset": "008c",
+        "opcode": "0x07",
+        "text": "move-object v6, v8",
+        "units": 1
+      },
+      {
+        "offset": "008d",
+        "opcode": "0x1a",
+        "text": "const-string v8, \"Helper\"",
+        "units": 2
+      },
+      {
+        "offset": "008f",
+        "opcode": "0x07",
+        "text": "move-object v10, v8",
+        "units": 1
+      },
+      {
+        "offset": "0090",
+        "opcode": "0x71",
+        "text": "invoke-static {v10, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+        "units": 3
+      },
+      {
+        "offset": "0093",
+        "opcode": "0x12",
+        "text": "const/4 v8, 0",
+        "units": 1
+      },
+      {
+        "offset": "0094",
+        "opcode": "0x01",
+        "text": "move v6, v8",
+        "units": 1
+      },
+      {
+        "offset": "0095",
+        "opcode": "0x0f",
+        "text": "return v6",
+        "units": 1
+      }
+    ],
+    "instructions_total": 89,
+    "java_source": {
+      "status": "not_requested"
+    },
+    "listing": "0000: move-object v6, v9\n0001: invoke-static {v6}, Ls8/T;->p0(Landroid/content/Context;)J\n0004: move-result-wide v0\n0005: invoke-static {v0, v1}, Ls8/T;->x0(J)J\n0008: move-result-wide v2\n0009: new-instance v4, Ljava/util/Date;\n000b: const/4 v8, 1\n000c: invoke-direct {v4}, Ljava/util/Date;-><init>()V\n000f: const/4 v8, 1\n0010: invoke-virtual {v4}, Ljava/util/Date;->getTime()J\n0013: move-result-wide v4\n0014: cmp-long v4, v2, v4\n0016: const/4 v8, 4\n0017: if-gtz v4, :0070\n0019: const/4 v8, 1\n001a: invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;\n001d: move-result-object v8\n001e: move-object v0, v8\n001f: new-instance v1, Ljava/util/Date;\n0021: const/4 v8, 2\n0022: invoke-direct {v1}, Ljava/util/Date;-><init>()V\n0025: const/4 v8, 6\n0026: invoke-virtual {v0, v1}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V\n0029: const/4 v8, 2\n002a: new-instance v1, Ljava/util/Date;\n002c: const/4 v8, 3\n002d: invoke-direct {v1}, Ljava/util/Date;-><init>()V\n0030: const/4 v8, 4\n0031: invoke-virtual {v1}, Ljava/util/Date;->getTime()J\n0034: move-result-wide v4\n0035: sub-long/2addr v4, v2\n0036: const/4 v8, 1\n0037: const-wide/32 v1, 0xdbba00\n003a: const/4 v8, 1\n003b: cmp-long v1, v4, v1\n003d: const/4 v8, 5\n003e: if-gtz v1, :0042\n0040: const/4 v8, 3\n0041: move v10, v11\n0042: const/4 v8, 6\n0043: const/16 v8, 0xa\n0045: move v11, v8\n0046: invoke-virtual {v0, v11, v10}, Ljava/util/Calendar;->add(II)V\n0049: const/4 v8, 7\n004a: invoke-static {v6}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;\n004d: move-result-object v8\n004e: move-object v6, v8\n004f: invoke-interface {v6}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;\n0052: move-result-object v8\n0053: move-object v6, v8\n0054: const-string v8, \"radical-member-datetime\"\n0056: move-object v10, v8\n0057: invoke-static {v10}, Ls8/T;->i0(Ljava/lang/String;)Ljava/lang/String;\n005a: move-result-object v8\n005b: move-object v10, v8\n005c: invoke-virtual {v0}, Ljava/util/Calendar;->getTime()Ljava/util/Date;\n005f: move-result-object v8\n0060: move-object v11, v8\n0061: invoke-virtual {v11}, Ljava/util/Date;->getTime()J\n0064: move-result-wide v0\n0065: invoke-interface {v6, v10, v0, v1}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;\n0068: move-result-object v8\n0069: move-object v6, v8\n006a: invoke-interface {v6}, Landroid/content/SharedPreferences$Editor;->commit()Z\n006d: const/4 v8, 1\n006e: move v6, v8\n006f: return v6\n0070: const/4 v8, 5\n0071: new-instance v6, Ljava/lang/StringBuilder;\n0073: const/4 v8, 3\n0074: invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V\n0077: const/4 v8, 5\n0078: const-string v8, \"Next radical time: \"\n007a: move-object v10, v8\n007b: invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\n007e: new-instance v10, Ljava/util/Date;\n0080: const/4 v8, 1\n0081: invoke-direct {v10, v0, v1}, Ljava/util/Date;-><init>(J)V\n0084: const/4 v8, 2\n0085: invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;\n0088: invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;\n008b: move-result-object v8\n008c: move-object v6, v8\n008d: const-string v8, \"Helper\"\n008f: move-object v10, v8\n0090: invoke-static {v10, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I\n0093: const/4 v8, 0\n0094: move v6, v8\n0095: return v6",
+    "method": "Ls8/T;->R1(Landroid/content/Context;II)Z",
+    "outs": 4,
+    "overload_index": 0,
+    "overloads": [
+      "public static boolean R1(android.content.Context, int, int)"
+    ],
+    "registers": 12,
+    "signature": "public static boolean R1(android.content.Context, int, int)",
+    "tries": []
+  },
+  "summary": "Ls8/T;->R1(Landroid/content/Context;II)Z (classes3.dex): 89 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 89,
+    "total": 89
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Ls8/T;->R1(Landroid/content/Context;II)Z"
+    }
+  ],
+  "links": []
+}

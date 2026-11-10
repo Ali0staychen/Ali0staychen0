@@ -1,0 +1,311 @@
+{
+  "id": "ev_334731d547ea43a8fcaa5109c2d04b62f116f52401790feee005ba4e64041aca",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.viewModel.EditorViewModel",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "allTagWordWrappersFromBag",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->allTagWordWrappersFromBag:Landroidx/lifecycle/E;",
+        "type": "androidx.lifecycle.E"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "mediaRepository",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->mediaRepository:Lcom/journey/app/mvvm/models/repository/MediaRepository;",
+        "type": "com.journey.app.mvvm.models.repository.MediaRepository"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tagRepository",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->tagRepository:Lcom/journey/app/mvvm/models/repository/TagRepository;",
+        "type": "com.journey.app.mvvm.models.repository.TagRepository"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tagRepositoryV2",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->tagRepositoryV2:Lcom/journey/app/mvvm/models/repository/TagRepositoryV2;",
+        "type": "com.journey.app.mvvm.models.repository.TagRepositoryV2"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tagWordBagRepository",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->tagWordBagRepository:Lcom/journey/app/mvvm/models/repository/TagWordBagRepository;",
+        "type": "com.journey.app.mvvm.models.repository.TagWordBagRepository"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tagWordBagRepositoryV2",
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->tagWordBagRepositoryV2:Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2;",
+        "type": "com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;-><clinit>()V",
+        "registers": 4,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 120,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;-><init>(Landroid/content/Context;Lcom/journey/app/mvvm/models/repository/LinkedAccountRepository;Lcom/journey/app/mvvm/models/repository/JournalRepository;Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2;Lcom/journey/app/mvvm/models/repository/MediaRepository;Lcom/journey/app/mvvm/models/repository/MediaRepositoryV2;Lcom/journey/app/mvvm/models/repository/TagRepository;Lcom/journey/app/mvvm/models/repository/TagWordBagRepository;Lcom/journey/app/mvvm/models/repository/TagRepositoryV2;Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2;Ls8/N;Lcom/journey/app/mvvm/service/ApiService;Lcom/journey/app/mvvm/service/SyncApiService;)V",
+        "registers": 28,
+        "signature": "public void <init>(android.content.Context, com.journey.app.mvvm.models.repository.LinkedAccountRepository, com.journey.app.mvvm.models.repository.JournalRepository, com.journey.app.mvvm.models.repository.JournalRepositoryV2, com.journey.app.mvvm.models.repository.MediaRepository, com.journey.app.mvvm.models.repository.MediaRepositoryV2, com.journey.app.mvvm.models.repository.TagRepository, com.journey.app.mvvm.models.repository.TagWordBagRepository, com.journey.app.mvvm.models.repository.TagRepositoryV2, com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2, s8.N, com.journey.app.mvvm.service.ApiService, com.journey.app.mvvm.service.SyncApiService)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static",
+          "final"
+        ],
+        "code_units": 63,
+        "kind": "direct",
+        "name": "allTagWordWrappersFromBag$lambda$0",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->allTagWordWrappersFromBag$lambda$0(Lcom/journey/app/mvvm/viewModel/EditorViewModel;Ljava/lang/String;)Landroidx/lifecycle/E;",
+        "registers": 11,
+        "signature": "private static final androidx.lifecycle.E allTagWordWrappersFromBag$lambda$0(com.journey.app.mvvm.viewModel.EditorViewModel, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 7,
+        "kind": "direct",
+        "name": "c",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->c(Lcom/journey/app/mvvm/viewModel/EditorViewModel;Ljava/lang/String;)Landroidx/lifecycle/E;",
+        "registers": 6,
+        "signature": "public static synthetic androidx.lifecycle.E c(com.journey.app.mvvm.viewModel.EditorViewModel, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getAllTagWordWrappersFromBag",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getAllTagWordWrappersFromBag()Landroidx/lifecycle/E;",
+        "registers": 5,
+        "signature": "public final androidx.lifecycle.E getAllTagWordWrappersFromBag()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 21,
+        "kind": "virtual",
+        "name": "getFullJournalWrapperWithMediasAndTagWordBags",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getFullJournalWrapperWithMediasAndTagWordBags(Ljava/lang/String;Ljava/lang/String;Lt9/e;)Ljava/lang/Object;",
+        "registers": 10,
+        "signature": "public final java.lang.Object getFullJournalWrapperWithMediasAndTagWordBags(java.lang.String, java.lang.String, t9.e)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMediaRepository",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getMediaRepository()Lcom/journey/app/mvvm/models/repository/MediaRepository;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.repository.MediaRepository getMediaRepository()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTagRepository",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getTagRepository()Lcom/journey/app/mvvm/models/repository/TagRepository;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.repository.TagRepository getTagRepository()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTagRepositoryV2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getTagRepositoryV2()Lcom/journey/app/mvvm/models/repository/TagRepositoryV2;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.repository.TagRepositoryV2 getTagRepositoryV2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTagWordBagRepository",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getTagWordBagRepository()Lcom/journey/app/mvvm/models/repository/TagWordBagRepository;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.repository.TagWordBagRepository getTagWordBagRepository()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTagWordBagRepositoryV2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->getTagWordBagRepositoryV2()Lcom/journey/app/mvvm/models/repository/TagWordBagRepositoryV2;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.repository.TagWordBagRepositoryV2 getTagWordBagRepositoryV2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 25,
+        "kind": "virtual",
+        "name": "saveModifiedJournal",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->saveModifiedJournal(Landroid/content/Context;Lw8/e;Lcom/journey/app/EditorActivity$v;Ljava/util/List;Lt9/e;)Ljava/lang/Object;",
+        "registers": 16,
+        "signature": "public final java.lang.Object saveModifiedJournal(android.content.Context, w8.e, com.journey.app.EditorActivity$v, java.util.List, t9.e)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 25,
+        "kind": "virtual",
+        "name": "saveNewJournal",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;->saveNewJournal(Landroid/content/Context;Ljava/lang/String;Lcom/journey/app/EditorActivity$v;Ljava/util/List;Lt9/e;)Ljava/lang/Object;",
+        "registers": 15,
+        "signature": "public final java.lang.Object saveNewJournal(android.content.Context, java.lang.String, com.journey.app.EditorActivity$v, java.util.List, t9.e)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.viewModel.EditorViewModel",
+    "source_file": "SourceFile",
+    "superclass": "Lcom/journey/app/mvvm/viewModel/GenericViewModel;"
+  },
+  "summary": "com.journey.app.mvvm.viewModel.EditorViewModel (classes3.dex) extends com.journey.app.mvvm.viewModel.GenericViewModel: 7 fields, 13 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/viewModel/EditorViewModel;"
+    }
+  ],
+  "links": []
+}

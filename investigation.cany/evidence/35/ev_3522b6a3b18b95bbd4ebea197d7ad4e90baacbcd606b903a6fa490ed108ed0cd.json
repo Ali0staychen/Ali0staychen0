@@ -1,0 +1,1034 @@
+{
+  "id": "ev_3522b6a3b18b95bbd4ebea197d7ad4e90baacbcd606b903a6fa490ed108ed0cd",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "EditorActivity"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity;",
+        "dex": "classes3.dex",
+        "fields": 44,
+        "methods": 174,
+        "name": "com.journey.app.EditorActivity",
+        "superclass": "com.journey.app.l2"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$A;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$A",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$B;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$B",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$C;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$C",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$D;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$D",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$E;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$E",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$F;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$F",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$G;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$G",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$H;",
+        "dex": "classes3.dex",
+        "fields": 11,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$H",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$I;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$I",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$J;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.EditorActivity$J",
+        "superclass": "android.webkit.WebChromeClient"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$K;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$K",
+        "superclass": "android.webkit.WebViewClient"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$L;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.EditorActivity$L",
+        "superclass": "com.google.android.gms.location.i"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 156,
+        "name": "com.journey.app.EditorActivity$M$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$a;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$a$a;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$c;",
+        "dex": "classes3.dex",
+        "fields": 14,
+        "methods": 9,
+        "name": "com.journey.app.EditorActivity$M$a$c",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$d;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$d",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$e$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$e$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$b$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$e$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$e$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$e$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$f;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$M$a$g$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g$a$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$g$a$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$g$a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$h;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$M$a$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$h$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$M$a$h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$i;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$i",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$j;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$j",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$k;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$k",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$l;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$l",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$m;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$m",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$M$a$n;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$M$a$n",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$N;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$N",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$O;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$O",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$P;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 33,
+        "name": "com.journey.app.EditorActivity$P",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$Q;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$Q",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$R;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$R",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$S;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$S",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$T;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$T",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$U;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$U",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$V;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$V",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.EditorActivity$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$b;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$b$a;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$b$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$b$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$c$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$d;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$d$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$e;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$e$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$f;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$g;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$h;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$i;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$j;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$k;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$k",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$l;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$l",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$l$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$l$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$l$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$l$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$m;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$m",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$m$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$m$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$n;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$n",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$n$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$n$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$o;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$o",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$o$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$o$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$p;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$p",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$q;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$q",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$q$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$q$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$r;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$r",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$s;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$s",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$s$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$s$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$t;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$t",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$u;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.EditorActivity$u",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$v;",
+        "dex": "classes3.dex",
+        "fields": 18,
+        "methods": 36,
+        "name": "com.journey.app.EditorActivity$v",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$v$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.EditorActivity$v$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$w;",
+        "dex": "classes3.dex",
+        "fields": 13,
+        "methods": 19,
+        "name": "com.journey.app.EditorActivity$w",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$x;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.EditorActivity$x",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$y;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$y",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/EditorActivity$z;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "com.journey.app.EditorActivity$z",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 88,
+    "query": "EditorActivity"
+  },
+  "summary": "88 of 32886 classes match \"EditorActivity\" in 4 DEX file(s); showing 88.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 88,
+    "total": 88
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "unk_59b63a712c075431",
+  "revision": 2,
+  "question": "How does reminder scheduling work (multiple reminders, exact times, persistence across reboot) in the original app?",
+  "severity": "medium",
+  "domain": "general",
+  "status": "resolved",
+  "probes": [
+    "Decompile ReminderReceiver methods and search for AlarmManager/WorkManager scheduling classes"
+  ],
+  "evidence_for": [
+    "ev_ae4fc561c5e847a2982beaa6ba95fd6736fd2d75397678f432295b4f81bac797",
+    "ev_5111613011f6ae1ec3815c0a51ccbb6b63af4e3c03df5a1c7bcd282bfb70927a"
+  ],
+  "evidence_against": [],
+  "resolution": "Manifest and ReminderReceiver indicate local reminder notifications and boot handling. Replica implements scheduled local reminders via AlarmManager with enable/disable, boot reschedule, and notification tap to open the app; exact original scheduling options are estimated."
+}

@@ -1,0 +1,509 @@
+{
+  "id": "ev_bb07d64047f598abcef6a6d2cdb015dbeb28399eca216cfd22ceca2e327f77bf",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.service.SyncApiGson$FileResponseGson",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "alias",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->alias:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "createdAt",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->createdAt:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "entryRef",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->entryRef:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "ext",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->ext:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "fileMetadataDate",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->fileMetadataDate:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "id",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->id:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "mimeType",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->mimeType:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "variants",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->variants:Ljava/util/HashMap;",
+        "type": "java.util.HashMap"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;-><clinit>()V",
+        "registers": 3,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 31,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;-><init>(Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+        "registers": 12,
+        "signature": "public void <init>(java.lang.String, java.util.HashMap, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 95,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->copy$default(Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;",
+        "registers": 15,
+        "signature": "public static synthetic com.journey.app.mvvm.service.SyncApiGson$FileResponseGson copy$default(com.journey.app.mvvm.service.SyncApiGson$FileResponseGson, java.lang.String, java.util.HashMap, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component1()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component2()Ljava/util/HashMap;",
+        "registers": 5,
+        "signature": "public final java.util.HashMap component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component3()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component4()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component5()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component6",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component6()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component6()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component7",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component7()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component7()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component8",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->component8()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component8()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 16,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->copy(Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;",
+        "registers": 18,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$FileResponseGson copy(java.lang.String, java.util.HashMap, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 150,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->equals(Ljava/lang/Object;)Z",
+        "registers": 10,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getAlias",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getAlias()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getAlias()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getCreatedAt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getCreatedAt()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getCreatedAt()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getEntryRef",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getEntryRef()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getEntryRef()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getExt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getExt()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getExt()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFileMetadataDate",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getFileMetadataDate()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getFileMetadataDate()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMimeType",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getMimeType()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getMimeType()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getVariants",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->getVariants()Ljava/util/HashMap;",
+        "registers": 5,
+        "signature": "public final java.util.HashMap getVariants()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 150,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->hashCode()I",
+        "registers": 8,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setCreatedAt",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->setCreatedAt(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setCreatedAt(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setEntryRef",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->setEntryRef(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setEntryRef(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setFileMetadataDate",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->setFileMetadataDate(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setFileMetadataDate(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 116,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;->toString()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.service.SyncApiGson$FileResponseGson",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.service.SyncApiGson$FileResponseGson (classes3.dex) extends java.lang.Object: 9 fields, 26 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/service/SyncApiGson$FileResponseGson;"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ev_225caed42592bc91f7465e00ea3e2d8623645a68d7a6df0aa9b1bb6edc6aa62e",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.gson.WeatherGson$HistoricalWeatherData",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "temp",
+        "reference": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;->temp:D",
+        "type": "double"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "kind": "instance",
+        "name": "this$0",
+        "reference": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;->this$0:Lcom/journey/app/gson/WeatherGson;",
+        "type": "com.journey.app.gson.WeatherGson"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "weather",
+        "reference": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;->weather:Lcom/journey/app/gson/WeatherGson$WeatherWeatherData;",
+        "type": "com.journey.app.gson.WeatherGson$WeatherWeatherData"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;-><init>(Lcom/journey/app/gson/WeatherGson;)V",
+        "registers": 6,
+        "signature": "public void <init>(com.journey.app.gson.WeatherGson)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.gson.WeatherGson$HistoricalWeatherData",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.gson.WeatherGson$HistoricalWeatherData (classes3.dex) extends java.lang.Object: 3 fields, 1 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/gson/WeatherGson$HistoricalWeatherData;"
+    }
+  ],
+  "links": []
+}

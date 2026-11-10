@@ -1,0 +1,723 @@
+{
+  "id": "ev_a37c4bdc04fee169c7a3554ad9e72de46448dca3b860d26ca5455193535bc215",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.EditorActivity$v",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)",
+      "Ldalvik/annotation/MemberClasses; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/EditorActivity$v;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "a",
+        "reference": "Lcom/journey/app/EditorActivity$v;->a:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "b",
+        "reference": "Lcom/journey/app/EditorActivity$v;->b:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "c",
+        "reference": "Lcom/journey/app/EditorActivity$v;->c:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "d",
+        "reference": "Lcom/journey/app/EditorActivity$v;->d:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "e",
+        "reference": "Lcom/journey/app/EditorActivity$v;->e:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "f",
+        "reference": "Lcom/journey/app/EditorActivity$v;->f:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "g",
+        "reference": "Lcom/journey/app/EditorActivity$v;->g:Ljava/util/Date;",
+        "type": "java.util.Date"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "h",
+        "reference": "Lcom/journey/app/EditorActivity$v;->h:Ljava/util/Date;",
+        "type": "java.util.Date"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "i",
+        "reference": "Lcom/journey/app/EditorActivity$v;->i:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "j",
+        "reference": "Lcom/journey/app/EditorActivity$v;->j:D",
+        "type": "double"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "k",
+        "reference": "Lcom/journey/app/EditorActivity$v;->k:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "l",
+        "reference": "Lcom/journey/app/EditorActivity$v;->l:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "m",
+        "reference": "Lcom/journey/app/EditorActivity$v;->m:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "n",
+        "reference": "Lcom/journey/app/EditorActivity$v;->n:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "o",
+        "reference": "Lcom/journey/app/EditorActivity$v;->o:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "p",
+        "reference": "Lcom/journey/app/EditorActivity$v;->p:Lp9/q;",
+        "type": "p9.q"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "q",
+        "reference": "Lcom/journey/app/EditorActivity$v;->q:Lk0/w;",
+        "type": "k0.w"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "r",
+        "reference": "Lcom/journey/app/EditorActivity$v;->r:Ljava/util/ArrayList;",
+        "type": "java.util.ArrayList"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;-><clinit>()V",
+        "registers": 3,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 84,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;IDLjava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Lp9/q;Lk0/w;Ljava/util/ArrayList;)V",
+        "registers": 23,
+        "signature": "public void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date, int, double, java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, p9.q, k0.w, java.util.ArrayList)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 6,
+        "kind": "virtual",
+        "name": "A",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->A(Ljava/lang/Double;)V",
+        "registers": 5,
+        "signature": "public final void A(java.lang.Double)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "B",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->B(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void B(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "C",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->C(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void C(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "D",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->D(Ljava/lang/Integer;)V",
+        "registers": 6,
+        "signature": "public final void D(java.lang.Integer)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "E",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->E(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void E(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "a",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->a()I",
+        "registers": 5,
+        "signature": "public final int a()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "b",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->b()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String b()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "c",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->c()Ljava/util/Date;",
+        "registers": 5,
+        "signature": "public final java.util.Date c()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "d",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->d()Ljava/util/Date;",
+        "registers": 5,
+        "signature": "public final java.util.Date d()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 70,
+        "kind": "virtual",
+        "name": "e",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->e()Z",
+        "registers": 8,
+        "signature": "public final boolean e()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 305,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->equals(Ljava/lang/Object;)Z",
+        "registers": 13,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 37,
+        "kind": "virtual",
+        "name": "f",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->f()Z",
+        "registers": 9,
+        "signature": "public final boolean f()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "g",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->g()Lp9/q;",
+        "registers": 6,
+        "signature": "public final p9.q g()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "h",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->h()Lk0/w;",
+        "registers": 6,
+        "signature": "public final k0.w h()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 292,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->hashCode()I",
+        "registers": 10,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "i",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->i()D",
+        "registers": 6,
+        "signature": "public final double i()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "j",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->j()Ljava/util/ArrayList;",
+        "registers": 6,
+        "signature": "public final java.util.ArrayList j()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "k",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->k()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String k()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "l",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->l()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String l()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "m",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->m()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String m()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "n",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->n()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double n()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "o",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->o()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String o()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "p",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->p()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String p()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "q",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->q()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer q()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "r",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->r()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String r()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "s",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->s(I)V",
+        "registers": 6,
+        "signature": "public final void s(int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "t",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->t(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void t(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 236,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 12,
+        "kind": "virtual",
+        "name": "u",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->u(Ljava/util/Date;)V",
+        "registers": 6,
+        "signature": "public final void u(java.util.Date)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "v",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->v(Lp9/q;)V",
+        "registers": 5,
+        "signature": "public final void v(p9.q)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "w",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->w(D)V",
+        "registers": 6,
+        "signature": "public final void w(double)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 12,
+        "kind": "virtual",
+        "name": "x",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->x(Ljava/util/ArrayList;)V",
+        "registers": 7,
+        "signature": "public final void x(java.util.ArrayList)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 12,
+        "kind": "virtual",
+        "name": "y",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->y(Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public final void y(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "z",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/EditorActivity$v;->z(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void z(java.lang.String)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.EditorActivity$v",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.EditorActivity$v (classes3.dex) extends java.lang.Object: 18 fields, 36 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/EditorActivity$v;"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,759 @@
+{
+  "id": "ev_23be59775ba217bf08625315da5fd0b1d6945430c33a5976fd7e5aaaeb1b6660",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Alarm"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AccessAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AccessAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AccessAlarmsKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AccessAlarmsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AddAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AddAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AlarmAddKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AlarmAddKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AlarmOffKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AlarmOffKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/AlarmOnKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.AlarmOnKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AccessAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AccessAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AccessAlarmsKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AccessAlarmsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AddAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AddAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AlarmAddKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AlarmAddKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AlarmOffKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AlarmOffKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/AlarmOnKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.AlarmOnKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AccessAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AccessAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AccessAlarmsKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AccessAlarmsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AddAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AddAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AlarmAddKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AlarmAddKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AlarmOffKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AlarmOffKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/AlarmOnKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.AlarmOnKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AccessAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AccessAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AccessAlarmsKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AccessAlarmsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AddAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AddAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AlarmAddKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AlarmAddKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AlarmOffKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AlarmOffKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/AlarmOnKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.AlarmOnKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AccessAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AccessAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AccessAlarmsKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AccessAlarmsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AddAlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AddAlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AlarmAddKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AlarmAddKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AlarmKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AlarmKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AlarmOffKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AlarmOffKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/AlarmOnKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.AlarmOnKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/core/app/AlarmManagerCompat;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "androidx.core.app.AlarmManagerCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/core/app/AlarmManagerCompat$Api21Impl;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.core.app.AlarmManagerCompat$Api21Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/core/app/AlarmManagerCompat$Api23Impl;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.core.app.AlarmManagerCompat$Api23Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/core/app/AlarmManagerCompat$Api31Impl;",
+        "dex": "classes7.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.core.app.AlarmManagerCompat$Api31Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/Alarms;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.work.impl.background.systemalarm.Alarms",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/Alarms$Api19Impl;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.Alarms$Api19Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/CommandHandler;",
+        "dex": "classes8.dex",
+        "fields": 16,
+        "methods": 21,
+        "name": "androidx.work.impl.background.systemalarm.CommandHandler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryChargingProxy;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryNotLowProxy;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$NetworkStateProxy;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxy$StorageNotLowProxy;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "superclass": "androidx.work.impl.background.systemalarm.ConstraintProxy"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver;",
+        "dex": "classes8.dex",
+        "fields": 6,
+        "methods": 4,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver$1;",
+        "dex": "classes8.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/ConstraintsCommandHandler;",
+        "dex": "classes8.dex",
+        "fields": 6,
+        "methods": 3,
+        "name": "androidx.work.impl.background.systemalarm.ConstraintsCommandHandler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/DelayMetCommandHandler;",
+        "dex": "classes8.dex",
+        "fields": 18,
+        "methods": 11,
+        "name": "androidx.work.impl.background.systemalarm.DelayMetCommandHandler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/DelayMetCommandHandler$$ExternalSyntheticLambda0;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.DelayMetCommandHandler$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/DelayMetCommandHandler$$ExternalSyntheticLambda1;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.DelayMetCommandHandler$$ExternalSyntheticLambda1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/RescheduleReceiver;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmDispatcher;",
+        "dex": "classes8.dex",
+        "fields": 15,
+        "methods": 16,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmDispatcher",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmDispatcher$1;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmDispatcher$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmDispatcher$AddRunnable;",
+        "dex": "classes8.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmDispatcher$AddRunnable",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmDispatcher$CommandsCompletedListener;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmDispatcher$CommandsCompletedListener",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmDispatcher$DequeueAndCheckForCompletion;",
+        "dex": "classes8.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmDispatcher$DequeueAndCheckForCompletion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmScheduler;",
+        "dex": "classes8.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmScheduler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/SystemAlarmService;",
+        "dex": "classes8.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+        "superclass": "androidx.lifecycle.LifecycleService"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/package-info;",
+        "dex": "classes8.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.work.impl.background.systemalarm.package-info",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 62,
+    "query": "Alarm"
+  },
+  "summary": "62 of 32680 classes match \"Alarm\" in 8 DEX file(s); showing 62.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 62,
+    "total": 62
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

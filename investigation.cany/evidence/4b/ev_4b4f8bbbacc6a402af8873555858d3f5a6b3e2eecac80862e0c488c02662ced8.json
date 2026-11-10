@@ -1,0 +1,279 @@
+{
+  "id": "ev_4b4f8bbbacc6a402af8873555858d3f5a6b3e2eecac80862e0c488c02662ced8",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 20,
+    "offset": 0,
+    "path": null,
+    "query": "Database"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/work/impl/WorkDatabase;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 9,
+        "name": "androidx.work.impl.WorkDatabase",
+        "superclass": "androidx.room.w"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/work/impl/WorkDatabase$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.work.impl.WorkDatabase$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/work/impl/WorkDatabase_Impl;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 25,
+        "name": "androidx.work.impl.WorkDatabase_Impl",
+        "superclass": "androidx.work.impl.WorkDatabase"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/work/impl/WorkDatabase_Impl$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.work.impl.WorkDatabase_Impl$a",
+        "superclass": "androidx.room.y$b"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ArraySortedMap;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 29,
+        "name": "com.google.firebase.database.collection.ArraySortedMap",
+        "superclass": "com.google.firebase.database.collection.ImmutableSortedMap"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/ArraySortedMap$1;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.google.firebase.database.collection.ArraySortedMap$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/BuildConfig;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 1,
+        "name": "com.google.firebase.database.collection.BuildConfig",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMap;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 21,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMap$Builder;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMap$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMap$Builder$KeyTranslator;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMap$Builder$KeyTranslator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMapIterator;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedSet;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 18,
+        "name": "com.google.firebase.database.collection.ImmutableSortedSet",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedSet$WrappedEntryIterator;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.firebase.database.collection.ImmutableSortedSet$WrappedEntryIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBBlackValueNode;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "com.google.firebase.database.collection.LLRBBlackValueNode",
+        "superclass": "com.google.firebase.database.collection.LLRBValueNode"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBEmptyNode;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 18,
+        "name": "com.google.firebase.database.collection.LLRBEmptyNode",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBNode;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 15,
+        "name": "com.google.firebase.database.collection.LLRBNode",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBNode$Color;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "com.google.firebase.database.collection.LLRBNode$Color",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBNode$NodeVisitor;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.firebase.database.collection.LLRBNode$NodeVisitor",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBNode$ShortCircuitingNodeVisitor;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.database.collection.LLRBNode$ShortCircuitingNodeVisitor",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/LLRBRedValueNode;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.firebase.database.collection.LLRBRedValueNode",
+        "superclass": "com.google.firebase.database.collection.LLRBValueNode"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 66,
+    "query": "Database"
+  },
+  "summary": "66 of 32886 classes match \"Database\" in 4 DEX file(s); showing 20.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 20,
+    "total": 66,
+    "next_offset": 20
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

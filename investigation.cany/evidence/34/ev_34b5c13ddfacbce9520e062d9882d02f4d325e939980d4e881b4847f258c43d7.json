@@ -1,0 +1,81 @@
+{
+  "id": "ev_34b5c13ddfacbce9520e062d9882d02f4d325e939980d4e881b4847f258c43d7",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.CoachReceiver",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/CoachReceiver;",
+    "dex": "classes3.dex",
+    "fields": [],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 7,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/CoachReceiver;-><init>()V",
+        "registers": 4,
+        "signature": "public void <init>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 311,
+        "kind": "virtual",
+        "name": "onReceive",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/CoachReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+        "registers": 14,
+        "signature": "public void onReceive(android.content.Context, android.content.Intent)",
+        "try_blocks": 1
+      }
+    ],
+    "name": "com.journey.app.CoachReceiver",
+    "source_file": "SourceFile",
+    "superclass": "Landroid/content/BroadcastReceiver;"
+  },
+  "summary": "com.journey.app.CoachReceiver (classes3.dex) extends android.content.BroadcastReceiver: 0 fields, 2 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/CoachReceiver;"
+    }
+  ],
+  "links": []
+}

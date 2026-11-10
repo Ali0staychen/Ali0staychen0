@@ -1,0 +1,109 @@
+{
+  "id": "ev_ac85e168b11127b18c47a982892803e2407145b1cf666109695ebdaf056fcc95",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.gson.WeatherGson$WeatherData",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/gson/WeatherGson$WeatherData;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "cityName",
+        "reference": "Lcom/journey/app/gson/WeatherGson$WeatherData;->cityName:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "temp",
+        "reference": "Lcom/journey/app/gson/WeatherGson$WeatherData;->temp:D",
+        "type": "double"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "kind": "instance",
+        "name": "this$0",
+        "reference": "Lcom/journey/app/gson/WeatherGson$WeatherData;->this$0:Lcom/journey/app/gson/WeatherGson;",
+        "type": "com.journey.app.gson.WeatherGson"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "weather",
+        "reference": "Lcom/journey/app/gson/WeatherGson$WeatherData;->weather:Lcom/journey/app/gson/WeatherGson$WeatherWeatherData;",
+        "type": "com.journey.app.gson.WeatherGson$WeatherWeatherData"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/WeatherGson$WeatherData;-><init>(Lcom/journey/app/gson/WeatherGson;)V",
+        "registers": 6,
+        "signature": "public void <init>(com.journey.app.gson.WeatherGson)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.gson.WeatherGson$WeatherData",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.gson.WeatherGson$WeatherData (classes3.dex) extends java.lang.Object: 4 fields, 1 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/gson/WeatherGson$WeatherData;"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,2348 @@
+{
+  "id": "ev_7b6545f99c97c900f2ee459d4de6ae6b427f8ca2a535c541b83b365274bdb37d",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Map"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$BitmapKey;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaMetadataCompat$BitmapKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/databinding/DataBinderMapperImpl;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.databinding.DataBinderMapperImpl",
+        "superclass": "androidx.databinding.MergedDataBinderMapper"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/databinding/MergedDataBinderMapper;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.databinding.MergedDataBinderMapper",
+        "superclass": "androidx.databinding.a"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/databinding/library/baseAdapters/DataBinderMapperImpl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.databinding.library.baseAdapters.DataBinderMapperImpl",
+        "superclass": "androidx.databinding.a"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$CollectionsEmptyMapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$CollectionsEmptyMapSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$CollectionsSingletonMapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$CollectionsSingletonMapSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/DefaultSerializers$TreeMapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.esotericsoftware.kryo.serializers.DefaultSerializers$TreeMapSerializer",
+        "superclass": "com.esotericsoftware.kryo.serializers.MapSerializer"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/MapSerializer;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 14,
+        "name": "com.esotericsoftware.kryo.serializers.MapSerializer",
+        "superclass": "com.esotericsoftware.kryo.Serializer"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/MapSerializer$BindMap;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.esotericsoftware.kryo.serializers.MapSerializer$BindMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap;",
+        "dex": "classes2.dex",
+        "fields": 18,
+        "methods": 29,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityObjectIntMap;",
+        "dex": "classes2.dex",
+        "fields": 15,
+        "methods": 27,
+        "name": "com.esotericsoftware.kryo.util.IdentityObjectIntMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap;",
+        "dex": "classes2.dex",
+        "fields": 18,
+        "methods": 31,
+        "name": "com.esotericsoftware.kryo.util.IntMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.IntMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.IntMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.IntMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IntMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IntMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.IntMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/MapReferenceResolver;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "com.esotericsoftware.kryo.util.MapReferenceResolver",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap;",
+        "dex": "classes2.dex",
+        "fields": 16,
+        "methods": 35,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/ObjectMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.esotericsoftware.kryo.util.ObjectMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.ObjectMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zza;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.android.gms.internal.maps.zza",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaa;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzaa",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzab;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzab",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzac;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzac",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzad;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.android.gms.internal.maps.zzad",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzae;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzae",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaf;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzaf",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzag;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzah;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 33,
+        "name": "com.google.android.gms.internal.maps.zzah",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzai;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzai",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaj;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 32,
+        "name": "com.google.android.gms.internal.maps.zzaj",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzak;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzak",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzal;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzal",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzam;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 29,
+        "name": "com.google.android.gms.internal.maps.zzam",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzan;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzan",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzao;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 28,
+        "name": "com.google.android.gms.internal.maps.zzao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzap;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 31,
+        "name": "com.google.android.gms.internal.maps.zzap",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaq;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzaq",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzar;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 30,
+        "name": "com.google.android.gms.internal.maps.zzar",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzas;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzas",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzat;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzau;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 14,
+        "name": "com.google.android.gms.internal.maps.zzau",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzav;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzav",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaw;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 13,
+        "name": "com.google.android.gms.internal.maps.zzaw",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzax;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzax",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzay;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzay",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzaz;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzaz",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzb;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.google.android.gms.internal.maps.zzb",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzba;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.android.gms.internal.maps.zzba",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbb;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzbb",
+        "superclass": "com.google.android.gms.internal.maps.zzba"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbc;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.google.android.gms.internal.maps.zzbc",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbd;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzbd",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbe;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 8,
+        "name": "com.google.android.gms.internal.maps.zzbe",
+        "superclass": "com.google.android.gms.internal.maps.zzca"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbf;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzbf",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbg;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzbg",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbh;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 18,
+        "name": "com.google.android.gms.internal.maps.zzbh",
+        "superclass": "java.util.AbstractCollection"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbi;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzbi",
+        "superclass": "com.google.android.gms.internal.maps.zzbe"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbj;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.android.gms.internal.maps.zzbj",
+        "superclass": "com.google.android.gms.internal.maps.zzbk"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbk;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 20,
+        "name": "com.google.android.gms.internal.maps.zzbk",
+        "superclass": "com.google.android.gms.internal.maps.zzbh"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbl;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzbl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbm;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "com.google.android.gms.internal.maps.zzbm",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbn;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 22,
+        "name": "com.google.android.gms.internal.maps.zzbn",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbo;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 11,
+        "name": "com.google.android.gms.internal.maps.zzbo",
+        "superclass": "com.google.android.gms.internal.maps.zzbh"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbp;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzbp",
+        "superclass": "com.google.android.gms.internal.maps.zzbz"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbq;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.android.gms.internal.maps.zzbq",
+        "superclass": "com.google.android.gms.internal.maps.zzbk"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbr;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzbr",
+        "superclass": "com.google.android.gms.internal.maps.zzbk"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbs;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "com.google.android.gms.internal.maps.zzbs",
+        "superclass": "com.google.android.gms.internal.maps.zzbo"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbt;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzbt",
+        "superclass": "com.google.android.gms.internal.maps.zzbo"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbu;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzbu",
+        "superclass": "com.google.android.gms.internal.maps.zzbk"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbv;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "com.google.android.gms.internal.maps.zzbv",
+        "superclass": "com.google.android.gms.internal.maps.zzbn"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbw;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 13,
+        "name": "com.google.android.gms.internal.maps.zzbw",
+        "superclass": "com.google.android.gms.internal.maps.zzbo"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbx;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzbx",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzby;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "com.google.android.gms.internal.maps.zzby",
+        "superclass": "com.google.android.gms.internal.maps.zzbo"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzbz;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.maps.zzbz",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzc;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 10,
+        "name": "com.google.android.gms.internal.maps.zzc",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzca;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzca",
+        "superclass": "com.google.android.gms.internal.maps.zzbz"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzd;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 0,
+        "name": "com.google.android.gms.internal.maps.zzd",
+        "superclass": "com.google.android.gms.internal.maps.zze"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zze;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zze",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzf;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzf",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzg;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.android.gms.internal.maps.zzg",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzh;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzh",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzi;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "com.google.android.gms.internal.maps.zzi",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzj;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzj",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzk;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.google.android.gms.internal.maps.zzk",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzl;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 25,
+        "name": "com.google.android.gms.internal.maps.zzl",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzm;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzm",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzn;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 24,
+        "name": "com.google.android.gms.internal.maps.zzn",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzo;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.maps.zzo",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzp;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzp",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzq;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzq",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzr;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.android.gms.internal.maps.zzr",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzs;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.google.android.gms.internal.maps.zzs",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzt;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzt",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzu;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.android.gms.internal.maps.zzu",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzv;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 26,
+        "name": "com.google.android.gms.internal.maps.zzv",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzw;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzw",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzx;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 25,
+        "name": "com.google.android.gms.internal.maps.zzx",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzy;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.google.android.gms.internal.maps.zzy",
+        "superclass": "com.google.android.gms.internal.maps.zza"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/maps/zzz;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.maps.zzz",
+        "superclass": "com.google.android.gms.internal.maps.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/GoogleMapOptions;",
+        "dex": "classes2.dex",
+        "fields": 22,
+        "methods": 36,
+        "name": "com.google.android.gms.maps.GoogleMapOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/CameraPosition;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 8,
+        "name": "com.google.android.gms.maps.model.CameraPosition",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/CameraPosition$a;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "com.google.android.gms.maps.model.CameraPosition$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/Cap;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "com.google.android.gms.maps.model.Cap",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/FeatureStyle;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "com.google.android.gms.maps.model.FeatureStyle",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/LatLng;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "com.google.android.gms.maps.model.LatLng",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/LatLngBounds;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "com.google.android.gms.maps.model.LatLngBounds",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/LatLngBounds$a;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.LatLngBounds$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/MapStyleOptions;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.google.android.gms.maps.model.MapStyleOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/MarkerOptions;",
+        "dex": "classes2.dex",
+        "fields": 20,
+        "methods": 23,
+        "name": "com.google.android.gms.maps.model.MarkerOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/PatternItem;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "com.google.android.gms.maps.model.PatternItem",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/PinConfig;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "com.google.android.gms.maps.model.PinConfig",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/PinConfig$Glyph;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 8,
+        "name": "com.google.android.gms.maps.model.PinConfig$Glyph",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/PointOfInterest;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.PointOfInterest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/StampStyle;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.StampStyle",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/StrokeStyle;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.google.android.gms.maps.model.StrokeStyle",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/StyleSpan;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.android.gms.maps.model.StyleSpan",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/Tile;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.Tile",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/VisibleRegion;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 6,
+        "name": "com.google.android.gms.maps.model.VisibleRegion",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/c;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/d;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/e;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/f;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/maps/model/g;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.maps.model.g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/material/bottomappbar/BottomAppBar;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.android.material.bottomappbar.BottomAppBar",
+        "superclass": "androidx.appcompat.widget.Toolbar"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "com.google.android.material.bottomappbar.BottomAppBar$Behavior",
+        "superclass": "com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.material.bottomappbar.BottomAppBar$Behavior$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/FirebaseExceptionMapper;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.FirebaseExceptionMapper",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/metadata/KeysMap;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "com.google.firebase.crashlytics.internal.metadata.KeysMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/metadata/UserMetadata$SerializeableKeysMap;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "com.google.firebase.crashlytics.internal.metadata.UserMetadata$SerializeableKeysMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/model/AutoCrashlyticsReportEncoder$CrashlyticsReportApplicationExitInfoBuildIdMappingForArchEncoder;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.google.firebase.crashlytics.internal.model.AutoCrashlyticsReportEncoder$CrashlyticsReportApplicationExitInfoBuildIdMappingForArchEncoder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/model/AutoValue_CrashlyticsReport_ApplicationExitInfo_BuildIdMappingForArch;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.firebase.crashlytics.internal.model.AutoValue_CrashlyticsReport_ApplicationExitInfo_BuildIdMappingForArch",
+        "superclass": "com.google.firebase.crashlytics.internal.model.CrashlyticsReport$ApplicationExitInfo$BuildIdMappingForArch"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/model/AutoValue_CrashlyticsReport_ApplicationExitInfo_BuildIdMappingForArch$1;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.crashlytics.internal.model.AutoValue_CrashlyticsReport_ApplicationExitInfo_BuildIdMappingForArch$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/model/AutoValue_CrashlyticsReport_ApplicationExitInfo_BuildIdMappingForArch$Builder;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.firebase.crashlytics.internal.model.AutoValue_CrashlyticsReport_ApplicationExitInfo_BuildIdMappingForArch$Builder",
+        "superclass": "com.google.firebase.crashlytics.internal.model.CrashlyticsReport$ApplicationExitInfo$BuildIdMappingForArch$Builder"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$ApplicationExitInfo$BuildIdMappingForArch;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.firebase.crashlytics.internal.model.CrashlyticsReport$ApplicationExitInfo$BuildIdMappingForArch",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$ApplicationExitInfo$BuildIdMappingForArch$Builder;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.firebase.crashlytics.internal.model.CrashlyticsReport$ApplicationExitInfo$BuildIdMappingForArch$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ArraySortedMap;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 29,
+        "name": "com.google.firebase.database.collection.ArraySortedMap",
+        "superclass": "com.google.firebase.database.collection.ImmutableSortedMap"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/ArraySortedMap$1;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.google.firebase.database.collection.ArraySortedMap$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMap;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 21,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMap$Builder;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMap$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMap$Builder$KeyTranslator;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMap$Builder$KeyTranslator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/ImmutableSortedMapIterator;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.database.collection.ImmutableSortedMapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/RBTreeSortedMap;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 24,
+        "name": "com.google.firebase.database.collection.RBTreeSortedMap",
+        "superclass": "com.google.firebase.database.collection.ImmutableSortedMap"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/database/collection/RBTreeSortedMap$1;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.database.collection.RBTreeSortedMap$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/RBTreeSortedMap$Builder;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.database.collection.RBTreeSortedMap$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/RBTreeSortedMap$Builder$Base1_2;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.google.firebase.database.collection.RBTreeSortedMap$Builder$Base1_2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/RBTreeSortedMap$Builder$Base1_2$1;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.database.collection.RBTreeSortedMap$Builder$Base1_2$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/database/collection/RBTreeSortedMap$Builder$BooleanChunk;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "com.google.firebase.database.collection.RBTreeSortedMap$Builder$BooleanChunk",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$1$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$1$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$2$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$2$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$2$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirestoreKt$dataObjects$$inlined$map$2$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.FirestoreKt$dataObjects$$inlined$map$2$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$1$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$1$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$2$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$2$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$2$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/ktx/FirestoreKt$dataObjects$$inlined$map$2$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.ktx.FirestoreKt$dataObjects$$inlined$map$2$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/util/CustomClassMapper;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 34,
+        "name": "com.google.firebase.firestore.util.CustomClassMapper",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/firestore/util/CustomClassMapper$BeanMapper;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 21,
+        "name": "com.google.firebase.firestore.util.CustomClassMapper$BeanMapper",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/firestore/util/CustomClassMapper$DeserializeContext;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.util.CustomClassMapper$DeserializeContext",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/firestore/util/CustomClassMapper$ErrorPath;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.google.firebase.firestore.util.CustomClassMapper$ErrorPath",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/logger/Logger$AndroidLogger$WhenMappings;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "com.google.firebase.logger.Logger$AndroidLogger$WhenMappings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/SessionDatastoreImpl$special$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.SessionDatastoreImpl$special$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/SessionDatastoreImpl$special$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.SessionDatastoreImpl$special$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/SessionDatastoreImpl$special$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.SessionDatastoreImpl$special$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 24,
+        "name": "com.google.gson.internal.LinkedTreeMap",
+        "superclass": "java.util.AbstractMap"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.gson.internal.LinkedTreeMap$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$EntrySet;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "com.google.gson.internal.LinkedTreeMap$EntrySet",
+        "superclass": "java.util.AbstractSet"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$EntrySet$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.gson.internal.LinkedTreeMap$EntrySet$1",
+        "superclass": "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$KeySet;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "com.google.gson.internal.LinkedTreeMap$KeySet",
+        "superclass": "java.util.AbstractSet"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$KeySet$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.gson.internal.LinkedTreeMap$KeySet$1",
+        "superclass": "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$LinkedTreeMapIterator;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/gson/internal/LinkedTreeMap$Node;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 10,
+        "name": "com.google.gson.internal.LinkedTreeMap$Node",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/gson/internal/bind/MapTypeAdapterFactory;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.google.gson.internal.bind.MapTypeAdapterFactory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter",
+        "superclass": "com.google.gson.TypeAdapter"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/maps/android/ui/RotationLayout;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.maps.android.ui.RotationLayout",
+        "superclass": "android.widget.FrameLayout"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/DataBinderMapperImpl;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.DataBinderMapperImpl",
+        "superclass": "androidx.databinding.a"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllBareJournalsAsJIdWithMediasAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllBareJournalsAsJIdWithMediasAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllBareJournalsAsJIdWithMediasAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllBareJournalsAsJIdWithMediasAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllBareJournalsAsJIdWithMediasAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllBareJournalsAsJIdWithMediasAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllJournalsAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllJournalsAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllJournalsAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllJournalsAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 451,
+    "query": "Map"
+  },
+  "summary": "451 of 32886 classes match \"Map\" in 4 DEX file(s); showing 200.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 451,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

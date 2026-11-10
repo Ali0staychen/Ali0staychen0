@@ -1,0 +1,150 @@
+{
+  "id": "ev_0bc7ebf32607a42624b2ce61ceccf3078be16ec071e4e93b2d2d73ca2cd32ab1",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 100,
+    "offset": 0,
+    "path": null,
+    "query": "audio"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/AudioTrack$StreamEventCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.AudioTrack$StreamEventCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/media/AudioAttributesCompat;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.media.AudioAttributesCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media/AudioAttributesCompatParcelizer;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.media.AudioAttributesCompatParcelizer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/media/AudioAttributesImpl;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.media.AudioAttributesImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/media/AudioAttributesImplApi21;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.media.AudioAttributesImplApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media/AudioAttributesImplApi21Parcelizer;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.media.AudioAttributesImplApi21Parcelizer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/media/AudioAttributesImplBase;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "androidx.media.AudioAttributesImplBase",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/media/AudioAttributesImplBaseParcelizer;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.media.AudioAttributesImplBaseParcelizer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/custom/AudioBarView;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 6,
+        "name": "com.journey.app.custom.AudioBarView",
+        "superclass": "android.view.View"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 9,
+    "query": "audio"
+  },
+  "summary": "9 of 32886 classes match \"audio\" in 4 DEX file(s); showing 9.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 9,
+    "total": 9
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

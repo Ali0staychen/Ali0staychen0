@@ -1,0 +1,104 @@
+{
+  "id": "ev_303e154a2cadb4954ff480fcb33b27aeb0f99ec7e5617ffb80033e4e1b92b13f",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_users_find",
+  "params": {
+    "class_name": "android.location.LocationManager",
+    "limit": 200,
+    "method_name": null,
+    "offset": 0,
+    "path": null
+  },
+  "result": {
+    "callers": 3,
+    "class": "Landroid/location/LocationManager;",
+    "defined_in": null,
+    "method_name": null,
+    "references": [
+      {
+        "caller": "Landroidx/appcompat/app/y;->a(Landroid/content/Context;)Landroidx/appcompat/app/y;",
+        "dex": "classes.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0010",
+        "target": "Landroid/location/LocationManager;"
+      },
+      {
+        "caller": "Landroidx/appcompat/app/y;->c(Ljava/lang/String;)Landroid/location/Location;",
+        "dex": "classes.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0002",
+        "target": "Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z"
+      },
+      {
+        "caller": "Landroidx/appcompat/app/y;->c(Ljava/lang/String;)Landroid/location/Location;",
+        "dex": "classes.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000a",
+        "target": "Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;"
+      },
+      {
+        "caller": "Lcom/journey/app/EditorActivity$M$a;->o0(LZ/l;I)V",
+        "dex": "classes3.dex",
+        "instruction": "instance-of",
+        "kind": "type",
+        "offset": "0ac5",
+        "target": "Landroid/location/LocationManager;"
+      },
+      {
+        "caller": "Lcom/journey/app/EditorActivity$M$a;->o0(LZ/l;I)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0ac9",
+        "target": "Landroid/location/LocationManager;"
+      },
+      {
+        "caller": "Lcom/journey/app/EditorActivity$M$a;->o0(LZ/l;I)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0ad2",
+        "target": "Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z"
+      }
+    ],
+    "references_total": 6
+  },
+  "summary": "6 reference(s) to android.location.LocationManager from 3 method(s) across 4 DEX file(s); not defined in this package (framework or library class).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "static_references_only",
+      "message": "Only direct bytecode references are found; reflection, JNI, string-built class names and code loaded at run time are not."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 6,
+    "total": 6
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Landroid/location/LocationManager;"
+    }
+  ],
+  "links": []
+}

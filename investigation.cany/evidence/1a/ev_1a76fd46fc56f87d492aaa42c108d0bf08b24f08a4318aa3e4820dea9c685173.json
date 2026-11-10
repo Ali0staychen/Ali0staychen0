@@ -1,0 +1,609 @@
+{
+  "id": "ev_1a76fd46fc56f87d492aaa42c108d0bf08b24f08a4318aa3e4820dea9c685173",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "file"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/profileinstaller/ProfileInstallReceiver;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.profileinstaller.ProfileInstallReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/profileinstaller/ProfileInstallReceiver$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.profileinstaller.ProfileInstallReceiver$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/profileinstaller/ProfileInstallerInitializer;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "androidx.profileinstaller.ProfileInstallerInitializer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/ProfileInstallerInitializer$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.profileinstaller.ProfileInstallerInitializer$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/profileinstaller/ProfileInstallerInitializer$b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.profileinstaller.ProfileInstallerInitializer$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.profileinstaller.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/a$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.profileinstaller.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/a$b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.profileinstaller.a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/profileinstaller/b;",
+        "dex": "classes2.dex",
+        "fields": 11,
+        "methods": 14,
+        "name": "androidx.profileinstaller.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/profileinstaller/c;",
+        "dex": "classes2.dex",
+        "fields": 9,
+        "methods": 1,
+        "name": "androidx.profileinstaller.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/d;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 18,
+        "name": "androidx.profileinstaller.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Landroidx/profileinstaller/e;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 6,
+        "name": "androidx.profileinstaller.e",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/f;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 12,
+        "name": "androidx.profileinstaller.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/profileinstaller/f$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.profileinstaller.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/profileinstaller/f$b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.profileinstaller.f$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/f$c;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.profileinstaller.f$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/g;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 44,
+        "name": "androidx.profileinstaller.g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/h;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.profileinstaller.h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/h$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.profileinstaller.h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/profileinstaller/h$b;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.profileinstaller.h$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/profileinstaller/h$c;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 1,
+        "name": "androidx.profileinstaller.h$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/profileinstaller/i;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 2,
+        "name": "androidx.profileinstaller.i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/profileinstaller/j;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 1,
+        "name": "androidx.profileinstaller.j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.bumptech.glide.load.data.ParcelFileDescriptorRewinder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$InternalRewinder;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.bumptech.glide.load.data.ParcelFileDescriptorRewinder$InternalRewinder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.bumptech.glide.load.data.ParcelFileDescriptorRewinder$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/github/mikephil/charting/utils/FileUtils;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.github.mikephil.charting.utils.FileUtils",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 13,
+        "name": "com.google.api.services.drive.Drive$Files",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Copy;",
+        "dex": "classes2.dex",
+        "fields": 9,
+        "methods": 39,
+        "name": "com.google.api.services.drive.Drive$Files$Copy",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Create;",
+        "dex": "classes2.dex",
+        "fields": 9,
+        "methods": 41,
+        "name": "com.google.api.services.drive.Drive$Files$Create",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Delete;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 28,
+        "name": "com.google.api.services.drive.Drive$Files$Delete",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$EmptyTrash;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 20,
+        "name": "com.google.api.services.drive.Drive$Files$EmptyTrash",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Export;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 29,
+        "name": "com.google.api.services.drive.Drive$Files$Export",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$GenerateIds;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 26,
+        "name": "com.google.api.services.drive.Drive$Files$GenerateIds",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Get;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 37,
+        "name": "com.google.api.services.drive.Drive$Files$Get",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$List;",
+        "dex": "classes2.dex",
+        "fields": 15,
+        "methods": 52,
+        "name": "com.google.api.services.drive.Drive$Files$List",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Update;",
+        "dex": "classes2.dex",
+        "fields": 11,
+        "methods": 44,
+        "name": "com.google.api.services.drive.Drive$Files$Update",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/Drive$Files$Watch;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 35,
+        "name": "com.google.api.services.drive.Drive$Files$Watch",
+        "superclass": "com.google.api.services.drive.DriveRequest"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/Comment$QuotedFileContent;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 12,
+        "name": "com.google.api.services.drive.model.Comment$QuotedFileContent",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/Drive$BackgroundImageFile;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 16,
+        "name": "com.google.api.services.drive.model.Drive$BackgroundImageFile",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File;",
+        "dex": "classes2.dex",
+        "fields": 56,
+        "methods": 120,
+        "name": "com.google.api.services.drive.model.File",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$Capabilities;",
+        "dex": "classes2.dex",
+        "fields": 32,
+        "methods": 72,
+        "name": "com.google.api.services.drive.model.File$Capabilities",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$ContentHints;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 12,
+        "name": "com.google.api.services.drive.model.File$ContentHints",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$ContentHints$Thumbnail;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 14,
+        "name": "com.google.api.services.drive.model.File$ContentHints$Thumbnail",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$ImageMediaMetadata;",
+        "dex": "classes2.dex",
+        "fields": 21,
+        "methods": 50,
+        "name": "com.google.api.services.drive.model.File$ImageMediaMetadata",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$ImageMediaMetadata$Location;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 14,
+        "name": "com.google.api.services.drive.model.File$ImageMediaMetadata$Location",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$ShortcutDetails;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 12,
+        "name": "com.google.api.services.drive.model.File$ShortcutDetails",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/File$VideoMediaMetadata;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 14,
+        "name": "com.google.api.services.drive.model.File$VideoMediaMetadata",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/FileList;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 17,
+        "name": "com.google.api.services.drive.model.FileList",
+        "superclass": "e7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/api/services/drive/model/TeamDrive$BackgroundImageFile;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 16,
+        "name": "com.google.api.services.drive.model.TeamDrive$BackgroundImageFile",
+        "superclass": "e7.b"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 220,
+    "query": "file"
+  },
+  "summary": "220 of 32886 classes match \"file\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 220,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

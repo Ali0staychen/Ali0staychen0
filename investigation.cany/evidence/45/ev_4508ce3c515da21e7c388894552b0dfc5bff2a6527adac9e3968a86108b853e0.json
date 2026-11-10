@@ -1,0 +1,104 @@
+{
+  "id": "ev_4508ce3c515da21e7c388894552b0dfc5bff2a6527adac9e3968a86108b853e0",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_users_find",
+  "params": {
+    "class_name": "com.journey.app.ReminderReceiver",
+    "limit": 200,
+    "method_name": null,
+    "offset": 0,
+    "path": null
+  },
+  "result": {
+    "callers": 3,
+    "class": "Lcom/journey/app/ReminderReceiver;",
+    "defined_in": "classes3.dex",
+    "method_name": null,
+    "references": [
+      {
+        "caller": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-direct",
+        "kind": "method",
+        "offset": "004d",
+        "target": "Lcom/journey/app/ReminderReceiver;->c(Landroid/content/Context;)Landroid/app/PendingIntent;"
+      },
+      {
+        "caller": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-direct",
+        "kind": "method",
+        "offset": "0052",
+        "target": "Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;"
+      },
+      {
+        "caller": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-direct",
+        "kind": "method",
+        "offset": "00ef",
+        "target": "Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;"
+      },
+      {
+        "caller": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-direct",
+        "kind": "method",
+        "offset": "00ff",
+        "target": "Lcom/journey/app/ReminderReceiver;->b(Landroid/content/Context;)Landroid/graphics/Bitmap;"
+      },
+      {
+        "caller": "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-direct",
+        "kind": "method",
+        "offset": "004b",
+        "target": "Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V"
+      },
+      {
+        "caller": "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+        "dex": "classes3.dex",
+        "instruction": "const-class",
+        "kind": "type",
+        "offset": "0014",
+        "target": "Lcom/journey/app/ReminderReceiver;"
+      }
+    ],
+    "references_total": 6
+  },
+  "summary": "6 reference(s) to com.journey.app.ReminderReceiver from 3 method(s) across 4 DEX file(s); defined in classes3.dex.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "static_references_only",
+      "message": "Only direct bytecode references are found; reflection, JNI, string-built class names and code loaded at run time are not."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 6,
+    "total": 6
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/ReminderReceiver;"
+    }
+  ],
+  "links": []
+}

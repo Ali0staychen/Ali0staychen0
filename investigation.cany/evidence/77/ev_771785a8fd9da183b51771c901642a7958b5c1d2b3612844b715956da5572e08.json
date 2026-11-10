@@ -1,0 +1,2339 @@
+{
+  "id": "ev_771785a8fd9da183b51771c901642a7958b5c1d2b3612844b715956da5572e08",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Settings"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/location/LocationSettingsRequest;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.google.android.gms.location.LocationSettingsRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/location/LocationSettingsResult;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.android.gms.location.LocationSettingsResult",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/location/LocationSettingsStates;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 9,
+        "name": "com.google.android.gms.location.LocationSettingsStates",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/auth/ActionCodeSettings;",
+        "dex": "classes2.dex",
+        "fields": 12,
+        "methods": 20,
+        "name": "com.google.firebase.auth.ActionCodeSettings",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/auth/ActionCodeSettings$Builder;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 22,
+        "name": "com.google.firebase.auth.ActionCodeSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/auth/FirebaseAuthSettings;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.google.firebase.auth.FirebaseAuthSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/CachedSettingsIo;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.google.firebase.crashlytics.internal.settings.CachedSettingsIo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/DefaultSettingsJsonTransform;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.firebase.crashlytics.internal.settings.DefaultSettingsJsonTransform",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/DefaultSettingsSpiCall;",
+        "dex": "classes2.dex",
+        "fields": 19,
+        "methods": 10,
+        "name": "com.google.firebase.crashlytics.internal.settings.DefaultSettingsSpiCall",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/Settings;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 2,
+        "name": "com.google.firebase.crashlytics.internal.settings.Settings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/Settings$FeatureFlagData;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 1,
+        "name": "com.google.firebase.crashlytics.internal.settings.Settings$FeatureFlagData",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/Settings$SessionData;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "com.google.firebase.crashlytics.internal.settings.Settings$SessionData",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "enum"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsCacheBehavior",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsController;",
+        "dex": "classes2.dex",
+        "fields": 11,
+        "methods": 19,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsController",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsController$1;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsController$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsJsonConstants;",
+        "dex": "classes2.dex",
+        "fields": 24,
+        "methods": 1,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsJsonConstants",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsJsonParser;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsJsonParser",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsJsonTransform;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsJsonTransform",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsProvider;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsRequest;",
+        "dex": "classes2.dex",
+        "fields": 9,
+        "methods": 1,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsRequest",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsSpiCall;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsSpiCall",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/SettingsV3JsonTransform;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.firebase.crashlytics.internal.settings.SettingsV3JsonTransform",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/crashlytics/internal/settings/a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.firebase.crashlytics.internal.settings.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/emulators/EmulatedServiceSettings;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.google.firebase.emulators.EmulatedServiceSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirebaseFirestoreSettings;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 15,
+        "name": "com.google.firebase.firestore.FirebaseFirestoreSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirebaseFirestoreSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.FirebaseFirestoreSettings$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/FirebaseFirestoreSettings$Builder;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.google.firebase.firestore.FirebaseFirestoreSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/LocalCacheSettings;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.LocalCacheSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryCacheSettings;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.google.firebase.firestore.MemoryCacheSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryCacheSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.MemoryCacheSettings$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryCacheSettings$Builder;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.firebase.firestore.MemoryCacheSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryEagerGcSettings;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.google.firebase.firestore.MemoryEagerGcSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryEagerGcSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.MemoryEagerGcSettings$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryEagerGcSettings$Builder;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.firebase.firestore.MemoryEagerGcSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryGarbageCollectorSettings;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.MemoryGarbageCollectorSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryLruGcSettings;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.google.firebase.firestore.MemoryLruGcSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryLruGcSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.MemoryLruGcSettings$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/MemoryLruGcSettings$Builder;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.firebase.firestore.MemoryLruGcSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/PersistentCacheSettings;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.google.firebase.firestore.PersistentCacheSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/PersistentCacheSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.firestore.PersistentCacheSettings$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/PersistentCacheSettings$Builder;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.firebase.firestore.PersistentCacheSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 8,
+        "name": "com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/LocalOverrideSettingsProvider;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.sessions.LocalOverrideSettingsProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/RemoteSettingsProvider;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "com.google.firebase.sessions.RemoteSettingsProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/CrashlyticsSettingsFetcher;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.firebase.sessions.settings.CrashlyticsSettingsFetcher",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/LocalOverrideSettings;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "com.google.firebase.sessions.settings.LocalOverrideSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/LocalOverrideSettings$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.LocalOverrideSettings$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/LocalOverrideSettings_Factory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.LocalOverrideSettings_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 11,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings$clearCachedSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings$clearCachedSettings$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings$updateSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings$updateSettings$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings$updateSettings$2$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings$updateSettings$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings$updateSettings$2$2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings$updateSettings$2$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettingsFetcher;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettingsFetcher",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettingsFetcher$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.RemoteSettingsFetcher$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettingsFetcher$doConfigFetch$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettingsFetcher$doConfigFetch$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettingsFetcher_Factory;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettingsFetcher_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/RemoteSettings_Factory;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.RemoteSettings_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SessionConfigs;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 16,
+        "name": "com.google.firebase.sessions.settings.SessionConfigs",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SessionsSettings;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.firebase.sessions.settings.SessionsSettings",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SessionsSettings$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.firebase.sessions.settings.SessionsSettings$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SessionsSettings$updateSettings$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.SessionsSettings$updateSettings$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SessionsSettings_Factory;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.SessionsSettings_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 22,
+        "name": "com.google.firebase.sessions.settings.SettingsCache",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.SettingsCache$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache$Companion;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.google.firebase.sessions.settings.SettingsCache$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache$removeConfigs$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.SettingsCache$removeConfigs$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache$removeConfigs$2;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.SettingsCache$removeConfigs$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache$updateConfigValue$1;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.SettingsCache$updateConfigValue$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache$updateConfigValue$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.SettingsCache$updateConfigValue$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsCache_Factory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.SettingsCache_Factory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsProvider;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.google.firebase.sessions.settings.SettingsProvider",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/sessions/settings/SettingsProvider$DefaultImpls;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.sessions.settings.SettingsProvider$DefaultImpls",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity;",
+        "dex": "classes3.dex",
+        "fields": 23,
+        "methods": 90,
+        "name": "com.journey.app.SettingsActivity",
+        "superclass": "com.journey.app.v2"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.SettingsActivity$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$b;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.journey.app.SettingsActivity$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "com.journey.app.SettingsActivity$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 24,
+        "name": "com.journey.app.SettingsActivity$d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$b;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$c",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$d;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$d",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$e;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$e",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$f;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$f$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$f$b;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$f$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$f$b$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$f$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$f$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.journey.app.SettingsActivity$d$a$f$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$g;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 349,
+        "name": "com.journey.app.SettingsActivity$d$a$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$b;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$c;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$d;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.SettingsActivity$d$a$h$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$e;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$h$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$f;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$g;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$h$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$h;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$h$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$i;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$i$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$i$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$j;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "com.journey.app.SettingsActivity$d$a$h$j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$k;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$k",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$l;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$l",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$m;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$m",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$n;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$n",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$o;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$o",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$p;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.SettingsActivity$d$a$h$p",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$q;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$q",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$r;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.journey.app.SettingsActivity$d$a$h$r",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$s;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$d$a$h$s",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$t;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$h$t",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$d$a$h$u;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$d$a$h$u",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$e",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$f;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$f",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$g;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.SettingsActivity$g",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/SettingsActivity$h;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.SettingsActivity$h",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A;",
+        "dex": "classes3.dex",
+        "fields": 13,
+        "methods": 14,
+        "name": "com.journey.app.composable.fragment.settings.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$d;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$f;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$g;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$h;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$i;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$j;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$k;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$k",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A$l;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.A$l",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A0;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.A0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.A1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.A2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A3;",
+        "dex": "classes3.dex",
+        "fields": 18,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.A3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A4;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.A4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/A5;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.A5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 7,
+        "name": "com.journey.app.composable.fragment.settings.B",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.B$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.B$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.B$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B$d;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.B$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.B$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B0;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.B0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B1;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.B1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.B2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B3;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.B3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B4;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.B4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/B5;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.B5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 8,
+        "name": "com.journey.app.composable.fragment.settings.C",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C$d;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C$f;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C0;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.C0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.C1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.C2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 84,
+        "name": "com.journey.app.composable.fragment.settings.C3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$c;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$d;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$e;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "com.journey.app.composable.fragment.settings.C3$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$e$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$e$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$e$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$f;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "com.journey.app.composable.fragment.settings.C3$f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$f$a;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "com.journey.app.composable.fragment.settings.C3$f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$f$a$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$f$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$f$a$b;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$f$a$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$f$a$b$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$f$a$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$g;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 9,
+        "name": "com.journey.app.composable.fragment.settings.C3$g",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$g$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$g$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$g$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$h;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$h",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$h$a;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$h$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.composable.fragment.settings.C3$i",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$i$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C3$i$c",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i$d;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$i$d",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i$e;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$i$e",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$i$f;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$i$f",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$j;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$j",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$k;",
+        "dex": "classes3.dex",
+        "fields": 18,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$k",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$l;",
+        "dex": "classes3.dex",
+        "fields": 18,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$l",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$m;",
+        "dex": "classes3.dex",
+        "fields": 18,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$m",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$n;",
+        "dex": "classes3.dex",
+        "fields": 18,
+        "methods": 5,
+        "name": "com.journey.app.composable.fragment.settings.C3$n",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$o;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.C3$o",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$p;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$p",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$q;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$q",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C3$r;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.journey.app.composable.fragment.settings.C3$r",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C4;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.C4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/C5;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.journey.app.composable.fragment.settings.C5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/D;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.D",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/D$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.D$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/composable/fragment/settings/D$b;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.composable.fragment.settings.D$b",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 922,
+    "query": "Settings"
+  },
+  "summary": "922 of 32886 classes match \"Settings\" in 4 DEX file(s); showing 200.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 922,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

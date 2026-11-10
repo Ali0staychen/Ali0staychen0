@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "content": "Study how the original journal app works",
+    "status": "completed",
+    "activeForm": "Studying the original app"
+  },
+  {
+    "id": "2",
+    "content": "Check the rebuilt app includes every requested feature",
+    "status": "completed",
+    "activeForm": "Checking every feature"
+  },
+  {
+    "id": "3",
+    "content": "Build the Android app and fix any problems",
+    "status": "completed",
+    "activeForm": "Building the app"
+  },
+  {
+    "id": "4",
+    "content": "Confirm the app is complete and ready",
+    "status": "completed",
+    "activeForm": "Confirming everything is ready"
+  }
+]

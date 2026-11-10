@@ -1,0 +1,242 @@
+{
+  "id": "ev_1fdd8bc50c29bc6789e3ea16a46ba388222e3721a166a743a54004b0f96ccbfd",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "id",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->id:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "name",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->name:Ljava/lang/String;",
+        "type": "java.lang.String"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;-><clinit>()V",
+        "registers": 1,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 13,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;-><init>(Ljava/lang/String;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public void <init>(java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->copy$default(Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;",
+        "registers": 9,
+        "signature": "public static synthetic com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson copy$default(com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson, java.lang.String, java.lang.String, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->component1()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->component2()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 9,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->copy(Ljava/lang/String;Ljava/lang/String;)Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;",
+        "registers": 7,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson copy(java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 54,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->equals(Ljava/lang/Object;)Z",
+        "registers": 9,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->getId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getName",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->getName()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getName()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 36,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->hashCode()I",
+        "registers": 7,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 44,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.service.SyncApiGson$EntryTagResponseGson (classes3.dex) extends java.lang.Object: 3 fields, 11 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryTagResponseGson;"
+    }
+  ],
+  "links": []
+}

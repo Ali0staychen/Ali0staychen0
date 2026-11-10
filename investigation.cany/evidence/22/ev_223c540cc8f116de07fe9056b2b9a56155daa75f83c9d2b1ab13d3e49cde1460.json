@@ -1,0 +1,890 @@
+{
+  "id": "ev_223c540cc8f116de07fe9056b2b9a56155daa75f83c9d2b1ab13d3e49cde1460",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 80,
+    "offset": 0,
+    "path": null,
+    "query": "media"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/AudioTrack$StreamEventCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.AudioTrack$StreamEventCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/LoudnessCodecController$OnLoudnessCodecUpdateListener;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.LoudnessCodecController$OnLoudnessCodecUpdateListener",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/MediaDrmThrowable;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.MediaDrmThrowable",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/MediaRouter2$ControllerCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.MediaRouter2$ControllerCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/MediaRouter2$RouteCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.MediaRouter2$RouteCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroid/media/Spatializer$OnSpatializerStateChangedListener;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "android.media.Spatializer$OnSpatializerStateChangedListener",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat;",
+        "dex": "classes.dex",
+        "fields": 9,
+        "methods": 17,
+        "name": "android.support.v4.media.MediaBrowserCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$CallbackHandler;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$CallbackHandler",
+        "superclass": "android.os.Handler"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "android.support.v4.media.MediaBrowserCompat$ConnectionCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback$StubApi21;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.v4.media.MediaBrowserCompat$ConnectionCallback$StubApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$CustomActionCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "android.support.v4.media.MediaBrowserCompat$CustomActionCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$CustomActionResultReceiver;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$CustomActionResultReceiver",
+        "superclass": "android.support.v4.os.ResultReceiver"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ItemCallback;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$ItemCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ItemCallback$StubApi23;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$ItemCallback$StubApi23",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ItemReceiver;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$ItemReceiver",
+        "superclass": "android.support.v4.os.ResultReceiver"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImpl;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 13,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21;",
+        "dex": "classes.dex",
+        "fields": 10,
+        "methods": 20,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$2;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$3;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$4;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$5;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$6;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$6",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$7;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi23;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi23",
+        "superclass": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi21"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi26;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi26",
+        "superclass": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplApi23"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase;",
+        "dex": "classes.dex",
+        "fields": 19,
+        "methods": 21,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$3;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$4;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$5;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$6;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$6",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection$2;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaBrowserServiceCallbackImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaItem;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 13,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaItem",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaItem$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaItem$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$MediaItem$Flags;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaBrowserCompat$MediaItem$Flags",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$SearchCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$SearchCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$SearchResultReceiver;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompat$SearchResultReceiver",
+        "superclass": "android.support.v4.os.ResultReceiver"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 11,
+        "name": "android.support.v4.media.MediaBrowserCompat$ServiceBinderWrapper",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$Subscription;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "android.support.v4.media.MediaBrowserCompat$Subscription",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$SubscriptionCallback;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 6,
+        "name": "android.support.v4.media.MediaBrowserCompat$SubscriptionCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$SubscriptionCallback$StubApi21;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.v4.media.MediaBrowserCompat$SubscriptionCallback$StubApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompat$SubscriptionCallback$StubApi26;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompat$SubscriptionCallback$StubApi26",
+        "superclass": "android.support.v4.media.MediaBrowserCompat$SubscriptionCallback$StubApi21"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi21;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 13,
+        "name": "android.support.v4.media.MediaBrowserCompatApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompatApi21$ConnectionCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallbackProxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.v4.media.MediaBrowserCompatApi21$ConnectionCallbackProxy",
+        "superclass": "android.media.browse.MediaBrowser$ConnectionCallback"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi21$MediaItem;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompatApi21$MediaItem",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi21$SubscriptionCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompatApi21$SubscriptionCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi21$SubscriptionCallbackProxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompatApi21$SubscriptionCallbackProxy",
+        "superclass": "android.media.browse.MediaBrowser$SubscriptionCallback"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi23;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompatApi23",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi23$ItemCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompatApi23$ItemCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi23$ItemCallbackProxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompatApi23$ItemCallbackProxy",
+        "superclass": "android.media.browse.MediaBrowser$ItemCallback"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi26;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "android.support.v4.media.MediaBrowserCompatApi26",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi26$SubscriptionCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaBrowserCompatApi26$SubscriptionCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaBrowserCompatApi26$SubscriptionCallbackProxy;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "android.support.v4.media.MediaBrowserCompatApi26$SubscriptionCallbackProxy",
+        "superclass": "android.support.v4.media.MediaBrowserCompatApi21$SubscriptionCallbackProxy"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompat;",
+        "dex": "classes.dex",
+        "fields": 24,
+        "methods": 16,
+        "name": "android.support.v4.media.MediaDescriptionCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompat$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.v4.media.MediaDescriptionCompat$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompat$Builder;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 10,
+        "name": "android.support.v4.media.MediaDescriptionCompat$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompatApi21;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 10,
+        "name": "android.support.v4.media.MediaDescriptionCompatApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompatApi21$Builder;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 10,
+        "name": "android.support.v4.media.MediaDescriptionCompatApi21$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompatApi23;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaDescriptionCompatApi23",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaDescriptionCompatApi23$Builder;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "android.support.v4.media.MediaDescriptionCompatApi23$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat;",
+        "dex": "classes.dex",
+        "fields": 44,
+        "methods": 17,
+        "name": "android.support.v4.media.MediaMetadataCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.v4.media.MediaMetadataCompat$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$BitmapKey;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaMetadataCompat$BitmapKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$Builder;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 10,
+        "name": "android.support.v4.media.MediaMetadataCompat$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$LongKey;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaMetadataCompat$LongKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$RatingKey;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaMetadataCompat$RatingKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompat$TextKey;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.MediaMetadataCompat$TextKey",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompatApi21;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "android.support.v4.media.MediaMetadataCompatApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/v4/media/MediaMetadataCompatApi21$Builder;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "android.support.v4.media.MediaMetadataCompatApi21$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/media/ParceledListSliceAdapterApi21;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "android.support.v4.media.ParceledListSliceAdapterApi21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/RatingCompat;",
+        "dex": "classes.dex",
+        "fields": 13,
+        "methods": 18,
+        "name": "android.support.v4.media.RatingCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroid/support/v4/media/RatingCompat$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.v4.media.RatingCompat$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroid/support/v4/media/RatingCompat$StarStyle;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "android.support.v4.media.RatingCompat$StarStyle",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 624,
+    "query": "media"
+  },
+  "summary": "624 of 32886 classes match \"media\" in 4 DEX file(s); showing 80.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 80,
+    "total": 624,
+    "next_offset": 80
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

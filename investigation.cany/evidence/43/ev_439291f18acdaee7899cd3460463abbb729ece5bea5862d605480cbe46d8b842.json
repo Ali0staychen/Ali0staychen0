@@ -1,0 +1,356 @@
+{
+  "id": "ev_439291f18acdaee7899cd3460463abbb729ece5bea5862d605480cbe46d8b842",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "degreeC",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->degreeC:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "description",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->description:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "icon",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->icon:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "id",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->id:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "place",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->place:Ljava/lang/String;",
+        "type": "java.lang.String"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;-><clinit>()V",
+        "registers": 2,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;-><init>(Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V",
+        "registers": 9,
+        "signature": "public void <init>(java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 62,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->copy$default(Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;ILjava/lang/Object;)Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "registers": 10,
+        "signature": "public static synthetic com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson copy$default(com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson, java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->component1()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->component2()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->component3()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->component4()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->component5()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 13,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->copy(Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;",
+        "registers": 16,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson copy(java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 102,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->equals(Ljava/lang/Object;)Z",
+        "registers": 9,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getDegreeC",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->getDegreeC()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double getDegreeC()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getDescription",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->getDescription()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getDescription()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getIcon",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->getIcon()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getIcon()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->getId()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer getId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getPlace",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->getPlace()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getPlace()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 93,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->hashCode()I",
+        "registers": 8,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 80,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.service.SyncApiGson$EntryWeatherResponseGson (classes3.dex) extends java.lang.Object: 6 fields, 17 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryWeatherResponseGson;"
+    }
+  ],
+  "links": []
+}

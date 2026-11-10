@@ -1,0 +1,509 @@
+{
+  "id": "ev_721f9a672f732def0135ca23c3e8adc10aee5f72b9c8349f324c82b8058448a5",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk",
+    "query": "Sentiment"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllJournalSentiments$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllJournalSentiments$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllPartialJournalsByDateAndSentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllPartialJournalsByDateAndSentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllPartialJournalsWithSentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllPartialJournalsWithSentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getAllPartialJournalsWithTextAndSentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getAllPartialJournalsWithTextAndSentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrapperWithMediasAndTagWordBagsBySentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrapperWithMediasAndTagWordBagsBySentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalWrappersBySentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalWrappersBySentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepository$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepository$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getAllJournalSentiments$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getAllJournalSentiments$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getAllPartialJournalsByDateAndSentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getAllPartialJournalsByDateAndSentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalWrappersBySentiment$1;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalWrappersBySentiment$1",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndActivityAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndLocationAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndTagAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByDateAndSentimentAndWeatherAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/repository/JournalRepositoryV2$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2$1;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.repository.JournalRepositoryV2$getJournalsJIdAndDateByTextAndSentimentAsFlow$$inlined$map$1$2$1",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 39,
+    "query": "Sentiment"
+  },
+  "summary": "39 of 32886 classes match \"Sentiment\" in 4 DEX file(s); showing 39.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 39,
+    "total": 39
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    }
+  ],
+  "links": []
+}

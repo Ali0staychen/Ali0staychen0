@@ -1,0 +1,1405 @@
+{
+  "id": "ev_3a70c9bc50c2f7cee7dd6c7c1de944d97316489bb4bceb2c314c3e95af9edbf7",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_package_show",
+  "params": {
+    "include_manifest_xml": true,
+    "path": "C:\\Users\\ali\\Downloads\\base.apk"
+  },
+  "result": {
+    "assets": 268,
+    "dex": [
+      {
+        "bytes": 7294268,
+        "checksum_ok": true,
+        "classes": 10205,
+        "fields": 31363,
+        "methods": 65493,
+        "name": "classes.dex",
+        "sha256": "861c28cec1b6790841b9de184f8121c069450de704cbe0898b618a9968224390",
+        "strings": 29402,
+        "version": "038"
+      },
+      {
+        "bytes": 7458276,
+        "checksum_ok": true,
+        "classes": 10220,
+        "fields": 25411,
+        "methods": 64887,
+        "name": "classes2.dex",
+        "sha256": "7f92dfbf7a89fbabbdce670290a7d1237c63cc9eee1abbeda9299a18c37b4f2e",
+        "strings": 38082,
+        "version": "038"
+      },
+      {
+        "bytes": 9251484,
+        "checksum_ok": true,
+        "classes": 10816,
+        "fields": 34382,
+        "methods": 65253,
+        "name": "classes3.dex",
+        "sha256": "3cfb97fdcc780e6308d9157abfc70d79b36dbe5bae4cfa4323ed46828d344c2f",
+        "strings": 40176,
+        "version": "038"
+      },
+      {
+        "bytes": 1671412,
+        "checksum_ok": true,
+        "classes": 1645,
+        "fields": 4303,
+        "methods": 14449,
+        "name": "classes4.dex",
+        "sha256": "bea8846e23a9bca2b81be3c8d6b902991ba404ff9a5ebb4ba384ef39d0360d33",
+        "strings": 12702,
+        "version": "038"
+      }
+    ],
+    "entries": 2114,
+    "has_resources_arsc": true,
+    "manifest": {
+      "application": {
+        "allow_backup": false,
+        "debuggable": null,
+        "enabled": null,
+        "extract_native_libs": null,
+        "label": "@0x7f140042",
+        "name": "com.journey.app.MyApplication",
+        "network_security_config": null,
+        "permission": null,
+        "test_only": null,
+        "uses_cleartext_traffic": null
+      },
+      "components": [
+        {
+          "authorities": "com.journey.app.fileprovider",
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "provider",
+          "name": "com.commonsware.cwac.provider.StreamProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.MAIN"
+              ],
+              "categories": [
+                "android.intent.category.LAUNCHER"
+              ],
+              "data": []
+            },
+            {
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "categories": [
+                "android.intent.category.BROWSABLE",
+                "android.intent.category.DEFAULT"
+              ],
+              "data": [
+                "scheme=https",
+                "host=go.journey.cloud"
+              ]
+            }
+          ],
+          "kind": "activity",
+          "name": "com.journey.app.SplashActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.MainActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.PublishActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.GalleryActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.PlacesActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.SEND"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT"
+              ],
+              "data": [
+                "mimeType=image/*"
+              ]
+            },
+            {
+              "actions": [
+                "android.intent.action.SEND"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT"
+              ],
+              "data": [
+                "mimeType=video/*"
+              ]
+            },
+            {
+              "actions": [
+                "android.intent.action.SEND_MULTIPLE"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT"
+              ],
+              "data": [
+                "mimeType=*/*"
+              ]
+            },
+            {
+              "actions": [
+                "android.intent.action.SEND"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT"
+              ],
+              "data": [
+                "mimeType=text/plain"
+              ]
+            }
+          ],
+          "kind": "activity",
+          "name": "com.journey.app.EditorActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.StoriesActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.SettingsActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.HelpActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.ChatActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.AddonActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.StatisticsActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.giftcard.GiftActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.PreviewActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.journey.app.OnboardActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "com.google.android.gm.action.AUTO_SEND"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT",
+                "com.google.android.voicesearch.SELF_NOTE"
+              ],
+              "data": [
+                "mimeType=*/*"
+              ]
+            }
+          ],
+          "kind": "activity",
+          "name": "com.journey.app.NoteToSelfActivity",
+          "permission": "com.google.android.gm.permission.AUTO_SEND",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT",
+                "android.intent.category.BROWSABLE"
+              ],
+              "data": [
+                "scheme=journey-login"
+              ]
+            }
+          ],
+          "kind": "activity",
+          "name": "com.journey.app.LoginDoneActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.app.ReminderReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.app.RadicalReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.app.InactiveReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.app.ThrowbackReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.app.CoachReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.appwidget.action.APPWIDGET_UPDATE"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "com.journey.app.WidgetTextProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.appwidget.action.APPWIDGET_UPDATE"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "com.journey.app.WidgetPhotoProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.BOOT_COMPLETED",
+                "android.intent.action.QUICKBOOT_POWERON",
+                "com.htc.intent.action.QUICKBOOT_POWERON"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT"
+              ],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "com.journey.app.AutostartReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": null,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.journey.app.QuickWriteBroadcastReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": "com.journey.app.androidx-startup",
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "provider",
+          "name": "androidx.startup.InitializationProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "service",
+          "name": "com.google.android.gms.metadata.ModuleDependencies",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.android.billingclient.api.ProxyBillingActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.firebase.components.ComponentDiscoveryService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT",
+                "android.intent.category.BROWSABLE"
+              ],
+              "data": [
+                "scheme=genericidp host=firebase.auth path=/"
+              ]
+            }
+          ],
+          "kind": "activity",
+          "name": "com.google.firebase.auth.internal.GenericIdpActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "categories": [
+                "android.intent.category.DEFAULT",
+                "android.intent.category.BROWSABLE"
+              ],
+              "data": [
+                "scheme=recaptcha host=firebase.auth path=/"
+              ]
+            }
+          ],
+          "kind": "activity",
+          "name": "com.google.firebase.auth.internal.RecaptchaActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "androidx.credentials.playservices.HiddenActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+          "permission": "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "com.google.android.c2dm.intent.RECEIVE"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+          "permission": "com.google.android.c2dm.permission.SEND",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "com.google.firebase.MESSAGING_EVENT"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "service",
+          "name": "com.google.firebase.messaging.FirebaseMessagingService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.android.gms.measurement.AppMeasurementService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+          "permission": "android.permission.BIND_JOB_SERVICE",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.google.android.gms.common.api.GoogleApiActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.work.impl.background.systemjob.SystemJobService",
+          "permission": "android.permission.BIND_JOB_SERVICE",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.work.impl.foreground.SystemForegroundService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.ACTION_POWER_CONNECTED",
+                "android.intent.action.ACTION_POWER_DISCONNECTED"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.BATTERY_OKAY",
+                "android.intent.action.BATTERY_LOW"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.DEVICE_STORAGE_LOW",
+                "android.intent.action.DEVICE_STORAGE_OK"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.net.conn.CONNECTIVITY_CHANGE"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": false,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "android.intent.action.BOOT_COMPLETED",
+                "android.intent.action.TIME_SET",
+                "android.intent.action.TIMEZONE_CHANGED"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [
+            {
+              "actions": [
+                "androidx.work.impl.background.systemalarm.UpdateProxies"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+          "permission": "android.permission.DUMP",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.firebase.sessions.SessionLifecycleService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": "com.journey.app.firebaseinitprovider",
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "provider",
+          "name": "com.google.firebase.provider.FirebaseInitProvider",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "androidx.room.MultiInstanceInvalidationService",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": true,
+          "exported": true,
+          "exported_attribute": true,
+          "intent_filters": [
+            {
+              "actions": [
+                "androidx.profileinstaller.action.INSTALL_PROFILE"
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                "androidx.profileinstaller.action.SKIP_FILE"
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                "androidx.profileinstaller.action.SAVE_PROFILE"
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+              ],
+              "categories": [],
+              "data": []
+            }
+          ],
+          "kind": "receiver",
+          "name": "androidx.profileinstaller.ProfileInstallReceiver",
+          "permission": "android.permission.DUMP",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "service",
+          "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+          "permission": "android.permission.BIND_JOB_SERVICE",
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "receiver",
+          "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        },
+        {
+          "authorities": null,
+          "enabled": null,
+          "exported": false,
+          "exported_attribute": false,
+          "intent_filters": [],
+          "kind": "activity",
+          "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+          "permission": null,
+          "read_permission": null,
+          "write_permission": null
+        }
+      ],
+      "declared_permissions": [
+        {
+          "name": "com.journey.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "protection_level": "0x2"
+        }
+      ],
+      "max_sdk": null,
+      "min_sdk": "26",
+      "package": "com.journey.app",
+      "target_sdk": "35",
+      "uses_features": [],
+      "uses_libraries": [
+        "org.apache.http.legacy",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        "android.ext.adservices"
+      ],
+      "uses_permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "com.google.android.apps.photos.permission.GOOGLE_PHOTOS",
+        "android.permission.VIBRATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.USE_BIOMETRIC",
+        "com.android.vending.BILLING",
+        "android.permission.WAKE_LOCK",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "com.google.android.gms.permission.AD_ID",
+        "com.journey.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "android.permission.ACCESS_ADSERVICES_AD_ID"
+      ],
+      "version_code": "758",
+      "version_name": "5.6.2-play"
+    },
+    "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"758\" android:versionName=\"5.6.2-play\" android:compileSdkVersion=\"35\" android:compileSdkVersionCodename=\"15\" package=\"com.journey.app\" platformBuildVersionCode=\"35\" platformBuildVersionName=\"15\">\n  <uses-sdk android:minSdkVersion=\"26\" android:targetSdkVersion=\"35\">\n  </uses-sdk>\n  <uses-permission android:name=\"android.permission.RECORD_AUDIO\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_MEDIA_IMAGES\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_MEDIA_VIDEO\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.READ_MEDIA_VISUAL_USER_SELECTED\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.INTERNET\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_MEDIA_LOCATION\">\n  </uses-permission>\n  <uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\">\n  </uses-permission>\n  <uses-permission android:name=\"com.google.android.apps.photos.permission.GOOGLE_PHOTOS\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.VIBRATE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.USE_FINGERPRINT\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\">\n  </uses-permission>\n  <queries>\n    <intent>\n      <action android:name=\"android.intent.action.VIEW\">\n      </action>\n      <category android:name=\"android.intent.category.BROWSABLE\">\n      </category>\n      <data android:scheme=\"http\">\n      </data>\n    </intent>\n    <intent>\n      <action android:name=\"android.intent.action.VIEW\">\n      </action>\n      <category android:name=\"android.intent.category.BROWSABLE\">\n      </category>\n      <data android:scheme=\"https\">\n      </data>\n    </intent>\n    <intent>\n      <action android:name=\"android.media.action.IMAGE_CAPTURE\">\n      </action>\n    </intent>\n    <intent>\n      <action android:name=\"android.media.action.ACTION_VIDEO_CAPTURE\">\n      </action>\n    </intent>\n    <intent>\n      <action android:name=\"com.android.vending.billing.InAppBillingService.BIND\">\n      </action>\n    </intent>\n    <intent>\n      <action android:name=\"com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND\">\n      </action>\n    </intent>\n    <package android:name=\"com.google.android.apps.maps\">\n    </package>\n  </queries>\n  <uses-permission android:name=\"android.permission.USE_BIOMETRIC\">\n  </uses-permission>\n  <uses-permission android:name=\"com.android.vending.BILLING\">\n  </uses-permission>\n  <uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\">\n  </uses-feature>\n  <uses-permission android:name=\"android.permission.WAKE_LOCK\">\n  </uses-permission>\n  <uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\">\n  </uses-permission>\n  <uses-permission android:name=\"com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE\">\n  </uses-permission>\n  <uses-permission android:name=\"com.google.android.gms.permission.AD_ID\">\n  </uses-permission>\n  <permission android:name=\"com.journey.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\" android:protectionLevel=\"0x2\">\n  </permission>\n  <uses-permission android:name=\"com.journey.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_ADSERVICES_ATTRIBUTION\">\n  </uses-permission>\n  <uses-permission android:name=\"android.permission.ACCESS_ADSERVICES_AD_ID\">\n  </uses-permission>\n  <application android:label=\"@0x7f140042\" android:icon=\"@0x7f100000\" android:name=\"com.journey.app.MyApplication\" android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n    <provider android:name=\"com.commonsware.cwac.provider.StreamProvider\" android:exported=\"false\" android:authorities=\"com.journey.app.fileprovider\" android:grantUriPermissions=\"true\">\n      <meta-data android:name=\"com.commonsware.cwac.provider.STREAM_PROVIDER_PATHS\" android:resource=\"@0x7f170002\">\n      </meta-data>\n      <meta-data android:name=\"com.commonsware.cwac.provider.USE_LEGACY_CURSOR_WRAPPER\" android:value=\"true\">\n      </meta-data>\n    </provider>\n    <activity android:theme=\"@0x7f150287\" android:label=\"@0x7f140042\" android:name=\"com.journey.app.SplashActivity\" android:exported=\"true\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.MAIN\">\n        </action>\n        <category android:name=\"android.intent.category.LAUNCHER\">\n        </category>\n      </intent-filter>\n      <intent-filter android:autoVerify=\"true\">\n        <action android:name=\"android.intent.action.VIEW\">\n        </action>\n        <category android:name=\"android.intent.category.BROWSABLE\">\n        </category>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n        <data android:scheme=\"https\">\n        </data>\n        <data android:host=\"go.journey.cloud\">\n        </data>\n      </intent-filter>\n    </activity>\n    <activity android:theme=\"@0x7f1502a5\" android:name=\"com.journey.app.MainActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x13\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a5\" android:label=\"@0x7f140446\" android:name=\"com.journey.app.PublishActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:label=\"@0x7f1403b3\" android:name=\"com.journey.app.GalleryActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:label=\"@0x7f140423\" android:name=\"com.journey.app.PlacesActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x13\" android:imeOptions=\"0x10000000\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a5\" android:name=\"com.journey.app.EditorActivity\" android:exported=\"true\" android:screenOrientation=\"3\" android:configChanges=\"0xff0\" android:windowSoftInputMode=\"0x10\">\n      <intent-filter android:label=\"@0x7f140042\">\n        <action android:name=\"android.intent.action.SEND\">\n        </action>\n        <data android:mimeType=\"image/*\">\n        </data>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n      </intent-filter>\n      <intent-filter android:label=\"@0x7f140042\">\n        <action android:name=\"android.intent.action.SEND\">\n        </action>\n        <data android:mimeType=\"video/*\">\n        </data>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n      </intent-filter>\n      <intent-filter android:label=\"@0x7f140042\">\n        <action android:name=\"android.intent.action.SEND_MULTIPLE\">\n        </action>\n        <data android:mimeType=\"*/*\">\n        </data>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n      </intent-filter>\n      <intent-filter android:label=\"@0x7f140042\">\n        <action android:name=\"android.intent.action.SEND\">\n        </action>\n        <data android:mimeType=\"text/plain\">\n        </data>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n      </intent-filter>\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:name=\"com.journey.app.StoriesActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:label=\"@0x7f140444\" android:name=\"com.journey.app.SettingsActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:label=\"@0x7f1401a5\" android:name=\"com.journey.app.HelpActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:label=\"@0x7f1401f9\" android:name=\"com.journey.app.ChatActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:name=\"com.journey.app.AddonActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xff0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:label=\"@0x7f1403d6\" android:name=\"com.journey.app.StatisticsActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xff0\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a7\" android:name=\"com.journey.app.giftcard.GiftActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f15001a\" android:name=\"com.journey.app.PreviewActivity\" android:screenOrientation=\"4\" android:configChanges=\"0xdf0\" android:windowSoftInputMode=\"0x10\">\n    </activity>\n    <activity android:theme=\"@0x7f1502a5\" android:label=\"@0x7f140042\" android:name=\"com.journey.app.OnboardActivity\" android:screenOrientation=\"3\" android:configChanges=\"0xff0\">\n    </activity>\n    <activity android:theme=\"@0x7f150370\" android:name=\"com.journey.app.NoteToSelfActivity\" android:permission=\"com.google.android.gm.permission.AUTO_SEND\" android:exported=\"true\" android:finishOnTaskLaunch=\"true\" android:configChanges=\"0xff0\" android:noHistory=\"true\">\n      <intent-filter android:label=\"@0x7f140042\" android:icon=\"@0x7f100000\">\n        <action android:name=\"com.google.android.gm.action.AUTO_SEND\">\n        </action>\n        <data android:mimeType=\"*/*\">\n        </data>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n        <category android:name=\"com.google.android.voicesearch.SELF_NOTE\">\n        </category>\n      </intent-filter>\n    </activity>\n    <activity android:theme=\"@0x7f1502f8\" android:name=\"com.journey.app.LoginDoneActivity\" android:exported=\"true\" android:launchMode=\"2\" android:configChanges=\"0xff0\" android:noHistory=\"true\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.VIEW\">\n        </action>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n        <category android:name=\"android.intent.category.BROWSABLE\">\n        </category>\n        <data android:scheme=\"journey-login\">\n        </data>\n      </intent-filter>\n    </activity>\n    <meta-data android:name=\"com.google.firebase.messaging.default_notification_icon\" android:resource=\"@0x7f0802c5\">\n    </meta-data>\n    <meta-data android:name=\"com.google.firebase.messaging.default_notification_color\" android:resource=\"@0x7f0613ad\">\n    </meta-data>\n    <receiver android:name=\"com.journey.app.ReminderReceiver\">\n    </receiver>\n    <receiver android:name=\"com.journey.app.RadicalReceiver\">\n    </receiver>\n    <receiver android:name=\"com.journey.app.InactiveReceiver\">\n    </receiver>\n    <receiver android:name=\"com.journey.app.ThrowbackReceiver\">\n    </receiver>\n    <receiver android:name=\"com.journey.app.CoachReceiver\">\n    </receiver>\n    <receiver android:name=\"com.journey.app.WidgetTextProvider\" android:exported=\"false\">\n      <intent-filter>\n        <action android:name=\"android.appwidget.action.APPWIDGET_UPDATE\">\n        </action>\n      </intent-filter>\n      <meta-data android:name=\"android.appwidget.provider\" android:resource=\"@0x7f17000f\">\n      </meta-data>\n    </receiver>\n    <receiver android:name=\"com.journey.app.WidgetPhotoProvider\" android:exported=\"false\">\n      <intent-filter>\n        <action android:name=\"android.appwidget.action.APPWIDGET_UPDATE\">\n        </action>\n      </intent-filter>\n      <meta-data android:name=\"android.appwidget.provider\" android:resource=\"@0x7f17000e\">\n      </meta-data>\n    </receiver>\n    <receiver android:name=\"com.journey.app.AutostartReceiver\" android:exported=\"false\">\n      <intent-filter>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n        <action android:name=\"android.intent.action.BOOT_COMPLETED\">\n        </action>\n        <action android:name=\"android.intent.action.QUICKBOOT_POWERON\">\n        </action>\n        <action android:name=\"com.htc.intent.action.QUICKBOOT_POWERON\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"com.journey.app.QuickWriteBroadcastReceiver\">\n    </receiver>\n    <provider android:name=\"androidx.startup.InitializationProvider\" android:exported=\"false\" android:authorities=\"com.journey.app.androidx-startup\">\n      <meta-data android:name=\"androidx.emoji2.text.EmojiCompatInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n      <meta-data android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n      <meta-data android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\" android:value=\"androidx.startup\">\n      </meta-data>\n    </provider>\n    <service android:name=\"com.google.android.gms.metadata.ModuleDependencies\" android:enabled=\"false\" android:exported=\"false\">\n      <intent-filter>\n        <action android:name=\"com.google.android.gms.metadata.MODULE_DEPENDENCIES\">\n        </action>\n      </intent-filter>\n      <meta-data android:name=\"photopicker_activity:0:required\" android:value=\"\">\n      </meta-data>\n    </service>\n    <meta-data android:name=\"com.crashlytics.ApiKey\" android:value=\"7008c265c2008ad66b054e579266d1d950846c68\">\n    </meta-data>\n    <meta-data android:name=\"com.google.android.gms.version\" android:value=\"@0x7f0b000c\">\n    </meta-data>\n    <meta-data android:name=\"com.facebook.sdk.AutoInitEnabled\" android:value=\"true\">\n    </meta-data>\n    <meta-data android:name=\"com.facebook.sdk.AutoLogAppEventsEnabled\" android:value=\"true\">\n    </meta-data>\n    <meta-data android:name=\"com.facebook.sdk.AdvertiserIDCollectionEnabled\" android:value=\"true\">\n    </meta-data>\n    <meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyAOvusfUi8R80glykcjobxbmwQIShHH0PI\">\n    </meta-data>\n    <uses-library android:name=\"org.apache.http.legacy\" android:required=\"false\">\n    </uses-library>\n    <uses-library android:name=\"androidx.window.extensions\" android:required=\"false\">\n    </uses-library>\n    <uses-library android:name=\"androidx.window.sidecar\" android:required=\"false\">\n    </uses-library>\n    <meta-data android:name=\"com.google.android.play.billingclient.version\" android:value=\"7.1.1\">\n    </meta-data>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.android.billingclient.api.ProxyBillingActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\">\n    </activity>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.android.billingclient.api.ProxyBillingActivityV2\" android:exported=\"false\" android:configChanges=\"0x5b0\">\n    </activity>\n    <service android:name=\"com.google.firebase.components.ComponentDiscoveryService\" android:exported=\"false\" android:directBootAware=\"true\">\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.dynamiclinks.FirebaseDynamicLinksKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.storage.StorageRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseConfigLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n      <meta-data android:name=\"com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar\" android:value=\"com.google.firebase.components.ComponentRegistrar\">\n      </meta-data>\n    </service>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.google.firebase.auth.internal.GenericIdpActivity\" android:exported=\"true\" android:excludeFromRecents=\"true\" android:launchMode=\"2\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.VIEW\">\n        </action>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n        <category android:name=\"android.intent.category.BROWSABLE\">\n        </category>\n        <data android:scheme=\"genericidp\" android:host=\"firebase.auth\" android:path=\"/\">\n        </data>\n      </intent-filter>\n    </activity>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.google.firebase.auth.internal.RecaptchaActivity\" android:exported=\"true\" android:excludeFromRecents=\"true\" android:launchMode=\"2\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.VIEW\">\n        </action>\n        <category android:name=\"android.intent.category.DEFAULT\">\n        </category>\n        <category android:name=\"android.intent.category.BROWSABLE\">\n        </category>\n        <data android:scheme=\"recaptcha\" android:host=\"firebase.auth\" android:path=\"/\">\n        </data>\n      </intent-filter>\n    </activity>\n    <service android:name=\"androidx.credentials.playservices.CredentialProviderMetadataHolder\" android:enabled=\"true\" android:exported=\"false\">\n      <meta-data android:name=\"androidx.credentials.CREDENTIAL_PROVIDER_KEY\" android:value=\"androidx.credentials.playservices.CredentialProviderPlayServicesImpl\">\n      </meta-data>\n    </service>\n    <activity android:theme=\"@0x7f1502a4\" android:name=\"androidx.credentials.playservices.HiddenActivity\" android:enabled=\"true\" android:exported=\"false\" android:configChanges=\"0x5a0\" android:fitsSystemWindows=\"true\">\n    </activity>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.google.android.gms.auth.api.signin.internal.SignInHubActivity\" android:exported=\"false\" android:excludeFromRecents=\"true\">\n    </activity>\n    <service android:name=\"com.google.android.gms.auth.api.signin.RevocationBoundService\" android:permission=\"com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION\" android:exported=\"true\" android:visibleToInstantApps=\"true\">\n    </service>\n    <receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\" android:exported=\"true\">\n      <intent-filter>\n        <action android:name=\"com.google.android.c2dm.intent.RECEIVE\">\n        </action>\n      </intent-filter>\n      <meta-data android:name=\"com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED\" android:value=\"true\">\n      </meta-data>\n    </receiver>\n    <service android:name=\"com.google.firebase.messaging.FirebaseMessagingService\" android:exported=\"false\" android:directBootAware=\"true\">\n      <intent-filter android:priority=\"-500\">\n        <action android:name=\"com.google.firebase.MESSAGING_EVENT\">\n        </action>\n      </intent-filter>\n    </service>\n    <receiver android:name=\"com.google.android.gms.measurement.AppMeasurementReceiver\" android:enabled=\"true\" android:exported=\"false\">\n    </receiver>\n    <service android:name=\"com.google.android.gms.measurement.AppMeasurementService\" android:enabled=\"true\" android:exported=\"false\">\n    </service>\n    <service android:name=\"com.google.android.gms.measurement.AppMeasurementJobService\" android:permission=\"android.permission.BIND_JOB_SERVICE\" android:enabled=\"true\" android:exported=\"false\">\n    </service>\n    <activity android:theme=\"@0x01030010\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\">\n    </activity>\n    <service android:name=\"androidx.work.impl.background.systemalarm.SystemAlarmService\" android:enabled=\"@0x7f050003\" android:exported=\"false\" android:directBootAware=\"false\">\n    </service>\n    <service android:name=\"androidx.work.impl.background.systemjob.SystemJobService\" android:permission=\"android.permission.BIND_JOB_SERVICE\" android:enabled=\"@0x7f050005\" android:exported=\"true\" android:directBootAware=\"false\">\n    </service>\n    <service android:name=\"androidx.work.impl.foreground.SystemForegroundService\" android:enabled=\"@0x7f050004\" android:exported=\"false\" android:directBootAware=\"false\">\n    </service>\n    <receiver android:name=\"androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver\" android:enabled=\"true\" android:exported=\"false\" android:directBootAware=\"false\">\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.ACTION_POWER_CONNECTED\">\n        </action>\n        <action android:name=\"android.intent.action.ACTION_POWER_DISCONNECTED\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.BATTERY_OKAY\">\n        </action>\n        <action android:name=\"android.intent.action.BATTERY_LOW\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.DEVICE_STORAGE_LOW\">\n        </action>\n        <action android:name=\"android.intent.action.DEVICE_STORAGE_OK\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.net.conn.CONNECTIVITY_CHANGE\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.RescheduleReceiver\" android:enabled=\"false\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"android.intent.action.BOOT_COMPLETED\">\n        </action>\n        <action android:name=\"android.intent.action.TIME_SET\">\n        </action>\n        <action android:name=\"android.intent.action.TIMEZONE_CHANGED\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver\" android:enabled=\"@0x7f050003\" android:exported=\"false\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"androidx.work.impl.background.systemalarm.UpdateProxies\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <receiver android:name=\"androidx.work.impl.diagnostics.DiagnosticsReceiver\" android:permission=\"android.permission.DUMP\" android:enabled=\"true\" android:exported=\"true\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"androidx.work.diagnostics.REQUEST_DIAGNOSTICS\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <uses-library android:name=\"android.ext.adservices\" android:required=\"false\">\n    </uses-library>\n    <service android:name=\"com.google.firebase.sessions.SessionLifecycleService\" android:enabled=\"true\" android:exported=\"false\">\n    </service>\n    <provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:exported=\"false\" android:authorities=\"com.journey.app.firebaseinitprovider\" android:initOrder=\"100\" android:directBootAware=\"true\">\n    </provider>\n    <service android:name=\"androidx.room.MultiInstanceInvalidationService\" android:exported=\"false\" android:directBootAware=\"true\">\n    </service>\n    <service android:name=\"com.google.android.datatransport.runtime.backends.TransportBackendDiscovery\" android:exported=\"false\">\n      <meta-data android:name=\"backend:com.google.android.datatransport.cct.CctBackendFactory\" android:value=\"cct\">\n      </meta-data>\n    </service>\n    <receiver android:name=\"androidx.profileinstaller.ProfileInstallReceiver\" android:permission=\"android.permission.DUMP\" android:enabled=\"true\" android:exported=\"true\" android:directBootAware=\"false\">\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\">\n        </action>\n      </intent-filter>\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\">\n        </action>\n      </intent-filter>\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\">\n        </action>\n      </intent-filter>\n      <intent-filter>\n        <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\">\n        </action>\n      </intent-filter>\n    </receiver>\n    <service android:name=\"com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService\" android:permission=\"android.permission.BIND_JOB_SERVICE\" android:exported=\"false\">\n    </service>\n    <receiver android:name=\"com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver\" android:exported=\"false\">\n    </receiver>\n    <activity android:theme=\"@0x7f1502fa\" android:name=\"com.google.android.play.core.common.PlayCoreDialogWrapperActivity\" android:exported=\"false\" android:stateNotNeeded=\"true\">\n    </activity>\n  </application>\n</manifest>\n",
+    "max_sdk": null,
+    "min_sdk": "26",
+    "native_libraries": {
+      "arm64-v8a": [
+        {
+          "bytes": 237040,
+          "compression": "deflate",
+          "name": "libandroidlame.so"
+        },
+        {
+          "bytes": 10096,
+          "compression": "deflate",
+          "name": "libandroidx.graphics.path.so"
+        },
+        {
+          "bytes": 7112,
+          "compression": "deflate",
+          "name": "libdatastore_shared_counter.so"
+        },
+        {
+          "bytes": 469056,
+          "compression": "deflate",
+          "name": "libyrf.so"
+        }
+      ],
+      "armeabi-v7a": [
+        {
+          "bytes": 146668,
+          "compression": "deflate",
+          "name": "libandroidlame.so"
+        },
+        {
+          "bytes": 7252,
+          "compression": "deflate",
+          "name": "libandroidx.graphics.path.so"
+        },
+        {
+          "bytes": 4416,
+          "compression": "deflate",
+          "name": "libdatastore_shared_counter.so"
+        },
+        {
+          "bytes": 306556,
+          "compression": "deflate",
+          "name": "libyrf.so"
+        }
+      ]
+    },
+    "package": "com.journey.app",
+    "res_files": 1461,
+    "signing": {
+      "schemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "signing_block": {
+        "entries": [
+          {
+            "id": "0x7109871a",
+            "name": "signature scheme v2",
+            "size": 979
+          },
+          {
+            "id": "0xf05368c0",
+            "name": "signature scheme v3",
+            "size": 991
+          },
+          {
+            "id": "0x42726577",
+            "name": "verity padding",
+            "size": 2058
+          }
+        ],
+        "offset": 27435008,
+        "signers": [
+          {
+            "certificates": [
+              {
+                "bytes": 593,
+                "issuer": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+                "not_after": "461114120204Z",
+                "not_before": "211120120204Z",
+                "public_key_algorithm": "rsaEncryption",
+                "serial": "06391bab",
+                "sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+                "signature_algorithm": "sha1WithRSAEncryption",
+                "subject": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+                "version": 3
+              }
+            ],
+            "digests": [
+              {
+                "algorithm": "0x0103",
+                "algorithm_name": "RSASSA-PKCS1-v1_5 with SHA2-256",
+                "digest": "7c65173456eac0fdc31a328152f283db3301f81aca92135b5755391253aaac53"
+              }
+            ],
+            "max_sdk": null,
+            "min_sdk": null,
+            "public_key_bytes": 162,
+            "scheme": "v2",
+            "signature_algorithms": [
+              "RSASSA-PKCS1-v1_5 with SHA2-256 (0x0103)"
+            ],
+            "verification": {
+              "algorithm": "RSASSA-PKCS1-v1_5 with SHA2-256",
+              "certificate_sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+              "digest_matches": true,
+              "max_sdk": null,
+              "min_sdk": null,
+              "notes": [],
+              "public_key_matches_certificate": true,
+              "scheme": "v2",
+              "signature_valid": {
+                "status": "valid"
+              },
+              "verified": true
+            }
+          },
+          {
+            "certificates": [
+              {
+                "bytes": 593,
+                "issuer": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+                "not_after": "461114120204Z",
+                "not_before": "211120120204Z",
+                "public_key_algorithm": "rsaEncryption",
+                "serial": "06391bab",
+                "sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+                "signature_algorithm": "sha1WithRSAEncryption",
+                "subject": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+                "version": 3
+              }
+            ],
+            "digests": [
+              {
+                "algorithm": "0x0103",
+                "algorithm_name": "RSASSA-PKCS1-v1_5 with SHA2-256",
+                "digest": "7c65173456eac0fdc31a328152f283db3301f81aca92135b5755391253aaac53"
+              }
+            ],
+            "max_sdk": 2147483647,
+            "min_sdk": 28,
+            "public_key_bytes": 162,
+            "scheme": "v3",
+            "signature_algorithms": [
+              "RSASSA-PKCS1-v1_5 with SHA2-256 (0x0103)"
+            ],
+            "verification": {
+              "algorithm": "RSASSA-PKCS1-v1_5 with SHA2-256",
+              "certificate_sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+              "digest_matches": true,
+              "max_sdk": 2147483647,
+              "min_sdk": 28,
+              "notes": [],
+              "public_key_matches_certificate": true,
+              "scheme": "v3",
+              "signature_valid": {
+                "status": "valid"
+              },
+              "verified": true
+            }
+          }
+        ],
+        "size": 4088
+      },
+      "v1": [
+        {
+          "bytes": 942,
+          "certificates": [
+            {
+              "bytes": 593,
+              "issuer": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+              "not_after": "461114120204Z",
+              "not_before": "211120120204Z",
+              "public_key_algorithm": "rsaEncryption",
+              "serial": "06391bab",
+              "sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+              "signature_algorithm": "sha1WithRSAEncryption",
+              "subject": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+              "version": 3
+            }
+          ],
+          "file": "META-INF/YOUAREFINISHED.RSA",
+          "integrity": {
+            "files_listed": 2111,
+            "files_matched": 2111,
+            "files_mismatched": 0,
+            "files_unchecked": 0,
+            "manifest_digest_matches": true,
+            "mismatched_names": [],
+            "notes": []
+          },
+          "pkcs7": {
+            "certificate_sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+            "chain": {
+              "fully_linked": true,
+              "links": [
+                {
+                  "issuer": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+                  "self_signed": true,
+                  "sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+                  "signature_verified": {
+                    "status": "valid"
+                  },
+                  "subject": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished"
+                }
+              ],
+              "notes": [
+                "chain not verified to a trusted root: the top certificate is self-signed but not a bundled Apple root"
+              ],
+              "root_sha256": "7981162e75cd768fc2efacee773c924be0c52217a86d85c4d2a8304f2bf1c4b4",
+              "root_subject": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished",
+              "trusted_root": null
+            },
+            "notes": [],
+            "signature_valid": {
+              "status": "valid"
+            },
+            "signer_subject": "C=US, ST=California, L=LA, O=Google, OU=android, CN=youarefinished"
+          },
+          "signature_file": "META-INF/YOUAREFINISHED.SF"
+        }
+      ]
+    },
+    "target_sdk": "35",
+    "version_code": "758",
+    "version_name": "5.6.2-play",
+    "warnings": []
+  },
+  "summary": "com.journey.app (base.apk, version 5.6.2-play, SDK 26–35): 28 permissions, 63 components (11 exported), 4 DEX file(s), native code for arm64-v8a, armeabi-v7a; signed with scheme v1, v2, v3 (cryptographically VERIFIED).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "verification_scope",
+      "message": "Signatures ARE verified cryptographically here (v2/v3 signature over the signed data plus a recomputed APK content digest; v1 PKCS#7 over the .SF plus MANIFEST.MF per-file digests). NOT checked: certificate revocation, v3 key-rotation lineage/proof-of-rotation, rollback protection, source-stamp, and whether the signing certificate is one you trust (the certificate SHA-256 fingerprint is reported so you can compare it yourself)."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 2114,
+    "total": 2114
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

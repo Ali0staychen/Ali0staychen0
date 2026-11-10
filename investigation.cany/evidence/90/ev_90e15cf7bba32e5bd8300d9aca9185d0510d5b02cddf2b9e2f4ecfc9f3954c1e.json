@@ -1,0 +1,242 @@
+{
+  "id": "ev_90e15cf7bba32e5bd8300d9aca9185d0510d5b02cddf2b9e2f4ecfc9f3954c1e",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson",
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "lat",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->lat:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "lng",
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->lng:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;-><clinit>()V",
+        "registers": 4,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 13,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;-><init>(Ljava/lang/Double;Ljava/lang/Double;)V",
+        "registers": 6,
+        "signature": "public void <init>(java.lang.Double, java.lang.Double)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->copy$default(Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;Ljava/lang/Double;Ljava/lang/Double;ILjava/lang/Object;)Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "registers": 8,
+        "signature": "public static synthetic com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson copy$default(com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson, java.lang.Double, java.lang.Double, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->component1()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->component2()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 9,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->copy(Ljava/lang/Double;Ljava/lang/Double;)Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;",
+        "registers": 8,
+        "signature": "public final com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson copy(java.lang.Double, java.lang.Double)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 54,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->equals(Ljava/lang/Object;)Z",
+        "registers": 10,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLat",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->getLat()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double getLat()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLng",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->getLng()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double getLng()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 36,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->hashCode()I",
+        "registers": 7,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 44,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.service.SyncApiGson$EntryLocationResponseGson (classes3.dex) extends java.lang.Object: 3 fields, 11 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/service/SyncApiGson$EntryLocationResponseGson;"
+    }
+  ],
+  "links": []
+}

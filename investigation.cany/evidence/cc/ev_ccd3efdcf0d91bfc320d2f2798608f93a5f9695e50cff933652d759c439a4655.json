@@ -1,0 +1,337 @@
+{
+  "id": "ev_ccd3efdcf0d91bfc320d2f2798608f93a5f9695e50cff933652d759c439a4655",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "com.journey.app.AutostartReceiver",
+    "java_source": true,
+    "limit": 2000,
+    "method_name": "onReceive",
+    "offset": 0,
+    "overload_index": 0,
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "class": "Lcom/journey/app/AutostartReceiver;",
+    "dex": "classes3.dex",
+    "ins": 3,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v3, v7",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x1a",
+        "text": "const-string v5, \"Starts Autostart\"",
+        "units": 2
+      },
+      {
+        "offset": "0003",
+        "opcode": "0x07",
+        "text": "move-object v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x1a",
+        "text": "const-string v6, \"AutostartReceiver\"",
+        "units": 2
+      },
+      {
+        "offset": "0006",
+        "opcode": "0x07",
+        "text": "move-object v0, v6",
+        "units": 1
+      },
+      {
+        "offset": "0007",
+        "opcode": "0x71",
+        "text": "invoke-static {v0, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+        "units": 3
+      },
+      {
+        "offset": "000a",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/T;->T0(Landroid/content/Context;)Z",
+        "units": 3
+      },
+      {
+        "offset": "000d",
+        "opcode": "0x0a",
+        "text": "move-result v5",
+        "units": 1
+      },
+      {
+        "offset": "000e",
+        "opcode": "0x01",
+        "text": "move v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "000f",
+        "opcode": "0x71",
+        "text": "invoke-static {v9}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;",
+        "units": 3
+      },
+      {
+        "offset": "0012",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0013",
+        "opcode": "0x07",
+        "text": "move-object v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x71",
+        "text": "invoke-static {v8, v9}, Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+        "units": 3
+      },
+      {
+        "offset": "0017",
+        "opcode": "0x12",
+        "text": "const/4 v5, 1",
+        "units": 1
+      },
+      {
+        "offset": "0018",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/T;->p0(Landroid/content/Context;)J",
+        "units": 3
+      },
+      {
+        "offset": "001b",
+        "opcode": "0x0b",
+        "text": "move-result-wide v1",
+        "units": 1
+      },
+      {
+        "offset": "001c",
+        "opcode": "0x71",
+        "text": "invoke-static {v8, v1, v2}, Ls8/a;->h(Landroid/content/Context;J)V",
+        "units": 3
+      },
+      {
+        "offset": "001f",
+        "opcode": "0x12",
+        "text": "const/4 v6, 7",
+        "units": 1
+      },
+      {
+        "offset": "0020",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/a;->f(Landroid/content/Context;)V",
+        "units": 3
+      },
+      {
+        "offset": "0023",
+        "opcode": "0x12",
+        "text": "const/4 v6, 6",
+        "units": 1
+      },
+      {
+        "offset": "0024",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/a;->g(Landroid/content/Context;)V",
+        "units": 3
+      },
+      {
+        "offset": "0027",
+        "opcode": "0x12",
+        "text": "const/4 v6, 7",
+        "units": 1
+      },
+      {
+        "offset": "0028",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/T;->u(Landroid/content/Context;)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "002b",
+        "opcode": "0x0c",
+        "text": "move-result-object v6",
+        "units": 1
+      },
+      {
+        "offset": "002c",
+        "opcode": "0x07",
+        "text": "move-object v9, v6",
+        "units": 1
+      },
+      {
+        "offset": "002d",
+        "opcode": "0x71",
+        "text": "invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+        "units": 3
+      },
+      {
+        "offset": "0030",
+        "opcode": "0x0a",
+        "text": "move-result v5",
+        "units": 1
+      },
+      {
+        "offset": "0031",
+        "opcode": "0x01",
+        "text": "move v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "0032",
+        "opcode": "0x39",
+        "text": "if-nez v9, :0044",
+        "units": 2
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x12",
+        "text": "const/4 v6, 3",
+        "units": 1
+      },
+      {
+        "offset": "0035",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/o;->b(Landroid/content/Context;)Lcom/journey/app/gson/CoachGson$Program;",
+        "units": 3
+      },
+      {
+        "offset": "0038",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0039",
+        "opcode": "0x07",
+        "text": "move-object v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "003a",
+        "opcode": "0x38",
+        "text": "if-eqz v9, :0044",
+        "units": 2
+      },
+      {
+        "offset": "003c",
+        "opcode": "0x12",
+        "text": "const/4 v6, 6",
+        "units": 1
+      },
+      {
+        "offset": "003d",
+        "opcode": "0x52",
+        "text": "iget v9, v9, Lcom/journey/app/gson/CoachGson$Program;->hourOfDay:I",
+        "units": 2
+      },
+      {
+        "offset": "003f",
+        "opcode": "0x12",
+        "text": "const/4 v5, 4",
+        "units": 1
+      },
+      {
+        "offset": "0040",
+        "opcode": "0x71",
+        "text": "invoke-static {v8, v9}, Ls8/a;->e(Landroid/content/Context;I)V",
+        "units": 3
+      },
+      {
+        "offset": "0043",
+        "opcode": "0x12",
+        "text": "const/4 v6, 1",
+        "units": 1
+      },
+      {
+        "offset": "0044",
+        "opcode": "0x12",
+        "text": "const/4 v5, 2",
+        "units": 1
+      },
+      {
+        "offset": "0045",
+        "opcode": "0x1a",
+        "text": "const-string v6, \"Ends Autostart\"",
+        "units": 2
+      },
+      {
+        "offset": "0047",
+        "opcode": "0x07",
+        "text": "move-object v8, v6",
+        "units": 1
+      },
+      {
+        "offset": "0048",
+        "opcode": "0x71",
+        "text": "invoke-static {v0, v8}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+        "units": 3
+      },
+      {
+        "offset": "004b",
+        "opcode": "0x0e",
+        "text": "return-void",
+        "units": 1
+      }
+    ],
+    "instructions_total": 44,
+    "java_source": {
+      "status": "unavailable"
+    },
+    "listing": "0000: move-object v3, v7\n0001: const-string v5, \"Starts Autostart\"\n0003: move-object v9, v5\n0004: const-string v6, \"AutostartReceiver\"\n0006: move-object v0, v6\n0007: invoke-static {v0, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I\n000a: invoke-static {v8}, Ls8/T;->T0(Landroid/content/Context;)Z\n000d: move-result v5\n000e: move v9, v5\n000f: invoke-static {v9}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;\n0012: move-result-object v5\n0013: move-object v9, v5\n0014: invoke-static {v8, v9}, Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V\n0017: const/4 v5, 1\n0018: invoke-static {v8}, Ls8/T;->p0(Landroid/content/Context;)J\n001b: move-result-wide v1\n001c: invoke-static {v8, v1, v2}, Ls8/a;->h(Landroid/content/Context;J)V\n001f: const/4 v6, 7\n0020: invoke-static {v8}, Ls8/a;->f(Landroid/content/Context;)V\n0023: const/4 v6, 6\n0024: invoke-static {v8}, Ls8/a;->g(Landroid/content/Context;)V\n0027: const/4 v6, 7\n0028: invoke-static {v8}, Ls8/T;->u(Landroid/content/Context;)Ljava/lang/String;\n002b: move-result-object v6\n002c: move-object v9, v6\n002d: invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z\n0030: move-result v5\n0031: move v9, v5\n0032: if-nez v9, :0044\n0034: const/4 v6, 3\n0035: invoke-static {v8}, Ls8/o;->b(Landroid/content/Context;)Lcom/journey/app/gson/CoachGson$Program;\n0038: move-result-object v5\n0039: move-object v9, v5\n003a: if-eqz v9, :0044\n003c: const/4 v6, 6\n003d: iget v9, v9, Lcom/journey/app/gson/CoachGson$Program;->hourOfDay:I\n003f: const/4 v5, 4\n0040: invoke-static {v8, v9}, Ls8/a;->e(Landroid/content/Context;I)V\n0043: const/4 v6, 1\n0044: const/4 v5, 2\n0045: const-string v6, \"Ends Autostart\"\n0047: move-object v8, v6\n0048: invoke-static {v0, v8}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I\n004b: return-void",
+    "method": "Lcom/journey/app/AutostartReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+    "outs": 3,
+    "overload_index": 0,
+    "overloads": [
+      "public void onReceive(android.content.Context, android.content.Intent)"
+    ],
+    "registers": 10,
+    "signature": "public void onReceive(android.content.Context, android.content.Intent)",
+    "tries": []
+  },
+  "summary": "Lcom/journey/app/AutostartReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V (classes3.dex): 44 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "jadx_not_installed",
+      "message": "Java source was requested but JADX is not installed (Settings → Engines, the engine store, or PATH). The bytecode listing above is complete without it."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 44,
+    "total": 44
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Lcom/journey/app/AutostartReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V"
+    }
+  ],
+  "links": []
+}

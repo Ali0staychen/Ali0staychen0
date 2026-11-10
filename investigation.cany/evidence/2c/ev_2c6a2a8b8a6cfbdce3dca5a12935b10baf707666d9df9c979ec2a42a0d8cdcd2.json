@@ -1,0 +1,129 @@
+{
+  "id": "ev_2c6a2a8b8a6cfbdce3dca5a12935b10baf707666d9df9c979ec2a42a0d8cdcd2",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Scheduler"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/work/impl/background/systemalarm/RescheduleReceiver;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/AlarmManagerSchedulerBroadcastReceiver;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "superclass": "android.content.BroadcastReceiver"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/JobInfoSchedulerService;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "superclass": "android.app.job.JobService"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/local/IndexBackfiller$Scheduler;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.firebase.firestore.local.IndexBackfiller$Scheduler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/local/LruGarbageCollector$GCScheduler;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.google.firebase.firestore.local.LruGarbageCollector$GCScheduler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/local/Scheduler;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.local.Scheduler",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/storage/StorageTaskScheduler;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 10,
+        "name": "com.google.firebase.storage.StorageTaskScheduler",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 7,
+    "query": "Scheduler"
+  },
+  "summary": "7 of 32886 classes match \"Scheduler\" in 4 DEX file(s); showing 7.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 7,
+    "total": 7
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

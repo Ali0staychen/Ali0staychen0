@@ -1,0 +1,163 @@
+{
+  "id": "ev_d4b824140250ffbd3cbe8c58b0385499796441938048ac600c0a950a91306a25",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "com.journey.app.ReminderReceiver",
+    "java_source": true,
+    "limit": 2000,
+    "method_name": "d",
+    "offset": 0,
+    "overload_index": 0,
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "private"
+    ],
+    "class": "Lcom/journey/app/ReminderReceiver;",
+    "dex": "classes3.dex",
+    "ins": 2,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v3, v7",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x22",
+        "text": "new-instance v0, Landroid/content/Intent;",
+        "units": 2
+      },
+      {
+        "offset": "0003",
+        "opcode": "0x12",
+        "text": "const/4 v6, 7",
+        "units": 1
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x1c",
+        "text": "const-class v1, Lcom/journey/app/QuickWriteBroadcastReceiver;",
+        "units": 2
+      },
+      {
+        "offset": "0006",
+        "opcode": "0x12",
+        "text": "const/4 v6, 2",
+        "units": 1
+      },
+      {
+        "offset": "0007",
+        "opcode": "0x70",
+        "text": "invoke-direct {v0, v8, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V",
+        "units": 3
+      },
+      {
+        "offset": "000a",
+        "opcode": "0x12",
+        "text": "const/4 v6, 7",
+        "units": 1
+      },
+      {
+        "offset": "000b",
+        "opcode": "0x12",
+        "text": "const/4 v5, 0",
+        "units": 1
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x01",
+        "text": "move v1, v5",
+        "units": 1
+      },
+      {
+        "offset": "000d",
+        "opcode": "0x12",
+        "text": "const/4 v5, 1",
+        "units": 1
+      },
+      {
+        "offset": "000e",
+        "opcode": "0x01",
+        "text": "move v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "000f",
+        "opcode": "0x71",
+        "text": "invoke-static {v8, v1, v0, v1, v2}, Ls8/q0;->b(Landroid/content/Context;ILandroid/content/Intent;IZ)Landroid/app/PendingIntent;",
+        "units": 3
+      },
+      {
+        "offset": "0012",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0013",
+        "opcode": "0x07",
+        "text": "move-object v8, v5",
+        "units": 1
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x11",
+        "text": "return-object v8",
+        "units": 1
+      }
+    ],
+    "instructions_total": 15,
+    "java_source": {
+      "status": "unavailable"
+    },
+    "listing": "0000: move-object v3, v7\n0001: new-instance v0, Landroid/content/Intent;\n0003: const/4 v6, 7\n0004: const-class v1, Lcom/journey/app/QuickWriteBroadcastReceiver;\n0006: const/4 v6, 2\n0007: invoke-direct {v0, v8, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V\n000a: const/4 v6, 7\n000b: const/4 v5, 0\n000c: move v1, v5\n000d: const/4 v5, 1\n000e: move v2, v5\n000f: invoke-static {v8, v1, v0, v1, v2}, Ls8/q0;->b(Landroid/content/Context;ILandroid/content/Intent;IZ)Landroid/app/PendingIntent;\n0012: move-result-object v5\n0013: move-object v8, v5\n0014: return-object v8",
+    "method": "Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;",
+    "outs": 5,
+    "overload_index": 0,
+    "overloads": [
+      "private android.app.PendingIntent d(android.content.Context)"
+    ],
+    "registers": 9,
+    "signature": "private android.app.PendingIntent d(android.content.Context)",
+    "tries": []
+  },
+  "summary": "Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent; (classes3.dex): 15 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "jadx_not_installed",
+      "message": "Java source was requested but JADX is not installed (Settings → Engines, the engine store, or PATH). The bytecode listing above is complete without it."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 15,
+    "total": 15
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Lcom/journey/app/ReminderReceiver;->d(Landroid/content/Context;)Landroid/app/PendingIntent;"
+    }
+  ],
+  "links": []
+}

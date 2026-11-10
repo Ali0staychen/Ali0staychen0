@@ -1,0 +1,1151 @@
+{
+  "id": "ev_c2b23ae362022376607a8a597728265cf0de3aa1fd2d7ddf499167d53596f56f",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.Journal",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/Journal;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Address",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Address:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "DateModified",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->DateModified:Ljava/lang/Long;",
+        "type": "java.lang.Long"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "DateOfJournal",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->DateOfJournal:Ljava/lang/Long;",
+        "type": "java.lang.Long"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Favourite",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Favourite:Ljava/lang/Boolean;",
+        "type": "java.lang.Boolean"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Folder",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Folder:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "GoogleFId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->GoogleFId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "GoogleVersion",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->GoogleVersion:Ljava/lang/Long;",
+        "type": "java.lang.Long"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "JId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->JId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Label",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Label:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Lat",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Lat:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "LinkedAccountId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->LinkedAccountId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Lon",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Lon:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Mood",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Mood:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "MusicArtist",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->MusicArtist:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "MusicTitle",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->MusicTitle:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "PreviewText",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->PreviewText:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Sentiment",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Sentiment:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Synced",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Synced:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Text",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Text:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Timezone",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Timezone:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Type",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->Type:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "WeatherDegreeC",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->WeatherDegreeC:Ljava/lang/Double;",
+        "type": "java.lang.Double"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "WeatherDescription",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->WeatherDescription:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "WeatherIcon",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->WeatherIcon:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "WeatherId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->WeatherId:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "WeatherPlace",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->WeatherPlace:Ljava/lang/String;",
+        "type": "java.lang.String"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;-><clinit>()V",
+        "registers": 2,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 85,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;)V",
+        "registers": 28,
+        "signature": "public void <init>(java.lang.String, java.lang.String, java.lang.Long, java.lang.Long, java.lang.Integer, java.lang.String, java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.Double, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.Boolean, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 345,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->copy$default(Lcom/journey/app/mvvm/models/entity/Journal;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/Journal;",
+        "registers": 46,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.Journal copy$default(com.journey.app.mvvm.models.entity.Journal, java.lang.String, java.lang.String, java.lang.Long, java.lang.Long, java.lang.Integer, java.lang.String, java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.Double, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.Boolean, java.lang.String, java.lang.String, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 6,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component1()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component10",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component10()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component10()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component11",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component11()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component11()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component12",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component12()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double component12()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component13",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component13()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double component13()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component14",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component14()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component14()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component15",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component15()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer component15()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component16",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component16()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer component16()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component17",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component17()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double component17()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component18",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component18()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component18()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component19",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component19()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component19()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component2()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component20",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component20()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component20()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component21",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component21()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component21()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component22",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component22()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component22()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component23",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component23()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double component23()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component24",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component24()Ljava/lang/Boolean;",
+        "registers": 5,
+        "signature": "public final java.lang.Boolean component24()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component25",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component25()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component25()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component26",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component26()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component26()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component3()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component4()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component5()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component6",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component6()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component6()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component7",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component7()Ljava/lang/Long;",
+        "registers": 5,
+        "signature": "public final java.lang.Long component7()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component8",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component8()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component8()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component9",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->component9()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component9()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 63,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;)Lcom/journey/app/mvvm/models/entity/Journal;",
+        "registers": 55,
+        "signature": "public final com.journey.app.mvvm.models.entity.Journal copy(java.lang.String, java.lang.String, java.lang.Long, java.lang.Long, java.lang.Integer, java.lang.String, java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.Double, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.Boolean, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 438,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->equals(Ljava/lang/Object;)Z",
+        "registers": 9,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getAddress",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getAddress()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getAddress()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getDateModified",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getDateModified()Ljava/lang/Long;",
+        "registers": 5,
+        "signature": "public final java.lang.Long getDateModified()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getDateOfJournal",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getDateOfJournal()Ljava/lang/Long;",
+        "registers": 5,
+        "signature": "public final java.lang.Long getDateOfJournal()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFavourite",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getFavourite()Ljava/lang/Boolean;",
+        "registers": 6,
+        "signature": "public final java.lang.Boolean getFavourite()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFolder",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getFolder()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getFolder()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getGoogleFId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getGoogleFId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getGoogleFId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getGoogleVersion",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getGoogleVersion()Ljava/lang/Long;",
+        "registers": 5,
+        "signature": "public final java.lang.Long getGoogleVersion()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getJId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getJId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getJId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLabel",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getLabel()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getLabel()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLat",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getLat()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double getLat()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLinkedAccountId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getLinkedAccountId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getLinkedAccountId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLon",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getLon()Ljava/lang/Double;",
+        "registers": 6,
+        "signature": "public final java.lang.Double getLon()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMood",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getMood()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer getMood()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMusicArtist",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getMusicArtist()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getMusicArtist()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMusicTitle",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getMusicTitle()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getMusicTitle()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getPreviewText",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getPreviewText()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getPreviewText()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getSentiment",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getSentiment()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double getSentiment()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getSynced",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getSynced()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer getSynced()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getText",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getText()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getText()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTimezone",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getTimezone()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getTimezone()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getType",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getType()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getType()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getWeatherDegreeC",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getWeatherDegreeC()Ljava/lang/Double;",
+        "registers": 5,
+        "signature": "public final java.lang.Double getWeatherDegreeC()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getWeatherDescription",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getWeatherDescription()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getWeatherDescription()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getWeatherIcon",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getWeatherIcon()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getWeatherIcon()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getWeatherId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getWeatherId()Ljava/lang/Integer;",
+        "registers": 6,
+        "signature": "public final java.lang.Integer getWeatherId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getWeatherPlace",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->getWeatherPlace()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getWeatherPlace()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 486,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->hashCode()I",
+        "registers": 8,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 332,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Journal;->toString()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.Journal",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.Journal (classes3.dex) extends java.lang.Object: 27 fields, 59 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/Journal;"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,414 @@
+{
+  "id": "ev_8ab1f48d99a4c75c319754da4a5f64ccb8146ce93bb6caf09781c4d8249c3bdd",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Sentiment"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SentimentDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SentimentDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SentimentNeutralKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SentimentNeutralKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SentimentSatisfiedAltKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SentimentSatisfiedAltKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SentimentSatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SentimentSatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SentimentVeryDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SentimentVeryDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/filled/SentimentVerySatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.filled.SentimentVerySatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SentimentDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SentimentDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SentimentNeutralKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SentimentNeutralKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SentimentSatisfiedAltKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SentimentSatisfiedAltKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SentimentSatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SentimentSatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SentimentVeryDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SentimentVeryDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/outlined/SentimentVerySatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.outlined.SentimentVerySatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SentimentDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SentimentDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SentimentNeutralKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SentimentNeutralKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SentimentSatisfiedAltKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SentimentSatisfiedAltKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SentimentSatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SentimentSatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SentimentVeryDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SentimentVeryDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/rounded/SentimentVerySatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.rounded.SentimentVerySatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SentimentDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SentimentDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SentimentNeutralKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SentimentNeutralKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SentimentSatisfiedAltKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SentimentSatisfiedAltKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SentimentSatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SentimentSatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SentimentVeryDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SentimentVeryDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/sharp/SentimentVerySatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.sharp.SentimentVerySatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SentimentDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SentimentDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SentimentNeutralKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SentimentNeutralKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SentimentSatisfiedAltKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SentimentSatisfiedAltKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SentimentSatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SentimentSatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SentimentVeryDissatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SentimentVeryDissatisfiedKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/material/icons/twotone/SentimentVerySatisfiedKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.compose.material.icons.twotone.SentimentVerySatisfiedKt",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 30,
+    "query": "Sentiment"
+  },
+  "summary": "30 of 32680 classes match \"Sentiment\" in 8 DEX file(s); showing 30.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 30,
+    "total": 30
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,277 @@
+{
+  "id": "ev_791282eaba4c7e013f84e089b1b06f9f9acec3a83aba045335498318a85905f3",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "journal",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->journal:Lcom/journey/app/mvvm/models/entity/JournalV2;",
+        "type": "com.journey.app.mvvm.models.entity.JournalV2"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "mediaFiles",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->mediaFiles:Ljava/util/List;",
+        "type": "java.util.List"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "tagWordBags",
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->tagWordBags:Ljava/util/List;",
+        "type": "java.util.List"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;-><clinit>()V",
+        "registers": 3,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 37,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;-><init>(Lcom/journey/app/mvvm/models/entity/JournalV2;Ljava/util/List;Ljava/util/List;)V",
+        "registers": 8,
+        "signature": "public void <init>(com.journey.app.mvvm.models.entity.JournalV2, java.util.List, java.util.List)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 37,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->copy$default(Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;Lcom/journey/app/mvvm/models/entity/JournalV2;Ljava/util/List;Ljava/util/List;ILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;",
+        "registers": 9,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2 copy$default(com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2, com.journey.app.mvvm.models.entity.JournalV2, java.util.List, java.util.List, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->component1()Lcom/journey/app/mvvm/models/entity/JournalV2;",
+        "registers": 5,
+        "signature": "public final com.journey.app.mvvm.models.entity.JournalV2 component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->component2()Ljava/util/List;",
+        "registers": 6,
+        "signature": "public final java.util.List component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->component3()Ljava/util/List;",
+        "registers": 6,
+        "signature": "public final java.util.List component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 30,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->copy(Lcom/journey/app/mvvm/models/entity/JournalV2;Ljava/util/List;Ljava/util/List;)Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;",
+        "registers": 8,
+        "signature": "public final com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2 copy(com.journey.app.mvvm.models.entity.JournalV2, java.util.List, java.util.List)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 70,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->equals(Ljava/lang/Object;)Z",
+        "registers": 10,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getJournal",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->getJournal()Lcom/journey/app/mvvm/models/entity/JournalV2;",
+        "registers": 6,
+        "signature": "public final com.journey.app.mvvm.models.entity.JournalV2 getJournal()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMediaFiles",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->getMediaFiles()Ljava/util/List;",
+        "registers": 5,
+        "signature": "public final java.util.List getMediaFiles()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTagWordBags",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->getTagWordBags()Ljava/util/List;",
+        "registers": 6,
+        "signature": "public final java.util.List getTagWordBags()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 36,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->hashCode()I",
+        "registers": 7,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 56,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2 (classes3.dex) extends java.lang.Object: 4 fields, 13 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;"
+    }
+  ],
+  "links": []
+}

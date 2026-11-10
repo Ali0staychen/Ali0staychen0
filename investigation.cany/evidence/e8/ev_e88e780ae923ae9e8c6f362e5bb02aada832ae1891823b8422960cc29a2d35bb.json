@@ -1,0 +1,2395 @@
+{
+  "id": "ev_e88e780ae923ae9e8c6f362e5bb02aada832ae1891823b8422960cc29a2d35bb",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "a;"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA/A;",
+        "dex": "classes.dex",
+        "fields": 26,
+        "methods": 45,
+        "name": "A.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/A$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "A.A$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA/B$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "A.B$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "A.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/b$a;",
+        "dex": "classes.dex",
+        "fields": 11,
+        "methods": 3,
+        "name": "A.b$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA/d$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "A.d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/j$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "A.j$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/m$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "A.m$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "LA/n$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "A.n$a",
+        "superclass": "kotlin.jvm.internal.D"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/o$a;",
+        "dex": "classes.dex",
+        "fields": 16,
+        "methods": 3,
+        "name": "A.o$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/o$b$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "A.o$b$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/q$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "A.q$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA/x$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "A.x$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA0/a;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 6,
+        "name": "A0.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA0/c$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "A0.c$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA0/d$a;",
+        "dex": "classes.dex",
+        "fields": 11,
+        "methods": 13,
+        "name": "A0.d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA0/d$a$a;",
+        "dex": "classes.dex",
+        "fields": 10,
+        "methods": 12,
+        "name": "A0.d$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA0/g$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "A0.g$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA0/h$a;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 11,
+        "name": "A0.h$a",
+        "superclass": "A0.h"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA0/m$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "A0.m$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA0/n$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "A0.n$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA0/q$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "A0.q$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LA1/a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "A1.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA2/a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 7,
+        "name": "A2.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LA2/c$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "A2.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA2/f$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "A2.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LA2/g$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "A2.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA2/i$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "A2.i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA3/a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "A3.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LA3/a$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "A3.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA3/a$b$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "A3.a$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "LA4/a;",
+        "dex": "classes2.dex",
+        "fields": 13,
+        "methods": 2,
+        "name": "A4.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/c$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A4.c$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/f$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "A4.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/f$b$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "A4.f$b$a",
+        "superclass": "A4.f$b"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA4/f$c$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "A4.f$c$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/f$e$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A4.f$e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/f$e$a$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A4.f$e$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/f$e$a$a$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "A4.f$e$a$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/h$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "A4.h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/k$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A4.k$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/k$a$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A4.k$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/k$a$a$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "A4.k$a$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA4/p$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "A4.p$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LA5/a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "A5.a",
+        "superclass": "android.webkit.WebChromeClient"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA5/c$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A5.c$a",
+        "superclass": "A5.c"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA5/d$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A5.d$a",
+        "superclass": "A5.d"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA5/f$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "A5.f$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA5/f$e$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "A5.f$e$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LA5/g$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "A5.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LA5/g$c$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "A5.g$c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "LA6/a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "A6.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LA7/a;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 6,
+        "name": "A7.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA8/a;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 11,
+        "name": "A8.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LA8/a$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "A8.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LA8/b$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "A8.b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LA8/c$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "A8.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LA8/d$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "A8.d$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LA9/a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "A9.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LAa/a;",
+        "dex": "classes4.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "Aa.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LB/A;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "B.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/C$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "B.C$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/H$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "B.H$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/I$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "B.I$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB/J$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "B.J$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB/K$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "B.K$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "B.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB/b$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "B.b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/e$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "B.e$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/h$a;",
+        "dex": "classes.dex",
+        "fields": 12,
+        "methods": 3,
+        "name": "B.h$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/j$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "B.j$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/m$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "B.m$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "LB/n$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B.n$a",
+        "superclass": "kotlin.jvm.internal.D"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/r$a;",
+        "dex": "classes.dex",
+        "fields": 14,
+        "methods": 3,
+        "name": "B.r$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/r$b$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "B.r$b$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB/t$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "B.t$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB0/a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 18,
+        "name": "B0.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LB1/a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "B1.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "LB1/a$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "B1.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB2/a;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "B2.a",
+        "superclass": "B2.b"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB2/a$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B2.a$a",
+        "superclass": "B2.g"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LB2/d$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B2.d$a",
+        "superclass": "B2.g"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LB2/f$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B2.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LB2/j$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "B2.j$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB2/k$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "B2.k$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LB2/l$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "B2.l$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LB2/o$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B2.o$a",
+        "superclass": "B2.g"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LB2/v$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B2.v$a",
+        "superclass": "B2.g"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB2/y$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B2.y$a",
+        "superclass": "B2.g"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB3/a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "B3.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LB3/e$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "B3.e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/A;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "B4.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/A$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B4.A$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/B$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B4.B$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "B4.a",
+        "superclass": "B4.s$a"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/c$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B4.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LB4/g$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "B4.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LB4/h$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B4.h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/i$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B4.i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LB4/m$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "B4.m$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB4/o$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B4.o$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB4/r$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B4.r$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LB4/s$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B4.s$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB5/a;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 9,
+        "name": "B5.a",
+        "superclass": "B5.d"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LB6/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 12,
+        "name": "B6.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LB7/a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B7.a",
+        "superclass": "A7.b"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "LB8/A;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "B8.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/E$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "B8.E$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LB8/a;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 20,
+        "name": "B8.a",
+        "superclass": "androidx.fragment.app.Fragment"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/a$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B8.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/c$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "B8.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/c$b$a;",
+        "dex": "classes3.dex",
+        "fields": 12,
+        "methods": 6,
+        "name": "B8.c$b$a",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$F"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/n$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "B8.n$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/o$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B8.o$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB8/o$c$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "B8.o$c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB8/o$c$a$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "B8.o$c$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB8/o$c$a$a$a;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 5,
+        "name": "B8.o$c$a$a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LB8/r$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "B8.r$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/v$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "B8.v$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LB8/x$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "B8.x$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LB9/a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "B9.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LBa/a;",
+        "dex": "classes4.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "Ba.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/A;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 15,
+        "name": "C.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/B$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "C.B$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/B$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "C.B$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LC/C$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C.C$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/E$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "C.E$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/E$b$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "C.E$b$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/E$c$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "C.E$c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/F$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "C.F$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/H$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "C.H$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/O$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C.O$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/a;",
+        "dex": "classes.dex",
+        "fields": 9,
+        "methods": 10,
+        "name": "C.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/a$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "C.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/b$a;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 2,
+        "name": "C.b$a",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/c$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "C.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/f$a;",
+        "dex": "classes.dex",
+        "fields": 14,
+        "methods": 7,
+        "name": "C.f$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/f$a$a;",
+        "dex": "classes.dex",
+        "fields": 12,
+        "methods": 3,
+        "name": "C.f$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/i$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "C.i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/j$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "C.j$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LC/n$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C.n$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/n$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "C.n$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/p$a;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 8,
+        "name": "C.p$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/p$a$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "C.p$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/p$a$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "C.p$a$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/p$a$a$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "C.p$a$a$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/q$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "C.q$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/u$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "C.u$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/u$a$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "C.u$a$a",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC/u$a$a$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "C.u$a$a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC/z$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "C.z$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LC0/a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "C0.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC0/b$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 14,
+        "name": "C0.b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC1/a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C1.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC2/a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 11,
+        "name": "C2.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC2/c$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C2.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC2/f$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "C2.f$a",
+        "superclass": "java.lang.IllegalStateException"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LC2/g$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "C2.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "LC2/h$a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "C2.h$a",
+        "superclass": "java.lang.Thread"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/A;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 14,
+        "name": "C3.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/C$a;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 5,
+        "name": "C3.C$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/H$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "C3.H$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "LC3/K$a;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "C3.K$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC3/L$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 1,
+        "name": "C3.L$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "LC3/a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C3.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/n$a;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "C3.n$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/o$a;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "C3.o$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC3/p$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C3.p$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/p$b$a;",
+        "dex": "classes.dex",
+        "fields": 16,
+        "methods": 8,
+        "name": "C3.p$b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC3/q$a;",
+        "dex": "classes.dex",
+        "fields": 13,
+        "methods": 8,
+        "name": "C3.q$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC3/v$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C3.v$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC3/z$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C3.z$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LC4/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "C4.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC4/a$a;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 4,
+        "name": "C4.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC4/c$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C4.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC4/e$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "C4.e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 14,
+        "name": "C5.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/a$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 14,
+        "name": "C5.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LC5/b$a;",
+        "dex": "classes2.dex",
+        "fields": 13,
+        "methods": 4,
+        "name": "C5.b$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/c$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.c$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/e$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.e$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/f$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/g$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.g$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/h$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.h$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/i$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.i$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/j$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.j$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/k$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.k$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "LC5/m$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "C5.m$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/o$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "C5.o$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/p$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "C5.p$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/q$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "C5.q$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/r$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "C5.r$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/s$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "C5.s$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/t$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "C5.t$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/u$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "C5.u$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "LC5/w$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "C5.w$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LC6/a;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "C6.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "LC7/a;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 10,
+        "name": "C7.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "LC7/a$a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "C7.a$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "LC8/a;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 31,
+        "name": "C8.a",
+        "superclass": "C8.i"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 5168,
+    "query": "a;"
+  },
+  "summary": "5168 of 32886 classes match \"a;\" in 4 DEX file(s); showing 200.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 5168,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

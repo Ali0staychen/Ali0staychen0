@@ -1,0 +1,144 @@
+{
+  "id": "ev_7991192479a5b03b542911a26982daabcab6ddee0500574a245f974ac5b73ccb",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.ThrowbackReceiver",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/MemberClasses; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/ThrowbackReceiver;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "d",
+        "reference": "Lcom/journey/app/ThrowbackReceiver;->d:Lcom/journey/app/ThrowbackReceiver$a;",
+        "type": "com.journey.app.ThrowbackReceiver$a"
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "e",
+        "reference": "Lcom/journey/app/ThrowbackReceiver;->e:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "c",
+        "reference": "Lcom/journey/app/ThrowbackReceiver;->c:Lcom/journey/app/mvvm/models/repository/JournalRepository;",
+        "type": "com.journey.app.mvvm.models.repository.JournalRepository"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 20,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ThrowbackReceiver;-><clinit>()V",
+        "registers": 4,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 6,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ThrowbackReceiver;-><init>()V",
+        "registers": 4,
+        "signature": "public void <init>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 19,
+        "kind": "virtual",
+        "name": "b",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ThrowbackReceiver;->b()Lcom/journey/app/mvvm/models/repository/JournalRepository;",
+        "registers": 6,
+        "signature": "public final com.journey.app.mvvm.models.repository.JournalRepository b()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 159,
+        "kind": "virtual",
+        "name": "onReceive",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/ThrowbackReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+        "registers": 14,
+        "signature": "public void onReceive(android.content.Context, android.content.Intent)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.ThrowbackReceiver",
+    "source_file": "SourceFile",
+    "superclass": "LN7/z0;"
+  },
+  "summary": "com.journey.app.ThrowbackReceiver (classes3.dex) extends N7.z0: 3 fields, 4 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/ThrowbackReceiver;"
+    }
+  ],
+  "links": []
+}

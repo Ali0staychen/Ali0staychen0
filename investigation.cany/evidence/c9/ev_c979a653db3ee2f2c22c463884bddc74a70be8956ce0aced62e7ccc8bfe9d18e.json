@@ -1,0 +1,239 @@
+{
+  "id": "ev_c979a653db3ee2f2c22c463884bddc74a70be8956ce0aced62e7ccc8bfe9d18e",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.TagV2",
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/TagV2;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "JId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->JId:J",
+        "type": "long"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "TWId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->TWId:J",
+        "type": "long"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;-><clinit>()V",
+        "registers": 4,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 13,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;-><init>(JJ)V",
+        "registers": 9,
+        "signature": "public void <init>(long, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->copy$default(Lcom/journey/app/mvvm/models/entity/TagV2;JJILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/TagV2;",
+        "registers": 11,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.TagV2 copy$default(com.journey.app.mvvm.models.entity.TagV2, long, long, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->component1()J",
+        "registers": 6,
+        "signature": "public final long component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->component2()J",
+        "registers": 6,
+        "signature": "public final long component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 9,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->copy(JJ)Lcom/journey/app/mvvm/models/entity/TagV2;",
+        "registers": 9,
+        "signature": "public final com.journey.app.mvvm.models.entity.TagV2 copy(long, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 50,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->equals(Ljava/lang/Object;)Z",
+        "registers": 12,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getJId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->getJId()J",
+        "registers": 7,
+        "signature": "public final long getJId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTWId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->getTWId()J",
+        "registers": 7,
+        "signature": "public final long getTWId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 23,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->hashCode()I",
+        "registers": 7,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 44,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagV2;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.TagV2",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.TagV2 (classes3.dex) extends java.lang.Object: 3 fields, 11 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/TagV2;"
+    }
+  ],
+  "links": []
+}

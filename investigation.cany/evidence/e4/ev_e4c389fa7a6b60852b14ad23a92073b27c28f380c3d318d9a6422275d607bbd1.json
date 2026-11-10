@@ -1,0 +1,74 @@
+{
+  "id": "ev_e4c389fa7a6b60852b14ad23a92073b27c28f380c3d318d9a6422275d607bbd1",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 60,
+    "offset": 0,
+    "path": null,
+    "query": "Attachment"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Lcom/google/android/gms/fido/fido2/api/common/Attachment;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 8,
+        "name": "com.google.android.gms.fido.fido2.api.common.Attachment",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/fido/fido2/api/common/Attachment$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.fido.fido2.api.common.Attachment$a",
+        "superclass": "java.lang.Exception"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 2,
+    "query": "Attachment"
+  },
+  "summary": "2 of 32886 classes match \"Attachment\" in 4 DEX file(s); showing 2.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 2,
+    "total": 2
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

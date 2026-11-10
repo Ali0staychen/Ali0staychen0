@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+string app_name
+string map_api_key
+style Theme.JourneyReplica
+xml file_paths

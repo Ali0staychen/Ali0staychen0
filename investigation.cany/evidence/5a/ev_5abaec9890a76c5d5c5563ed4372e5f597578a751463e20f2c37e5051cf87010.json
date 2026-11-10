@@ -1,0 +1,2404 @@
+{
+  "id": "ev_5abaec9890a76c5d5c5563ed4372e5f597578a751463e20f2c37e5051cf87010",
+  "subject": {
+    "kind": "apk",
+    "sha256": "1fc1bcd20a6a9dc9cf2f7aeb80359753fe3df72663ddb34cc6c1528198f39a76",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Activity"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.activity.ActivityViewModelLazyKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt$viewModels$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ActivityViewModelLazyKt$viewModels$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt$viewModels$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ActivityViewModelLazyKt$viewModels$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt$viewModels$3;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ActivityViewModelLazyKt$viewModels$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.ActivityViewModelLazyKt$viewModels$4",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ActivityViewModelLazyKt$viewModels$factoryPromise$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ActivityViewModelLazyKt$viewModels$factoryPromise$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/Api26Impl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.Api26Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/Api34Impl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.activity.Api34Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/BackEventCompat;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 9,
+        "name": "androidx.activity.BackEventCompat",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/BackEventCompat$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.BackEventCompat$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroidx/activity/BackEventCompat$SwipeEdge;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.activity.BackEventCompat$SwipeEdge",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/Cancellable;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.Cancellable",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity;",
+        "dex": "classes.dex",
+        "fields": 21,
+        "methods": 84,
+        "name": "androidx.activity.ComponentActivity",
+        "superclass": "androidx.core.app.ComponentActivity"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$$ExternalSyntheticLambda1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$$ExternalSyntheticLambda1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$$ExternalSyntheticLambda2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$$ExternalSyntheticLambda2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$$ExternalSyntheticLambda3;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$$ExternalSyntheticLambda3",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$$ExternalSyntheticLambda4;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$$ExternalSyntheticLambda4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$$ExternalSyntheticLambda5;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$$ExternalSyntheticLambda5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$4;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$Api33Impl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ComponentActivity$Api33Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$NonConfigurationInstances;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "androidx.activity.ComponentActivity$NonConfigurationInstances",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$ReportFullyDrawnExecutor",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "androidx.activity.ComponentActivity$ReportFullyDrawnExecutorImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$ReportFullyDrawnExecutorImpl$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$activityResultRegistry$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "androidx.activity.ComponentActivity$activityResultRegistry$1",
+        "superclass": "androidx.activity.result.ActivityResultRegistry"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$activityResultRegistry$1$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$activityResultRegistry$1$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$activityResultRegistry$1$$ExternalSyntheticLambda1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$activityResultRegistry$1$$ExternalSyntheticLambda1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$defaultViewModelProviderFactory$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ComponentActivity$defaultViewModelProviderFactory$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$fullyDrawnReporter$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ComponentActivity$fullyDrawnReporter$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$fullyDrawnReporter$2$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.ComponentActivity$fullyDrawnReporter$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.activity.ComponentActivity$onBackPressedDispatcher$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$onBackPressedDispatcher$2$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2$$ExternalSyntheticLambda1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.ComponentActivity$onBackPressedDispatcher$2$$ExternalSyntheticLambda1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/ComponentDialog;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 20,
+        "name": "androidx.activity.ComponentDialog",
+        "superclass": "android.app.Dialog"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/ComponentDialog$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.ComponentDialog$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/EdgeToEdge;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "androidx.activity.EdgeToEdge",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/EdgeToEdgeApi21;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeApi21",
+        "superclass": "androidx.activity.EdgeToEdgeBase"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/EdgeToEdgeApi23;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeApi23",
+        "superclass": "androidx.activity.EdgeToEdgeBase"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/EdgeToEdgeApi26;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeApi26",
+        "superclass": "androidx.activity.EdgeToEdgeBase"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/EdgeToEdgeApi28;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeApi28",
+        "superclass": "androidx.activity.EdgeToEdgeApi26"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/EdgeToEdgeApi29;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeApi29",
+        "superclass": "androidx.activity.EdgeToEdgeApi28"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/EdgeToEdgeApi30;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeApi30",
+        "superclass": "androidx.activity.EdgeToEdgeApi29"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/activity/EdgeToEdgeBase;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.EdgeToEdgeBase",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/EdgeToEdgeImpl;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.EdgeToEdgeImpl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/FullyDrawnReporter;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 10,
+        "name": "androidx.activity.FullyDrawnReporter",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/FullyDrawnReporter$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.FullyDrawnReporter$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/FullyDrawnReporterKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.FullyDrawnReporterKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "androidx.activity.FullyDrawnReporterKt$reportWhenComplete$1",
+        "superclass": "kotlin.coroutines.jvm.internal.ContinuationImpl"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/FullyDrawnReporterOwner;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.FullyDrawnReporterOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ImmLeaksCleaner;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.ImmLeaksCleaner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/ImmLeaksCleaner$Cleaner;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.ImmLeaksCleaner$Cleaner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ImmLeaksCleaner$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.ImmLeaksCleaner$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ImmLeaksCleaner$Companion$cleaner$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.ImmLeaksCleaner$Companion$cleaner$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ImmLeaksCleaner$FailedInitialization;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "androidx.activity.ImmLeaksCleaner$FailedInitialization",
+        "superclass": "androidx.activity.ImmLeaksCleaner$Cleaner"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ImmLeaksCleaner$ValidCleaner;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.ImmLeaksCleaner$ValidCleaner",
+        "superclass": "androidx.activity.ImmLeaksCleaner$Cleaner"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedCallback;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 12,
+        "name": "androidx.activity.OnBackPressedCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher;",
+        "dex": "classes.dex",
+        "fields": 8,
+        "methods": 25,
+        "name": "androidx.activity.OnBackPressedDispatcher",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$3;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$4;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$4",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$5;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$5",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$Api33Impl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.activity.OnBackPressedDispatcher$Api33Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$Api33Impl$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.OnBackPressedDispatcher$Api33Impl$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$Api34Impl;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$Api34Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$LifecycleOnBackPressedCancellable",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.OnBackPressedDispatcher$OnBackPressedCancellable",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$addCallback$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$addCallback$1",
+        "superclass": "kotlin.jvm.internal.FunctionReferenceImpl"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcher$addCancellableCallback$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.OnBackPressedDispatcher$addCancellableCallback$1",
+        "superclass": "kotlin.jvm.internal.FunctionReferenceImpl"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcherKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.OnBackPressedDispatcherKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.OnBackPressedDispatcherKt$addCallback$callback$1",
+        "superclass": "androidx.activity.OnBackPressedCallback"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/OnBackPressedDispatcherOwner;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.OnBackPressedDispatcherOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.PipHintTrackerKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 9,
+        "name": "androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$$ExternalSyntheticLambda1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$$ExternalSyntheticLambda1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/R;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.R",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/R$id;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 1,
+        "name": "androidx.activity.R$id",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/SystemBarStyle;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 12,
+        "name": "androidx.activity.SystemBarStyle",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/SystemBarStyle$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.activity.SystemBarStyle$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/SystemBarStyle$Companion$auto$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.SystemBarStyle$Companion$auto$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/SystemBarStyle$Companion$dark$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.SystemBarStyle$Companion$dark$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/SystemBarStyle$Companion$light$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.SystemBarStyle$Companion$light$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ViewTreeFullyDrawnReporterOwner;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.ViewTreeFullyDrawnReporterOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.ViewTreeOnBackPressedDispatcherOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityComposeUtilsKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.compose.ActivityComposeUtilsKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityResultLauncherHolder;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.activity.compose.ActivityResultLauncherHolder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityResultRegistryKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.compose.ActivityResultRegistryKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityResultRegistryKt$rememberLauncherForActivityResult$1$1;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "androidx.activity.compose.ActivityResultRegistryKt$rememberLauncherForActivityResult$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityResultRegistryKt$rememberLauncherForActivityResult$1$1$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.compose.ActivityResultRegistryKt$rememberLauncherForActivityResult$1$1$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityResultRegistryKt$rememberLauncherForActivityResult$1$1$invoke$$inlined$onDispose$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.compose.ActivityResultRegistryKt$rememberLauncherForActivityResult$1$1$invoke$$inlined$onDispose$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ActivityResultRegistryKt$rememberLauncherForActivityResult$key$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.ActivityResultRegistryKt$rememberLauncherForActivityResult$key$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/BackHandlerKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.compose.BackHandlerKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/BackHandlerKt$BackHandler$1$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.BackHandlerKt$BackHandler$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/BackHandlerKt$BackHandler$2$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.activity.compose.BackHandlerKt$BackHandler$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/BackHandlerKt$BackHandler$2$1$invoke$$inlined$onDispose$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.compose.BackHandlerKt$BackHandler$2$1$invoke$$inlined$onDispose$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/BackHandlerKt$BackHandler$3;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.compose.BackHandlerKt$BackHandler$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/BackHandlerKt$BackHandler$backCallback$1$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1",
+        "superclass": "androidx.activity.OnBackPressedCallback"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ComponentActivityKt;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.ComponentActivityKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/LocalActivityResultRegistryOwner;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.compose.LocalActivityResultRegistryOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/LocalActivityResultRegistryOwner$LocalComposition$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.LocalActivityResultRegistryOwner$LocalComposition$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/LocalFullyDrawnReporterOwner;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.compose.LocalFullyDrawnReporterOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/LocalFullyDrawnReporterOwner$LocalFullyDrawnReporterOwner$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.LocalFullyDrawnReporterOwner$LocalFullyDrawnReporterOwner$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/LocalOnBackPressedDispatcherOwner;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.compose.LocalOnBackPressedDispatcherOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/LocalOnBackPressedDispatcherOwner$LocalOnBackPressedDispatcherOwner$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.LocalOnBackPressedDispatcherOwner$LocalOnBackPressedDispatcherOwner$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ManagedActivityResultLauncher;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "androidx.activity.compose.ManagedActivityResultLauncher",
+        "superclass": "androidx.activity.result.ActivityResultLauncher"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/OnBackInstance;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "androidx.activity.compose.OnBackInstance",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/OnBackInstance$job$1;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.compose.OnBackInstance$job$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/OnBackInstance$job$1$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.activity.compose.OnBackInstance$job$1$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/PredictiveBackHandlerKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.compose.PredictiveBackHandlerKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/PredictiveBackHandlerKt$PredictiveBackHandler$1$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "androidx.activity.compose.PredictiveBackHandlerKt$PredictiveBackHandler$1$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/PredictiveBackHandlerKt$PredictiveBackHandler$2$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.activity.compose.PredictiveBackHandlerKt$PredictiveBackHandler$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/PredictiveBackHandlerKt$PredictiveBackHandler$2$1$invoke$$inlined$onDispose$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.compose.PredictiveBackHandlerKt$PredictiveBackHandler$2$1$invoke$$inlined$onDispose$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/PredictiveBackHandlerKt$PredictiveBackHandler$3;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "androidx.activity.compose.PredictiveBackHandlerKt$PredictiveBackHandler$3",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/PredictiveBackHandlerKt$PredictiveBackHandler$backCallBack$1$1;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "androidx.activity.compose.PredictiveBackHandlerKt$PredictiveBackHandler$backCallBack$1$1",
+        "superclass": "androidx.activity.OnBackPressedCallback"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/R;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.compose.R",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnComposition;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "androidx.activity.compose.ReportDrawnComposition",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnComposition$checkReporter$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnComposition$checkReporter$1",
+        "superclass": "kotlin.jvm.internal.FunctionReferenceImpl"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnComposition$observeReporter$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnComposition$observeReporter$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnComposition$snapshotStateObserver$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.ReportDrawnComposition$snapshotStateObserver$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawn$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawn$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawn$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawn$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnAfter$1$1;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnAfter$1$1",
+        "superclass": "kotlin.coroutines.jvm.internal.SuspendLambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnAfter$2;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnAfter$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnAfter$fullyDrawnReporter$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnAfter$fullyDrawnReporter$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnWhen$1$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnWhen$1$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnWhen$1$1$invoke$$inlined$onDispose$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnWhen$1$1$invoke$$inlined$onDispose$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnWhen$1$1$invoke$$inlined$onDispose$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnWhen$1$1$invoke$$inlined$onDispose$2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnWhen$2;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnWhen$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/compose/ReportDrawnKt$ReportDrawnWhen$fullyDrawnReporter$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.compose.ReportDrawnKt$ReportDrawnWhen$fullyDrawnReporter$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/contextaware/ContextAware;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.contextaware.ContextAware",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/contextaware/ContextAwareHelper;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.activity.contextaware.ContextAwareHelper",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/contextaware/ContextAwareKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.contextaware.ContextAwareKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.contextaware.ContextAwareKt$withContextAvailable$2$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "androidx.activity.contextaware.ContextAwareKt$withContextAvailable$2$listener$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/contextaware/OnContextAvailableListener;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.contextaware.OnContextAvailableListener",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/ktx/R;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.ktx.R",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResult;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 9,
+        "name": "androidx.activity.result.ActivityResult",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResult$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResult$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResult$Companion$CREATOR$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.result.ActivityResult$Companion$CREATOR$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallback;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.result.ActivityResultCallback",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCaller;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.result.ActivityResultCaller",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallerKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "androidx.activity.result.ActivityResultCallerKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallerKt$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.ActivityResultCallerKt$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallerKt$$ExternalSyntheticLambda1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.ActivityResultCallerKt$$ExternalSyntheticLambda1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallerLauncher;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 8,
+        "name": "androidx.activity.result.ActivityResultCallerLauncher",
+        "superclass": "androidx.activity.result.ActivityResultLauncher"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.result.ActivityResultCallerLauncher$resultContract$2",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResultCallerLauncher$resultContract$2$1",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.result.ActivityResultKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultLauncher;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.result.ActivityResultLauncher",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultLauncherKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResultLauncherKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry;",
+        "dex": "classes.dex",
+        "fields": 14,
+        "methods": 18,
+        "name": "androidx.activity.result.ActivityResultRegistry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$$ExternalSyntheticLambda0;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "androidx.activity.result.ActivityResultRegistry$$ExternalSyntheticLambda0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$CallbackAndContract;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "androidx.activity.result.ActivityResultRegistry$CallbackAndContract",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.result.ActivityResultRegistry$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$LifecycleContainer;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResultRegistry$LifecycleContainer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$generateRandomNumber$1;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResultRegistry$generateRandomNumber$1",
+        "superclass": "kotlin.jvm.internal.Lambda"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$register$2;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResultRegistry$register$2",
+        "superclass": "androidx.activity.result.ActivityResultLauncher"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistry$register$3;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "androidx.activity.result.ActivityResultRegistry$register$3",
+        "superclass": "androidx.activity.result.ActivityResultLauncher"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/result/ActivityResultRegistryOwner;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.result.ActivityResultRegistryOwner",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 10,
+        "name": "androidx.activity.result.IntentSenderRequest",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$Builder;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.activity.result.IntentSenderRequest$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$Builder$Flag;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 0,
+        "name": "androidx.activity.result.IntentSenderRequest$Builder$Flag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.result.IntentSenderRequest$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/IntentSenderRequest$Companion$CREATOR$1;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.result.IntentSenderRequest$Companion$CREATOR$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/PickVisualMediaRequest;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.result.PickVisualMediaRequest",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/PickVisualMediaRequest$Builder;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.activity.result.PickVisualMediaRequest$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/PickVisualMediaRequestKt;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.activity.result.PickVisualMediaRequestKt",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContract;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "androidx.activity.result.contract.ActivityResultContract",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.contract.ActivityResultContract$SynchronousResult",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "androidx.activity.result.contract.ActivityResultContracts",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$CaptureVideo;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$CaptureVideo",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$CreateDocument;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$CreateDocument",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$GetContent;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$GetContent",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$GetMultipleContents;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$GetMultipleContents",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$GetMultipleContents$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$GetMultipleContents$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$OpenDocument;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$OpenDocument",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$OpenDocumentTree;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$OpenDocumentTree",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$OpenMultipleDocuments;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$OpenMultipleDocuments",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickContact;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickContact",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickMultipleVisualMedia;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 10,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickMultipleVisualMedia",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickMultipleVisualMedia$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickMultipleVisualMedia$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia",
+        "superclass": "androidx.activity.result.contract.ActivityResultContract"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 12,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageAndVideo;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$ImageAndVideo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageOnly;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$ImageOnly",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$SingleMimeType;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$SingleMimeType",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VideoOnly;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$VideoOnly",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32680,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex",
+      "classes5.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex"
+    ],
+    "matches": 311,
+    "query": "Activity"
+  },
+  "summary": "311 of 32680 classes match \"Activity\" in 8 DEX file(s); showing 200.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 311,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Documents\\\\Craft Anything\\\\base\\\\base.apk"
+    }
+  ],
+  "links": []
+}

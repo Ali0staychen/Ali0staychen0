@@ -1,0 +1,232 @@
+{
+  "id": "ev_a62d4d6321cc30ff684e080169b784a6825675582ea486ce81a799550785aca2",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_users_find",
+  "params": {
+    "class_name": "android.app.AlarmManager",
+    "limit": 200,
+    "method_name": null,
+    "offset": 0,
+    "path": null
+  },
+  "result": {
+    "callers": 13,
+    "class": "Landroid/app/AlarmManager;",
+    "defined_in": null,
+    "method_name": null,
+    "references": [
+      {
+        "caller": "Landroidx/work/impl/background/systemalarm/a$a;->a(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V",
+        "dex": "classes2.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Landroidx/work/impl/background/systemalarm/a;->b(Landroid/content/Context;Lv4/m;I)V",
+        "dex": "classes2.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0006",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Landroidx/work/impl/background/systemalarm/a;->b(Landroid/content/Context;Lv4/m;I)V",
+        "dex": "classes2.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "003d",
+        "target": "Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Landroidx/work/impl/background/systemalarm/a;->d(Landroid/content/Context;Lv4/m;IJ)V",
+        "dex": "classes2.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0006",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Landroidx/work/impl/utils/ForceStopRunnable;->g(Landroid/content/Context;)V",
+        "dex": "classes2.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0006",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Landroidx/work/impl/utils/ForceStopRunnable;->g(Landroid/content/Context;)V",
+        "dex": "classes2.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0021",
+        "target": "Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Lcom/google/android/gms/measurement/internal/zzoj;-><init>(Lcom/google/android/gms/measurement/internal/zzpf;)V",
+        "dex": "classes2.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "000f",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Lcom/google/android/gms/measurement/internal/zzoj;->zzbb()Z",
+        "dex": "classes2.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0008",
+        "target": "Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Lcom/google/android/gms/measurement/internal/zzoj;->zzd()V",
+        "dex": "classes2.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "001a",
+        "target": "Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->a(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0009",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Ls8/a;->a(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0023",
+        "target": "Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->e(Landroid/content/Context;I)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0009",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Ls8/a;->e(Landroid/content/Context;I)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual/range",
+        "kind": "method",
+        "offset": "007a",
+        "target": "Landroid/app/AlarmManager;->setRepeating(IJJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->f(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0009",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Ls8/a;->f(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0041",
+        "target": "Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->g(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0009",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Ls8/a;->g(Landroid/content/Context;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual/range",
+        "kind": "method",
+        "offset": "0067",
+        "target": "Landroid/app/AlarmManager;->setRepeating(IJJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->i(Landroid/content/Context;JI)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "001a",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Ls8/a;->i(Landroid/content/Context;JI)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0050",
+        "target": "Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+        "dex": "classes3.dex",
+        "instruction": "check-cast",
+        "kind": "type",
+        "offset": "0009",
+        "target": "Landroid/app/AlarmManager;"
+      },
+      {
+        "caller": "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual/range",
+        "kind": "method",
+        "offset": "006b",
+        "target": "Landroid/app/AlarmManager;->setRepeating(IJJLandroid/app/PendingIntent;)V"
+      },
+      {
+        "caller": "Ls8/a;->j(Landroid/content/Context;Ljava/lang/Boolean;)V",
+        "dex": "classes3.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "00a5",
+        "target": "Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V"
+      }
+    ],
+    "references_total": 22
+  },
+  "summary": "22 reference(s) to android.app.AlarmManager from 13 method(s) across 4 DEX file(s); not defined in this package (framework or library class).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "static_references_only",
+      "message": "Only direct bytecode references are found; reflection, JNI, string-built class names and code loaded at run time are not."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 22,
+    "total": 22
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Landroid/app/AlarmManager;"
+    }
+  ],
+  "links": []
+}

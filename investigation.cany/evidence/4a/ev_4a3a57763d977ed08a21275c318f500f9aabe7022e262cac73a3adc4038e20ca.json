@@ -1,0 +1,2536 @@
+{
+  "id": "ev_4a3a57763d977ed08a21275c318f500f9aabe7022e262cac73a3adc4038e20ca",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "s8.T",
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "public",
+      "abstract"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/MemberClasses; (system)"
+    ],
+    "descriptor": "Ls8/T;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "a",
+        "reference": "Ls8/T;->a:[Ljava/lang/String;",
+        "type": "java.lang.String[]"
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "b",
+        "reference": "Ls8/T;->b:[Ljava/lang/String;",
+        "type": "java.lang.String[]"
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "c",
+        "reference": "Ls8/T;->c:[Ljava/lang/String;",
+        "type": "java.lang.String[]"
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "d",
+        "reference": "Ls8/T;->d:[Ljava/lang/String;",
+        "type": "java.lang.String[]"
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "e",
+        "reference": "Ls8/T;->e:[Ljava/lang/String;",
+        "type": "java.lang.String[]"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 120,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Ls8/T;-><clinit>()V",
+        "registers": 14,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "A",
+        "overload_index": 0,
+        "reference": "Ls8/T;->A(Ljava/util/Date;Ljava/util/TimeZone;)Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public static java.lang.String A(java.util.Date, java.util.TimeZone)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "A0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->A0(Landroid/content/Context;)I",
+        "registers": 7,
+        "signature": "public static int A0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 69,
+        "kind": "direct",
+        "name": "A1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->A1(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 10,
+        "signature": "public static java.lang.String A1(android.content.Context, java.lang.String, java.lang.String, android.net.Uri, java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "B",
+        "overload_index": 0,
+        "reference": "Ls8/T;->B(Ljava/util/Date;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String B(java.util.Date)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "B0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->B0(Landroid/content/Context;)I",
+        "registers": 6,
+        "signature": "public static int B0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 85,
+        "kind": "direct",
+        "name": "B1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->B1(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 10,
+        "signature": "public static java.lang.String B1(android.content.Context, java.lang.String, java.lang.String, java.io.InputStream, java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 38,
+        "kind": "direct",
+        "name": "C",
+        "overload_index": 0,
+        "reference": "Ls8/T;->C(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;",
+        "registers": 9,
+        "signature": "public static android.graphics.drawable.Drawable C(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 35,
+        "kind": "direct",
+        "name": "C0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->C0(Landroid/content/Context;Ljava/lang/String;)Z",
+        "registers": 8,
+        "signature": "public static boolean C0(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 62,
+        "kind": "direct",
+        "name": "C1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->C1(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;)Z",
+        "registers": 9,
+        "signature": "public static boolean C1(android.content.Context, android.net.Uri, java.lang.String, java.lang.Long, java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 32,
+        "kind": "direct",
+        "name": "D",
+        "overload_index": 0,
+        "reference": "Ls8/T;->D(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Integer;",
+        "registers": 8,
+        "signature": "public static java.lang.Integer D(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 14,
+        "kind": "direct",
+        "name": "D0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->D0(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 7,
+        "signature": "public static java.io.File D0(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 53,
+        "kind": "direct",
+        "name": "D1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->D1(Landroid/content/Context;Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;)Z",
+        "registers": 8,
+        "signature": "public static boolean D1(android.content.Context, java.io.InputStream, java.lang.String, java.lang.Long, java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "E",
+        "overload_index": 0,
+        "reference": "Ls8/T;->E(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String E(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "E0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->E0(Landroid/content/Context;)I",
+        "registers": 4,
+        "signature": "public static int E0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 62,
+        "kind": "direct",
+        "name": "E1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->E1(Landroidx/appcompat/app/a;Landroid/graphics/Typeface;Ljava/lang/CharSequence;)V",
+        "registers": 11,
+        "signature": "public static void E1(androidx.appcompat.app.a, android.graphics.Typeface, java.lang.CharSequence)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "F",
+        "overload_index": 0,
+        "reference": "Ls8/T;->F(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String F(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "F0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->F0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String F0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "F1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->F1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void F1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "G",
+        "overload_index": 0,
+        "reference": "Ls8/T;->G(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String G(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 29,
+        "kind": "direct",
+        "name": "G0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->G0(Landroid/content/Context;)Ljava/io/File;",
+        "registers": 7,
+        "signature": "public static java.io.File G0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "G1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->G1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void G1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "H",
+        "overload_index": 0,
+        "reference": "Ls8/T;->H(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String H(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "H0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->H0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String H0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "H1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->H1(Landroid/content/Context;J)V",
+        "registers": 8,
+        "signature": "public static void H1(android.content.Context, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 38,
+        "kind": "direct",
+        "name": "I",
+        "overload_index": 0,
+        "reference": "Ls8/T;->I(Landroid/content/Context;)Z",
+        "registers": 8,
+        "signature": "public static boolean I(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "I0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->I0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String I0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "I1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->I1(Landroid/content/Context;J)V",
+        "registers": 8,
+        "signature": "public static void I1(android.content.Context, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 87,
+        "kind": "direct",
+        "name": "J",
+        "overload_index": 0,
+        "reference": "Ls8/T;->J(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;",
+        "registers": 11,
+        "signature": "private static java.lang.String J(java.lang.String, java.lang.String, java.lang.String, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 9,
+        "kind": "direct",
+        "name": "J0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->J0(Ljava/util/Date;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String J0(java.util.Date, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 28,
+        "kind": "direct",
+        "name": "J1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->J1(Landroid/content/Context;Ljava/util/HashSet;)V",
+        "registers": 6,
+        "signature": "public static void J1(android.content.Context, java.util.HashSet)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 597,
+        "kind": "direct",
+        "name": "K",
+        "overload_index": 0,
+        "reference": "Ls8/T;->K(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 12,
+        "signature": "public static java.lang.String K(java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 110,
+        "kind": "direct",
+        "name": "K0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->K0(Ljava/util/Date;Ljava/lang/String;Ljava/util/TimeZone;)Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public static java.lang.String K0(java.util.Date, java.lang.String, java.util.TimeZone)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "K1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->K1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void K1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "L",
+        "overload_index": 0,
+        "reference": "Ls8/T;->L(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String L(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 15,
+        "kind": "direct",
+        "name": "L0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->L0(Landroid/content/Context;)I",
+        "registers": 5,
+        "signature": "public static int L0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 25,
+        "kind": "direct",
+        "name": "L1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->L1(Landroid/content/Context;)V",
+        "registers": 7,
+        "signature": "public static void L1(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 127,
+        "kind": "direct",
+        "name": "M",
+        "overload_index": 0,
+        "reference": "Ls8/T;->M(Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String M(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 29,
+        "kind": "direct",
+        "name": "M0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->M0(Landroid/content/Context;)Ljava/io/File;",
+        "registers": 7,
+        "signature": "public static java.io.File M0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 26,
+        "kind": "direct",
+        "name": "M1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->M1(Landroid/content/Context;)V",
+        "registers": 7,
+        "signature": "public static void M1(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "N",
+        "overload_index": 0,
+        "reference": "Ls8/T;->N(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String N(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 40,
+        "kind": "direct",
+        "name": "N0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->N0(Landroid/content/Context;)Ls8/T$b;",
+        "registers": 7,
+        "signature": "public static s8.T$b N0(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 48,
+        "kind": "direct",
+        "name": "N1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->N1(Landroid/content/Context;Z)V",
+        "registers": 6,
+        "signature": "public static void N1(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 184,
+        "kind": "direct",
+        "name": "O",
+        "overload_index": 0,
+        "reference": "Ls8/T;->O(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 11,
+        "signature": "public static java.lang.String O(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "O0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->O0(Ljava/io/File;)Landroid/net/Uri;",
+        "registers": 6,
+        "signature": "public static android.net.Uri O0(java.io.File)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 48,
+        "kind": "direct",
+        "name": "O1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->O1(Landroid/content/Context;Z)V",
+        "registers": 7,
+        "signature": "public static void O1(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "P",
+        "overload_index": 0,
+        "reference": "Ls8/T;->P(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String P(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "P0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->P0(Landroid/content/Context;)Ljava/io/File;",
+        "registers": 6,
+        "signature": "public static java.io.File P0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "P1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->P1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public static void P1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 7,
+        "kind": "direct",
+        "name": "Q",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Q(Landroid/content/Context;)Z",
+        "registers": 4,
+        "signature": "public static boolean Q(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "Q0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Q0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "private static java.lang.String Q0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 28,
+        "kind": "direct",
+        "name": "Q1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Q1(Landroid/content/Context;I)V",
+        "registers": 6,
+        "signature": "public static void Q1(android.content.Context, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 46,
+        "kind": "direct",
+        "name": "R",
+        "overload_index": 0,
+        "reference": "Ls8/T;->R()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String R()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "R0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->R0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean R0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 150,
+        "kind": "direct",
+        "name": "R1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->R1(Landroid/content/Context;II)Z",
+        "registers": 12,
+        "signature": "public static boolean R1(android.content.Context, int, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 136,
+        "kind": "direct",
+        "name": "S",
+        "overload_index": 0,
+        "reference": "Ls8/T;->S(JZ)Ljava/lang/String;",
+        "registers": 13,
+        "signature": "public static java.lang.String S(long, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "S0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->S0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean S0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "S1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->S1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void S1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 34,
+        "kind": "direct",
+        "name": "T",
+        "overload_index": 0,
+        "reference": "Ls8/T;->T(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "private static java.lang.String T(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "T0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->T0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean T0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "T1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->T1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void T1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 34,
+        "kind": "direct",
+        "name": "U",
+        "overload_index": 0,
+        "reference": "Ls8/T;->U(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "private static java.lang.String U(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "U0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->U0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean U0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 36,
+        "kind": "direct",
+        "name": "U1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->U1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public static void U1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "V",
+        "overload_index": 0,
+        "reference": "Ls8/T;->V(Landroid/content/Context;)F",
+        "registers": 5,
+        "signature": "public static float V(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "V0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->V0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean V0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 36,
+        "kind": "direct",
+        "name": "V1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->V1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void V1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 38,
+        "kind": "direct",
+        "name": "W",
+        "overload_index": 0,
+        "reference": "Ls8/T;->W(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public static java.lang.String W(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "W0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->W0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean W0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 28,
+        "kind": "direct",
+        "name": "W1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->W1(Landroid/content/Context;Ljava/util/HashSet;)V",
+        "registers": 7,
+        "signature": "public static void W1(android.content.Context, java.util.HashSet)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "X",
+        "overload_index": 0,
+        "reference": "Ls8/T;->X(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String X(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 9,
+        "kind": "direct",
+        "name": "X0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->X0(Ljava/util/Date;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String X0(java.util.Date)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 26,
+        "kind": "direct",
+        "name": "X1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->X1(Landroid/content/Context;)V",
+        "registers": 6,
+        "signature": "public static void X1(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "Y",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Y(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 5,
+        "signature": "private static java.lang.String Y(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 30,
+        "kind": "direct",
+        "name": "Y0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Y0(Ljava/util/Date;Ljava/util/TimeZone;)Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public static java.lang.String Y0(java.util.Date, java.util.TimeZone)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "Y1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Y1(Landroid/content/Context;Ljava/util/Set;)V",
+        "registers": 6,
+        "signature": "public static void Y1(android.content.Context, java.util.Set)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 32,
+        "kind": "direct",
+        "name": "Z",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 9,
+        "signature": "public static java.io.File Z(android.content.Context, java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "Z0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Z0(Landroid/content/Context;)V",
+        "registers": 7,
+        "signature": "public static void Z0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 34,
+        "kind": "direct",
+        "name": "Z1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->Z1(Landroid/content/Context;I)V",
+        "registers": 6,
+        "signature": "public static void Z1(android.content.Context, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "a",
+        "overload_index": 0,
+        "reference": "Ls8/T;->a(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)Z",
+        "registers": 7,
+        "signature": "public static synthetic boolean a(java.lang.String, java.io.File, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 60,
+        "kind": "direct",
+        "name": "a0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->a0(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 8,
+        "signature": "public static java.io.File a0(android.content.Context, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 36,
+        "kind": "direct",
+        "name": "a1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->a1(Landroid/app/Activity;J)V",
+        "registers": 10,
+        "signature": "public static void a1(android.app.Activity, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 34,
+        "kind": "direct",
+        "name": "a2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->a2(Landroid/content/Context;I)V",
+        "registers": 7,
+        "signature": "public static void a2(android.content.Context, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 56,
+        "kind": "direct",
+        "name": "b",
+        "overload_index": 0,
+        "reference": "Ls8/T;->b([B)Ljava/lang/String;",
+        "registers": 9,
+        "signature": "private static java.lang.String b(byte[])",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 14,
+        "kind": "direct",
+        "name": "b0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->b0(Landroid/content/Context;)Ljava/io/File;",
+        "registers": 6,
+        "signature": "public static java.io.File b0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 24,
+        "kind": "direct",
+        "name": "b1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->b1(Landroid/app/Activity;)V",
+        "registers": 8,
+        "signature": "public static void b1(android.app.Activity)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 43,
+        "kind": "direct",
+        "name": "b2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->b2(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void b2(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 43,
+        "kind": "direct",
+        "name": "c",
+        "overload_index": 0,
+        "reference": "Ls8/T;->c(Landroid/graphics/BitmapFactory$Options;II)I",
+        "registers": 10,
+        "signature": "public static int c(android.graphics.BitmapFactory$Options, int, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "c0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->c0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String c0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 40,
+        "kind": "direct",
+        "name": "c1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->c1(Landroid/app/Activity;ZJ)V",
+        "registers": 9,
+        "signature": "public static void c1(android.app.Activity, boolean, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 33,
+        "kind": "direct",
+        "name": "c2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->c2(Landroid/content/Context;J)V",
+        "registers": 7,
+        "signature": "public static void c2(android.content.Context, long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 83,
+        "kind": "direct",
+        "name": "d",
+        "overload_index": 0,
+        "reference": "Ls8/T;->d(Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 10,
+        "signature": "public static java.lang.String d(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 31,
+        "kind": "direct",
+        "name": "d0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->d0(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "private static java.lang.String d0(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 38,
+        "kind": "direct",
+        "name": "d1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->d1(Landroid/app/Activity;)V",
+        "registers": 6,
+        "signature": "public static void d1(android.app.Activity)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 36,
+        "kind": "direct",
+        "name": "d2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->d2(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public static void d2(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 37,
+        "kind": "direct",
+        "name": "e",
+        "overload_index": 0,
+        "reference": "Ls8/T;->e(Landroid/app/Activity;)V",
+        "registers": 8,
+        "signature": "public static void e(android.app.Activity)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 44,
+        "kind": "direct",
+        "name": "e0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->e0(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 8,
+        "signature": "public static java.io.File e0(android.content.Context, java.lang.String, java.lang.Long, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 38,
+        "kind": "direct",
+        "name": "e1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->e1(Landroid/app/Activity;)V",
+        "registers": 6,
+        "signature": "public static void e1(android.app.Activity)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 41,
+        "kind": "direct",
+        "name": "e2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->e2(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void e2(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 11,
+        "kind": "direct",
+        "name": "f",
+        "overload_index": 0,
+        "reference": "Ls8/T;->f(Landroid/app/Activity;I)V",
+        "registers": 5,
+        "signature": "public static void f(android.app.Activity, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 26,
+        "kind": "direct",
+        "name": "f0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->f0(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 8,
+        "signature": "public static java.io.File f0(android.content.Context, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 11,
+        "kind": "direct",
+        "name": "f1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->f1(Landroid/app/Activity;)V",
+        "registers": 6,
+        "signature": "public static void f1(android.app.Activity)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 28,
+        "kind": "direct",
+        "name": "f2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->f2(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 7,
+        "signature": "public static void f2(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "g",
+        "overload_index": 0,
+        "reference": "Ls8/T;->g(D)D",
+        "registers": 7,
+        "signature": "public static double g(double)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 14,
+        "kind": "direct",
+        "name": "g0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->g0(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 6,
+        "signature": "public static java.io.File g0(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 7,
+        "kind": "direct",
+        "name": "g1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->g1(Landroid/content/Context;Landroid/content/Intent;Landroid/net/Uri;)V",
+        "registers": 6,
+        "signature": "public static void g1(android.content.Context, android.content.Intent, android.net.Uri)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 11,
+        "kind": "direct",
+        "name": "g2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->g2(Landroid/content/Context;Landroid/view/MenuItem;)V",
+        "registers": 5,
+        "signature": "public static void g2(android.content.Context, android.view.MenuItem)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 24,
+        "kind": "direct",
+        "name": "h",
+        "overload_index": 0,
+        "reference": "Ls8/T;->h(Landroid/content/Context;I)I",
+        "registers": 6,
+        "signature": "public static int h(android.content.Context, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 19,
+        "kind": "direct",
+        "name": "h0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->h0(Landroid/content/Context;)Ljava/io/File;",
+        "registers": 7,
+        "signature": "public static java.io.File h0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 87,
+        "kind": "direct",
+        "name": "h1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->h1(Landroid/app/Activity;Ljava/lang/String;Z)V",
+        "registers": 8,
+        "signature": "public static void h1(android.app.Activity, java.lang.String, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 11,
+        "kind": "direct",
+        "name": "h2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->h2(Landroid/view/MenuItem;I)V",
+        "registers": 6,
+        "signature": "public static void h2(android.view.MenuItem, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 35,
+        "kind": "direct",
+        "name": "i",
+        "overload_index": 0,
+        "reference": "Ls8/T;->i(Ljava/lang/String;II)Landroid/graphics/Bitmap;",
+        "registers": 9,
+        "signature": "public static android.graphics.Bitmap i(java.lang.String, int, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 107,
+        "kind": "direct",
+        "name": "i0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->i0(Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String i0(java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 71,
+        "kind": "direct",
+        "name": "i1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->i1(Ljava/lang/String;)Z",
+        "registers": 7,
+        "signature": "public static boolean i1(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 35,
+        "kind": "direct",
+        "name": "i2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->i2(Landroid/content/Context;Ls8/T$b;)Z",
+        "registers": 6,
+        "signature": "public static boolean i2(android.content.Context, s8.T$b)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 101,
+        "kind": "direct",
+        "name": "j",
+        "overload_index": 0,
+        "reference": "Ls8/T;->j(Landroid/content/Context;)V",
+        "registers": 11,
+        "signature": "public static void j(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 11,
+        "kind": "direct",
+        "name": "j0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->j0(Z)I",
+        "registers": 3,
+        "signature": "public static int j0(boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 30,
+        "kind": "direct",
+        "name": "j1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->j1(Landroid/content/Context;)Z",
+        "registers": 5,
+        "signature": "public static boolean j1(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "j2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->j2(Landroid/content/Context;Z)V",
+        "registers": 6,
+        "signature": "public static void j2(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 15,
+        "kind": "direct",
+        "name": "k",
+        "overload_index": 0,
+        "reference": "Ls8/T;->k(Ljava/lang/String;)Lorg/json/JSONObject;",
+        "registers": 7,
+        "signature": "public static org.json.JSONObject k(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 34,
+        "kind": "direct",
+        "name": "k0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->k0(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "private static java.lang.String k0(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "k1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->k1(Landroid/content/Context;)Z",
+        "registers": 7,
+        "signature": "public static boolean k1(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "k2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->k2(Landroid/content/Context;Z)V",
+        "registers": 6,
+        "signature": "public static void k2(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 36,
+        "kind": "direct",
+        "name": "l",
+        "overload_index": 0,
+        "reference": "Ls8/T;->l(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;",
+        "registers": 7,
+        "signature": "public static java.io.File l(android.content.Context, java.lang.String, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "l0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->l0(Landroid/content/Context;)I",
+        "registers": 7,
+        "signature": "public static int l0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 43,
+        "kind": "direct",
+        "name": "l1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->l1(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean l1(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "l2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->l2(Landroid/content/Context;Z)V",
+        "registers": 6,
+        "signature": "public static void l2(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 48,
+        "kind": "direct",
+        "name": "m",
+        "overload_index": 0,
+        "reference": "Ls8/T;->m(Ljava/util/Date;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String m(java.util.Date)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 61,
+        "kind": "direct",
+        "name": "m0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->m0(Landroid/content/Context;ZZ)Landroid/content/Intent;",
+        "registers": 10,
+        "signature": "public static android.content.Intent m0(android.content.Context, boolean, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 3,
+        "kind": "direct",
+        "name": "m1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->m1()Z",
+        "registers": 3,
+        "signature": "public static boolean m1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "m2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->m2(Landroid/content/Context;Z)V",
+        "registers": 6,
+        "signature": "public static void m2(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 73,
+        "kind": "direct",
+        "name": "n",
+        "overload_index": 0,
+        "reference": "Ls8/T;->n(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 9,
+        "signature": "public static java.lang.String n(java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 33,
+        "kind": "direct",
+        "name": "n0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->n0(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;",
+        "registers": 8,
+        "signature": "public static android.graphics.drawable.Drawable n0(android.content.Context, int)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 3,
+        "kind": "direct",
+        "name": "n1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->n1()Z",
+        "registers": 5,
+        "signature": "public static boolean n1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "n2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->n2(Landroid/content/Context;Z)V",
+        "registers": 7,
+        "signature": "public static void n2(android.content.Context, boolean)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 26,
+        "kind": "direct",
+        "name": "o",
+        "overload_index": 0,
+        "reference": "Ls8/T;->o(Landroid/app/Activity;)Landroid/content/Intent;",
+        "registers": 7,
+        "signature": "public static android.content.Intent o(android.app.Activity)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 28,
+        "kind": "direct",
+        "name": "o0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->o0(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Integer;",
+        "registers": 8,
+        "signature": "public static java.lang.Integer o0(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 3,
+        "kind": "direct",
+        "name": "o1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->o1()Z",
+        "registers": 5,
+        "signature": "public static boolean o1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 38,
+        "kind": "direct",
+        "name": "o2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->o2(Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String o2(java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "private",
+          "static"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "p",
+        "overload_index": 0,
+        "reference": "Ls8/T;->p(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 5,
+        "signature": "private static java.lang.String p(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "p0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->p0(Landroid/content/Context;)J",
+        "registers": 7,
+        "signature": "public static long p0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 3,
+        "kind": "direct",
+        "name": "p1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->p1()Z",
+        "registers": 5,
+        "signature": "public static boolean p1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 6,
+        "kind": "direct",
+        "name": "p2",
+        "overload_index": 0,
+        "reference": "Ls8/T;->p2()Z",
+        "registers": 2,
+        "signature": "public static boolean p2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "q",
+        "overload_index": 0,
+        "reference": "Ls8/T;->q(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String q(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "q0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->q0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String q0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "q1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->q1()Z",
+        "registers": 5,
+        "signature": "public static boolean q1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 30,
+        "kind": "direct",
+        "name": "r",
+        "overload_index": 0,
+        "reference": "Ls8/T;->r(Ljava/util/Date;Ljava/util/TimeZone;)Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public static java.lang.String r(java.util.Date, java.util.TimeZone)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "r0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->r0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String r0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "r1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->r1()Z",
+        "registers": 6,
+        "signature": "public static boolean r1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 39,
+        "kind": "direct",
+        "name": "s",
+        "overload_index": 0,
+        "reference": "Ls8/T;->s(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String s(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "s0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->s0(Landroid/content/Context;)I",
+        "registers": 5,
+        "signature": "public static int s0(android.content.Context)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "s1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->s1()Z",
+        "registers": 6,
+        "signature": "public static boolean s1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 22,
+        "kind": "direct",
+        "name": "t",
+        "overload_index": 0,
+        "reference": "Ls8/T;->t(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String t(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "t0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->t0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String t0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "t1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->t1()Z",
+        "registers": 4,
+        "signature": "public static boolean t1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "u",
+        "overload_index": 0,
+        "reference": "Ls8/T;->u(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String u(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 23,
+        "kind": "direct",
+        "name": "u0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->u0(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String u0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 16,
+        "kind": "direct",
+        "name": "u1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->u1()Z",
+        "registers": 5,
+        "signature": "public static boolean u1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "v",
+        "overload_index": 0,
+        "reference": "Ls8/T;->v(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public static java.lang.String v(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "v0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->v0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean v0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "v1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->v1(Lorg/json/JSONObject;)Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public static java.lang.String v1(org.json.JSONObject)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 17,
+        "kind": "direct",
+        "name": "w",
+        "overload_index": 0,
+        "reference": "Ls8/T;->w(Landroid/content/Context;)J",
+        "registers": 7,
+        "signature": "public static long w(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "w0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->w0(Landroid/content/Context;)Ljava/util/Set;",
+        "registers": 7,
+        "signature": "public static java.util.Set w0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 25,
+        "kind": "direct",
+        "name": "w1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->w1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 8,
+        "signature": "public static void w1(android.content.Context, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "x",
+        "overload_index": 0,
+        "reference": "Ls8/T;->x(Landroid/content/Context;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String x(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 18,
+        "kind": "direct",
+        "name": "x0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->x0(J)J",
+        "registers": 8,
+        "signature": "public static long x0(long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 130,
+        "kind": "direct",
+        "name": "x1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->x1(Landroid/content/Context;Ljava/lang/String;)V",
+        "registers": 10,
+        "signature": "public static void x1(android.content.Context, java.lang.String)",
+        "try_blocks": 1
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "y",
+        "overload_index": 0,
+        "reference": "Ls8/T;->y(Landroid/content/Context;)Ljava/util/Set;",
+        "registers": 7,
+        "signature": "public static java.util.Set y(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 27,
+        "kind": "direct",
+        "name": "y0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->y0(Landroid/content/Context;)Z",
+        "registers": 6,
+        "signature": "public static boolean y0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 41,
+        "kind": "direct",
+        "name": "y1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->y1(Landroid/content/Context;)V",
+        "registers": 5,
+        "signature": "public static void y1(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 9,
+        "kind": "direct",
+        "name": "z",
+        "overload_index": 0,
+        "reference": "Ls8/T;->z(Ljava/util/Date;)Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public static java.lang.String z(java.util.Date)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 53,
+        "kind": "direct",
+        "name": "z0",
+        "overload_index": 0,
+        "reference": "Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet;",
+        "registers": 7,
+        "signature": "public static java.util.TreeSet z0(android.content.Context)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static"
+        ],
+        "code_units": 60,
+        "kind": "direct",
+        "name": "z1",
+        "overload_index": 0,
+        "reference": "Ls8/T;->z1(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public static java.lang.String z1(android.content.Context, java.lang.String, java.io.File, java.lang.String)",
+        "try_blocks": 1
+      }
+    ],
+    "name": "s8.T",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "s8.T (classes3.dex) extends java.lang.Object: 5 fields, 173 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Ls8/T;"
+    }
+  ],
+  "links": []
+}

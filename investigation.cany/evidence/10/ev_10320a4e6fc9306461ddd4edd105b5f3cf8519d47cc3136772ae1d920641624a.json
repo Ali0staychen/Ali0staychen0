@@ -1,0 +1,264 @@
+{
+  "id": "ev_10320a4e6fc9306461ddd4edd105b5f3cf8519d47cc3136772ae1d920641624a",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Notification"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/app/INotificationSideChannel;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "android.support.v4.app.INotificationSideChannel",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/v4/app/INotificationSideChannel$Default;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.v4.app.INotificationSideChannel$Default",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroid/support/v4/app/INotificationSideChannel$Stub;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 4,
+        "name": "android.support.v4.app.INotificationSideChannel$Stub",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroid/support/v4/app/INotificationSideChannel$Stub$Proxy;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 6,
+        "name": "android.support.v4.app.INotificationSideChannel$Stub$Proxy",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroid/support/v4/app/INotificationSideChannel$_Parcel;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "android.support.v4.app.INotificationSideChannel$_Parcel",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/CommonNotificationBuilder;",
+        "dex": "classes3.dex",
+        "fields": 9,
+        "methods": 19,
+        "name": "com.google.firebase.messaging.CommonNotificationBuilder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/CommonNotificationBuilder$DisplayNotificationInfo;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 1,
+        "name": "com.google.firebase.messaging.CommonNotificationBuilder$DisplayNotificationInfo",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/Constants$MessageNotificationKeys;",
+        "dex": "classes3.dex",
+        "fields": 33,
+        "methods": 1,
+        "name": "com.google.firebase.messaging.Constants$MessageNotificationKeys",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/google/firebase/messaging/DisplayNotification;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 6,
+        "name": "com.google.firebase.messaging.DisplayNotification",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/NotificationParams;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 29,
+        "name": "com.google.firebase.messaging.NotificationParams",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/ProxyNotificationInitializer;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.google.firebase.messaging.ProxyNotificationInitializer",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/ProxyNotificationPreferences;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "com.google.firebase.messaging.ProxyNotificationPreferences",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/messaging/RemoteMessage$Notification;",
+        "dex": "classes3.dex",
+        "fields": 26,
+        "methods": 29,
+        "name": "com.google.firebase.messaging.RemoteMessage$Notification",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/ApiGson$EmailNotification;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 17,
+        "name": "com.journey.app.mvvm.service.ApiGson$EmailNotification",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/ApiGson$EmailNotification$Creator;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.ApiGson$EmailNotification$Creator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/ApiGson$SetupEmailNotificationResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.ApiGson$SetupEmailNotificationResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/ApiGson$VerifyEmailNotificationCodeResponseGson;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.service.ApiGson$VerifyEmailNotificationCodeResponseGson",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/ApiService$setupEmailNotification$2;",
+        "dex": "classes3.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.ApiService$setupEmailNotification$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/service/ApiService$verifyEmailNotificationCode$2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.service.ApiService$verifyEmailNotificationCode$2",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 19,
+    "query": "Notification"
+  },
+  "summary": "19 of 32886 classes match \"Notification\" in 4 DEX file(s); showing 19.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 19,
+    "total": 19
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

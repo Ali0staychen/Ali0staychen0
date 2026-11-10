@@ -1,0 +1,156 @@
+{
+  "id": "ev_55d0f5452e29e7a24c5b3af09e0d57aa21ed764f47efed702daf214f8cad3c19",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "s8/T"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/T;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 173,
+        "name": "s8.T",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/T$a;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 1,
+        "name": "s8.T$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Ls8/T$b;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "s8.T$b",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/T0;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "s8.T0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/t;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "s8.t",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Ls8/t0;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "s8.t0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Ls8/t0$a;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "s8.t0$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Ls8/t0$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "s8.t0$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Ls8/t0$c;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "s8.t0$c",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 9,
+    "query": "s8/T"
+  },
+  "summary": "9 of 32886 classes match \"s8/T\" in 4 DEX file(s); showing 9.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 9,
+    "total": 9
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

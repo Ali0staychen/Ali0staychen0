@@ -1,0 +1,267 @@
+{
+  "id": "ev_869ec36bd30b72d44c8e00049ff9d0deb1c9243cf4b1ab948379b2c06e531217",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "s8.T",
+    "java_source": false,
+    "limit": 2000,
+    "method_name": "z0",
+    "offset": 0,
+    "overload_index": 0,
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "static"
+    ],
+    "class": "Ls8/T;",
+    "dex": "classes3.dex",
+    "ins": 1,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v3, v6",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x71",
+        "text": "invoke-static {v3}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;",
+        "units": 3
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0005",
+        "opcode": "0x07",
+        "text": "move-object v3, v5",
+        "units": 1
+      },
+      {
+        "offset": "0006",
+        "opcode": "0x22",
+        "text": "new-instance v0, Ljava/util/TreeSet;",
+        "units": 2
+      },
+      {
+        "offset": "0008",
+        "opcode": "0x12",
+        "text": "const/4 v5, 5",
+        "units": 1
+      },
+      {
+        "offset": "0009",
+        "opcode": "0x70",
+        "text": "invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x12",
+        "text": "const/4 v5, 1",
+        "units": 1
+      },
+      {
+        "offset": "000d",
+        "opcode": "0x12",
+        "text": "const/4 v5, 1",
+        "units": 1
+      },
+      {
+        "offset": "000e",
+        "opcode": "0x01",
+        "text": "move v1, v5",
+        "units": 1
+      },
+      {
+        "offset": "000f",
+        "opcode": "0x13",
+        "text": "const/16 v5, 8",
+        "units": 2
+      },
+      {
+        "offset": "0011",
+        "opcode": "0x01",
+        "text": "move v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "0012",
+        "opcode": "0x35",
+        "text": "if-ge v1, v2, :0021",
+        "units": 2
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x12",
+        "text": "const/4 v5, 4",
+        "units": 1
+      },
+      {
+        "offset": "0015",
+        "opcode": "0x71",
+        "text": "invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "0018",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0019",
+        "opcode": "0x07",
+        "text": "move-object v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "001a",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v2}, Ljava/util/TreeSet;->add(Ljava/lang/Object;)Z",
+        "units": 3
+      },
+      {
+        "offset": "001d",
+        "opcode": "0xd8",
+        "text": "add-int/lit8 v1, v1, 1",
+        "units": 2
+      },
+      {
+        "offset": "001f",
+        "opcode": "0x12",
+        "text": "const/4 v5, 2",
+        "units": 1
+      },
+      {
+        "offset": "0020",
+        "opcode": "0x28",
+        "text": "goto :000f",
+        "units": 1
+      },
+      {
+        "offset": "0021",
+        "opcode": "0x12",
+        "text": "const/4 v5, 5",
+        "units": 1
+      },
+      {
+        "offset": "0022",
+        "opcode": "0x1a",
+        "text": "const-string v5, \"reminder_day_2\"",
+        "units": 2
+      },
+      {
+        "offset": "0024",
+        "opcode": "0x07",
+        "text": "move-object v1, v5",
+        "units": 1
+      },
+      {
+        "offset": "0025",
+        "opcode": "0x72",
+        "text": "invoke-interface {v3, v1, v0}, Landroid/content/SharedPreferences;->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;",
+        "units": 3
+      },
+      {
+        "offset": "0028",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0029",
+        "opcode": "0x07",
+        "text": "move-object v3, v5",
+        "units": 1
+      },
+      {
+        "offset": "002a",
+        "opcode": "0x22",
+        "text": "new-instance v0, Ljava/util/TreeSet;",
+        "units": 2
+      },
+      {
+        "offset": "002c",
+        "opcode": "0x12",
+        "text": "const/4 v5, 3",
+        "units": 1
+      },
+      {
+        "offset": "002d",
+        "opcode": "0x70",
+        "text": "invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "0030",
+        "opcode": "0x12",
+        "text": "const/4 v5, 2",
+        "units": 1
+      },
+      {
+        "offset": "0031",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v3}, Ljava/util/TreeSet;->addAll(Ljava/util/Collection;)Z",
+        "units": 3
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x11",
+        "text": "return-object v0",
+        "units": 1
+      }
+    ],
+    "instructions_total": 33,
+    "java_source": {
+      "status": "not_requested"
+    },
+    "listing": "0000: move-object v3, v6\n0001: invoke-static {v3}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;\n0004: move-result-object v5\n0005: move-object v3, v5\n0006: new-instance v0, Ljava/util/TreeSet;\n0008: const/4 v5, 5\n0009: invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V\n000c: const/4 v5, 1\n000d: const/4 v5, 1\n000e: move v1, v5\n000f: const/16 v5, 8\n0011: move v2, v5\n0012: if-ge v1, v2, :0021\n0014: const/4 v5, 4\n0015: invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;\n0018: move-result-object v5\n0019: move-object v2, v5\n001a: invoke-virtual {v0, v2}, Ljava/util/TreeSet;->add(Ljava/lang/Object;)Z\n001d: add-int/lit8 v1, v1, 1\n001f: const/4 v5, 2\n0020: goto :000f\n0021: const/4 v5, 5\n0022: const-string v5, \"reminder_day_2\"\n0024: move-object v1, v5\n0025: invoke-interface {v3, v1, v0}, Landroid/content/SharedPreferences;->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;\n0028: move-result-object v5\n0029: move-object v3, v5\n002a: new-instance v0, Ljava/util/TreeSet;\n002c: const/4 v5, 3\n002d: invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V\n0030: const/4 v5, 2\n0031: invoke-virtual {v0, v3}, Ljava/util/TreeSet;->addAll(Ljava/util/Collection;)Z\n0034: return-object v0",
+    "method": "Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet;",
+    "outs": 3,
+    "overload_index": 0,
+    "overloads": [
+      "public static java.util.TreeSet z0(android.content.Context)"
+    ],
+    "registers": 7,
+    "signature": "public static java.util.TreeSet z0(android.content.Context)",
+    "tries": []
+  },
+  "summary": "Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet; (classes3.dex): 33 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 33,
+    "total": 33
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet;"
+    }
+  ],
+  "links": []
+}

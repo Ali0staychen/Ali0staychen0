@@ -1,0 +1,170 @@
+{
+  "id": "ev_9bb3fd406ee7fc59c827c7920b7135e425095667619a14267198e388dd20498c",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "Ls8/a"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "LS8/a;",
+        "dex": "classes3.dex",
+        "fields": 13,
+        "methods": 18,
+        "name": "S8.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "LS8/a$a;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "S8.a$a",
+        "superclass": "S8.a$e"
+      },
+      {
+        "access": [],
+        "descriptor": "LS8/a$b;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "S8.a$b",
+        "superclass": "S8.a$e"
+      },
+      {
+        "access": [],
+        "descriptor": "LS8/a$c;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "S8.a$c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "LS8/a$d;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "S8.a$d",
+        "superclass": "S8.c"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "LS8/a$e;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "S8.a$e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/A;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "s8.A",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Ls8/A0;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "s8.A0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/a;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 10,
+        "name": "s8.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Ls8/a0;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "s8.a0",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Ls8/a1;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "s8.a1",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 11,
+    "query": "Ls8/a"
+  },
+  "summary": "11 of 32886 classes match \"Ls8/a\" in 4 DEX file(s); showing 11.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 11,
+    "total": 11
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

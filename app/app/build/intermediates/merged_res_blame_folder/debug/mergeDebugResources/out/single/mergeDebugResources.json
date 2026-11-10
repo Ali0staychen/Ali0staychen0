@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.journey.replica.app-debug-74:/xml_file_paths.xml.flat",
+        "source": "com.journey.replica.app-main-76:/xml/file_paths.xml"
+    }
+]

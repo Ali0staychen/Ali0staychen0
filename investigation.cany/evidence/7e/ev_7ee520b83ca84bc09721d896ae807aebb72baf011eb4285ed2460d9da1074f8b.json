@@ -1,0 +1,624 @@
+{
+  "id": "ev_7ee520b83ca84bc09721d896ae807aebb72baf011eb4285ed2460d9da1074f8b",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Location"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/BringIntoViewRequesterElement;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "androidx.compose.foundation.relocation.BringIntoViewRequesterElement",
+        "superclass": "M0.Z"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/a;",
+        "dex": "classes.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "androidx.compose.foundation.relocation.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/a$a;",
+        "dex": "classes.dex",
+        "fields": 7,
+        "methods": 2,
+        "name": "androidx.compose.foundation.relocation.a$a",
+        "superclass": "kotlin.coroutines.jvm.internal.d"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/b;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.compose.foundation.relocation.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/c;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.relocation.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "abstract",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/d;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "androidx.compose.foundation.relocation.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/e;",
+        "dex": "classes.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "androidx.compose.foundation.relocation.e",
+        "superclass": "androidx.compose.ui.d$c"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f;",
+        "dex": "classes.dex",
+        "fields": 5,
+        "methods": 9,
+        "name": "androidx.compose.foundation.relocation.f",
+        "superclass": "androidx.compose.ui.d$c"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f$a;",
+        "dex": "classes.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "androidx.compose.foundation.relocation.f$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f$b;",
+        "dex": "classes.dex",
+        "fields": 6,
+        "methods": 5,
+        "name": "androidx.compose.foundation.relocation.f$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f$b$a;",
+        "dex": "classes.dex",
+        "fields": 4,
+        "methods": 5,
+        "name": "androidx.compose.foundation.relocation.f$b$a",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f$b$a$a;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.compose.foundation.relocation.f$b$a$a",
+        "superclass": "kotlin.jvm.internal.q"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f$b$b;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "androidx.compose.foundation.relocation.f$b$b",
+        "superclass": "kotlin.coroutines.jvm.internal.l"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Landroidx/compose/foundation/relocation/f$c;",
+        "dex": "classes.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "androidx.compose.foundation.relocation.f$c",
+        "superclass": "kotlin.jvm.internal.u"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/fasterxml/jackson/core/JsonLocation;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 14,
+        "name": "com.fasterxml.jackson.core.JsonLocation",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zza;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.android.gms.internal.location.zza",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzaa;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzaa",
+        "superclass": "com.google.android.gms.internal.location.zzb"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzab;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.location.zzab",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzac;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzac",
+        "superclass": "com.google.android.gms.internal.location.zzae"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzad;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzad",
+        "superclass": "com.google.android.gms.internal.location.zzae"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzae;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.location.zzae",
+        "superclass": "com.google.android.gms.common.api.internal.e"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzaf;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.location.zzaf",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzag;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzag",
+        "superclass": "com.google.android.gms.common.api.a$a"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzah;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzah",
+        "superclass": "com.google.android.gms.common.api.internal.i$a"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzai;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.location.zzai",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzaj;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.google.android.gms.internal.location.zzaj",
+        "superclass": "com.google.android.gms.common.api.e"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzak;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzak",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzal;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzal",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzam;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzam",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzan;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzan",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzao;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzap;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzaq;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzaq",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzar;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzar",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzas;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzas",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzat;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzat",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzau;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzau",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzav;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzav",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzaw;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzaw",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzax;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzax",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzay;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzay",
+        "superclass": "com.google.android.gms.internal.location.zzba"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzaz;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.google.android.gms.internal.location.zzaz",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzb;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.google.android.gms.internal.location.zzb",
+        "superclass": "android.os.Binder"
+      },
+      {
+        "access": [
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzba;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.internal.location.zzba",
+        "superclass": "com.google.android.gms.common.api.internal.e"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzbb;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 14,
+        "name": "com.google.android.gms.internal.location.zzbb",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzbc;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzbc",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzbd;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzbd",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzbe;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzbe",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzbf;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.android.gms.internal.location.zzbf",
+        "superclass": "com.google.android.gms.common.api.a$a"
+      },
+      {
+        "access": [
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/google/android/gms/internal/location/zzbg;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 1,
+        "name": "com.google.android.gms.internal.location.zzbg",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 257,
+    "query": "Location"
+  },
+  "summary": "257 of 32886 classes match \"Location\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 257,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

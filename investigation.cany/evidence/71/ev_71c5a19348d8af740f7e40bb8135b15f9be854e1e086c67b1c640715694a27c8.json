@@ -1,0 +1,551 @@
+{
+  "id": "ev_71c5a19348d8af740f7e40bb8135b15f9be854e1e086c67b1c640715694a27c8",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Tag"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager;",
+        "dex": "classes2.dex",
+        "fields": 24,
+        "methods": 102,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$q"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 16,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 7,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;",
+        "dex": "classes2.dex",
+        "fields": 11,
+        "methods": 8,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState$a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$b;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 5,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$c;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$c",
+        "superclass": "androidx.recyclerview.widget.RecyclerView$r"
+      },
+      {
+        "access": [],
+        "descriptor": "Landroidx/recyclerview/widget/StaggeredGridLayoutManager$d;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 23,
+        "name": "androidx.recyclerview.widget.StaggeredGridLayoutManager$d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/TaggedFieldSerializer;",
+        "dex": "classes2.dex",
+        "fields": 5,
+        "methods": 11,
+        "name": "com.esotericsoftware.kryo.serializers.TaggedFieldSerializer",
+        "superclass": "com.esotericsoftware.kryo.serializers.FieldSerializer"
+      },
+      {
+        "access": [
+          "final"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/TaggedFieldSerializer$1;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.esotericsoftware.kryo.serializers.TaggedFieldSerializer$1",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract",
+          "annotation"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/TaggedFieldSerializer$Tag;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.serializers.TaggedFieldSerializer$Tag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/serializers/TaggedFieldSerializerConfig;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "com.esotericsoftware.kryo.serializers.TaggedFieldSerializerConfig",
+        "superclass": "com.esotericsoftware.kryo.serializers.FieldSerializerConfig"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/dynamiclinks/DynamicLink$SocialMetaTagParameters;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.google.firebase.dynamiclinks.DynamicLink$SocialMetaTagParameters",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/firebase/dynamiclinks/DynamicLink$SocialMetaTagParameters$Builder;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 8,
+        "name": "com.google.firebase.dynamiclinks.DynamicLink$SocialMetaTagParameters$Builder",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/firebase/firestore/AggregateField$CountAggregateField;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 2,
+        "name": "com.google.firebase.firestore.AggregateField$CountAggregateField",
+        "superclass": "com.google.firebase.firestore.AggregateField"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagDao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 6,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 12,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$2",
+        "superclass": "androidx.room.j"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$3",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$6",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$7;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$8;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$8",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDaoV2_Impl$9;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDaoV2_Impl$9",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 10,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$2",
+        "superclass": "androidx.room.j"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$3",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$4",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$5",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$6",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagDao_Impl$7;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagDao_Impl$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDao;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 20,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$10;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$10",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$11;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$11",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$12;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$12",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$13;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$13",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$14;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$14",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$15;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$15",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$16;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$16",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$17;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$17",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/TagWordBagDaoV2_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.TagWordBagDaoV2_Impl$2",
+        "superclass": "androidx.room.F"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 199,
+    "query": "Tag"
+  },
+  "summary": "199 of 32886 classes match \"Tag\" in 4 DEX file(s); showing 50.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 199,
+    "next_offset": 50
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

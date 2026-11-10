@@ -1,0 +1,91 @@
+{
+  "id": "ev_d1ffc05516000a92e890b054a2cd1cc6c02b9e9fc64fb44847dda42453211338",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.gson.WeatherGson$Weather",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "annotations": [
+      "Ldalvik/annotation/EnclosingClass; (system)",
+      "Ldalvik/annotation/InnerClass; (system)"
+    ],
+    "descriptor": "Lcom/journey/app/gson/WeatherGson$Weather;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public"
+        ],
+        "kind": "instance",
+        "name": "data",
+        "reference": "Lcom/journey/app/gson/WeatherGson$Weather;->data:Ljava/util/ArrayList;",
+        "type": "java.util.ArrayList"
+      },
+      {
+        "access": [
+          "final",
+          "synthetic"
+        ],
+        "kind": "instance",
+        "name": "this$0",
+        "reference": "Lcom/journey/app/gson/WeatherGson$Weather;->this$0:Lcom/journey/app/gson/WeatherGson;",
+        "type": "com.journey.app.gson.WeatherGson"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 10,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/gson/WeatherGson$Weather;-><init>(Lcom/journey/app/gson/WeatherGson;)V",
+        "registers": 6,
+        "signature": "public void <init>(com.journey.app.gson.WeatherGson)",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.gson.WeatherGson$Weather",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.gson.WeatherGson$Weather (classes3.dex) extends java.lang.Object: 2 fields, 1 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/gson/WeatherGson$Weather;"
+    }
+  ],
+  "links": []
+}

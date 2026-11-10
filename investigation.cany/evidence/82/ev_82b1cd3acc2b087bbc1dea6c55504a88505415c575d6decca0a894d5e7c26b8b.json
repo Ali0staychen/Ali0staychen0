@@ -1,0 +1,350 @@
+{
+  "id": "ev_82b1cd3acc2b087bbc1dea6c55504a88505415c575d6decca0a894d5e7c26b8b",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "com.journey.app.ReminderReceiver",
+    "java_source": false,
+    "limit": 2000,
+    "method_name": "onReceive",
+    "offset": 0,
+    "overload_index": 0,
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "public"
+    ],
+    "class": "Lcom/journey/app/ReminderReceiver;",
+    "dex": "classes3.dex",
+    "ins": 3,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v3, v7",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x71",
+        "text": "invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;",
+        "units": 3
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x0c",
+        "text": "move-result-object v6",
+        "units": 1
+      },
+      {
+        "offset": "0005",
+        "opcode": "0x07",
+        "text": "move-object v9, v6",
+        "units": 1
+      },
+      {
+        "offset": "0006",
+        "opcode": "0x12",
+        "text": "const/4 v5, 7",
+        "units": 1
+      },
+      {
+        "offset": "0007",
+        "opcode": "0x01",
+        "text": "move v0, v5",
+        "units": 1
+      },
+      {
+        "offset": "0008",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v9, v0}, Ljava/util/Calendar;->get(I)I",
+        "units": 3
+      },
+      {
+        "offset": "000b",
+        "opcode": "0x0a",
+        "text": "move-result v5",
+        "units": 1
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x01",
+        "text": "move v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "000d",
+        "opcode": "0x71",
+        "text": "invoke-static {v9}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "0010",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0011",
+        "opcode": "0x07",
+        "text": "move-object v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "0012",
+        "opcode": "0x71",
+        "text": "invoke-static {v8}, Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet;",
+        "units": 3
+      },
+      {
+        "offset": "0015",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0016",
+        "opcode": "0x07",
+        "text": "move-object v0, v5",
+        "units": 1
+      },
+      {
+        "offset": "0017",
+        "opcode": "0x22",
+        "text": "new-instance v1, Ljava/lang/StringBuilder;",
+        "units": 2
+      },
+      {
+        "offset": "0019",
+        "opcode": "0x12",
+        "text": "const/4 v5, 6",
+        "units": 1
+      },
+      {
+        "offset": "001a",
+        "opcode": "0x70",
+        "text": "invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V",
+        "units": 3
+      },
+      {
+        "offset": "001d",
+        "opcode": "0x12",
+        "text": "const/4 v6, 5",
+        "units": 1
+      },
+      {
+        "offset": "001e",
+        "opcode": "0x1a",
+        "text": "const-string v5, \"Alarm: \"",
+        "units": 2
+      },
+      {
+        "offset": "0020",
+        "opcode": "0x07",
+        "text": "move-object v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "0021",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+        "units": 3
+      },
+      {
+        "offset": "0024",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+        "units": 3
+      },
+      {
+        "offset": "0027",
+        "opcode": "0x1a",
+        "text": "const-string v5, \" | \"",
+        "units": 2
+      },
+      {
+        "offset": "0029",
+        "opcode": "0x07",
+        "text": "move-object v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "002a",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+        "units": 3
+      },
+      {
+        "offset": "002d",
+        "opcode": "0x1a",
+        "text": "const-string v5, \", \"",
+        "units": 2
+      },
+      {
+        "offset": "002f",
+        "opcode": "0x07",
+        "text": "move-object v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "0030",
+        "opcode": "0x71",
+        "text": "invoke-static {v2, v0}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "0033",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x07",
+        "text": "move-object v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "0035",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+        "units": 3
+      },
+      {
+        "offset": "0038",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "003b",
+        "opcode": "0x0c",
+        "text": "move-result-object v6",
+        "units": 1
+      },
+      {
+        "offset": "003c",
+        "opcode": "0x07",
+        "text": "move-object v1, v6",
+        "units": 1
+      },
+      {
+        "offset": "003d",
+        "opcode": "0x1a",
+        "text": "const-string v6, \"JourneyReminderReceiver\"",
+        "units": 2
+      },
+      {
+        "offset": "003f",
+        "opcode": "0x07",
+        "text": "move-object v2, v6",
+        "units": 1
+      },
+      {
+        "offset": "0040",
+        "opcode": "0x71",
+        "text": "invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+        "units": 3
+      },
+      {
+        "offset": "0043",
+        "opcode": "0x72",
+        "text": "invoke-interface {v0, v9}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z",
+        "units": 3
+      },
+      {
+        "offset": "0046",
+        "opcode": "0x0a",
+        "text": "move-result v5",
+        "units": 1
+      },
+      {
+        "offset": "0047",
+        "opcode": "0x01",
+        "text": "move v9, v5",
+        "units": 1
+      },
+      {
+        "offset": "0048",
+        "opcode": "0x38",
+        "text": "if-eqz v9, :004f",
+        "units": 2
+      },
+      {
+        "offset": "004a",
+        "opcode": "0x12",
+        "text": "const/4 v6, 7",
+        "units": 1
+      },
+      {
+        "offset": "004b",
+        "opcode": "0x70",
+        "text": "invoke-direct {v3, v8}, Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V",
+        "units": 3
+      },
+      {
+        "offset": "004e",
+        "opcode": "0x12",
+        "text": "const/4 v5, 6",
+        "units": 1
+      },
+      {
+        "offset": "004f",
+        "opcode": "0x12",
+        "text": "const/4 v6, 5",
+        "units": 1
+      },
+      {
+        "offset": "0050",
+        "opcode": "0x0e",
+        "text": "return-void",
+        "units": 1
+      }
+    ],
+    "instructions_total": 47,
+    "java_source": {
+      "status": "not_requested"
+    },
+    "listing": "0000: move-object v3, v7\n0001: invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;\n0004: move-result-object v6\n0005: move-object v9, v6\n0006: const/4 v5, 7\n0007: move v0, v5\n0008: invoke-virtual {v9, v0}, Ljava/util/Calendar;->get(I)I\n000b: move-result v5\n000c: move v9, v5\n000d: invoke-static {v9}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;\n0010: move-result-object v5\n0011: move-object v9, v5\n0012: invoke-static {v8}, Ls8/T;->z0(Landroid/content/Context;)Ljava/util/TreeSet;\n0015: move-result-object v5\n0016: move-object v0, v5\n0017: new-instance v1, Ljava/lang/StringBuilder;\n0019: const/4 v5, 6\n001a: invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V\n001d: const/4 v6, 5\n001e: const-string v5, \"Alarm: \"\n0020: move-object v2, v5\n0021: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\n0024: invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\n0027: const-string v5, \" | \"\n0029: move-object v2, v5\n002a: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\n002d: const-string v5, \", \"\n002f: move-object v2, v5\n0030: invoke-static {v2, v0}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;\n0033: move-result-object v5\n0034: move-object v2, v5\n0035: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\n0038: invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;\n003b: move-result-object v6\n003c: move-object v1, v6\n003d: const-string v6, \"JourneyReminderReceiver\"\n003f: move-object v2, v6\n0040: invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I\n0043: invoke-interface {v0, v9}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z\n0046: move-result v5\n0047: move v9, v5\n0048: if-eqz v9, :004f\n004a: const/4 v6, 7\n004b: invoke-direct {v3, v8}, Lcom/journey/app/ReminderReceiver;->e(Landroid/content/Context;)V\n004e: const/4 v5, 6\n004f: const/4 v6, 5\n0050: return-void",
+    "method": "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+    "outs": 2,
+    "overload_index": 0,
+    "overloads": [
+      "public void onReceive(android.content.Context, android.content.Intent)"
+    ],
+    "registers": 10,
+    "signature": "public void onReceive(android.content.Context, android.content.Intent)",
+    "tries": []
+  },
+  "summary": "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V (classes3.dex): 47 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 47,
+    "total": 47
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Lcom/journey/app/ReminderReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V"
+    }
+  ],
+  "links": []
+}

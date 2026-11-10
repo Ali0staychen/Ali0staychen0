@@ -1,0 +1,295 @@
+{
+  "id": "ev_a0f1e55761f84384847eec48c0993bbc96c3cc9d4d946c89eb676d152627d004",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "com.journey.app.EditorActivity",
+    "java_source": true,
+    "limit": 500,
+    "method_name": "onCreate",
+    "offset": 0,
+    "overload_index": 0,
+    "path": null
+  },
+  "result": {
+    "access": [
+      "protected"
+    ],
+    "class": "Lcom/journey/app/EditorActivity;",
+    "dex": "classes3.dex",
+    "ins": 2,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v2, v5",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x6f",
+        "text": "invoke-super {v2, v6}, Lcom/journey/app/l2;->onCreate(Landroid/os/Bundle;)V",
+        "units": 3
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x12",
+        "text": "const/4 v4, 3",
+        "units": 1
+      },
+      {
+        "offset": "0005",
+        "opcode": "0x70",
+        "text": "invoke-direct {v2}, Lcom/journey/app/EditorActivity;->R2()Lcom/journey/app/EditorActivity$w;",
+        "units": 3
+      },
+      {
+        "offset": "0008",
+        "opcode": "0x0c",
+        "text": "move-result-object v4",
+        "units": 1
+      },
+      {
+        "offset": "0009",
+        "opcode": "0x07",
+        "text": "move-object v6, v4",
+        "units": 1
+      },
+      {
+        "offset": "000a",
+        "opcode": "0x5b",
+        "text": "iput-object v6, v2, Lcom/journey/app/EditorActivity;->y:Lcom/journey/app/EditorActivity$w;",
+        "units": 2
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x12",
+        "text": "const/4 v4, 6",
+        "units": 1
+      },
+      {
+        "offset": "000d",
+        "opcode": "0x70",
+        "text": "invoke-direct {v2}, Lcom/journey/app/EditorActivity;->K2()V",
+        "units": 3
+      },
+      {
+        "offset": "0010",
+        "opcode": "0x12",
+        "text": "const/4 v4, 5",
+        "units": 1
+      },
+      {
+        "offset": "0011",
+        "opcode": "0x71",
+        "text": "invoke-static {v2}, Lcom/google/android/gms/location/k;->a(Landroid/app/Activity;)Lcom/google/android/gms/location/e;",
+        "units": 3
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x0c",
+        "text": "move-result-object v4",
+        "units": 1
+      },
+      {
+        "offset": "0015",
+        "opcode": "0x07",
+        "text": "move-object v6, v4",
+        "units": 1
+      },
+      {
+        "offset": "0016",
+        "opcode": "0x5b",
+        "text": "iput-object v6, v2, Lcom/journey/app/EditorActivity;->q:Lcom/google/android/gms/location/e;",
+        "units": 2
+      },
+      {
+        "offset": "0018",
+        "opcode": "0x12",
+        "text": "const/4 v4, 7",
+        "units": 1
+      },
+      {
+        "offset": "0019",
+        "opcode": "0x22",
+        "text": "new-instance v6, Lcom/journey/app/EditorActivity$L;",
+        "units": 2
+      },
+      {
+        "offset": "001b",
+        "opcode": "0x12",
+        "text": "const/4 v4, 3",
+        "units": 1
+      },
+      {
+        "offset": "001c",
+        "opcode": "0x70",
+        "text": "invoke-direct {v6, v2}, Lcom/journey/app/EditorActivity$L;-><init>(Lcom/journey/app/EditorActivity;)V",
+        "units": 3
+      },
+      {
+        "offset": "001f",
+        "opcode": "0x12",
+        "text": "const/4 v4, 5",
+        "units": 1
+      },
+      {
+        "offset": "0020",
+        "opcode": "0x5b",
+        "text": "iput-object v6, v2, Lcom/journey/app/EditorActivity;->x:Lcom/google/android/gms/location/i;",
+        "units": 2
+      },
+      {
+        "offset": "0022",
+        "opcode": "0x12",
+        "text": "const/4 v4, 7",
+        "units": 1
+      },
+      {
+        "offset": "0023",
+        "opcode": "0x22",
+        "text": "new-instance v6, Lcom/journey/app/EditorActivity$M;",
+        "units": 2
+      },
+      {
+        "offset": "0025",
+        "opcode": "0x12",
+        "text": "const/4 v4, 2",
+        "units": 1
+      },
+      {
+        "offset": "0026",
+        "opcode": "0x70",
+        "text": "invoke-direct {v6, v2}, Lcom/journey/app/EditorActivity$M;-><init>(Lcom/journey/app/EditorActivity;)V",
+        "units": 3
+      },
+      {
+        "offset": "0029",
+        "opcode": "0x12",
+        "text": "const/4 v4, 6",
+        "units": 1
+      },
+      {
+        "offset": "002a",
+        "opcode": "0x14",
+        "text": "const v0, 0xffffffff89a2212a",
+        "units": 3
+      },
+      {
+        "offset": "002d",
+        "opcode": "0x12",
+        "text": "const/4 v4, 7",
+        "units": 1
+      },
+      {
+        "offset": "002e",
+        "opcode": "0x12",
+        "text": "const/4 v4, 1",
+        "units": 1
+      },
+      {
+        "offset": "002f",
+        "opcode": "0x01",
+        "text": "move v1, v4",
+        "units": 1
+      },
+      {
+        "offset": "0030",
+        "opcode": "0x71",
+        "text": "invoke-static {v0, v1, v6}, Lh0/d;->c(IZLjava/lang/Object;)Lh0/b;",
+        "units": 3
+      },
+      {
+        "offset": "0033",
+        "opcode": "0x0c",
+        "text": "move-result-object v4",
+        "units": 1
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x07",
+        "text": "move-object v6, v4",
+        "units": 1
+      },
+      {
+        "offset": "0035",
+        "opcode": "0x12",
+        "text": "const/4 v4, 0",
+        "units": 1
+      },
+      {
+        "offset": "0036",
+        "opcode": "0x01",
+        "text": "move v0, v4",
+        "units": 1
+      },
+      {
+        "offset": "0037",
+        "opcode": "0x71",
+        "text": "invoke-static {v2, v0, v6, v1, v0}, Lb/e;->b(Landroidx/activity/j;LZ/q;LB9/p;ILjava/lang/Object;)V",
+        "units": 3
+      },
+      {
+        "offset": "003a",
+        "opcode": "0x12",
+        "text": "const/4 v4, 5",
+        "units": 1
+      },
+      {
+        "offset": "003b",
+        "opcode": "0x0e",
+        "text": "return-void",
+        "units": 1
+      }
+    ],
+    "instructions_total": 37,
+    "java_source": {
+      "status": "unavailable"
+    },
+    "listing": "0000: move-object v2, v5\n0001: invoke-super {v2, v6}, Lcom/journey/app/l2;->onCreate(Landroid/os/Bundle;)V\n0004: const/4 v4, 3\n0005: invoke-direct {v2}, Lcom/journey/app/EditorActivity;->R2()Lcom/journey/app/EditorActivity$w;\n0008: move-result-object v4\n0009: move-object v6, v4\n000a: iput-object v6, v2, Lcom/journey/app/EditorActivity;->y:Lcom/journey/app/EditorActivity$w;\n000c: const/4 v4, 6\n000d: invoke-direct {v2}, Lcom/journey/app/EditorActivity;->K2()V\n0010: const/4 v4, 5\n0011: invoke-static {v2}, Lcom/google/android/gms/location/k;->a(Landroid/app/Activity;)Lcom/google/android/gms/location/e;\n0014: move-result-object v4\n0015: move-object v6, v4\n0016: iput-object v6, v2, Lcom/journey/app/EditorActivity;->q:Lcom/google/android/gms/location/e;\n0018: const/4 v4, 7\n0019: new-instance v6, Lcom/journey/app/EditorActivity$L;\n001b: const/4 v4, 3\n001c: invoke-direct {v6, v2}, Lcom/journey/app/EditorActivity$L;-><init>(Lcom/journey/app/EditorActivity;)V\n001f: const/4 v4, 5\n0020: iput-object v6, v2, Lcom/journey/app/EditorActivity;->x:Lcom/google/android/gms/location/i;\n0022: const/4 v4, 7\n0023: new-instance v6, Lcom/journey/app/EditorActivity$M;\n0025: const/4 v4, 2\n0026: invoke-direct {v6, v2}, Lcom/journey/app/EditorActivity$M;-><init>(Lcom/journey/app/EditorActivity;)V\n0029: const/4 v4, 6\n002a: const v0, 0xffffffff89a2212a\n002d: const/4 v4, 7\n002e: const/4 v4, 1\n002f: move v1, v4\n0030: invoke-static {v0, v1, v6}, Lh0/d;->c(IZLjava/lang/Object;)Lh0/b;\n0033: move-result-object v4\n0034: move-object v6, v4\n0035: const/4 v4, 0\n0036: move v0, v4\n0037: invoke-static {v2, v0, v6, v1, v0}, Lb/e;->b(Landroidx/activity/j;LZ/q;LB9/p;ILjava/lang/Object;)V\n003a: const/4 v4, 5\n003b: return-void",
+    "method": "Lcom/journey/app/EditorActivity;->onCreate(Landroid/os/Bundle;)V",
+    "outs": 5,
+    "overload_index": 0,
+    "overloads": [
+      "protected void onCreate(android.os.Bundle)"
+    ],
+    "registers": 7,
+    "signature": "protected void onCreate(android.os.Bundle)",
+    "tries": []
+  },
+  "summary": "Lcom/journey/app/EditorActivity;->onCreate(Landroid/os/Bundle;)V (classes3.dex): 37 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "jadx_not_installed",
+      "message": "Java source was requested but JADX is not installed (Settings → Engines, the engine store, or PATH). The bytecode listing above is complete without it."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 37,
+    "total": 37
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Lcom/journey/app/EditorActivity;->onCreate(Landroid/os/Bundle;)V"
+    }
+  ],
+  "links": []
+}

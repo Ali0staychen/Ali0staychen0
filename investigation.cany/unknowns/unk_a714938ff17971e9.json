@@ -1,0 +1,17 @@
+{
+  "id": "unk_a714938ff17971e9",
+  "revision": 2,
+  "question": "What are the exact meaning/scale of entry sentiment (mood) and activity (motion/steps) values in Journey?",
+  "severity": "high",
+  "domain": "general",
+  "status": "resolved",
+  "probes": [
+    "Inspect local Room entity classes and DAO queries for sentiment/activity types and ranges",
+    "Find UI strings/classes related to mood picker and activity display"
+  ],
+  "evidence_for": [
+    "ev_46da14e45275ab8d1249b75207d73faca36dc6de4325ec0d65497892182f1a79"
+  ],
+  "evidence_against": [],
+  "resolution": "Exact original semantics not fully recovered statically: sentiment is Double and activity Integer in the entry model. Replica implements mood as selectable 1.0–5.0 values and activity/motion as step count (auto from step sensor when available, with manual input) as a documented estimate."
+}

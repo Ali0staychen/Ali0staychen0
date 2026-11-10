@@ -1,0 +1,32 @@
+{
+  "id": "ev_3acf23a970aebe2be338fea4299f2755fc219bb0c5098e6689bbfea0d0a15b30",
+  "subject": {
+    "kind": "engine",
+    "name": "adb"
+  },
+  "operation": "engines_adb_check",
+  "params": {},
+  "result": {
+    "available": false,
+    "error": null,
+    "path": null,
+    "remediation": "Install Android platform-tools, or run engines_install with engine \"adb\".",
+    "version": null
+  },
+  "summary": "adb is not installed. Install it from Settings → Engines, or run engines_install with engine \"adb\".",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "adb",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [],
+  "links": []
+}

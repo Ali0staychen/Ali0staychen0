@@ -1,0 +1,507 @@
+{
+  "id": "ev_dfff045ff96476832273e98d0250fb32e91d1405e95e0a8187e308195c89c790",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.Media",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/Media;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "Compressed",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->Compressed:Ljava/lang/Integer;",
+        "type": "java.lang.Integer"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "FileName",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->FileName:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "GoogleFId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->GoogleFId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "GoogleVersion",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->GoogleVersion:Ljava/lang/Long;",
+        "type": "java.lang.Long"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "JId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->JId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private"
+        ],
+        "kind": "instance",
+        "name": "LinkedAccountId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->LinkedAccountId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "MId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->MId:I",
+        "type": "int"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;-><clinit>()V",
+        "registers": 4,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 28,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Integer;)V",
+        "registers": 12,
+        "signature": "public void <init>(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, java.lang.Integer)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 84,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->copy$default(Lcom/journey/app/mvvm/models/entity/Media;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Integer;ILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/Media;",
+        "registers": 13,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.Media copy$default(com.journey.app.mvvm.models.entity.Media, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, java.lang.Integer, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component1()I",
+        "registers": 6,
+        "signature": "public final int component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component2()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component3()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component4()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component5",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component5()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component5()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component6",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component6()Ljava/lang/Long;",
+        "registers": 5,
+        "signature": "public final java.lang.Long component6()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component7",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->component7()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer component7()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 13,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->copy(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Integer;)Lcom/journey/app/mvvm/models/entity/Media;",
+        "registers": 16,
+        "signature": "public final com.journey.app.mvvm.models.entity.Media copy(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, java.lang.Integer)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 129,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->equals(Ljava/lang/Object;)Z",
+        "registers": 9,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getCompressed",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getCompressed()Ljava/lang/Integer;",
+        "registers": 5,
+        "signature": "public final java.lang.Integer getCompressed()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getFileName",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getFileName()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getFileName()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getGoogleFId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getGoogleFId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getGoogleFId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getGoogleVersion",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getGoogleVersion()Ljava/lang/Long;",
+        "registers": 6,
+        "signature": "public final java.lang.Long getGoogleVersion()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getJId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getJId()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getJId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLinkedAccountId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getLinkedAccountId()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String getLinkedAccountId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getMId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->getMId()I",
+        "registers": 5,
+        "signature": "public final int getMId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 125,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->hashCode()I",
+        "registers": 7,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setCompressed",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->setCompressed(Ljava/lang/Integer;)V",
+        "registers": 6,
+        "signature": "public final void setCompressed(java.lang.Integer)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setFileName",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->setFileName(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void setFileName(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setGoogleFId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->setGoogleFId(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setGoogleFId(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setGoogleVersion",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->setGoogleVersion(Ljava/lang/Long;)V",
+        "registers": 5,
+        "signature": "public final void setGoogleVersion(java.lang.Long)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setJId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->setJId(Ljava/lang/String;)V",
+        "registers": 6,
+        "signature": "public final void setJId(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "setLinkedAccountId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->setLinkedAccountId(Ljava/lang/String;)V",
+        "registers": 5,
+        "signature": "public final void setLinkedAccountId(java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 104,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/Media;->toString()Ljava/lang/String;",
+        "registers": 7,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.Media",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.Media (classes3.dex) extends java.lang.Object: 8 fields, 27 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/Media;"
+    }
+  ],
+  "links": []
+}

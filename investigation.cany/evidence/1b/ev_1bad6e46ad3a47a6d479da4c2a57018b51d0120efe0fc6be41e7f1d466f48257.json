@@ -1,0 +1,92 @@
+{
+  "id": "ev_1bad6e46ad3a47a6d479da4c2a57018b51d0120efe0fc6be41e7f1d466f48257",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "s8.T",
+    "java_source": true,
+    "limit": 2000,
+    "method_name": "p1",
+    "offset": 0,
+    "overload_index": 0,
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "static"
+    ],
+    "class": "Ls8/T;",
+    "dex": "classes3.dex",
+    "ins": 0,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x12",
+        "text": "const/4 v1, 1",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x01",
+        "text": "move v0, v1",
+        "units": 1
+      },
+      {
+        "offset": "0002",
+        "opcode": "0x0f",
+        "text": "return v0",
+        "units": 1
+      }
+    ],
+    "instructions_total": 3,
+    "java_source": {
+      "status": "unavailable"
+    },
+    "listing": "0000: const/4 v1, 1\n0001: move v0, v1\n0002: return v0",
+    "method": "Ls8/T;->p1()Z",
+    "outs": 0,
+    "overload_index": 0,
+    "overloads": [
+      "public static boolean p1()"
+    ],
+    "registers": 5,
+    "signature": "public static boolean p1()",
+    "tries": []
+  },
+  "summary": "Ls8/T;->p1()Z (classes3.dex): 3 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "jadx_not_installed",
+      "message": "Java source was requested but JADX is not installed (Settings → Engines, the engine store, or PATH). The bytecode listing above is complete without it."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Ls8/T;->p1()Z"
+    }
+  ],
+  "links": []
+}

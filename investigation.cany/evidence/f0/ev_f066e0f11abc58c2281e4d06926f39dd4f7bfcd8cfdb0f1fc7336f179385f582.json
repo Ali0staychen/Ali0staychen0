@@ -1,0 +1,277 @@
+{
+  "id": "ev_f066e0f11abc58c2281e4d06926f39dd4f7bfcd8cfdb0f1fc7336f179385f582",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_method_show",
+  "params": {
+    "class_name": "com.journey.app.ReminderReceiver",
+    "java_source": true,
+    "limit": 2000,
+    "method_name": "a",
+    "offset": 0,
+    "overload_index": 0,
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+  },
+  "result": {
+    "access": [
+      "private"
+    ],
+    "class": "Lcom/journey/app/ReminderReceiver;",
+    "dex": "classes3.dex",
+    "ins": 3,
+    "instructions": [
+      {
+        "offset": "0000",
+        "opcode": "0x07",
+        "text": "move-object v3, v6",
+        "units": 1
+      },
+      {
+        "offset": "0001",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v7}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "units": 3
+      },
+      {
+        "offset": "0004",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0005",
+        "opcode": "0x07",
+        "text": "move-object v7, v5",
+        "units": 1
+      },
+      {
+        "offset": "0006",
+        "opcode": "0x60",
+        "text": "sget v0, LN7/X4;->J5:I",
+        "units": 2
+      },
+      {
+        "offset": "0008",
+        "opcode": "0x12",
+        "text": "const/4 v5, 1",
+        "units": 1
+      },
+      {
+        "offset": "0009",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v7, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;",
+        "units": 3
+      },
+      {
+        "offset": "000c",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "000d",
+        "opcode": "0x07",
+        "text": "move-object v7, v5",
+        "units": 1
+      },
+      {
+        "offset": "000e",
+        "opcode": "0x22",
+        "text": "new-instance v0, Landroidx/core/app/t$d;",
+        "units": 2
+      },
+      {
+        "offset": "0010",
+        "opcode": "0x12",
+        "text": "const/4 v5, 3",
+        "units": 1
+      },
+      {
+        "offset": "0011",
+        "opcode": "0x1a",
+        "text": "const-string v5, \"RESULT_KEY_REPLY\"",
+        "units": 2
+      },
+      {
+        "offset": "0013",
+        "opcode": "0x07",
+        "text": "move-object v1, v5",
+        "units": 1
+      },
+      {
+        "offset": "0014",
+        "opcode": "0x70",
+        "text": "invoke-direct {v0, v1}, Landroidx/core/app/t$d;-><init>(Ljava/lang/String;)V",
+        "units": 3
+      },
+      {
+        "offset": "0017",
+        "opcode": "0x12",
+        "text": "const/4 v5, 4",
+        "units": 1
+      },
+      {
+        "offset": "0018",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0, v7}, Landroidx/core/app/t$d;->b(Ljava/lang/CharSequence;)Landroidx/core/app/t$d;",
+        "units": 3
+      },
+      {
+        "offset": "001b",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "001c",
+        "opcode": "0x07",
+        "text": "move-object v0, v5",
+        "units": 1
+      },
+      {
+        "offset": "001d",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v0}, Landroidx/core/app/t$d;->a()Landroidx/core/app/t;",
+        "units": 3
+      },
+      {
+        "offset": "0020",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0021",
+        "opcode": "0x07",
+        "text": "move-object v0, v5",
+        "units": 1
+      },
+      {
+        "offset": "0022",
+        "opcode": "0x22",
+        "text": "new-instance v1, Landroidx/core/app/l$a$a;",
+        "units": 2
+      },
+      {
+        "offset": "0024",
+        "opcode": "0x12",
+        "text": "const/4 v5, 1",
+        "units": 1
+      },
+      {
+        "offset": "0025",
+        "opcode": "0x60",
+        "text": "sget v2, LN7/Q4;->a4:I",
+        "units": 2
+      },
+      {
+        "offset": "0027",
+        "opcode": "0x12",
+        "text": "const/4 v5, 4",
+        "units": 1
+      },
+      {
+        "offset": "0028",
+        "opcode": "0x70",
+        "text": "invoke-direct {v1, v2, v7, v8}, Landroidx/core/app/l$a$a;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V",
+        "units": 3
+      },
+      {
+        "offset": "002b",
+        "opcode": "0x12",
+        "text": "const/4 v5, 3",
+        "units": 1
+      },
+      {
+        "offset": "002c",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v1, v0}, Landroidx/core/app/l$a$a;->a(Landroidx/core/app/t;)Landroidx/core/app/l$a$a;",
+        "units": 3
+      },
+      {
+        "offset": "002f",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0030",
+        "opcode": "0x07",
+        "text": "move-object v7, v5",
+        "units": 1
+      },
+      {
+        "offset": "0031",
+        "opcode": "0x6e",
+        "text": "invoke-virtual {v7}, Landroidx/core/app/l$a$a;->b()Landroidx/core/app/l$a;",
+        "units": 3
+      },
+      {
+        "offset": "0034",
+        "opcode": "0x0c",
+        "text": "move-result-object v5",
+        "units": 1
+      },
+      {
+        "offset": "0035",
+        "opcode": "0x07",
+        "text": "move-object v7, v5",
+        "units": 1
+      },
+      {
+        "offset": "0036",
+        "opcode": "0x11",
+        "text": "return-object v7",
+        "units": 1
+      }
+    ],
+    "instructions_total": 34,
+    "java_source": {
+      "status": "unavailable"
+    },
+    "listing": "0000: move-object v3, v6\n0001: invoke-virtual {v7}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;\n0004: move-result-object v5\n0005: move-object v7, v5\n0006: sget v0, LN7/X4;->J5:I\n0008: const/4 v5, 1\n0009: invoke-virtual {v7, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;\n000c: move-result-object v5\n000d: move-object v7, v5\n000e: new-instance v0, Landroidx/core/app/t$d;\n0010: const/4 v5, 3\n0011: const-string v5, \"RESULT_KEY_REPLY\"\n0013: move-object v1, v5\n0014: invoke-direct {v0, v1}, Landroidx/core/app/t$d;-><init>(Ljava/lang/String;)V\n0017: const/4 v5, 4\n0018: invoke-virtual {v0, v7}, Landroidx/core/app/t$d;->b(Ljava/lang/CharSequence;)Landroidx/core/app/t$d;\n001b: move-result-object v5\n001c: move-object v0, v5\n001d: invoke-virtual {v0}, Landroidx/core/app/t$d;->a()Landroidx/core/app/t;\n0020: move-result-object v5\n0021: move-object v0, v5\n0022: new-instance v1, Landroidx/core/app/l$a$a;\n0024: const/4 v5, 1\n0025: sget v2, LN7/Q4;->a4:I\n0027: const/4 v5, 4\n0028: invoke-direct {v1, v2, v7, v8}, Landroidx/core/app/l$a$a;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V\n002b: const/4 v5, 3\n002c: invoke-virtual {v1, v0}, Landroidx/core/app/l$a$a;->a(Landroidx/core/app/t;)Landroidx/core/app/l$a$a;\n002f: move-result-object v5\n0030: move-object v7, v5\n0031: invoke-virtual {v7}, Landroidx/core/app/l$a$a;->b()Landroidx/core/app/l$a;\n0034: move-result-object v5\n0035: move-object v7, v5\n0036: return-object v7",
+    "method": "Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;",
+    "outs": 4,
+    "overload_index": 0,
+    "overloads": [
+      "private androidx.core.app.l$a a(android.content.Context, android.app.PendingIntent)"
+    ],
+    "registers": 9,
+    "signature": "private androidx.core.app.l$a a(android.content.Context, android.app.PendingIntent)",
+    "tries": []
+  },
+  "summary": "Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a; (classes3.dex): 34 instructions.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "jadx_not_installed",
+      "message": "Java source was requested but JADX is not installed (Settings → Engines, the engine store, or PATH). The bytecode listing above is complete without it."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 34,
+    "total": 34
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    },
+    {
+      "kind": "method",
+      "value": "Lcom/journey/app/ReminderReceiver;->a(Landroid/content/Context;Landroid/app/PendingIntent;)Landroidx/core/app/l$a;"
+    }
+  ],
+  "links": []
+}

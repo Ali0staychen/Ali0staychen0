@@ -1,0 +1,350 @@
+{
+  "id": "ev_4208d859509e9b258338907c5809c169a1f14f9704d6a53bfc15d60ab09e6c69",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 120,
+    "offset": 0,
+    "path": null,
+    "query": "com.journey.app.mvvm.models.entity"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JIdAndDate;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JIdAndDate",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JIdAndDateV2;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JIdAndDateV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/Journal;",
+        "dex": "classes3.dex",
+        "fields": 27,
+        "methods": 59,
+        "name": "com.journey.app.mvvm.models.entity.Journal",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalText;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.models.entity.JournalText",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalTextV2;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 9,
+        "name": "com.journey.app.mvvm.models.entity.JournalTextV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalV2;",
+        "dex": "classes3.dex",
+        "fields": 26,
+        "methods": 58,
+        "name": "com.journey.app.mvvm.models.entity.JournalV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesAndTagWordBagsV2;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithMediaFilesAndTagWordBagsV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMediaFilesV2;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithMediaFilesV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMedias;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithMedias",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithMediasAndTagWordBags;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithMediasAndTagWordBags",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBags;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithTagWordBags",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalWithTagWordBagsV2;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.JournalWithTagWordBagsV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/LinkedAccount;",
+        "dex": "classes3.dex",
+        "fields": 19,
+        "methods": 44,
+        "name": "com.journey.app.mvvm.models.entity.LinkedAccount",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/LinkedAccountUpdate;",
+        "dex": "classes3.dex",
+        "fields": 10,
+        "methods": 25,
+        "name": "com.journey.app.mvvm.models.entity.LinkedAccountUpdate",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/LinkedAccountUpdateMigration;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.models.entity.LinkedAccountUpdateMigration",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/Media;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 27,
+        "name": "com.journey.app.mvvm.models.entity.Media",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/MediaFileV2;",
+        "dex": "classes3.dex",
+        "fields": 13,
+        "methods": 42,
+        "name": "com.journey.app.mvvm.models.entity.MediaFileV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/MediaWithDateOfJournal;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.MediaWithDateOfJournal",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/Tag;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.Tag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/TagV2;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 11,
+        "name": "com.journey.app.mvvm.models.entity.TagV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/TagWordBag;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.TagWordBag",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.models.entity.TagWordBagV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/ToBeDownloaded;",
+        "dex": "classes3.dex",
+        "fields": 8,
+        "methods": 21,
+        "name": "com.journey.app.mvvm.models.entity.ToBeDownloaded",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/Trash;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 13,
+        "name": "com.journey.app.mvvm.models.entity.Trash",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/TrashV2;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 15,
+        "name": "com.journey.app.mvvm.models.entity.TrashV2",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 25,
+    "query": "com.journey.app.mvvm.models.entity"
+  },
+  "summary": "25 of 32886 classes match \"com.journey.app.mvvm.models.entity\" in 4 DEX file(s); showing 25.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 25,
+    "total": 25
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

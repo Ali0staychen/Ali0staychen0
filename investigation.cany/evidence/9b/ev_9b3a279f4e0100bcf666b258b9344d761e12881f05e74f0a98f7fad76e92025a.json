@@ -1,0 +1,52 @@
+{
+  "id": "ev_9b3a279f4e0100bcf666b258b9344d761e12881f05e74f0a98f7fad76e92025a",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "core_target_triage",
+  "params": {
+    "path": "C:\\Users\\ali\\Downloads\\base.apk"
+  },
+  "result": {
+    "description": "An Android app",
+    "kind": "apk",
+    "next_steps": [
+      {
+        "tool": "android_package_show",
+        "why": "manifest, permissions, components and code"
+      },
+      {
+        "tool": "android_classes_find",
+        "why": "find classes by name"
+      }
+    ],
+    "plain_english": "base.apk is an Android app package.",
+    "recommended_toolsets": [
+      "core",
+      "android"
+    ],
+    "size": 27625058
+  },
+  "summary": "base.apk is an Android app package.",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "detected_by_content",
+      "message": "the kind is detected from the first bytes and, to break ties, the file name"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [],
+  "links": []
+}

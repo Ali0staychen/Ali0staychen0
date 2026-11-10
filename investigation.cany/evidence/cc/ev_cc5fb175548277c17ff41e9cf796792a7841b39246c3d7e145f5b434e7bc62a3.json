@@ -1,0 +1,62 @@
+{
+  "id": "ev_cc5fb175548277c17ff41e9cf796792a7841b39246c3d7e145f5b434e7bc62a3",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk",
+    "query": "JournalV2"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/entity/JournalV2;",
+        "dex": "classes3.dex",
+        "fields": 26,
+        "methods": 58,
+        "name": "com.journey.app.mvvm.models.entity.JournalV2",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 1,
+    "query": "JournalV2"
+  },
+  "summary": "1 of 32886 classes match \"JournalV2\" in 4 DEX file(s); showing 1.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\\\Users\\\\ali\\\\Downloads\\\\base.apk"
+    }
+  ],
+  "links": []
+}

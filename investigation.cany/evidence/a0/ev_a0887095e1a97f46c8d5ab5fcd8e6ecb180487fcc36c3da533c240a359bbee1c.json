@@ -1,0 +1,3605 @@
+{
+  "id": "ev_a0887095e1a97f46c8d5ab5fcd8e6ecb180487fcc36c3da533c240a359bbee1c",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "core_archive_show",
+  "params": {
+    "if_tampered": true,
+    "limit": 500,
+    "max_depth": 3,
+    "max_entries": 200000,
+    "max_total_bytes": 4294967296,
+    "offset": 500,
+    "path": "C:\\Users\\ali\\Downloads\\base.apk"
+  },
+  "result": {
+    "by_kind": {
+      "android-binary-xml": 1286,
+      "binary": 70,
+      "css": 18,
+      "dex": 4,
+      "directory": 5,
+      "elf": 8,
+      "gif": 4,
+      "gzip": 1,
+      "html": 14,
+      "javascript": 104,
+      "jpeg": 30,
+      "json": 38,
+      "png": 140,
+      "svg": 31,
+      "text": 362,
+      "xml": 16,
+      "zip": 1
+    },
+    "containers": [
+      {
+        "declared": 2114,
+        "entries": 2114,
+        "kind": "apk",
+        "path": "",
+        "truncated": false,
+        "zip64": false
+      },
+      {
+        "declared": 18,
+        "entries": 18,
+        "kind": "zip",
+        "path": "assets/word/doc.docx!/",
+        "truncated": false,
+        "zip64": false
+      }
+    ],
+    "content_id": "inv_22ca67a9adaeed3f2328af6cc889a3ab2e2757748413ba9e6bca53bb9afe207e",
+    "contradictions": [],
+    "entries": [
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/field_mask.proto",
+        "sha256": "17b0f342cc3a262e317d56884f3f575afbfac512ad0579349cc7450e41f26891",
+        "size": 8185
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/source_context.proto",
+        "sha256": "37d3401de89af1d1496fc949924a5f2011bd2fadfbeb0da1caa277159a96776d",
+        "size": 2341
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/struct.proto",
+        "sha256": "1bf07ba8b9a24e3a0390dddac3ad0db41c63287d252788b02398220b9abc900f",
+        "size": 3778
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/timestamp.proto",
+        "sha256": "14052c6042c1dd2d0b50245f2812eaab6eaf82db0b6e8ce483eae527f73b6ee8",
+        "size": 6449
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/type.proto",
+        "sha256": "e230e0e4aeb87c95e9f1c6acbfc0c713db3f88094f149b154717a51d020f750b",
+        "size": 6367
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/protobuf/wrappers.proto",
+        "sha256": "a26c1d6ec73a592ac31796289a61ceffe2db2453ff427dfdd7697aac50844280",
+        "size": 4044
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/rpc/code.proto",
+        "sha256": "55ba84362212a7440830330d47279a78549a5cd9a7632017c7acc796ea5aa18c",
+        "size": 7125
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/rpc/context/attribute_context.proto",
+        "sha256": "57e3adad99e090174aff28f0c51dff2e2b6fd80214ee78169e0305a78f545df0",
+        "size": 12015
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/rpc/error_details.proto",
+        "sha256": "4ab5ef1bf9d392055108ce5490267fae173ca59a6422cdef90f3a49407ca366f",
+        "size": 9500
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/rpc/status.proto",
+        "sha256": "108562c2d7854812908cdcd0d988132880822b05ab5e4f28960e1a5572217854",
+        "size": 1924
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/calendar_period.proto",
+        "sha256": "5fc2018e33dd712eca9b6f1daeef256533838db5b046aea9b2257c329c184b10",
+        "size": 1766
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/color.proto",
+        "sha256": "2b6513ae72c5f9bf25ae9e9c1ec9dca3631908789b5127ae18eb02f0df54fa95",
+        "size": 6193
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/date.proto",
+        "sha256": "847405fdd5ce472231d002a22e697db975020299b65f122bf95a6343a0a2c0ab",
+        "size": 1933
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/datetime.proto",
+        "sha256": "ab13e1962652736080262c77ccb240e8b6e788370f0dae82a7b71939918d128d",
+        "size": 3508
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/dayofweek.proto",
+        "sha256": "89bfda7e7c1634d2a94d873bc639f8366f7bc98d230c90e044f7b313446520d8",
+        "size": 1337
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/expr.proto",
+        "sha256": "3f610798729c87ce6248ff774bf7c90136db5f1f9675f708f7efe414a8d5e765",
+        "size": 1834
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/fraction.proto",
+        "sha256": "26b121196074b2a7f34125117c80c6e02c6e7b99de82f28bafece4c25f586eb8",
+        "size": 1176
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/latlng.proto",
+        "sha256": "85caeb170c45bc77337ac78aba2e4b46f091fe0827e014ae67dfbcd2c9ca4319",
+        "size": 1444
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/money.proto",
+        "sha256": "86514f55e606d7ce9e6462a8ac95e2a91c0b31eb7ad5dc46471efa25cabc7009",
+        "size": 1603
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/postal_address.proto",
+        "sha256": "4d14936f594154986308ca8d856126d2351b3313b61fe36b3932c4d581021ae6",
+        "size": 6239
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/quaternion.proto",
+        "sha256": "13d99dfe83d1303661e0525d0816be8ce34cb0d95e4250c20ad7f123241eda41",
+        "size": 3795
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "google/type/timeofday.proto",
+        "sha256": "91cd7b42b0763a5eccc25a169ace3399f0a014015dc08286efabca0015a35675",
+        "size": 1668
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/annotation/annotation.kotlin_builtins",
+        "sha256": "f6bf68d4798ece5071900772a4a87150314aed3788e042d9e30ab60a0857b211",
+        "size": 865
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/collections/collections.kotlin_builtins",
+        "sha256": "91d6cd4138e850c100a2dec88a965453b0042bf7f6f51202fe4b1efba38e96c0",
+        "size": 3635
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/concurrent/atomics/atomics.kotlin_builtins",
+        "sha256": "ef8b50112968a5e1be21c9c03d68ce6a7a939a057b9bc5d3fab72c95470561bf",
+        "size": 2471
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/coroutines/coroutines.kotlin_builtins",
+        "sha256": "98ab3a3c18fcb237528dd63fa489815c583e1d6c13debd2a27ac6d74ccf8717b",
+        "size": 137
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/internal/internal.kotlin_builtins",
+        "sha256": "7489c6bcec13d048a4ce9d9f3bafa1a11bfa08021bfa0e07166978d0bc5e450a",
+        "size": 583
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/kotlin.kotlin_builtins",
+        "sha256": "d03111a486daaa503eb6c17aa6770daf744a9b668f54a75b419d1de3deb868a0",
+        "size": 18653
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/ranges/ranges.kotlin_builtins",
+        "sha256": "ecf5a840ebf529fd9d1fa8216febc191b8559412a1068554266f64bc3b6f8428",
+        "size": 3349
+      },
+      {
+        "depth": 0,
+        "kind": "binary",
+        "path": "kotlin/reflect/reflect.kotlin_builtins",
+        "sha256": "b549fbaa2455d8bd417f44e3df1af2ff6802693a5aa0bb6a740848467b53b69a",
+        "size": 2370
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/arm64-v8a/libandroidlame.so",
+        "role": "native-library",
+        "sha256": "49206911d76d64831b0e3e683ac25988d66a632e2db48946d8b1ebb1dd2a21c7",
+        "size": 237040
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+        "role": "native-library",
+        "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+        "size": 10096
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/arm64-v8a/libdatastore_shared_counter.so",
+        "role": "native-library",
+        "sha256": "d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1",
+        "size": 7112
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/arm64-v8a/libyrf.so",
+        "role": "native-library",
+        "sha256": "3c1b0fe85145e9ac33bcee8cab3f0387afe1b429103400cb8b820d6693659e6a",
+        "size": 469056
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/armeabi-v7a/libandroidlame.so",
+        "role": "native-library",
+        "sha256": "ca357e8a050a49c28a31f21499e5b8ec9f6c40f354bc6080c6fb332ccc5f21d0",
+        "size": 146668
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+        "role": "native-library",
+        "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+        "size": 7252
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/armeabi-v7a/libdatastore_shared_counter.so",
+        "role": "native-library",
+        "sha256": "716c5d8d2cac8ca0edf65da8f139c7886b726ac79d542a14edeb94994ba6d3dc",
+        "size": 4416
+      },
+      {
+        "depth": 0,
+        "kind": "elf",
+        "path": "lib/armeabi-v7a/libyrf.so",
+        "role": "native-library",
+        "sha256": "870fe3ff0b1cbd3b0b85a94882e6ee622071cb51759169e041d425d4d25fd50b",
+        "size": 306556
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "okhttp3/internal/publicsuffix/NOTICE",
+        "sha256": "8a9c58fbded5ea3474315e4a9824ca8b1486098a1a03e897e0b19419d5e1876a",
+        "size": 218
+      },
+      {
+        "depth": 0,
+        "kind": "gzip",
+        "path": "okhttp3/internal/publicsuffix/publicsuffixes.gz",
+        "sha256": "9af43e9995ec749e7a30eec4e5a87770d7e2027847084a07cca82060eff0c791",
+        "size": 41394
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_any.txt",
+        "sha256": "43286dad7d9337c9d088f1d818cfe0f092d8b11d4a31a9414acc353222432233",
+        "size": 4709
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_common.txt",
+        "sha256": "1859b7fb983b48cd11a5d3b5239a2127297334ded11a4c59d4526d035ed7ad97",
+        "size": 4972
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt",
+        "sha256": "dcbd2e4358d6784e17b2e39f5676cd0f74416822861e9f4889ce0add732c8b47",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_english.txt",
+        "sha256": "5d9d45fd9c87a310d722a1c20c235de8ef8987b28e130f44ac929aa1a1689e64",
+        "size": 1490
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_french.txt",
+        "sha256": "a49de762dcf6c6af4ac834ed606764dcdd5c7f038a9a347c7c58309b2f7cb722",
+        "size": 1225
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_german.txt",
+        "sha256": "06ddc74a43399e253cdd16861584660794a119520d34465e5eaf94f8ad4ff7cf",
+        "size": 1853
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_hebrew.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_hungarian.txt",
+        "sha256": "5e1d11af4341e2962af4986bf35cf195f723bcd457331a00ee972559ff2d5875",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_polish.txt",
+        "sha256": "eab2909c2b87f113184a08ee8407c61b96dd5e22eea55b0cd62525dfee8c2098",
+        "size": 2229
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_romanian.txt",
+        "sha256": "ed47beca84d4a0202ebe62f5f3286009b293953bf557bfea2376822901abbd2d",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_russian.txt",
+        "sha256": "497c2dd6e837e15714583f3df15e530607056c0bc2ebe33fcf582c8effd28b27",
+        "size": 1428
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_approx_spanish.txt",
+        "sha256": "5e1d11af4341e2962af4986bf35cf195f723bcd457331a00ee972559ff2d5875",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_any.txt",
+        "sha256": "ebdea52ae4deea67ccb192bc3db2b86cc5869a6ebe131758348bcea86b852fac",
+        "size": 1953
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_approx_common.txt",
+        "sha256": "0913545f9b1000d159a5ed83dc8821bf82b22f6cceb91e1ac5834ce394ef3e7c",
+        "size": 1737
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_common.txt",
+        "sha256": "1ef389b2b896d0c7cb5aa3041c48a57fb06f133e6664757092959ac35e9c8961",
+        "size": 1096
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt",
+        "sha256": "1d9d3c87359f2584514fba85d4d423a888b547ed14873d33f7ea85e45a058da0",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_english.txt",
+        "sha256": "1d9d3c87359f2584514fba85d4d423a888b547ed14873d33f7ea85e45a058da0",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_french.txt",
+        "sha256": "1d9d3c87359f2584514fba85d4d423a888b547ed14873d33f7ea85e45a058da0",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_german.txt",
+        "sha256": "4cd8ef2610d17e5330fabaef48bdd7f588644f5c46fc8244a0d31645f2566720",
+        "size": 827
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_hebrew.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_hungarian.txt",
+        "sha256": "1d9d3c87359f2584514fba85d4d423a888b547ed14873d33f7ea85e45a058da0",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_polish.txt",
+        "sha256": "b4c3764cf4a1d2c24eab6e5c566bd784b5ee06b8c75808311800916023706ce7",
+        "size": 876
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_romanian.txt",
+        "sha256": "1d9d3c87359f2584514fba85d4d423a888b547ed14873d33f7ea85e45a058da0",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_russian.txt",
+        "sha256": "5109a2bdcd9d5c49670e272ca0e63cab02d64753278a816bd5a346a4babb956a",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_exact_spanish.txt",
+        "sha256": "1d9d3c87359f2584514fba85d4d423a888b547ed14873d33f7ea85e45a058da0",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_hebrew_common.txt",
+        "sha256": "9e452c7e011ffd7e99e9047dd59fa3820370c2027763f7f7803330b2b437b301",
+        "size": 2984
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_lang.txt",
+        "sha256": "382f9b4a9e0897dee4508ab5d86d6604b2b9fa54996a8e5b9bd4b0459183a356",
+        "size": 4875
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_languages.txt",
+        "sha256": "9e7196321e227342d1d02bbf900970ebd61c9ebdfe8e828be92ee6743a9fdb80",
+        "size": 889
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_any.txt",
+        "sha256": "4ca27c972cfa49ff58492bcaeba622348fad828a34953d9abec8bd21bd99cc85",
+        "size": 9452
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt",
+        "sha256": "02e775eec8a5dc3acc9b78cad430a2e12776c53a341b076af4383090db90f4d5",
+        "size": 2367
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_english.txt",
+        "sha256": "b3343d0cba9c0b72a9f43ed613151f222ca71fa347a8f1be78c3ed83cec5be67",
+        "size": 2971
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_french.txt",
+        "sha256": "55c7a6c616f2ec560a4e542f90b9e1d3a580ba2597ec63811b36cd72c6f572c3",
+        "size": 2275
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_german.txt",
+        "sha256": "a85152d3945c3b3c9bad85910e00b8a88fe1ee4209af4262cd5893c2bd927059",
+        "size": 2788
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_hebrew.txt",
+        "sha256": "7ce96d51caaff2bc85b1149e8bf96c986dec838a25b009a3a3b246b2cbfda4a9",
+        "size": 1473
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_hungarian.txt",
+        "sha256": "372637be7cdfe5e2447a8074bcd86b814ef5507f82db4cd5784a6ad79fa1495a",
+        "size": 1961
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_polish.txt",
+        "sha256": "7b71fcf9b5421fdb7f8fe85243e4fc53a90207279b80cf7cd6efa40672cf34d2",
+        "size": 4168
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_romanian.txt",
+        "sha256": "c9dafb5a5d00f9f4d391239321751db211b84a22f69f4f3e821a22e952e1d89d",
+        "size": 1527
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_russian.txt",
+        "sha256": "a89bac08bd8c4aea158cf0ee02e6b8f89fbdd160caeee4ed2873e824d9fb4a26",
+        "size": 3981
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/ash_rules_spanish.txt",
+        "sha256": "68d70683ff75d4752d5c93a43677dd36a6bee31d6678f7d5730401c37c98cc6b",
+        "size": 2074
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_any.txt",
+        "sha256": "3b53fbad51c4366e44e12ad74c8492612b414e36fdbaee659f7250b7673d4445",
+        "size": 4044
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_arabic.txt",
+        "sha256": "067dec7e40a230a9415285221b948ce2c8998041999ec26d302696a9f167b86a",
+        "size": 992
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_common.txt",
+        "sha256": "969ad099e7ed7d78ff629ddda0d1618d4bc4c2c37407f080856d9c5e2b62814c",
+        "size": 5121
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt",
+        "sha256": "0a254eb76e7a4755be3c800d444d06cc7f421ca41c92eebf84afe57d012c44c7",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_czech.txt",
+        "sha256": "c345354caeb61b96b938d608c7fe7d78720a3bfd54b15607d80136a0b757ec39",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_dutch.txt",
+        "sha256": "c345354caeb61b96b938d608c7fe7d78720a3bfd54b15607d80136a0b757ec39",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_english.txt",
+        "sha256": "5d9d45fd9c87a310d722a1c20c235de8ef8987b28e130f44ac929aa1a1689e64",
+        "size": 1490
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_french.txt",
+        "sha256": "e54aa086dcc87f522db03501a0b10678cef302995d980c0b5917eba2260d9eb2",
+        "size": 943
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_german.txt",
+        "sha256": "dae02475935c2bdefbf068ca62431e51b9822aaedcbf6863d981e42404f79f04",
+        "size": 1854
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_greek.txt",
+        "sha256": "c345354caeb61b96b938d608c7fe7d78720a3bfd54b15607d80136a0b757ec39",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt",
+        "sha256": "6bd80178c726b44b6a909ae934e5f8b28e483b564f36a9b456735538de956b36",
+        "size": 846
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_hebrew.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_hungarian.txt",
+        "sha256": "bfaeb4185d43a9280af45e185259b7f933728dd5424c2cf16df48b58e41c550c",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_italian.txt",
+        "sha256": "bfaeb4185d43a9280af45e185259b7f933728dd5424c2cf16df48b58e41c550c",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_polish.txt",
+        "sha256": "4b0905034cad23e997f50c6aaa30d857e329eaa6ed6d0ed482403b6aface528e",
+        "size": 2184
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_portuguese.txt",
+        "sha256": "c345354caeb61b96b938d608c7fe7d78720a3bfd54b15607d80136a0b757ec39",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_romanian.txt",
+        "sha256": "164e426785430a3a8c4d28dbf64127c4d7b4a9cd054b889a760a4fd1a6b64d59",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_russian.txt",
+        "sha256": "59bcb5f490b1827d97eee909d6dc6f58bfae655830b1e542d53a876e3da1316c",
+        "size": 1438
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_spanish.txt",
+        "sha256": "b6fc3999a3056515aa86e5a92735890ab6a48686b86a431904ea74141bd9ff50",
+        "size": 869
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_approx_turkish.txt",
+        "sha256": "c345354caeb61b96b938d608c7fe7d78720a3bfd54b15607d80136a0b757ec39",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_any.txt",
+        "sha256": "31214c6d9781215431d1a66b7f27ccb66c4c0869c0302941d93410b9161f8528",
+        "size": 1227
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_approx_common.txt",
+        "sha256": "9070e814f49933566ad6b6849adb2a1f377cb78d7e44284f8cb799fa8020cc50",
+        "size": 1770
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_arabic.txt",
+        "sha256": "5116dc8c5f2442cfc233e3d428fcf78e7a77174bb012ec9a4f589e704eae5aad",
+        "size": 817
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_common.txt",
+        "sha256": "b332f284ad0433c01b64a64b883abe1ceef7251d38d00c6e00e975f3265ef06b",
+        "size": 1094
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt",
+        "sha256": "7328775a17eb3ffbf8482502c3ef099675b06b805954554b761653b3783d0e28",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_czech.txt",
+        "sha256": "7328775a17eb3ffbf8482502c3ef099675b06b805954554b761653b3783d0e28",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_dutch.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_english.txt",
+        "sha256": "7328775a17eb3ffbf8482502c3ef099675b06b805954554b761653b3783d0e28",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_french.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_german.txt",
+        "sha256": "c76c25bb804a73a2b5d335e3c18702bf9a4fff0cb5c167c24ac3f1348f2dc88f",
+        "size": 827
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_greek.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt",
+        "sha256": "e1fa4a9a13ccb5045094a649d7f8e1b59a8a8cee16ce4882dcec48e321a70bc1",
+        "size": 818
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_hebrew.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_hungarian.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_italian.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_polish.txt",
+        "sha256": "a2a097f49b30cacba878f004adaca15aef67eeb4ca20343d93f782eab8b2c935",
+        "size": 875
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_portuguese.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_romanian.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_russian.txt",
+        "sha256": "5109a2bdcd9d5c49670e272ca0e63cab02d64753278a816bd5a346a4babb956a",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_spanish.txt",
+        "sha256": "0d3c5fa421826668bdebb6636456a6a2a07368772d472e078efeb1840f0051a2",
+        "size": 833
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_exact_turkish.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_hebrew_common.txt",
+        "sha256": "1d66f335e83d683397db0f721232c930b29f2d6ee82fc37cae48ccad702aedda",
+        "size": 2846
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_lang.txt",
+        "sha256": "38b1467afd0182cd337a5b2777136e729118f71b382b8eeb38be8b297d70d936",
+        "size": 7595
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_languages.txt",
+        "sha256": "ad191428a496e87874c47cc857b3cd38ed4509c8bafae2ccffe92c58bab290c5",
+        "size": 952
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_any.txt",
+        "sha256": "da53ba8cd19d7eac8e06a78d38fb17fdc2366b96078fa25e898e945b0cf4d350",
+        "size": 13060
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_arabic.txt",
+        "sha256": "6b29251461ea932268fa17ef477c6a6e0275334e36dcee4bac0f1f58db50c024",
+        "size": 2209
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt",
+        "sha256": "4463d1fd29ec7669349edeb4272dd96fa96f7d082e65ee6ce818e347ac67cd6e",
+        "size": 2301
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_czech.txt",
+        "sha256": "10082bde7270dd9e58c333a5069b49cd65cf15aaef309e95d4c180d0f68658c5",
+        "size": 1562
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_dutch.txt",
+        "sha256": "717a8b43ea00b95d46d3385da15caa249d6f29057c2bc06f73ca9b89507b7eef",
+        "size": 1868
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_english.txt",
+        "sha256": "41d3c84b11da68175b070653d36974fc76d66fb7f207a2108d03e45265baadfe",
+        "size": 3014
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_french.txt",
+        "sha256": "031687b0a2dd50a3e0ac1c3eaabbb6ab09551ec4491e52b06c59070ae5de2dfb",
+        "size": 2779
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_german.txt",
+        "sha256": "0aebd3d557217f6da97e063ba17dee65a6e055d8179d8b0b4c8447adaf62239e",
+        "size": 2736
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_greek.txt",
+        "sha256": "0c1b4936b1c975bb264373ff28a9db9473b2c772a7181d4c0592b308bc8d1db9",
+        "size": 2919
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt",
+        "sha256": "1660c81dcba66fb9da034f02c42b4281471b6b4225ca51e2b73736f64150b380",
+        "size": 3042
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_hebrew.txt",
+        "sha256": "447a0edeb36762ab393c203de50f544849353390317455d88b556f0d93887fb2",
+        "size": 1463
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_hungarian.txt",
+        "sha256": "819ea3a2878c860dc3685f5c1bdcee808c17e0a0be7f1a82dc563014b1747a2e",
+        "size": 1888
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_italian.txt",
+        "sha256": "6211fd9b682cd4e0a5a2cb584e1997a0ee3a758c7c566a00103c99e35d148ae1",
+        "size": 1874
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_polish.txt",
+        "sha256": "ac3409027c0fcab9046f7caffdea1d43c164948c979b2c37e437eb7783ab7263",
+        "size": 4113
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_portuguese.txt",
+        "sha256": "d0cc69b52f1e99c8cfe4424b0a29d4537cb74327374645972f51b12992f16f8e",
+        "size": 2599
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_romanian.txt",
+        "sha256": "cd12f18da980883eb4ccc8b7d725eb55ef9e176630e8ffeb8b6318afc20e1b08",
+        "size": 1510
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_russian.txt",
+        "sha256": "e2d96a9dac448053319604e00918a7727a2e8c5904f50426e84827f15721ac80",
+        "size": 3043
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_spanish.txt",
+        "sha256": "d76d9266fd55368213f68ec8a365284e27b642d6099859db467a23ece0f110ac",
+        "size": 2383
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/gen_rules_turkish.txt",
+        "sha256": "53774f127266956be4ec50c0ea47c7b1a5ce3a4008bd3a6fb267448cbb12b8c8",
+        "size": 1387
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/lang.txt",
+        "sha256": "9e7455553db86a8ddedc3d79cb490e23687c6a2caeca5bfe91bf171366f4bfa8",
+        "size": 804
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_any.txt",
+        "sha256": "a1a5ef1bbeffcdaf89d9608e87c6db54800c81bd0389054870640686b10b2b58",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_common.txt",
+        "sha256": "d37c766873e0366bb3d916638dca9586511fb9091ae4a10a8012d3b6973c974b",
+        "size": 3196
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_french.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_hebrew.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_italian.txt",
+        "sha256": "bf32ceb38fc544f1709a6a842d71da2f040dcc11a1da30a94b6b468b8ac1864e",
+        "size": 831
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_portuguese.txt",
+        "sha256": "9a9c37be4adecd1df7e9cc7e0592c0c6b54d83ff5bb27da587b817e823bdbab0",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_approx_spanish.txt",
+        "sha256": "9a9c37be4adecd1df7e9cc7e0592c0c6b54d83ff5bb27da587b817e823bdbab0",
+        "size": 832
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_any.txt",
+        "sha256": "67ffeab7906082a2e5d6f48765cd3cea758396f20daf4d0ebebaef3cf5041d48",
+        "size": 818
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_approx_common.txt",
+        "sha256": "11a526107c882231ea84432ecdadd7a083b6cc437edb251ffaedb371c9287155",
+        "size": 1686
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_common.txt",
+        "sha256": "ca6f44fb0c9d1059626f7d93d492df7ca68417511bf819c0d02cb31be37b5250",
+        "size": 1110
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_french.txt",
+        "sha256": "929977273e226c04ed8985f8424d66e6afe0da7f22a7474232218b1d71f827fe",
+        "size": 816
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_hebrew.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_italian.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_portuguese.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_exact_spanish.txt",
+        "sha256": "de369bb64e5574e5015d56fb99b644755ea73e48f037fa9f5e74065c3e48e83c",
+        "size": 813
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_hebrew_common.txt",
+        "sha256": "518f7462d30411239e4a4572892f66645683bc6ac156d345ae6f3e0a571913a4",
+        "size": 2188
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_lang.txt",
+        "sha256": "0459896d23036ab5f9281be5574746e607e78031764296c24143283d3b0fa0e2",
+        "size": 2432
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_languages.txt",
+        "sha256": "9fc632b04e2015a08c7d4f039dffb1148506be181abb151508a14969009c98e3",
+        "size": 850
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_rules_any.txt",
+        "sha256": "3d94a6eb74b9ddef0b663c63c00640a7dafb81476d6753b7152f07f33d34cf87",
+        "size": 4633
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_rules_french.txt",
+        "sha256": "c761de30912b296d3d6bcd85ef1df73345af3b594bf784a946384b160e099080",
+        "size": 2225
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_rules_hebrew.txt",
+        "sha256": "5e0e769aa30dda5ea8af24e49e6e21986fac4da74c6b24fe51b3898c0a36662c",
+        "size": 1460
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_rules_italian.txt",
+        "sha256": "06407485204685d87bb09c36fd0cdc8736854280aa0468f09b78c10acf6d2a9a",
+        "size": 1849
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_rules_portuguese.txt",
+        "sha256": "417a18fd0fb2daf4d9c2365071dbafdb665d6906bc10fa0fa72fd13cb854a3e2",
+        "size": 2574
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/bm/sep_rules_spanish.txt",
+        "sha256": "6798e1626eaf131982584a9d72542b6f5f9e0c93a8999bc500b52c0ccf47c2b8",
+        "size": 2481
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/commons/codec/language/dmrules.txt",
+        "sha256": "c078af51083ddb2d3b9c797e1ee53054b989039d798be2c917791f9e609a630f",
+        "size": 3546
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/apache/http/version.properties",
+        "sha256": "8932b550faa6471554c2635ceb492ee2ce8fbc569db3027ec29cdbe882ee4203",
+        "size": 904
+      },
+      {
+        "depth": 0,
+        "kind": "text",
+        "path": "org/commonmark/internal/util/entities.txt",
+        "sha256": "fea6cf4d3bd2aa7ffd421116551654e2a22e40a17e4cd087c8725138113bad69",
+        "size": 24470
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/design_bottom_sheet_slide_in.xml",
+        "sha256": "6a12afebc8989a721ef12bbff967f030fff88fbfb895b7a194694969aff5049a",
+        "size": 616
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/design_bottom_sheet_slide_out.xml",
+        "sha256": "ea7ff9fb14de445ed7bf7030f6405f02c4dd799cafccadbd994812de3c558fc7",
+        "size": 616
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "sha256": "650c54c5eff734092ee09354ffa1d833931b7706f2797e801f825604c47c2dd3",
+        "size": 364
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/m3_bottom_sheet_slide_in.xml",
+        "sha256": "dd879ac0ad9855e0366e01fa3e9b503ed355d2c9cd6cf0a5bcc5a157211e3685",
+        "size": 616
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/m3_bottom_sheet_slide_out.xml",
+        "sha256": "25aa7948707ad2d23180fc051e0a7b98c1b1fd39363bd426685fb90f295cce99",
+        "size": 656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/m3_side_sheet_enter_from_left.xml",
+        "sha256": "110c51d3952bf00be3f1fef829ce9c6ec8f53c732356b6381cf7f5bbcbf68d40",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/m3_side_sheet_enter_from_right.xml",
+        "sha256": "7ec2dd96522f27b17b6f7a9e3bc757fb9d6bf56c2f523af2fbc04b46b48ba7e8",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/m3_side_sheet_exit_to_left.xml",
+        "sha256": "95706db21d090ee9924d265f77e2849db9125a46d1440735ead49f312da09b1c",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/m3_side_sheet_exit_to_right.xml",
+        "sha256": "5d6f6592b20daee7681c8cead59c1d4a2d95463d0d6edc0438a451fabe90a914",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "sha256": "a155403d68ca77c34b2fb6bba196827e7295f3a157b07268911f296aede784be",
+        "size": 616
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "sha256": "e2f84fad7c099f3cfa128a6d27ef6a136a16caabd0de81e98733be40bb80674e",
+        "size": 616
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_fade_in.xml",
+        "sha256": "3067b94eebe8ac9e3a45599822f99d807d712f424494e9fc9cdd28cfb6bdae6a",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_fade_out.xml",
+        "sha256": "bbb0848d98a57a7d05ccddd0311383eef9842d3b1a8c361c429fa060de6f05b2",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_grow_fade_in_from_bottom.xml",
+        "sha256": "23fecd03f9a636dfd92580bb1c6458e33705434c13d903448142685caa09409f",
+        "size": 852
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_popup_enter.xml",
+        "sha256": "5017034ef30d68b03b2291230e0537cb3fbd94f1d9b3a7a94fc3df49b859b7b0",
+        "size": 508
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_popup_exit.xml",
+        "sha256": "96167b3606a1ebb61043cb0e8863a4afbf054db87bf468c949fea774226da865",
+        "size": 508
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_shrink_fade_out_from_bottom.xml",
+        "sha256": "46b16d1d21c15e661b345759d324583230ac64b34864cdac437c280148aa26dc",
+        "size": 852
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_slide_in_bottom.xml",
+        "sha256": "486ad705ae37ff41dfabc952fe5f288e5c7bad1d8ddccd37ab09f26d355415a1",
+        "size": 396
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_slide_in_top.xml",
+        "sha256": "d60b273289d358f2b3eea13fa097b1cf2198eb37517f7dc9c312ed3e2b465256",
+        "size": 396
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_slide_out_bottom.xml",
+        "sha256": "e0259df82b318cd7d095daae2cb3d4ee6565adefd6def8c11675649f63717ee5",
+        "size": 396
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_slide_out_top.xml",
+        "sha256": "0a61ab9fb3d5a2256eb81bd9e63340da925695b00ed53030abfb31d35bd384df",
+        "size": 396
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_tooltip_enter.xml",
+        "sha256": "9e87faaf40be606361339b9330ae1d954741e2f7bf2aafe0604ce8600db604fa",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/abc_tooltip_exit.xml",
+        "sha256": "6eeef9f6db599f063bbb3f62dd22fa751dfdefb577f0e5edb413e3675257e6f6",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml",
+        "sha256": "4369cdf829c4026968dbd3620ce4a916d51fb1253e8d917c489ed669e9e5f14c",
+        "size": 2124
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml",
+        "sha256": "02498b3366e0e1bea21670eda2ec21132057fc0be3293c9a16e2faedcdebf56d",
+        "size": 2780
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_checkbox_to_checked_icon_null_animation.xml",
+        "sha256": "8bf23cd077c3b9ff7621202ba4b20ac55a59b4dc0fc7751419be7966343007e2",
+        "size": 1196
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
+        "sha256": "fb6c25a1af1868b9af9ea89e30203735f342adcecd23b62560face389f072e85",
+        "size": 2360
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml",
+        "sha256": "9104ddf7f8f3fd0e0efcffefbdb3f7dd989fa08ef3efe4fff96e875bd6feadd5",
+        "size": 2520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml",
+        "sha256": "1dbc0b2003517242a53897e68dd789e004aa783a2e06f957188486ce0fe8b1f6",
+        "size": 1196
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml",
+        "sha256": "af434183ae0c744f402fdcd1612dd7fe1424271d3b8c11c410102ed4ae6f0b88",
+        "size": 1656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml",
+        "sha256": "f5c2c69cd939f7b4d4cee3db7f0e9423a4ccfd4c5c38b0a316e2227a527415bc",
+        "size": 1656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml",
+        "sha256": "40408a2406c87d8f7e89e992d9f37549fe21ffcd284db3fd3f5806768688430b",
+        "size": 1028
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml",
+        "sha256": "07a0d834c8f6dca2ec77c3439117f30d3d2a39631b86fa77ec7794b8d2eb894e",
+        "size": 1656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml",
+        "sha256": "635a0eab1e993efb7b25dfcef777d3faeee1c51f1cc0d3809f4b0d054d5ff34d",
+        "size": 1656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml",
+        "sha256": "1db0bf03b3f8f751d022856463c48b32430c7b465eea4d420cb795e303532d53",
+        "size": 1028
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/design_snackbar_in.xml",
+        "sha256": "193e06875ef59f3d92f87e8c56986dfae3500e747275ea6555d8b8892e504b8e",
+        "size": 312
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/design_snackbar_out.xml",
+        "sha256": "c8aa902a6f828a1866bdae23f874d10766cf25ae1972fceaff9feec3b4248970",
+        "size": 312
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/dialog_enter.xml",
+        "sha256": "33dfd78b314c90b53dd9aaf65779ce70ed4bba176f7060b3b7820a958ca75e33",
+        "size": 656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/dialog_exit.xml",
+        "sha256": "6ce56ef5c8d106368eac32505f8a7f6acd5b356b1424595daa97ed553b8ae7d7",
+        "size": 656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/fab_hide.xml",
+        "sha256": "8172448cc1af94e078dca52f3aa06d8ecf106fad5cdbc5b88125fe2ce67c41a7",
+        "size": 696
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/fab_show.xml",
+        "sha256": "9ed9736b1c891e99239ab30f447bcbf36dbd9a99d8a2afff116a8d789218a9b1",
+        "size": 696
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/grow.xml",
+        "sha256": "84164d465c260ec343fd05bc9ab5f4b371d8a8467122200dfd9a02e3b1765e55",
+        "size": 656
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/grow_delay.xml",
+        "sha256": "9c5b9ace718f49f8c479cc22727a43031699a92f53360b352e69ac6c916fbab7",
+        "size": 696
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/linear_indeterminate_line1_head_interpolator.xml",
+        "sha256": "c039f810a5b6429035cca5c0017d69a2d8ed31fc6c027e56d866c93bb46f45da",
+        "size": 400
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/linear_indeterminate_line1_tail_interpolator.xml",
+        "sha256": "24a2f83e941d1d903f64aab8d069c4e0a5102397baeced1fcb35947a69346093",
+        "size": 400
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/linear_indeterminate_line2_head_interpolator.xml",
+        "sha256": "ff41124d7e373921122c8081c2a2c93596299df8b91eef2d6040af1a50f34907",
+        "size": 400
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/linear_indeterminate_line2_tail_interpolator.xml",
+        "sha256": "0ec4e1f5bf1a664593d4c6bebf9caced6e7f38e1911c4c39b74897b1dfad9b6e",
+        "size": 400
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/m3_motion_fade_enter.xml",
+        "sha256": "ff1c71dbd9b91378cc3a2271c63fd425c16ddc266e588d2adcd86d8e9a3c1c16",
+        "size": 812
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/m3_motion_fade_exit.xml",
+        "sha256": "81ce5be15c3a1a8fc5ae6b5b1cfc6f91b54ad3adccde8d0cf65e880b446b4d38",
+        "size": 508
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/mtrl_card_lowers_interpolator.xml",
+        "sha256": "eaf226a569519284df5c4027699f82906ca6f6136a2e12b3d845a708855991dc",
+        "size": 400
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/nav_default_enter_anim.xml",
+        "sha256": "bc6d42098da31aaf6c25c9167a2fff235a4a26469b11c3ff5c00a7e12ebccc0f",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/nav_default_exit_anim.xml",
+        "sha256": "c594c9d516c362a19ed12056b5bcaabf2dc1de2dee5077e80ccfd07f49cbfb56",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/nav_default_pop_enter_anim.xml",
+        "sha256": "bc6d42098da31aaf6c25c9167a2fff235a4a26469b11c3ff5c00a7e12ebccc0f",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/nav_default_pop_exit_anim.xml",
+        "sha256": "c594c9d516c362a19ed12056b5bcaabf2dc1de2dee5077e80ccfd07f49cbfb56",
+        "size": 388
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/next_month_in.xml",
+        "sha256": "07bf8ad2111fef3eacb59de676074b4c29e924583e6c885911c0e3760dae7345",
+        "size": 716
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/next_month_out.xml",
+        "sha256": "1da1e3d337982d148e01ac1d98eb7a624b5cdadd68ff4c1295a7743fc397700e",
+        "size": 716
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/prev_month_in.xml",
+        "sha256": "ecdf4b8ebae4623b7c5fcaeddd5cf9a5ff51a50e4e1be43ddfe8f2566b0fa56d",
+        "size": 716
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/prev_month_out.xml",
+        "sha256": "01f0e57ee60254ecafb6046444fb534f3a898b23a19a0c9e19b6b209f22df4f3",
+        "size": 716
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_in_bottom.xml",
+        "sha256": "5bbebdd48f98618d931ed85da51bfc2c0e3b8ef090b0bed7da7b87eee66a0350",
+        "size": 420
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_in_left.xml",
+        "sha256": "e3203051f12e22cd758685c7776f3c18106d6ae27a58a095239a3153ac005d99",
+        "size": 592
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_in_right.xml",
+        "sha256": "84f41cd4ca2e490c86e452ade36a273bcddb82279a5f5415e491b619bdc52e4e",
+        "size": 420
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_in_top.xml",
+        "sha256": "99fa0b258a1fcc34971b66bad796a639026776eeedf84f9df6b6ebe76ba58f75",
+        "size": 592
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_out_bottom.xml",
+        "sha256": "29a884be8765251cac0569d5dbc1dc79f2429d77f047a24416d89a0feab438a4",
+        "size": 592
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_out_left.xml",
+        "sha256": "ff2157ef377b1378af5529cb1a6aff300de62e17c8301db732c8f009dcd3e2f6",
+        "size": 420
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_out_right.xml",
+        "sha256": "ef84ffca5a66619f3cd425f0aa4d4c5b7c4808addc3a97fc3192ca3f82be4c42",
+        "size": 592
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/slide_out_top.xml",
+        "sha256": "17728e0f8c4502a96320bfcf8b53cd1f2e2b09f914b8d89bb07e60ab511b12ca",
+        "size": 420
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/swap_in_above.xml",
+        "sha256": "bf5bc71f7f450a38672685106ecf5b1cd385be7aa967134464675257c122416c",
+        "size": 720
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/swap_in_below.xml",
+        "sha256": "790edfe6df4a5bfaf71ad5e2994b4588907698887b454b80d64416d73715150a",
+        "size": 1064
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/swap_out_above.xml",
+        "sha256": "7e7b37cca61196d85747fb6fc946724976e72bc8cd6ac9f464caa20518efacb5",
+        "size": 720
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/swap_out_below.xml",
+        "sha256": "93bc14384585139f7af5af4a1221a993ff991c2579beb08f1635f7d319e4dcd2",
+        "size": 1064
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/anim/tick.xml",
+        "sha256": "55231228652d4a46b41a2b44e217b7ebeee09ff9ba755f7b7939b026f7168748",
+        "size": 948
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator-v21/design_appbar_state_list_animator.xml",
+        "sha256": "eb5122695606cd65bff34aca552abeb154cfa8bd8faa99ad88af19e6b9e3e2ab",
+        "size": 1216
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator-v21/m3_appbar_state_list_animator.xml",
+        "sha256": "401a4fb0dcfd555f8540ff6a33e86f2eaf54f0f15183e6c5a57d1e6bf048b7d6",
+        "size": 1216
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/design_fab_hide_motion_spec.xml",
+        "sha256": "fc19effce23fd4b8c92ac972be44a5b01221f45d0c93c138697e87c09ddfd2cc",
+        "size": 796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/design_fab_show_motion_spec.xml",
+        "sha256": "836a1b9f59f3ed2f61f1b07f7d3d6c823e002d6d50da5660342b308d9f7558ff",
+        "size": 796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/fragment_close_enter.xml",
+        "sha256": "0b69ed111f2c99a6ff5eda4024de3dbfb6e22b09ec126233d93f5744405b853f",
+        "size": 1128
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/fragment_close_exit.xml",
+        "sha256": "1b7e600052c51a6f6035196e6af4293b12132f10fd9b6d4130f833f0ab771bf8",
+        "size": 1128
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/fragment_fade_enter.xml",
+        "sha256": "0b51013fc0f5e916a727b75512c1ee9206178bd134509b7b4be6a397fa4d9a6b",
+        "size": 452
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/fragment_fade_exit.xml",
+        "sha256": "440c234ca8a09188ec558b13771cb29c2da228956bfb58bdade5c1770384acbe",
+        "size": 452
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/fragment_open_enter.xml",
+        "sha256": "c2b9e270262d342318db17ae599137a788a91cf64d7397d52a1492f5f5f47e6b",
+        "size": 1128
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/fragment_open_exit.xml",
+        "sha256": "140ba8383435bce67054743d4ea85e776da7aed33d1f92cebd9523e0a1e1a4cc",
+        "size": 1128
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/grid_item.xml",
+        "sha256": "82c9fb1f72f2588678b36a16725279a1ab573ec95f03b66bfdb6a6176217ba6c",
+        "size": 1520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_btn_elevated_btn_state_list_anim.xml",
+        "sha256": "f97dba2747857a7dfbad27a19a65f30b21fa8ae560b14f8ba9abca23d2edc1f3",
+        "size": 1796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_btn_state_list_anim.xml",
+        "sha256": "9f98bffbd3004653470b6c2bd6afe1f1ad844209fa1e5d7564f3c817e528dc6c",
+        "size": 1796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_card_elevated_state_list_anim.xml",
+        "sha256": "e7d1af61224256d815182b99f409bc9bd9d97591d3f3a5745f1f09320c4689dd",
+        "size": 1632
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_card_state_list_anim.xml",
+        "sha256": "3140b265c2b36d43269f2f814ce3e1f4b3cbf173617ad51cc07a6031b521092e",
+        "size": 1584
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_chip_state_list_anim.xml",
+        "sha256": "51193b3048233f1fdd22e8a5ab7aba24b2aa04a1686c0ff748a8023d45139b05",
+        "size": 1180
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_elevated_chip_state_list_anim.xml",
+        "sha256": "e812240080d4432f99ec1238669524b22abfc763ad1e4d36525df47b4d458891",
+        "size": 1072
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_extended_fab_change_size_collapse_motion_spec.xml",
+        "sha256": "f124aee9b25f6b8ef6af2fb8d375498cf4e34026e6c15061aae0181b193a20f3",
+        "size": 1116
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_extended_fab_change_size_expand_motion_spec.xml",
+        "sha256": "901214efa961e331299d0f7243d7cddfcb820d83a78cf59181faa98d9d4af8bb",
+        "size": 1116
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_extended_fab_hide_motion_spec.xml",
+        "sha256": "3d60a97abdd9823018fbc8a4f763f7c64558516e3b822ccea1cc5b544229183d",
+        "size": 820
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_extended_fab_show_motion_spec.xml",
+        "sha256": "8aee1c125c454c65c8ebded34dd3ec1bb6655ae833fa388c64dfea4358f272ae",
+        "size": 820
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/m3_extended_fab_state_list_animator.xml",
+        "sha256": "c5131c5ce9b5e6ab7fedf11db154431c75f668d6351902bcd11d10500cd134cb",
+        "size": 2724
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_btn_state_list_anim.xml",
+        "sha256": "c4e4d0c3e88323bb26beed3a6505dabd0202e07a24176cf6b5484c2c6f86725c",
+        "size": 2664
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_btn_unelevated_state_list_anim.xml",
+        "sha256": "f6828625db23f10e2bda1101738cdc5e18c92b08f84c24a01a3813895bf071fb",
+        "size": 120
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_card_state_list_anim.xml",
+        "sha256": "28fd17ea4d32a1386a322ed65451e6b138a696bb184b74c7610aaad2c2fc8e7e",
+        "size": 1208
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_chip_state_list_anim.xml",
+        "sha256": "deb648b732931d748fd863bd39590758ce8d8dcf3b865b9a4e24327497271e73",
+        "size": 1072
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_extended_fab_change_size_collapse_motion_spec.xml",
+        "sha256": "9bf7485ca08bb09c25782d4be1ded778e7c11a971113ce3bb06cece0c4cb3875",
+        "size": 1116
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_extended_fab_change_size_expand_motion_spec.xml",
+        "sha256": "4917e2045dde6f066a1805c5df49c46761e1b9fafc7e19a98444b1fba749d2d8",
+        "size": 1116
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_extended_fab_hide_motion_spec.xml",
+        "sha256": "f398343598ddb88f0f66ef06758d60cb20db48bf9e7ed61a12cb4de344c7312b",
+        "size": 608
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_extended_fab_show_motion_spec.xml",
+        "sha256": "3f96e69dd338ff605099a51ee21d7c862536f4b23abd879fbf44ce4369bf3fc9",
+        "size": 820
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_extended_fab_state_list_animator.xml",
+        "sha256": "60cf778fc8608a940977dcb4c793e49367271741e163e24a7ec3e06bb8831201",
+        "size": 2724
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_fab_hide_motion_spec.xml",
+        "sha256": "70f7de1534e1abe0d571953ac125be08489c61b470cc76506f5b5af7cbd2ecf3",
+        "size": 796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_fab_show_motion_spec.xml",
+        "sha256": "74ab8a86b079b90af9d1947e5805b9c548177f80284cd006cd73037cd9122629",
+        "size": 796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "sha256": "207d4ff2e3edc66f9091e779a3840ab75608771281f669879ccd42ce8ac933a9",
+        "size": 1888
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/mtrl_fab_transformation_sheet_expand_spec.xml",
+        "sha256": "69f94c4561fa0bc52f09e3f37bd2337001586dfeffd2513d40a73cdff6e1dbdf",
+        "size": 1888
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/nav_default_enter_anim.xml",
+        "sha256": "a699e157355d1b989d9f8b999f208da7ee43a8870baf90519d96d89678910b70",
+        "size": 452
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/nav_default_exit_anim.xml",
+        "sha256": "b4bbb3979796cd4075d8921ee7b9ea79d93080d8101bb50277b1cf296869a382",
+        "size": 452
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/nav_default_pop_enter_anim.xml",
+        "sha256": "a699e157355d1b989d9f8b999f208da7ee43a8870baf90519d96d89678910b70",
+        "size": 452
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/nav_default_pop_exit_anim.xml",
+        "sha256": "b4bbb3979796cd4075d8921ee7b9ea79d93080d8101bb50277b1cf296869a382",
+        "size": 452
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/path.xml",
+        "sha256": "fb43e93180d986b46b8e31b6f87dc4c0acf597547516d0c8dd398133b8ce95af",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/photo.xml",
+        "sha256": "8810912de0e3291b78412ef48805d0ecf57cbe3af7a653779da47f968ec9eb03",
+        "size": 2116
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/sentiment_selector.xml",
+        "sha256": "f30760b6638d5d56ee2cdcc64fe5ce4bb8345c465be42261435d1b59051402af",
+        "size": 1672
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/tick_scale_in_1.xml",
+        "sha256": "227bd7b1efcb90f639df734b046e0d6c1db7ec79873c28813d4b90f359ced582",
+        "size": 736
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/animator/tick_scale_in_2.xml",
+        "sha256": "6ae9c9939247c685f9b0571258905243c24a93861523d9636485b58b40c45265",
+        "size": 796
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-night-v8/material_timepicker_button_stroke.xml",
+        "sha256": "a8d7a247c38cb89d07dd2ab661b13ca9cfb56c27e7777bb8488540e24ac552d7",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-night-v8/material_timepicker_clockface.xml",
+        "sha256": "75fe88c60d4d952f5ddf58696125e2dcff93028ce464d8da493f70d3d0144f80",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "sha256": "97d8c1114ef09725b137d1b827e355c318f9e02ae1b2b3452ddede73ab8e1dda",
+        "size": 340
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "sha256": "425e65b9d228de3131a542b941dcff5c9aa9d04f28ad13813a5d6b935218e0ba",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_btn_colored_text_material.xml",
+        "sha256": "35f8dd73e67887c32be74aae11f9a67d779b33f72ea61312d4c439b8f73d5ca3",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_color_highlight_material.xml",
+        "sha256": "4c1de32e6576a3e6a7f7e7b8c25da23d51eff5b30414505784ea1c9581249461",
+        "size": 544
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_tint_btn_checkable.xml",
+        "sha256": "28a8b7f4ed61692a8c2bf51acbb49b350795614cd22ca9a63f78823e80fae9e3",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_tint_default.xml",
+        "sha256": "f561ab3571ad6b9540abda24738337593fa89805f55ad266ecff68f3b042ecf1",
+        "size": 1120
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_tint_edittext.xml",
+        "sha256": "20c223fb93c0270f2629b9a364ea395cbde44e6296fad8f8755bbdea2a40b8d1",
+        "size": 668
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_tint_seek_thumb.xml",
+        "sha256": "3bb8eda03d23f5c8d7a75bcfe41c3241e801003600aef4af5b3ee4faeac3ea59",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_tint_spinner.xml",
+        "sha256": "20c223fb93c0270f2629b9a364ea395cbde44e6296fad8f8755bbdea2a40b8d1",
+        "size": 668
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v23/abc_tint_switch_track.xml",
+        "sha256": "76b49c5e52b3ab7a48c23fbcc16644cb64ad399f7d0ec56a4c7397099533ecf6",
+        "size": 664
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v26/biometric_error_color.xml",
+        "sha256": "145da9759e5b11c3ae3bc890fe5545e9a591047f0d0496b4aa4f7f039a1bb589",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_dark_default_color_primary_text.xml",
+        "sha256": "28f282a5e339d7aa02cc7e68d481e8b834df2bd604dea0303e09a068eeba225b",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml",
+        "sha256": "595a3fc6d318b308fb0431aa8287130dd51f7aa8dad666c1f91939cda1b478e2",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_dark_highlighted_text.xml",
+        "sha256": "e4867fa0e0ba445adbbb154d7c93ec1b955cb701114d232af40330e96b0d8572",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_dark_hint_foreground.xml",
+        "sha256": "970f752a9daef2476dc2d859b3674acfde502ca67243a812f45f73dafd2705c4",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml",
+        "sha256": "adf87a3c8863e10f6d535f62529c7b8cb47e58e76371de2ed3722ca5baafb974",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_default_color_primary_text.xml",
+        "sha256": "d3b676185bcda25e878d59f74d854bf6fc9bd06711f34f12fe0ce13d16fdc596",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_default_color_secondary_text.xml",
+        "sha256": "5cd50c7126841350fbd40ba424cbb32e6922d3f6a07c6e3341147534a959e4aa",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_highlighted_text.xml",
+        "sha256": "5962bfa7c9419c8c30462d221fcfcd0b6dad7ea0206f93ef6383f2cb610e8c23",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_hint_foreground.xml",
+        "sha256": "4dc9f26268c168ff63a3c208e638cf9d2a4621ca503ece27b1e6ac20e6b8ee2b",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_dynamic_primary_text_disable_only.xml",
+        "sha256": "d7259865ce3a39fba521431d77830fde4e471766cff36fff2d303565ee2debdf",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral12.xml",
+        "sha256": "3daf67d77100f5ddd7b175e6e05053edb05b8d6b9fc389ac7f63eee1f5111e01",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral17.xml",
+        "sha256": "a2215fbf0454f6dfa0994b7e1d0c324f9a48f43e846e588f955d464c372b66a3",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral22.xml",
+        "sha256": "8f76c0102049f206f068eeb190293cfd753b5740d71c2721ff28eec671aef1b9",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral24.xml",
+        "sha256": "2cac2bc205898868354a8cf2913fcb9dc36f5cda267e469791c1b3545736207e",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral4.xml",
+        "sha256": "558c0630af3bd1b24775b40a4df0d86f00bfc6c59c0f537e96553f035d16d092",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral6.xml",
+        "sha256": "8e60a6dfba31f4d014571e811052ded51c420c90a65d7237461f83e1b1011745",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral87.xml",
+        "sha256": "a7865798773441c6f2974b556ed7886caffaf0bb811f49f15e5aa5833b2ff689",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral92.xml",
+        "sha256": "3857d017c69d0bc4ffe3f6fe24d11bcc5a1ab8add401f5482339831cea089d87",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral94.xml",
+        "sha256": "e9368f4cb432922254228906c532032b37800ac0f7bea29d33c10317c03c9607",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral96.xml",
+        "sha256": "00c7d4e96a9851d7f2946b24bea03897addf39427de6fd2cad94d5799084ba18",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral98.xml",
+        "sha256": "3ba4b52deb1887d1192556ac4f5c7492b3fa8c1ce998d69924364d9ee03c89a5",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant12.xml",
+        "sha256": "e2542e770729fe9b92c0040da002531afa1ca7912441fe8f3f9880d709685652",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant17.xml",
+        "sha256": "625f90cfce474ae70bf583cad51f2d1738a2b90f1df12cc32e04fd5bd3714363",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant22.xml",
+        "sha256": "9ea4227e8ddab5a6b8f97654b1ceddb6bfc2b3a0c54daff5c9609591345c9291",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant24.xml",
+        "sha256": "31d822b7c2a2417e513b7ba0beec45bf64ec3b35566d615d18121116f504fb00",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant4.xml",
+        "sha256": "fcce8abeac3bfba498ee69a5c887cb0418a89a33d6c3c48d587e7b84ed69e529",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant6.xml",
+        "sha256": "974ec422d772959dbfdca49185532c7ea646502cfec5930e70afd5d77220ca39",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant87.xml",
+        "sha256": "f89a58fa8eae2f3d2a0ecf4bf0d284adc955cc94056df6eb7d4342d38305fe78",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant92.xml",
+        "sha256": "e60004d6f64968af601dd8851d841504dcf9c338b132a29ee7bf5417baf798f0",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant94.xml",
+        "sha256": "faf1fb3606360e467ea29f70a4186ba960206802e297b2d3d2b6f19bd0cb8eb4",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant96.xml",
+        "sha256": "83e33c9332660ca06501e02ab86f8deef0a6fac465192525ddcb090a76c3767f",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant98.xml",
+        "sha256": "ced39e007fefdcf1bccf598db78197ba35035ba916fa169a6810d0f170ce8595",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_background_cache_hint_selector_material_dark.xml",
+        "sha256": "c70dc819c31ce5224e34e185442a7393444474f3220b458ace3a612fdd1ba6e2",
+        "size": 468
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_background_cache_hint_selector_material_light.xml",
+        "sha256": "b0dc1cea0d01a6e92276b6fa597c38663020ad2a24255c5e68194ccb095b0577",
+        "size": 468
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_hint_foreground_material_dark.xml",
+        "sha256": "39aa0b2c14c811bbbb14e03102e07e1980a5016df9f066df1d4d6da1f52b09d7",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_hint_foreground_material_light.xml",
+        "sha256": "86aa248b3e91e71d90b5d2542bff3106dabcd43853f1a7778042ca978af24dc0",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_primary_text_disable_only_material_dark.xml",
+        "sha256": "b11dac646c6593961128e22ca5c28d26b4cac95f1b6c9c14a7cfcda81a234e65",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_primary_text_disable_only_material_light.xml",
+        "sha256": "1251c9bcfc85339ee37bc20da5f6a96656d23e5928ac59cd99fc49459fe49e24",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_primary_text_material_dark.xml",
+        "sha256": "bfb165e0ff17b2f2bb49389835f11ba3ddab67cc4f85a27cdfca507f9058530d",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_primary_text_material_light.xml",
+        "sha256": "53297262762cbf239021e1ecf04eceda475693567315e1b46cce1f1acf82b1aa",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_search_url_text.xml",
+        "sha256": "180aebed8823b2594d22b10149a1412a64e5059c355668ff47febbcecc8a4405",
+        "size": 588
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_secondary_text_material_dark.xml",
+        "sha256": "13b9f15fa50c9917afe32fe6cc837d0b70af6aaefab397f97a97767bbc575f5d",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/abc_secondary_text_material_light.xml",
+        "sha256": "5fdbdc3ca361f292f1fed717c78077637bb20d43a3065c2ade7b55c1d14d84ca",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/common_google_signin_btn_text_dark.xml",
+        "sha256": "3fd435c87aba4c646acf56a1d8b326996182ee8fdfaf4380949401595b3605d7",
+        "size": 712
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/common_google_signin_btn_text_light.xml",
+        "sha256": "74bc27b46bbb1b5d821af9410669c9aa12537d452d897a7fade3f43d5fd57c6f",
+        "size": 712
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/common_google_signin_btn_tint.xml",
+        "sha256": "c230db3d543d322c35c60b744c12b0aa7526f1ccfffbb570caee6f47c99f9626",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/design_box_stroke_color.xml",
+        "sha256": "42e210335c85da06241403d06d2206691496af870a05fcdc6f35eaad8d9115c3",
+        "size": 712
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/design_error.xml",
+        "sha256": "c5dfe8e8c195156ae2e426e49054a1420d6d83e31350cedc1bfd581e54fc7f9c",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/design_icon_tint.xml",
+        "sha256": "c0996c3ed11e7934d3df65df6881e0046f14c18861f92a9fcf61b3872db55543",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_appbar_overlay_color.xml",
+        "sha256": "b761d6d3871159c06c6908150affc9e50e9f3bf2ef158aa0d0f635813635e538",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_assist_chip_icon_tint_color.xml",
+        "sha256": "c1ce9b03289dea649e6f7212e87f963475ca43cf38247839e7c3a4286c9861a7",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_assist_chip_stroke_color.xml",
+        "sha256": "9a858db535b9d0521c4573bedf2ec3563e94fd96bc0411f0f68ca97d83389a0a",
+        "size": 872
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_bottom_sheet_drag_handle_color.xml",
+        "sha256": "fc57ac78b76cfdccbe0b56c8355126ebd166e3b4b849fcc9ec805adced89c674",
+        "size": 340
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_button_background_color_selector.xml",
+        "sha256": "4395a255a75e032655b39e9c2bcc09824602157ad40e589ec9c151377796470d",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_button_foreground_color_selector.xml",
+        "sha256": "937f0f558f5586a8fb98f4fe1f2131aa882515b397f7ef7c572e45a1612cbcb5",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_button_outline_color_selector.xml",
+        "sha256": "772b313d62c225c4a4bfe0b189eba68c81564bb6a6bc570a2c55c12c5cb131f3",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_button_ripple_color.xml",
+        "sha256": "f51e845aa00b016b1e33d70c0a0815a5936eaac3f8a73c78ff02e0a7b1a7eb57",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_button_ripple_color_selector.xml",
+        "sha256": "8fc250a5487a48e25eca64094e56d2a0059d160392f6d15df964c1cd979eed98",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_calendar_item_disabled_text.xml",
+        "sha256": "ad6774a806ca64c8e5fdc2ead66be54406b5c2e9dbcf0de9a1ae1ffe4efbfbee",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_calendar_item_stroke_color.xml",
+        "sha256": "5b9ce0457c7884b744386723d997ad4d6de25ff8b9bfee65cf9561fc955341b4",
+        "size": 712
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_card_foreground_color.xml",
+        "sha256": "c0f42d072248f96898f81f5a75ff734b1429d76c25ba1573e1bd8359562a7577",
+        "size": 768
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_card_ripple_color.xml",
+        "sha256": "8405aa352247264e96789043ad767a1d27e106cbf692c687bfa467cbcbaeba0c",
+        "size": 1556
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_card_stroke_color.xml",
+        "sha256": "3be8f144e1f1a37b1d66da2472692d27b497f5c676cb237f07a61912d8127631",
+        "size": 1224
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_checkbox_button_icon_tint.xml",
+        "sha256": "750c73f56d1767da2a0fd109034ec2484797a4bf557515452b8c1a47703214d1",
+        "size": 964
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_checkbox_button_tint.xml",
+        "sha256": "45fe17fba4152e40d6e645b4b6fb35784b82d273e36aaca18d3792bb8753e3ec",
+        "size": 1000
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_chip_assist_text_color.xml",
+        "sha256": "d5e7e052af80904afbd84f558ccd4bbe4d6f95ecb21cf9031701aa185576865a",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_chip_background_color.xml",
+        "sha256": "4cfe82c7a7805c6a8599b2aaddbd4ac37d28708e38d26ce7633263b6ce2a87a3",
+        "size": 712
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_chip_ripple_color.xml",
+        "sha256": "934485408d5b2966329f2c64ebcf83e73cf5d17bd99995f30ab6b2e566ca286a",
+        "size": 1556
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_chip_stroke_color.xml",
+        "sha256": "0b75afdeab29b71d4c168bddf89f9297857e3420a5fdc7ce74af9f6085ef6228",
+        "size": 872
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_chip_text_color.xml",
+        "sha256": "0c50c43d82506b417d68327c7638a68c89bdb346a1c48f3f018274556556381a",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_dark_default_color_primary_text.xml",
+        "sha256": "a6fe00583392225bcf7964eb64af155b428503156270ae5e8bff78bcd5c3fc8f",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_dark_default_color_secondary_text.xml",
+        "sha256": "307f6cf2086116d4f04a971bdb41586d0b2dea41d32c3ca48e68f8ec15e2ad20",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_dark_highlighted_text.xml",
+        "sha256": "63f6085627ef0158df2a361ec9a5a7e43fb6924f5c7f4ee2e54fdbdfa801c7bd",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_dark_hint_foreground.xml",
+        "sha256": "7b840ce6051e56a68ffe485435cb9da95ef749a4859bca0b0712c52587964fba",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_dark_primary_text_disable_only.xml",
+        "sha256": "8b96d057f99fcca496d918b7284319c8484ef749d232e6a31596bf9af401f353",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_default_color_primary_text.xml",
+        "sha256": "291358224b4dc9656612a7a72288053af814a1e32c7f336df0d0e19c2817aa06",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_default_color_secondary_text.xml",
+        "sha256": "dd5f4f0e8ffedf5d6c8d562629d2cbe400cf6c391e9fb50407d45e416b7a1b8a",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_efab_ripple_color_selector.xml",
+        "sha256": "c26a72b8c1e3d5b817d99ea0b80c6f458851e54a6cf8d359107e0866f76b6f04",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_elevated_chip_background_color.xml",
+        "sha256": "3df439451c0d7bcc68533c3029eb7bab440659c5663e232e570b2d23bd43d6a3",
+        "size": 748
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_fab_efab_background_color_selector.xml",
+        "sha256": "4395a255a75e032655b39e9c2bcc09824602157ad40e589ec9c151377796470d",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_fab_efab_foreground_color_selector.xml",
+        "sha256": "937f0f558f5586a8fb98f4fe1f2131aa882515b397f7ef7c572e45a1612cbcb5",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_fab_ripple_color_selector.xml",
+        "sha256": "dcde4a04a59909fa0474fd5bc4ad52275b1885a6af203619aacd168e74ab7590",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_filled_icon_button_container_color_selector.xml",
+        "sha256": "f19845d88a1087fbca5488429a6390afcc8b8705a896dae13a7da492eb7a82ae",
+        "size": 668
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_highlighted_text.xml",
+        "sha256": "61344825aca8d464ed9fb9447ec79b59d0ee4bdbf34d815098bf7214ba2d8f51",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_hint_foreground.xml",
+        "sha256": "13e0a127d6d05d702deb80df1bb9c7f7ca575f9eb41cf52dfb2666c959546b0c",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_icon_button_icon_color_selector.xml",
+        "sha256": "c88d476be1a03e792edd48a447e67686da82dba95e38594440ea4d2f10871836",
+        "size": 668
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_bar_item_with_indicator_icon_tint.xml",
+        "sha256": "b0e75281c2c67544be768145cef39d1d2c6445baefd3fb39e64f6d064bc8a27d",
+        "size": 1196
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_bar_item_with_indicator_label_tint.xml",
+        "sha256": "004280885bb0e62cba32e9dfa14031a06a848e6cbe6de226fee483d8c077033b",
+        "size": 1196
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_bar_ripple_color_selector.xml",
+        "sha256": "f0b64843b351d23c2a7ce4c35fef3798b57f3770109da1594362aec7863c4e28",
+        "size": 1232
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_item_background_color.xml",
+        "sha256": "c1d7f920bfec9ee1bfe9841c4788425743f20e8fa090de3b8eaaf2958cc3359d",
+        "size": 588
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_item_icon_tint.xml",
+        "sha256": "9e2dcfe00cdf3380781d3a2bf88aac508bab1799049900905bb064b452d42fa3",
+        "size": 1356
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_item_ripple_color.xml",
+        "sha256": "503d6b97550963903a4a8c6f011f92e8ee86dd0f7f5b24f01683c53e778dc333",
+        "size": 1372
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_item_text_color.xml",
+        "sha256": "1a5ed77faaaced7c43095683aa8d7ca286f5ba049f5d0d23ea0eab4700db5bb0",
+        "size": 1356
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_rail_item_with_indicator_icon_tint.xml",
+        "sha256": "2988be884f782d8cd8deb634191f078061b0a49d3abcf567edbb2d637b746c48",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_rail_item_with_indicator_label_tint.xml",
+        "sha256": "5602d5843266fc19359bb3055e18b3e4e9c0c9f7f097d61c0d77dd51ec244a7f",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_navigation_rail_ripple_color_selector.xml",
+        "sha256": "a96c40becba20527bd63b21ea90cbe4ef393e9b9a30dec2505d94accacce093f",
+        "size": 1232
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_popupmenu_overlay_color.xml",
+        "sha256": "0c3a69f0115c80094f85c4fb5fe24e713c5bc9abd8e9a2a8a0a8ef6ca9bd5b67",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_primary_text_disable_only.xml",
+        "sha256": "114f69b3b5718e86dd1337b0fae7270232099fadf48c035e8529faa66af71afd",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_radiobutton_button_tint.xml",
+        "sha256": "d428a0e4bf25903b2d7b98c011865f8ce2a329e778f7cc40eb149ca4fe10ecc6",
+        "size": 1576
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_radiobutton_ripple_tint.xml",
+        "sha256": "e86bfe694d6af49d2d476912e1c3f046948732d5be4672cabe66c73993c0aefe",
+        "size": 1372
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_selection_control_ripple_color_selector.xml",
+        "sha256": "a68d9a56d8c1e4d5dcbd3156614a8140c09e0f200752a51085ca537d6af40924",
+        "size": 1372
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_simple_item_ripple_color.xml",
+        "sha256": "e8dfcb16052a801673d3a3bddd270157443dbb398388ab2c92dac429a803b1e8",
+        "size": 748
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_active_track_color.xml",
+        "sha256": "fec7a40f778821307be6ebdd2308a62d39f9fa9b57c0c05c70460235038fbfb5",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_active_track_color_legacy.xml",
+        "sha256": "5740b9f46106a6da553846c291dc9210fafa66e6b71efa7d21e61d8d5adb3457",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_halo_color_legacy.xml",
+        "sha256": "2fc3adf014e149a5f92946294c06fcbf51ef12f5638c5758465b4d1afd188483",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_inactive_track_color.xml",
+        "sha256": "52aa3a1501b6653906657963a7fe963d935b5fdc7660498cd761f3d3a53b7868",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_inactive_track_color_legacy.xml",
+        "sha256": "055cb1bcbf9dc196a8c6c33ac24cf4cf3fe0bf45f2103b6e0e1131d438f1a710",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_thumb_color.xml",
+        "sha256": "8ab0ef228a2277b21c0292a97d033a757cc8b6cc90fa9563f388a21161c2e684",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_slider_thumb_color_legacy.xml",
+        "sha256": "b571afae435ce8cda853ca7b4bca663cc96d1802ba8d0d3333fade645e659bca",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_switch_thumb_tint.xml",
+        "sha256": "5b0c2419cbd5781122a8d9a78d9d2b44d53c513b26b4fb364dfa540762256870",
+        "size": 588
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_switch_track_tint.xml",
+        "sha256": "62e2fd05a6bd275c2f679d04910baa6e8636dfa860837bacbb47722ebd3f7051",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tabs_icon_color.xml",
+        "sha256": "a07607f6a00cd53e97ac58d6524686eb8423e888033658b7a5ac2592977c3eb9",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tabs_icon_color_secondary.xml",
+        "sha256": "09f6a83f603ced81c33d6b1962f3a55d22f4cca5685e1dade18d4e1993df6777",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tabs_ripple_color.xml",
+        "sha256": "2694496ac3fb5cd56acabde30d0cfb432352272c3d5eca6963597429ef2d58df",
+        "size": 1372
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tabs_ripple_color_secondary.xml",
+        "sha256": "7bbe9264dea8950c8d6a2859f758f7cdaa04833d33d6aea437bb7f868872959c",
+        "size": 1372
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tabs_text_color.xml",
+        "sha256": "a07607f6a00cd53e97ac58d6524686eb8423e888033658b7a5ac2592977c3eb9",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tabs_text_color_secondary.xml",
+        "sha256": "09f6a83f603ced81c33d6b1962f3a55d22f4cca5685e1dade18d4e1993df6777",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_text_button_background_color_selector.xml",
+        "sha256": "24df28bb7cf0231812e1f39017f265076dd478caeb547571c2ca6fbf4c5c198a",
+        "size": 508
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_text_button_foreground_color_selector.xml",
+        "sha256": "e926e670d24ca7e2808c5d864ace633439ea014e821e1765d2bf1c59ccae41c2",
+        "size": 748
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_text_button_ripple_color_selector.xml",
+        "sha256": "223b61823b8938f7c2bc19ba87810121a7459ed33745dca71ff098d2defcbd5e",
+        "size": 1936
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_textfield_filled_background_color.xml",
+        "sha256": "864d951e7cd9416d411a7a3e5f9d90ddca02870be786c16c5f3cf85f289fe2a6",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_textfield_indicator_text_color.xml",
+        "sha256": "0ec1dd7d1e02def2bf742e015abf076714d348304d7ad8a7fd0517634a6d9c9f",
+        "size": 872
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_textfield_input_text_color.xml",
+        "sha256": "b32b854de344d74d4e888e183dc5e9bff6a40c32907663ef9b63dd90d17a05ee",
+        "size": 748
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_textfield_label_color.xml",
+        "sha256": "ea03d53694969de9434dc41b2c96207978b3a807ce658300ee484b9569c946b9",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_textfield_stroke_color.xml",
+        "sha256": "37c700cb16b5b9c0df49c791ad275c55b9ea8d14d4bc6b8ca340e0a959bd2a78",
+        "size": 748
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_button_background_color.xml",
+        "sha256": "af139c57acb024a8b97b9ec2798002857e8b54cf5d690b913956a0cb3cf09c65",
+        "size": 528
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_button_ripple_color.xml",
+        "sha256": "83a221721df11d299f52c0c596c9dc149cd08fb3f835c9eab79ae76de94ba997",
+        "size": 1536
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_button_text_color.xml",
+        "sha256": "6ac264d1fcee4e977f714b8e1ad222ca5f2009a38623ad52d63f80c58903143e",
+        "size": 768
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_clock_text_color.xml",
+        "sha256": "4280cc168b60c85b18f5c8193d77c3a998a93c7d935fb342aab24a6bbb892c07",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_display_background_color.xml",
+        "sha256": "929611ffdd0f8eea60a52720f289b3c9da91bb90801d8bc9a0b4006c88312112",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_display_ripple_color.xml",
+        "sha256": "dd4806f326624e4a3fdf2d15a860feb938392d6565ba542f57388f5379a61235",
+        "size": 1372
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_display_text_color.xml",
+        "sha256": "3962d4f88fa22fd39721671854041c832893ec8de6f1fcf3ecfe5abe3c251fa6",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_secondary_text_button_ripple_color.xml",
+        "sha256": "21ec13e61de2486bdf2fafc5041fc5636cf7bd79fe6279f39ec5fc3653e1ef05",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_secondary_text_button_text_color.xml",
+        "sha256": "132e557d56d61a7ce2db07c6e1f7ffa372e71c10153df1d23e527ac1f9d82b27",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_timepicker_time_input_stroke_color.xml",
+        "sha256": "ce0823d691c04f93320c664f8b4db1cf4a2cf982ffe66a2c669e12f5923976bd",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/m3_tonal_button_ripple_color_selector.xml",
+        "sha256": "8fc250a5487a48e25eca64094e56d2a0059d160392f6d15df964c1cd979eed98",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_cursor_color.xml",
+        "sha256": "88d158ddd4e622cbb6cf7af56c455891ecc5708917915a74881a74cc41ff2c50",
+        "size": 340
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_divider_color.xml",
+        "sha256": "75fe88c60d4d952f5ddf58696125e2dcff93028ce464d8da493f70d3d0144f80",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_background_disabled.xml",
+        "sha256": "2c9351868833812098a4dbe5ca1732749431be50936eef78ad5fce6d1ed0e983",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_background_emphasis_high_type.xml",
+        "sha256": "07e34d6078fb4d93ee9b069c22f4ac836fe37e2445d34dfd86c02da33ee56c6b",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_background_emphasis_medium.xml",
+        "sha256": "b0bfd04165fdc9a877c6e8d8931c773e6803fbb525c783a6bde66a04165d00a8",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_primary_disabled.xml",
+        "sha256": "8f401220749abc2bd49afa21e69e35fc752f7ba56831197b331dbaa8b3c49be6",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_primary_emphasis_high_type.xml",
+        "sha256": "093c71cdaafd9b9becfb5e63ee87f5be82c96238219a9edb7b7b5f7ed970005b",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_primary_emphasis_medium.xml",
+        "sha256": "0472eee5fcceb642c4424eb8332beab7e3ef0b70d0475b7a4bc1142beac66223",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_surface_disabled.xml",
+        "sha256": "4dbb873ef39d600d3bc47da9531b55ab81908f29feee734ed3e5be33a3609613",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_surface_emphasis_high_type.xml",
+        "sha256": "7a9f90c82c07bdfc6a31f2f625e43323e18934c84a50cf3368c11ccdf0a6c220",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_surface_emphasis_medium.xml",
+        "sha256": "91e81f656e4643583fe4ad979c4fa66b8be50a98734a83b50df101190572d429",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_on_surface_stroke.xml",
+        "sha256": "973f3064a1816ce20ce90e7f7c9ee0b8bfed7a4586bcf23cb3fe206bfa2776cc",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized__highlighted_text.xml",
+        "sha256": "305275fdc38ee626486d566109b34d60a0a8774d178ba47cfc0f22dbd2f790db",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized__highlighted_text_inverse.xml",
+        "sha256": "e910f327bb716fee233a86839f32cbf68e65aef5c909a76c0b0fa41c2b448bc9",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_color_primary_text.xml",
+        "sha256": "dc783eddfd54d3c9707febdc15e1fd4a4fa903896dfc5e8888f4c9923adba077",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_color_primary_text_inverse.xml",
+        "sha256": "12b4588156029862e101dc21bb0467408e9bb4bbd503177d735bd8fd9f8b9bed",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_color_secondary_text.xml",
+        "sha256": "e899e610a27e05057c01c179c81f63ea3f654fbd68975b99565e2e98b1955b8a",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_color_secondary_text_inverse.xml",
+        "sha256": "fbc820745d0eb34834dfec6741d20bb4342d27342f8c16a80c056f6d0c114a91",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_hint_foreground.xml",
+        "sha256": "a00d260361c476cef150a46074797eed1f9a33ba125c3f51dfa0193365ac98af",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_hint_foreground_inverse.xml",
+        "sha256": "11dbdd77e0f6f27bfdb3e280ead86a0677c8bde9d06dae9ced22178f56338a6c",
+        "size": 564
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_primary_inverse_text_disable_only.xml",
+        "sha256": "6c36ab8da550f9bfbcb2529247c18917f7c7584c270926dfda823b4164604bec",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_personalized_primary_text_disable_only.xml",
+        "sha256": "04afffa03d1ebe35547cfb02a1aed42858fd715b1538026b7460422072016cae",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_slider_active_tick_marks_color.xml",
+        "sha256": "926b74e113d5d81da2e5773e99aeab188db3b5826377ad220d1e4527a7cae339",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_slider_active_track_color.xml",
+        "sha256": "15a45146a77dcd828d49b321ee166218a1d4abe75df63c6b20c462d27f71b99c",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_slider_halo_color.xml",
+        "sha256": "8ae9f00f484fd30d08527aba5f18a701a3351eac62da1766e8ead22228c71f73",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_slider_inactive_tick_marks_color.xml",
+        "sha256": "ffe34c2f5b4e2d0f24450335fe2393ed97875cbf07292b206c7cc0601ab9e453",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_slider_inactive_track_color.xml",
+        "sha256": "25a0d2f9b2da9d2bd6531092dfe36648e545b3f75777730052ec718254ea8450",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_slider_thumb_color.xml",
+        "sha256": "a6d4b9f7ccd028567bb1dfae57cfea6875d89063fb68864ee5189d5a9434a732",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_timepicker_button_background.xml",
+        "sha256": "fe1bbd12fd278cc087943aee5fa9aab8d014dbe2202cd772d77c3e406efc5251",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_timepicker_button_stroke.xml",
+        "sha256": "4dd76e65a38a285b53b7c51873bc204b48fb81f53d6dad6044f9a31dbce12958",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_timepicker_clock_text_color.xml",
+        "sha256": "089c807ffbec770b3faf5032cbd95bbd149cbdfbe60ef09ec7e7108f73e5f3f0",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_timepicker_clockface.xml",
+        "sha256": "895d6c5aa0ece4fe45e105d7153f0bd557b236f8fab6467b2ac68701c7f62acc",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/material_timepicker_modebutton_tint.xml",
+        "sha256": "5ceea83d97f046a04da666c6b252097656c1202ca7f9980dedb56e5ed4df605c",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_btn_bg_color_selector.xml",
+        "sha256": "3271a768cabb1260767d5640df1bebe39e1f3218f9dda1dd5fd69c31e3602a74",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_btn_ripple_color.xml",
+        "sha256": "54fd8578dc87e465e23682a922f5be74b38a7ca55316fa7d85f90879b2216f42",
+        "size": 948
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_btn_stroke_color_selector.xml",
+        "sha256": "d7cf9485b224342706e89718540fa87a8db2fda9b05cd3b3a9e85a1c164a5cec",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_btn_text_btn_bg_color_selector.xml",
+        "sha256": "ca512ab7417fafbcc48c4a80ddff44ee9225a874e96c25c8e18dd4f3d96c94c4",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_btn_text_btn_ripple_color.xml",
+        "sha256": "f054bec3b22a8cc122e1ea9b626cfd12e318a7297e327a7ef537f25c59d4be97",
+        "size": 948
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_btn_text_color_selector.xml",
+        "sha256": "06cea9a9f93930bcf07e0d7b0babeb71fedf7a29da4163c8761c21f74aab2343",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_calendar_item_stroke_color.xml",
+        "sha256": "0b3bdfb320bcd2579c6e021dc9481b0d43909777e710c28d56475ca7186c1f07",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_calendar_selected_range.xml",
+        "sha256": "a00c08a27b1e00255a9ac5d5f12c3dcf1c4c29a4a7f3604393657195f30f120c",
+        "size": 376
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_card_view_foreground.xml",
+        "sha256": "8344e6ffdc6f7e3d10e00e3bf8ebe012f2905e946d4e7d71fc64f21236169a44",
+        "size": 788
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_card_view_ripple.xml",
+        "sha256": "15870684d2bcbf75457b39ea204a2ee06c9fe40190cb5edd129652b852f6c847",
+        "size": 768
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_chip_background_color.xml",
+        "sha256": "96a6b2626b2c53a35e4e314da8d77a23e680d2ff027d28bf9d5a44f83f9982d8",
+        "size": 848
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_chip_close_icon_tint.xml",
+        "sha256": "d6dcefa744ed728411639921dba2fe3c7b4c0307ef06e7ba766f2f1f10b0a600",
+        "size": 1092
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_chip_surface_color.xml",
+        "sha256": "5a11bfeabdaf607f6b8202efe7986851fe47d6000bde181c6e78026f3bfd0bd1",
+        "size": 340
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_chip_text_color.xml",
+        "sha256": "f5c68f652c696b880fbcc4f55b1376bf3eb101895bcafd9fc8dcdaaa9946f218",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_choice_chip_background_color.xml",
+        "sha256": "9cfa182386fa0422d1a0bb8c3996e5cd4c1870a8013ab9d92ee1b26feead1653",
+        "size": 848
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_choice_chip_ripple_color.xml",
+        "sha256": "2064404af4872aea2d48cb2628d9e04d39373416abe77c3906f8f31e6b0efec2",
+        "size": 948
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_choice_chip_text_color.xml",
+        "sha256": "259c6af1197e1d04823d9092ae8a9eec6556a2d2639c351ac4e006e3a45447c0",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_error.xml",
+        "sha256": "210f7b39b55db599088b3ca0be9a1aaa2d95a3e7a7a1b612bcde7d2669c1dc4d",
+        "size": 464
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_fab_bg_color_selector.xml",
+        "sha256": "9aaa23190fcd1517f90a3c359aebd6614b24ab0600d132f1e572c22be5b61357",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_fab_icon_text_color_selector.xml",
+        "sha256": "4077c363772f52f9831dd70e5b3b4e2a0c4cd6210f5fec2b92b4f8c92b53d9d3",
+        "size": 500
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_fab_ripple_color.xml",
+        "sha256": "0628b09208c9ac464fc6c83ce03f8fbb9712fed65fa8b324bdd0236446033a02",
+        "size": 948
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_filled_background_color.xml",
+        "sha256": "3c2b410f7c1deb1315c8e052fc43fcdb202a36b3ce0c40cd9a161b5c6f966e82",
+        "size": 808
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_filled_icon_tint.xml",
+        "sha256": "f2e70d3cf036caaf714e1b7776c30a737f5dc5f347b53b3f8ee1137f5760e8a4",
+        "size": 644
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_filled_stroke_color.xml",
+        "sha256": "64286747fc4b6c664b090ec74ced04ce7b8ed164ae78aed6907c57b43d1bb7f1",
+        "size": 788
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_indicator_text_color.xml",
+        "sha256": "f215300e68daace27fe1a83c9c4121d96e5b676781935ac88b87b730b9441497",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_bar_colored_item_tint.xml",
+        "sha256": "061e10cf5ebe0baf99266aa381bed486c0fa519174a4d48f2fd814700fa2a2da",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_bar_colored_ripple_color.xml",
+        "sha256": "088ac7e5dbf7250fa2f15e0faf4533bc7c27685e2f49549f64224bc6d265368d",
+        "size": 948
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_bar_item_tint.xml",
+        "sha256": "7359839d8478d22d7bf8b57d02aecb5126a19612bafc5b39f08a0ab4aaf52388",
+        "size": 520
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_bar_ripple_color.xml",
+        "sha256": "bbe24b7051a16d0c9f08e0ca66d82c7318c9651ace6b4d27800ff52b171b98a2",
+        "size": 1672
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_item_background_color.xml",
+        "sha256": "1adf4c4c0bfb14c82e2f46ddbf87f5e9823449b3a15ac5a659950b12742288e1",
+        "size": 644
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_item_icon_tint.xml",
+        "sha256": "d310f8a7563931467e523c608f7eb1cbe72ca69fe2d60d8d3d285f00024c83aa",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_navigation_item_text_color.xml",
+        "sha256": "d310f8a7563931467e523c608f7eb1cbe72ca69fe2d60d8d3d285f00024c83aa",
+        "size": 624
+      },
+      {
+        "depth": 0,
+        "kind": "android-binary-xml",
+        "path": "res/color/mtrl_on_primary_text_btn_text_color_selector.xml",
+        "sha256": "b40c1f440e86230d3df78e3c5e34812b927e95f1cd8d2f44dc72ce254fe0adb5",
+        "size": 500
+      }
+    ],
+    "entries_total": 2132,
+    "files": 2127,
+    "hashed_bytes": 53576923,
+    "path": "C:\\Users\\ali\\Downloads\\base.apk",
+    "root": "base.apk",
+    "root_kind": "apk",
+    "truncated": false,
+    "unopened_nested": 0
+  },
+  "summary": "base.apk (apk) holds 2127 files in 2132 entries; 1 nested container(s).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "no_disk_images",
+      "message": "Disk images (DMG), installers (PKG/MSI) and compressed tarballs are listed as single files, not opened."
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 500,
+    "total": 2132,
+    "next_offset": 1000
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

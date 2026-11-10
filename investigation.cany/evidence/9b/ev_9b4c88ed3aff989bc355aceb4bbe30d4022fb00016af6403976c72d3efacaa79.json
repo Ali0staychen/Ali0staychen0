@@ -1,0 +1,1327 @@
+{
+  "id": "ev_9b4c88ed3aff989bc355aceb4bbe30d4022fb00016af6403976c72d3efacaa79",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 200,
+    "offset": 0,
+    "path": null,
+    "query": "JournalDao"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 69,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao$Companion;",
+        "dex": "classes3.dex",
+        "fields": 5,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "interface",
+          "abstract"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 51,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2$Companion;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2$Companion",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 64,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$10;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$10",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$11;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$11",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$12;",
+        "dex": "classes3.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$12",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$13;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$13",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$14;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$14",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$15;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$15",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$16;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$16",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$17;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$17",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$18;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$18",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$19;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$19",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$2",
+        "superclass": "androidx.room.j"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$20;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$20",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$21;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$22;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$22",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$23;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$23",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$24;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$24",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$25;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$25",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$26;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$26",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$27;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$27",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$28;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$28",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$29;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$29",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$3",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$30;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$30",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$31;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$31",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$32;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$32",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$33;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$33",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$34;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$34",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$35;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$35",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$36;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$36",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$37;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$37",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$38;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$38",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$39;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$39",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$4",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$40;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$40",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$41;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$41",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$42;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$42",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$43;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$43",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$44;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$44",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$45;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$45",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$46;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$46",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$47;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$47",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$48;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$48",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$49;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$49",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$5",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$50;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$50",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$51;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$51",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$52;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$52",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$53;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$53",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$54;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$54",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$55;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$55",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$56;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$56",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$57;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$57",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$6",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$7;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$8;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$8",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDaoV2_Impl$9;",
+        "dex": "classes3.dex",
+        "fields": 4,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDaoV2_Impl$9",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl;",
+        "dex": "classes3.dex",
+        "fields": 7,
+        "methods": 82,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$1;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$1",
+        "superclass": "androidx.room.k"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$10;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$10",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$11;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$11",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$12;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$12",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$13;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$13",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$14;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$14",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$15;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$15",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$16;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$16",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$17;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$17",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$18;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$18",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$19;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$19",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$2;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$2",
+        "superclass": "androidx.room.j"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$20;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$20",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$21;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$21",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$22;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$22",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$23;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$23",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$24;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$24",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$25;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$25",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$26;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$26",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$27;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$27",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$28;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$28",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$29;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$29",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$3;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$3",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$30;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$30",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$31;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$31",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$32;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$32",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$33;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$33",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$34;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$34",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$35;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$35",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$36;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$36",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$37;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$37",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$38;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$38",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$39;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$39",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$4;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$4",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$40;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$40",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$41;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$41",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$42;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$42",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$43;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$43",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$44;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$44",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$45;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$45",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$46;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$46",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$47;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$47",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$48;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$48",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$49;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$49",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$5;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$5",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$50;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$50",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$51;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$51",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$52;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$52",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$53;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$53",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$54;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$54",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$55;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$55",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$56;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$56",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$57;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$57",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$58;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$58",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$59;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$59",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$6;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 2,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$6",
+        "superclass": "androidx.room.F"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$60;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$60",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$61;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$61",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$62;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$62",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$63;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$63",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$64;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$64",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$65;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$65",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$66;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$66",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$67;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$67",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$68;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$68",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$69;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$69",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$7;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$7",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$70;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$70",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$71;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$71",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$72;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$72",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$73;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$73",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$74;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$74",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$8;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$8",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/journey/app/mvvm/models/dao/JournalDao_Impl$9;",
+        "dex": "classes3.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.journey.app.mvvm.models.dao.JournalDao_Impl$9",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/provider/DatabaseModule_ProvideJournalDaoFactory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.provider.DatabaseModule_ProvideJournalDaoFactory",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/journey/app/mvvm/provider/DatabaseModule_ProvideJournalDaoV2Factory;",
+        "dex": "classes3.dex",
+        "fields": 1,
+        "methods": 5,
+        "name": "com.journey.app.mvvm.provider.DatabaseModule_ProvideJournalDaoV2Factory",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 139,
+    "query": "JournalDao"
+  },
+  "summary": "139 of 32886 classes match \"JournalDao\" in 4 DEX file(s); showing 139.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 139,
+    "total": 139
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

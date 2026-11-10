@@ -1,0 +1,515 @@
+{
+  "id": "ev_0f8779d792909ceb782e753ece1453dbb79d43baa33600663081d8c17b2ddf03",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 40,
+    "offset": 0,
+    "path": null,
+    "query": "Entity"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap;",
+        "dex": "classes2.dex",
+        "fields": 18,
+        "methods": 29,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entries;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entries",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Entry;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 2,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Entry",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Keys;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 7,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Keys",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$MapIterator;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityMap$Values;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 8,
+        "name": "com.esotericsoftware.kryo.util.IdentityMap$Values",
+        "superclass": "com.esotericsoftware.kryo.util.IdentityMap$MapIterator"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/esotericsoftware/kryo/util/IdentityObjectIntMap;",
+        "dex": "classes2.dex",
+        "fields": 15,
+        "methods": 27,
+        "name": "com.esotericsoftware.kryo.util.IdentityObjectIntMap",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/AuthorizationRequest;",
+        "dex": "classes2.dex",
+        "fields": 11,
+        "methods": 15,
+        "name": "com.google.android.gms.auth.api.identity.AuthorizationRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/AuthorizationRequest$a;",
+        "dex": "classes2.dex",
+        "fields": 10,
+        "methods": 11,
+        "name": "com.google.android.gms.auth.api.identity.AuthorizationRequest$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final",
+          "enum"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/AuthorizationRequest$b;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 4,
+        "name": "com.google.android.gms.auth.api.identity.AuthorizationRequest$b",
+        "superclass": "java.lang.Enum"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/AuthorizationResult;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 10,
+        "name": "com.google.android.gms.auth.api.identity.AuthorizationResult",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest;",
+        "dex": "classes2.dex",
+        "fields": 9,
+        "methods": 13,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$GoogleIdTokenRequestOptions;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 13,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$GoogleIdTokenRequestOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$GoogleIdTokenRequestOptions$a;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$GoogleIdTokenRequestOptions$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$PasskeyJsonRequestOptions;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 8,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$PasskeyJsonRequestOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$PasskeyJsonRequestOptions$a;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$PasskeyJsonRequestOptions$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$PasskeysRequestOptions;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 9,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$PasskeysRequestOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$PasskeysRequestOptions$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$PasskeysRequestOptions$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$PasswordRequestOptions;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 7,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$PasswordRequestOptions",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$PasswordRequestOptions$a;",
+        "dex": "classes2.dex",
+        "fields": 1,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$PasswordRequestOptions$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInRequest$a;",
+        "dex": "classes2.dex",
+        "fields": 8,
+        "methods": 10,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInRequest$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/BeginSignInResult;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 4,
+        "name": "com.google.android.gms.auth.api.identity.BeginSignInResult",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/GetPhoneNumberHintIntentRequest;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 5,
+        "name": "com.google.android.gms.auth.api.identity.GetPhoneNumberHintIntentRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/GetSignInIntentRequest;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 11,
+        "name": "com.google.android.gms.auth.api.identity.GetSignInIntentRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/GetSignInIntentRequest$a;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 8,
+        "name": "com.google.android.gms.auth.api.identity.GetSignInIntentRequest$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SaveAccountLinkingTokenRequest;",
+        "dex": "classes2.dex",
+        "fields": 7,
+        "methods": 11,
+        "name": "com.google.android.gms.auth.api.identity.SaveAccountLinkingTokenRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SaveAccountLinkingTokenRequest$a;",
+        "dex": "classes2.dex",
+        "fields": 6,
+        "methods": 8,
+        "name": "com.google.android.gms.auth.api.identity.SaveAccountLinkingTokenRequest$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SaveAccountLinkingTokenResult;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "com.google.android.gms.auth.api.identity.SaveAccountLinkingTokenResult",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SavePasswordRequest;",
+        "dex": "classes2.dex",
+        "fields": 4,
+        "methods": 8,
+        "name": "com.google.android.gms.auth.api.identity.SavePasswordRequest",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SavePasswordRequest$a;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 5,
+        "name": "com.google.android.gms.auth.api.identity.SavePasswordRequest$a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SavePasswordResult;",
+        "dex": "classes2.dex",
+        "fields": 2,
+        "methods": 6,
+        "name": "com.google.android.gms.auth.api.identity.SavePasswordResult",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SignInCredential;",
+        "dex": "classes2.dex",
+        "fields": 10,
+        "methods": 14,
+        "name": "com.google.android.gms.auth.api.identity.SignInCredential",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/SignInPassword;",
+        "dex": "classes2.dex",
+        "fields": 3,
+        "methods": 7,
+        "name": "com.google.android.gms.auth.api.identity.SignInPassword",
+        "superclass": "com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/a;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.a",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/b;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.b",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/c;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.c",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/d;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.d",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/e;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.e",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/f;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.f",
+        "superclass": "java.lang.Object"
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "descriptor": "Lcom/google/android/gms/auth/api/identity/g;",
+        "dex": "classes2.dex",
+        "fields": 0,
+        "methods": 3,
+        "name": "com.google.android.gms.auth.api.identity.g",
+        "superclass": "java.lang.Object"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 111,
+    "query": "Entity"
+  },
+  "summary": "111 of 32886 classes match \"Entity\" in 4 DEX file(s); showing 40.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 40,
+    "total": 111,
+    "next_offset": 40
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}

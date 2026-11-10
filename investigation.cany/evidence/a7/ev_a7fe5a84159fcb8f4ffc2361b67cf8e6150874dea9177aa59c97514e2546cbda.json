@@ -1,0 +1,315 @@
+{
+  "id": "ev_a7fe5a84159fcb8f4ffc2361b67cf8e6150874dea9177aa59c97514e2546cbda",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_class_show",
+  "params": {
+    "class_name": "com.journey.app.mvvm.models.entity.TagWordBagV2",
+    "path": null
+  },
+  "result": {
+    "access": [
+      "public",
+      "final"
+    ],
+    "annotations": [],
+    "descriptor": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;",
+    "dex": "classes3.dex",
+    "fields": [
+      {
+        "access": [
+          "public",
+          "static",
+          "final"
+        ],
+        "kind": "static",
+        "name": "$stable",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->$stable:I",
+        "type": "int"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "ExternalTId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->ExternalTId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "LinkedAccountId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->LinkedAccountId:Ljava/lang/String;",
+        "type": "java.lang.String"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "TWId",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->TWId:J",
+        "type": "long"
+      },
+      {
+        "access": [
+          "private",
+          "final"
+        ],
+        "kind": "instance",
+        "name": "Title",
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->Title:Ljava/lang/String;",
+        "type": "java.lang.String"
+      }
+    ],
+    "interfaces": [],
+    "methods": [
+      {
+        "access": [
+          "static",
+          "constructor"
+        ],
+        "code_units": 1,
+        "kind": "direct",
+        "name": "<clinit>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;-><clinit>()V",
+        "registers": 1,
+        "signature": "static void <clinit>()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "constructor"
+        ],
+        "code_units": 19,
+        "kind": "direct",
+        "name": "<init>",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+        "registers": 9,
+        "signature": "public void <init>(long, java.lang.String, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "static",
+          "synthetic"
+        ],
+        "code_units": 51,
+        "kind": "direct",
+        "name": "copy$default",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->copy$default(Lcom/journey/app/mvvm/models/entity/TagWordBagV2;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/journey/app/mvvm/models/entity/TagWordBagV2;",
+        "registers": 15,
+        "signature": "public static synthetic com.journey.app.mvvm.models.entity.TagWordBagV2 copy$default(com.journey.app.mvvm.models.entity.TagWordBagV2, long, java.lang.String, java.lang.String, java.lang.String, int, java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component1",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->component1()J",
+        "registers": 6,
+        "signature": "public final long component1()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component2",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->component2()Ljava/lang/String;",
+        "registers": 6,
+        "signature": "public final java.lang.String component2()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component3",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->component3()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component3()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "component4",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->component4()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String component4()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 12,
+        "kind": "virtual",
+        "name": "copy",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->copy(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/journey/app/mvvm/models/entity/TagWordBagV2;",
+        "registers": 15,
+        "signature": "public final com.journey.app.mvvm.models.entity.TagWordBagV2 copy(long, java.lang.String, java.lang.String, java.lang.String)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 84,
+        "kind": "virtual",
+        "name": "equals",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->equals(Ljava/lang/Object;)Z",
+        "registers": 12,
+        "signature": "public boolean equals(java.lang.Object)",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getExternalTId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->getExternalTId()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getExternalTId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getLinkedAccountId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->getLinkedAccountId()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getLinkedAccountId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTWId",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->getTWId()J",
+        "registers": 6,
+        "signature": "public final long getTWId()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public",
+          "final"
+        ],
+        "code_units": 5,
+        "kind": "virtual",
+        "name": "getTitle",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->getTitle()Ljava/lang/String;",
+        "registers": 5,
+        "signature": "public final java.lang.String getTitle()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 68,
+        "kind": "virtual",
+        "name": "hashCode",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->hashCode()I",
+        "registers": 8,
+        "signature": "public int hashCode()",
+        "try_blocks": 0
+      },
+      {
+        "access": [
+          "public"
+        ],
+        "code_units": 68,
+        "kind": "virtual",
+        "name": "toString",
+        "overload_index": 0,
+        "reference": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;->toString()Ljava/lang/String;",
+        "registers": 8,
+        "signature": "public java.lang.String toString()",
+        "try_blocks": 0
+      }
+    ],
+    "name": "com.journey.app.mvvm.models.entity.TagWordBagV2",
+    "source_file": "SourceFile",
+    "superclass": "Ljava/lang/Object;"
+  },
+  "summary": "com.journey.app.mvvm.models.entity.TagWordBagV2 (classes3.dex) extends java.lang.Object: 5 fields, 15 methods, from SourceFile.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    },
+    {
+      "kind": "class",
+      "value": "Lcom/journey/app/mvvm/models/entity/TagWordBagV2;"
+    }
+  ],
+  "links": []
+}

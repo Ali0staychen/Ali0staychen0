@@ -1,0 +1,61 @@
+{
+  "id": "ev_bdfdbf5ce7feea0ce70ea9cce05a44326514884641eeaeeb6d4557676f7ae83e",
+  "subject": {
+    "kind": "apk",
+    "sha256": "c2029c5ebdf3c6383b4e15e6af7b72bf5cc754d14b6873e661a50ea07aa3f7bf",
+    "name": "base.apk"
+  },
+  "operation": "android_classes_find",
+  "params": {
+    "limit": 50,
+    "offset": 0,
+    "path": null,
+    "query": "Photo"
+  },
+  "result": {
+    "classes": [
+      {
+        "access": [
+          "public"
+        ],
+        "descriptor": "Lcom/journey/app/WidgetPhotoProvider;",
+        "dex": "classes3.dex",
+        "fields": 0,
+        "methods": 5,
+        "name": "com.journey.app.WidgetPhotoProvider",
+        "superclass": "N7.L6"
+      }
+    ],
+    "classes_total": 32886,
+    "dex_files": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex",
+      "classes4.dex"
+    ],
+    "matches": 1,
+    "query": "Photo"
+  },
+  "summary": "1 of 32886 classes match \"Photo\" in 4 DEX file(s); showing 1.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ali\\Downloads\\base.apk"
+    }
+  ],
+  "links": []
+}
